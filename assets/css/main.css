@@ -476,6 +476,7 @@ pre {
   @media (min-width: 1200px) {
     .container {
       max-width: 1140px; } }
+/* change in agency for mentor packages */
 .agency{
   width: 100%;
   padding-right: 0px;
@@ -487,10 +488,50 @@ pre {
   display: flex;
   align-items: center;
   text-align: center;
-  background-image: url('https://content.codecademy.com/projects/make-a-website/lesson-4/jumbotron.jpg');
+  background-image: url('https://content.codecademy.com/projects/make-a-website/lesson-4/antique.jpg');
   background-size: cover;
   color: #ffffff;
-  height: 500px;
+  height: 250px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+.agency-second{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-image: url('https://content.codecademy.com/projects/make-a-website/lesson-4/gifts.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 250px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+.agency-thrid{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-image: url('https://content.codecademy.com/projects/make-a-website/lesson-4/gifts.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 250px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+.agency-forth{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-image: url('https://content.codecademy.com/projects/make-a-website/lesson-4/gifts.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 250px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+.agency-fifth{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-image: url('https://content.codecademy.com/projects/make-a-website/lesson-4/gifts.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 250px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 /* set color of the button */
@@ -502,13 +543,13 @@ pre {
   text-shadow: none;
   background-color: #ffffff;
 }
-.agency-in h1 {
+.agency h1 {
   font-size: 60px;
   font-weight: 700;
   margin: 0;
   color: #fff;
 }
-
+/* end change in agency for mentor packages */
 .container-fluid {
   width: 100%;
   padding-right: 15px;

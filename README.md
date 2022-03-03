@@ -1,3 +1,28 @@
+Need change: 
+- "About Jinchuriki program" in home page. Want read more button will derect to "mentor program" page
+- In mentor program page, design like agency theme
+- have english version 
+- Hall of fame for my mentee
+- contact part
+- automatic sending email
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Jekyll Theme - Mundana by WowThemes.net
 
 [Live Demo](https://wowthemesnet.github.io/mundana-theme-jekyll/) &nbsp; | &nbsp; 
