@@ -183,7 +183,9 @@ figure {
 
 img {
   vertical-align: middle;
-  border-style: none; }
+  border-style: none; 
+  border-radius: 50%;
+}
 
 svg {
   overflow: hidden;
@@ -477,71 +479,15 @@ pre {
     .container {
       max-width: 1140px; } }
 /* change in agency for mentor packages */
-.agency{
-  width: 100%;
-  padding-right: 0px;
-  padding-left: 0px;
-  margin-right: 0px;
-  margin-left: 0px;
-}
-.agency-in{
-  display: flex;
-  align-items: center;
-  text-align: center;
-  background-image: url('https://content.codecademy.com/projects/make-a-website/lesson-4/antique.jpg');
-  background-size: cover;
-  color: #ffffff;
-  height: 250px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
-}
-.agency-second{
-  display: flex;
-  align-items: center;
-  text-align: center;
-  background-image: url('https://content.codecademy.com/projects/make-a-website/lesson-4/antique.jpg');
-  background-size: cover;
-  color: #ffffff;
-  height: 250px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
-}
-.agency-thrid{
-  display: flex;
-  align-items: center;
-  text-align: center;
-  background-image: url('https://content.codecademy.com/projects/make-a-website/lesson-4/gifts.jpg');
-  background-size: cover;
-  color: #ffffff;
-  height: 250px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
-}
-.agency-forth{
-  display: flex;
-  align-items: center;
-  text-align: center;
-  background-image: url('https://content.codecademy.com/projects/make-a-website/lesson-4/gifts.jpg');
-  background-size: cover;
-  color: #ffffff;
-  height: 250px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
-}
-.agency-fifth{
-  display: flex;
-  align-items: center;
-  text-align: center;
-  background-image: url('https://content.codecademy.com/projects/make-a-website/lesson-4/gifts.jpg');
-  background-size: cover;
-  color: #ffffff;
-  height: 250px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
-}
+
 /* set color of the button */
 .btn.btn-primary {
   border-radius: 2px;
   border: 0px;
   align-items: center;
-  color: #fbd1d5;
+  color: #fff;
   text-shadow: none;
-  background-color: #ffffff;
+  background-color: #ae0153;
 }
 .agency h1 {
   font-size: 50px;
@@ -1809,22 +1755,22 @@ fieldset:disabled a.btn {
   pointer-events: none; }
 
 .btn-primary {
-  color: #fff;
-  background-color: #03a87c;
-  border-color: #03a87c; }
+  color: #ae0153;
+  background-color: #ae0153;
+  border-color: #ae0153; }
   .btn-primary:hover {
-    color: #fff;
+    color: #ae0153;
     background-color: #028260;
     border-color: #027657; }
   .btn-primary:focus, .btn-primary.focus {
     box-shadow: 0 0 0 0.2rem rgba(3, 168, 124, 0.5); }
   .btn-primary.disabled, .btn-primary:disabled {
-    color: #fff;
+    color: #ae0153;
     background-color: #03a87c;
     border-color: #03a87c; }
   .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
   .show > .btn-primary.dropdown-toggle {
-    color: #fff;
+    color: #ae0153;
     background-color: #027657;
     border-color: #02694e; }
     .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -3358,7 +3304,8 @@ input[type="button"].btn-block {
   display: block; }
 
 .navbar {
-  position: relative;
+  position: fixed;
+  height: 60px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;

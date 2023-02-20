@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "About Jinchuriki program"
+title:  "Các chương trình của team SEM"
 author: Linh Mon
-categories: [Jinchuriki Program]
+categories: [Services]
 image: assets/images/home.jpg
 tags: [sticky]
 ---
+SEM Scholars hiện đang cung cấp chương trình hỗ trợ apply học bổng du học ở các nước và chương trình giảng dạy ngoại ngữ cần thiết cho các bạn trẻ Việt Nam. 
 Jinchuriki program là dự án được <a href="{{site.baseurl}}/contact.html" target="_blanked">Linh Mon</a> thành lập và trực tiếp thực hiện từ tháng 3 năm 2020. Sau một thời gian đi một mình trên con đường giúp đỡ các bạn trong việc apply học bổng, mình bắt đầu hợp tác với các bạn trẻ khác- những người đã từng đậu những học bổng lớn trên thế giới để cùng nhau chạm đến một giấc mơ lớn hơn là giúp đỡ nhiều bạn trẻ Việt Nam hơn trong việc chinh phục những học bổng danh giá trên toàn thế giới. 
 
 Ở thời điểm hiện tại, <a href="{{site.baseurl}}/about.html" target= "_blanked">team Jinchuriki</a> có 4 thành viên. Đó là mình- <a href="{{site.baseurl}}/contact.html">Linh Mon</a>, mentor Thế Phúc, mentor Diệu Hiền và mentor Hoàng Trung. Chi tiết hơn về các thành viên trong team <a href="{{site.baseurl}}/about.html" target= "_blanked">tại đây</a>

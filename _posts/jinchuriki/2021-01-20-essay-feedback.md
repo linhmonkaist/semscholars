@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Gói mentor sửa bài luận, kế hoạch tập"
+title:  "Gói mentor lẻ"
 author: Linh Mon
 categories: [ Mentor ]
 image: assets/images/12.jpg
-tags: Jinchuriki
+tags: [Services]
 ---
 Chào các bạn, 
 <br>

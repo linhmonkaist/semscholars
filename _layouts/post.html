@@ -121,10 +121,10 @@ layout: default
                 {% endif %}
             
             <!-- Comments -->
-            <!--{% if page.comments != false %}-->
-                <!--{% include comments.html %}-->
-            <!--{% endif %}-->
-			<!-- don't want to have Comments -->
+            {% if page.comments == false %}
+                {% include comments.html %}
+            {% endif %}
+			<!-- don't want to have Comments
 		
 		</div>
         

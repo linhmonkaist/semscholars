@@ -4,7 +4,7 @@ title:  "Phỏng vấn thử-Mock interview"
 author: Linh Mon
 categories: [Mentor]
 image: assets/images/6.jpg
-tags: Jinchuriki
+tags: [Services]
 ---
 Buổi phỏng vấn học bổng có thực sự quan trọng không ? 
 
