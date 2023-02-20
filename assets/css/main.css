@@ -128,7 +128,9 @@ dfn {
 
 b,
 strong {
-  font-weight: bolder; }
+  font-weight: bolder; 
+  color: #cb0518;
+}
 
 small {
   font-size: 80%; }
