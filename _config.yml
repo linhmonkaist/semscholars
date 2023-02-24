@@ -1,6 +1,7 @@
 # Site
 name: 'SEM Scholars'
-description: 'SEM Scholars program is a program offered by full-ride scholars from Vietnam. We offer 1:1 mentoring package to help student all round the world to apply for scholarship/ university admission'
+description: 'SEM Scholars program is a program offered by full-ride scholars from Vietnam. We offer 1:1 mentoring package to help student all round 
+              the world to apply for scholarship/ university admission'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: '/mundana'
@@ -43,7 +44,7 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      avatar: /assets/images/avatar1.jpg
+      avatar: /assets/images/linh_mon_avata.png
       
   # all pages
   - scope:
