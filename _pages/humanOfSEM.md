@@ -9,13 +9,14 @@ comments: false
 <div class="container">
   <div class="row">
     <div class="col-md-auto">
-      <img src="assets/images/linh_mon_avata.png" width= "200" height= "200" alt="Linh Mon">
+      <img src="assets/images/team/linhmon.jpg" width= "200" height= "200" alt="Linh Mon">
     </div>
     <div class="col-md">
       <h3>Linh Mon</h3>
       <ul>
         <li>GKS 2020 tại KAIST- Viện khoa học và công nghệ tiên tiến Hàn Quốc</li>
         <li>Theo học ngành Computer Science và Business technology management </li>
+        <li>Từng nhận học bổng GKS, học bổng Microsoft Youthspark, học bổng của tập đoàn Daewoong </li>
         <li>Hỗ trợ mentor các học bổng trên toàn thế giới </li>
         <li>Chi tiết hơn về Linh Mon, các bạn có thể xem <a href="#">tại đây</a></li>
         <li>Thông tin liên hệ: <a href="{{site.baseurl}}/contact.html">click</a></li>
@@ -29,7 +30,7 @@ comments: false
 <div class="container">
   <div class="row">
     <div class="col-md-auto">
-      <img src="assets/images/the_phuc_avata.png" width= "200" height= "200" alt="Linh Mon">
+      <img src="assets/images/team/phuc.jpg" width= "200" height= "200" alt="Linh Mon">
     </div>
     <div class="col-md">
       <h3>Đỗ Hoàng Thế Phúc</h3>
@@ -47,7 +48,7 @@ comments: false
 <div class="container">
   <div class="row">
     <div class="col-md-auto">
-      <img src="assets/images/hoang_trung_avata.png" width= "200" height= "200" alt="Linh Mon">
+      <img src="assets/images/team/kien.jpg" width= "200" height= "200" alt="Linh Mon">
     </div>
     <div class="col-md">
       <h3>Hoàng Đức Kiên</h3>
@@ -57,7 +58,7 @@ comments: false
         <li>Cựu sinh viên KAIST, ngành Mathematical Sciences, minor in Computer Science</li>
         <li>Cựu học sinh trường THPT chuyên Khoa học Tự nhiên</li>
         <li>Tham gia mentor cho các bạn muốn apply các ngành khoa học trên toàn thế giới</li>
-        <li>Có kinh nghiệm hướng dẫn các bạn apply học bổng các ngành khoa học</li>
+        <li>Có kinh nghiệm hướng dẫn các bạn apply học bổng các ngành STEM, học bổng các trường</li>
         <li>Email: kienapp286@gmail.com</li>
       </ul>
     </div>
@@ -67,7 +68,27 @@ comments: false
 <div class="container">
   <div class="row">
     <div class="col-md-auto">
-      <img src="assets/images/hoang_trung_avata.png" width= "200" height= "200" alt="Linh Mon">
+      <img src="assets/images/team/minh_duc.jpg" width= "200" height= "200" alt="Linh Mon">
+    </div>
+    <div class="col-md">
+      <h3>Phạm Minh Đức</h3>
+      <ul>
+        <li>Học bổng trường Mỹ</li>
+        <li>PhD in Biochemistry tại University of California, Mỹ </li>
+        <li>Học master Bio and Brain Engineering, KAIST, Hàn Quốc</li>
+        <li>Đã nhận được Dean's Distinguished Graduate Fellowship , học bổng100% của KAIST, Huyndai Motor Chung Mong-Koo Global Scholarship, 50% Scholarship for Bachelor Program at NUS và Ohio State University, USA </li>
+        <li>Từng hướng dẫn thành công mentee đậu PhD ở Mỹ và master ở Hà Lan</li>
+        <li>Tham gia tư vấn,mentor cho các bạn apply học bổng Mỹ, châu Âu, Hàn Quốc</li>
+        <li>Liên hệ mentor Minh Đức: </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-md-auto">
+      <img src="assets/images/team/mai.jpg" width= "200" height= "200" alt="Linh Mon">
     </div>
     <div class="col-md">
       <h3>Nguyễn Ngọc Mai</h3>
@@ -85,7 +106,7 @@ comments: false
 <div class="container">
   <div class="row">
     <div class="col-md-auto">
-      <img src="assets/images/dieu_hien_avata.png" width= "200" height= "200" alt="Linh Mon">
+      <img src="assets/images/team/hien.jpg" width= "200" height= "200" alt="Linh Mon">
     </div>
     <div class="col-md">
       <h3>Đặng Thị Diệu Hiền</h3>
@@ -104,7 +125,7 @@ comments: false
 <div class="container">
   <div class="row">
     <div class="col-md-auto">
-      <img src="assets/images/hoang_trung_avata.png" width= "200" height= "200" alt="Linh Mon">
+      <img src="assets/images/team/giang.jpg" width= "200" height= "200" alt="Linh Mon">
     </div>
     <div class="col-md">
       <h3>Vũ Ngân Giang</h3>
@@ -121,7 +142,7 @@ comments: false
 <div class="container">
   <div class="row">
     <div class="col-md-auto">
-      <img src="assets/images/hoang_trung_avata.png" width= "200" height= "200" alt="Linh Mon">
+      <img src="assets/images/team/Lien.jpg" width= "200" height= "200" alt="Linh Mon">
     </div>
     <div class="col-md">
       <h3>Nguyễn Hoàng Liên</h3>
@@ -139,7 +160,7 @@ comments: false
 <div class="container">
   <div class="row">
     <div class="col-md-auto">
-      <img src="assets/images/hoang_trung_avata.png" width= "200" height= "200" alt="Linh Mon">
+      <img src="assets/images/team/Cucngo.jpg" width= "200" height= "200" alt="Linh Mon">
     </div>
     <div class="col-md">
       <h3>Ngọ Thị Cúc</h3>
@@ -153,22 +174,21 @@ comments: false
     </div>
   </div>
 </div>
-
-<!-- <div class="container">
+<br>
+<div class="container">
   <div class="row">
     <div class="col-md-auto">
-      <img src="assets/images/hoang_trung_avata.png" width= "200" height= "200" alt="Linh Mon">
+      <img src="assets/images/team/phuongAnh.jpg" width= "200" height= "200" alt="Linh Mon">
     </div>
     <div class="col-md">
-      <h3>Phạm Minh Đức</h3>
+      <h3>Trần Phương Anh</h3>
       <ul>
-        <li>Học bổng trường Mỹ</li>
-        <li>PhD ngành ....</li>
-        <li>Mentor của dự án Jinchuriki- dự án hỗ trợ các bạn trẻ Việt Nam chinh phục học bổng đi du học </li>
-        <li>Tham gia hỗ trợ ở gói mentor sửa bài luận, sửa study plan, tư vấn học bổng và phỏng vấn thử</li>
-        <li>Tham gia tư vấn, giải đáp thắc mắc của các bạn gửi về tại page Linh Mon và instagram _linh_mon</li>
-        <li>Chi tiết hơn về Hoàng Trung, các bạn có thể xem <a href="#">tại đây</a></li>
+        <li>GKS 2022 tại Korea University</li>
+        <li>Theo học ngành Business Administration</li>
+        <li>Từng đạt học bổng GKS-U 2022, học bổng toàn phần EGPP của Ewha Womans University</li>
+        <li>Tham gia hướng dẫn mentee apply GKS-U và học bổng các trường</li>
+        <li>Email: semscholars.team@gmail.com </li>
       </ul>
     </div>
   </div>
-</div> -->
+</div>
