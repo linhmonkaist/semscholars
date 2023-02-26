@@ -640,6 +640,7 @@ footer {
 	margin-top:50px;
 	z-index:1022;
 	position:relative;
+	background-color: blue;
 }
 .sticky-top-offset {
 	top:70px;

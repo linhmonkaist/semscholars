@@ -5,6 +5,10 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
+  --logoOrange: #F79F00;
+  --logoYellow: #F7C055;
+  --logoRed: #C90101;
+  --logoPurple: #A00161;
   --blue: #7832e2;
   --indigo: #502c6c;
   --purple: #ad6edd;

@@ -1,11 +1,11 @@
 # Site
-name: 'SEM Scholars'
+name: 'SEM Scholars '
 description: 'SEM Scholars program is a program offered by full-ride scholars from Vietnam. We offer 1:1 mentoring package to help student all round 
               the world to apply for scholarship/ university admission'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: '/mundana'
-disqus: 'demowebsite'
+baseurl: '/semscholars'
+disqus: 'Scholarship Exploring with Mentors'
 email: 'semscholars.team@gmail.com'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
