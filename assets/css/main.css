@@ -190,7 +190,6 @@ figure {
 img {
   vertical-align: middle;
   border-style: none; 
-  border-radius: 50%;
 }
 
 svg {
@@ -414,6 +413,11 @@ mark,
   max-width: 100%;
   height: auto; }
 
+.img-header {
+  max-width: 100%;
+  border-radius: 0.25rem;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -507,7 +511,9 @@ pre {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto; 
+  background-color: #ae0153;
+}
 
 .row {
   display: flex;
@@ -7223,7 +7229,7 @@ a.text-danger:hover, a.text-danger:focus {
   color: #d1154b !important; }
 
 .text-light {
-  color: #f8f9fa !important; }
+  color: #000000 !important; } /* Change to black */
 
 a.text-light:hover, a.text-light:focus {
   color: #dae0e5 !important; }
@@ -7408,13 +7414,6 @@ html {
     margin-right: auto;
     margin-left: auto;
 }
-
-.container-fluid {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto; }
 
 .row {
   display: flex;
