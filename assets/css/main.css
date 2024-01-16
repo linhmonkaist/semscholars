@@ -497,7 +497,7 @@ pre {
   align-items: center;
   color: #fff;
   text-shadow: none;
-  background-color: #ae0153;
+  background-color: #fff;
 }
 .agency h1 {
   font-size: 50px;
@@ -1781,7 +1781,7 @@ textarea.form-control {
     text-decoration: none; }
   .btn:focus, .btn.focus {
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(3, 168, 124, 0.25); }
+    box-shadow: 0 0 0 0.2rem rgba(3, 20, 168, 0.25); }
   .btn.disabled, .btn:disabled {
     opacity: 0.65; }
   .btn:not(:disabled):not(.disabled) {
@@ -5122,7 +5122,7 @@ button.bg-danger:focus {
   background-color: #d1154b !important; }
 
 .bg-light {
-  background-color: #ffefc9 !important; }
+  background-color: #a62b55 !important; }
 
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,

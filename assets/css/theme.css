@@ -32,6 +32,8 @@
 	display: flex; 
 	flex-direction: column;
 	justify-content: space-between;
+	border: 1px solid #e8f3ec;
+	border-radius: 0.25rem;
 }
 .service-content{
 	justify-content: space-between;
@@ -83,7 +85,7 @@
  .s-sidebar__trigger > i {
 	display: inline-block;
 	margin: 1.5em 0 0 1.5em;
-	color: #1C6758;
+	color: #ea2f65;
  }
  
  .s-sidebar__nav {
@@ -95,7 +97,7 @@
 	transition: all .3s ease-in;
 	width: 15em;
 	height: 100%;
-	background: #1C6758;
+	background: #bc223a;
 	color: rgba(255, 255, 255, 0.7);
  }
  
@@ -126,7 +128,7 @@
 	height: 4em;
  }
  
- .s-sidebar__nav-link em {
+ .s-sidebar__nav-link p {
 	position: absolute;
 	top: 50%;
 	left: 4em;
@@ -134,7 +136,7 @@
  }
  
  .s-sidebar__nav-link:hover {
-	background: #4d6276;
+	background: #ffff;
  }
  
  .s-sidebar__nav-link > i {
