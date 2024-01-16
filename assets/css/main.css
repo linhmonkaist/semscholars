@@ -5122,7 +5122,7 @@ button.bg-danger:focus {
   background-color: #d1154b !important; }
 
 .bg-light {
-  background-color: #f8f9fa !important; }
+  background-color: #ffefc9 !important; }
 
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
@@ -7218,7 +7218,7 @@ button.bg-lightblue:focus {
   color: #fff !important; }
 
 .text-primary {
-  color: #03a87c !important; }
+  color: #d349a9  !important; }
 
 a.text-primary:hover, a.text-primary:focus {
   color: #027657 !important; }
