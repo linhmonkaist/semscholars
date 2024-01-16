@@ -512,7 +512,32 @@ pre {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; 
-  background-color: #ae0153;
+	background: linear-gradient(
+		-45deg,
+		#ffffff,
+		#ffe4e9,
+		#fcc8e2,
+		#f6baed,
+		#efb0ff,
+		#d3a2ff,
+		#8eb8ff,
+		#91efff,
+		#d5f9ff
+	);
+	background-size: 400% 400%;
+	animation: gradient 9s ease infinite;
+  border-radius: 0.25rem;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .row {
@@ -3297,8 +3322,8 @@ input[type="button"].btn-block {
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #03a87c; }
+  color: #03a87c;
+  background-color: #fff; }
 
 .nav-fill .nav-item {
   flex: 1 1 auto;
@@ -3316,13 +3341,13 @@ input[type="button"].btn-block {
   display: block; }
 
 .navbar {
-  position: fixed;
-  height: 60px;
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0.3rem 1rem; }
+  padding: 0.3rem 1rem;
+  }
   .navbar > .container,
   .navbar > .container-fluid {
     display: flex;
@@ -3332,8 +3357,8 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.68rem;
-  padding-bottom: 0.68rem;
+  /* padding-top: 0.68rem;
+  padding-bottom: 0.68rem; */
   margin-right: 1rem;
   font-size: 1.15rem;
   line-height: inherit;
