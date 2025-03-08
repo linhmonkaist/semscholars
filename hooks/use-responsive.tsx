@@ -3,12 +3,13 @@
 import { useEffect, useState } from "react"
 
 export function useResponsive() {
-  const [windowSize, setWindowSize] = useState({
-    width: typeof window !== "undefined" ? window.innerWidth : 0,
-    height: typeof window !== "undefined" ? window.innerHeight : 0,
-  })
+  const [windowSize, setWindowSize] = useState<{ width: number; height: number } | null>(null)
 
   useEffect(() => {
+    setWindowSize({
+      width: window.innerWidth,
+      height: window.innerHeight,
+    })
     // Handler to call on window resize
     function handleResize() {
       // Set window width/height to state
@@ -30,10 +31,10 @@ export function useResponsive() {
 
   return {
     windowSize,
-    isMobile: windowSize.width < 640,
-    isTablet: windowSize.width >= 640 && windowSize.width < 1024,
-    isDesktop: windowSize.width >= 1024,
-    isLargeDesktop: windowSize.width >= 1280,
+    isMobile: windowSize ? windowSize.width < 640 : false,
+    isTablet: windowSize ? windowSize.width >= 640 && windowSize.width < 1024 : false,
+    isDesktop: windowSize ? windowSize.width >= 1024 : false,
+    isLargeDesktop: windowSize ? windowSize.width >= 1280 : false,
   }
 }
 

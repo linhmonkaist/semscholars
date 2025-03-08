@@ -1,8 +1,6 @@
 "use client"
-
+// Nav bar of previous version, need to use later on
 import * as React from "react"
-import Image from 'next/image';
-
 import {
   BookOpen,
   GraduationCap,
@@ -43,10 +41,16 @@ import { Input } from "@/components/ui/input"
 
 // This is sample data for an educational platform
 const data = {
+  user: {
+    name: "Alex Johnson",
+    email: "alex@example.com",
+    avatar: "/placeholder.svg?height=32&width=32",
+    role: "Student",
+  },
   navMain: [
     {
-      title: "Home",
-      url: "/",
+      title: "Dashboard",
+      url: "/dashboard",
       icon: LayoutDashboard,
     },
     {
@@ -149,9 +153,8 @@ export function TopNavbar() {
             </SheetTrigger>
             <SheetContent side="left" className="w-[300px] sm:w-[350px]">
               <div className="flex items-center gap-2 px-2 py-4">
-                {/* <GraduationCap className="h-6 w-6 text-primary" /> */}
-                <Image src="/assets/img/icon.png" alt="Logo" width={24} height={24} className="h-6 w-6" />
-                <span className="text-xl font-bold">SEM Scholars</span>
+                <GraduationCap className="h-6 w-6 text-primary" />
+                <span className="text-xl font-bold">EduLearn</span>
               </div>
               <div className="my-4 px-2">
                 <Input placeholder="Search courses, resources..." />
@@ -179,13 +182,28 @@ export function TopNavbar() {
                   </div>
                 ))}
               </nav>
+              <div className="absolute bottom-4 left-4 right-4">
+                <div className="flex items-center gap-2 rounded-lg border p-2">
+                  <Avatar className="h-8 w-8">
+                    <AvatarImage src={data.user.avatar} alt={data.user.name} />
+                    <AvatarFallback>
+                      {data.user.name.charAt(0)}
+                      {data.user.name.split(" ")[1]?.charAt(0)}
+                    </AvatarFallback>
+                  </Avatar>
+                  <div className="flex-1">
+                    <p className="text-sm font-medium">{data.user.name}</p>
+                    <p className="text-xs text-muted-foreground">{data.user.role}</p>
+                  </div>
+                </div>
+              </div>
             </SheetContent>
           </Sheet>
 
           {/* Logo */}
           <a href="/" className="flex items-center gap-2">
-            <Image src="/assets/img/icon.png" alt="Logo" width={24} height={24} className="h-6 w-6" />
-            <span className="text-xl font-bold">SEM Scholars</span>
+            <GraduationCap className="h-6 w-6 text-primary" />
+            <span className="text-xl font-bold">EduLearn</span>
           </a>
         </div>
 
@@ -214,6 +232,58 @@ export function TopNavbar() {
             ))}
           </NavigationMenuList>
         </NavigationMenu>
+
+        {/* Search and User Menu */}
+        <div className="flex items-center gap-4">
+          <div className="relative hidden md:flex">
+            <Input placeholder="Search..." className="w-[200px] lg:w-[300px]" />
+          </div>
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button variant="ghost" size="icon" className="rounded-full">
+                <Avatar className="h-8 w-8">
+                  <AvatarImage src={data.user.avatar} alt={data.user.name} />
+                  <AvatarFallback>
+                    {data.user.name.charAt(0)}
+                    {data.user.name.split(" ")[1]?.charAt(0)}
+                  </AvatarFallback>
+                </Avatar>
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end" className="w-56">
+              <DropdownMenuLabel className="font-normal">
+                <div className="flex flex-col space-y-1">
+                  <p className="text-sm font-medium leading-none">{data.user.name}</p>
+                  <p className="text-xs leading-none text-muted-foreground">{data.user.email}</p>
+                </div>
+              </DropdownMenuLabel>
+              <DropdownMenuSeparator />
+              <DropdownMenuGroup>
+                <DropdownMenuItem>
+                  <User className="mr-2 h-4 w-4" />
+                  <span>Profile</span>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <ScrollText className="mr-2 h-4 w-4" />
+                  <span>My Courses</span>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <MessageSquare className="mr-2 h-4 w-4" />
+                  <span>Messages</span>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Settings className="mr-2 h-4 w-4" />
+                  <span>Settings</span>
+                </DropdownMenuItem>
+              </DropdownMenuGroup>
+              <DropdownMenuSeparator />
+              <DropdownMenuItem>
+                <LogOut className="mr-2 h-4 w-4" />
+                <span>Log out</span>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+        </div>
       </div>
     </header>
   )

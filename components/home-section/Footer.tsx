@@ -1,5 +1,6 @@
-import { GraduationCap } from 'lucide-react'
+"use client"
 import React from 'react'
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -8,11 +9,11 @@ const Footer = () => {
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <GraduationCap className="h-6 w-6 text-primary" />
-                <span className="text-xl font-bold">EduLearn</span>
+                <Image src="/assets/img/icon.png" alt="Logo" width={24} height={24} className="h-6 w-6" />
+                <span className="text-xl font-bold">SEM Scholars</span>
               </div>
               <p className="text-muted-foreground">
-                Providing quality education services since 2010. Helping students achieve their academic goals.
+                Cung cấp dịch vụ từ vấn giáo dục quốc tế từ năm 2020. Giúp đỡ các bạn trả trên con đường chinh phục các trường đại học danh giá trên toàn thế giới. 
               </p>
             </div>
 
@@ -69,10 +70,10 @@ const Footer = () => {
             </div>
 
             <div>
-              <h3 className="font-semibold text-lg mb-4">Contact</h3>
+              <h3 className="font-semibold text-lg mb-4">Liên hệ</h3>
               <ul className="space-y-2">
-                <li className="text-muted-foreground">123 Education St, Learning City</li>
-                <li className="text-muted-foreground">contact@edulearn.com</li>
+                <li className="text-muted-foreground">SEM Scholars</li>
+                <li className="text-muted-foreground">semscholars.team@gmail.com</li>
                 <li className="text-muted-foreground">(555) 123-4567</li>
               </ul>
             </div>
