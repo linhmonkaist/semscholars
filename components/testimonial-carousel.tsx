@@ -64,11 +64,20 @@ const testimonials = [
   },
   {
     id: 6,
-    name: "Emma Garcia",
-    role: "Parent",
-    avatar: "/placeholder.svg?height=50&width=50",
+    name: "Hoàng Giai Ngọc",
+    role: "GKS-U 2024, Data Science, KU, Korea",
+    avatar: "./assets/img/alumni/KU.jpg?height=50&width=50",
     rating: 5,
-    text: "My daughter's confidence in science has grown tremendously since working with her EduLearn tutor. The personalized approach really works!",
+    text: "Đầu tiên, em muốn cảm ơn chị Linh vì đã cùng em “chiến đấu” với bài luận vào mỗi buổi tối trong suốt vài tháng qua. Dù cho có muộn như nào, chị vẫn luôn giúp\
+    em có được lịch meeting sớm nhất. Khi đó, chị không chỉ giúp em hoàn thiện từng câu chữ mà còn giúp em tìm ra hướng đi về cuộc sống đại học, kể cho em nghe những kinh\
+    nghiệm, value mà em tin chắc rằng em không thể nghe ở đâu khác. Em nhớ những lúc chị giúp em tìm ý tưởng, chỉnh sửa bài viết không biết bao nhiêu lần để mọi thứ hoàn \
+    hảo nhất. Nhờ có chị mà bài luận của em đã trở thành một trong những thành tích tốt nhất trong toàn bộ hồ sơ. Và em cũng cảm ơn anh Phúc vì đã giúp em rất nhiều trong\
+     việc check bài tiếng Hàn, từ chỉnh sửa từ ngữ sao cho chuyên nghiệp hơn đến chuẩn bị cho buổi phỏng vấn. Em vẫn nhớ những buổi luyện tập mà anh kiên nhẫn chỉ cho em\
+      từng câu hỏi, động viên giúp em tự tin hơn rất nhiều khi đối diện với ban tuyển sinh. Nếu không có anh trước đó, chắc em đã không thể có được sự tự tin và vững vàng \
+      như thế vào hôm phỏng vấn chính thức. Cuối cùng, em cảm thấy rất may mắn khi có cơ hội được đồng hành cùng anh chị trong quá trình này. Sau này, dù đi đến đâu, em \
+      cũng sẽ luôn giới thiệu team mentor đến những ai đang cần sự hỗ trợ – vì em biết rằng họ sẽ nhận được sự giúp đỡ tốt nhất, giống như những gì em đã may mắn có được.\
+    Một lần nữa, em cảm ơn anh chị rất rất nhiều vì tất cả. Dù hành trình này đã hoàn thành một chặng, nhưng em hy vọng vẫn sẽ luôn giữ liên lạc và có dịp gặp lại anh chị \
+    trong tương lai ạ\! Em chúc anh chị và team SEM luôn thành công ạ!",
   },
   {
     id: 7,
