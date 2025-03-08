@@ -22,7 +22,7 @@ const Intro = () => {
               </div>
               <div className="relative hidden md:block">
                 <img
-                  src="/assets/img/icon.png?height=400&width=500"
+                  src="./assets/img/icon.png?height=400&width=500"
                   alt="Students learning"
                   className="rounded-lg shadow-lg"
                 />
