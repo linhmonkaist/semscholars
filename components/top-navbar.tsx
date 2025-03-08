@@ -149,7 +149,6 @@ export function TopNavbar() {
             </SheetTrigger>
             <SheetContent side="left" className="w-[300px] sm:w-[350px]">
               <div className="flex items-center gap-2 px-2 py-4">
-                {/* <GraduationCap className="h-6 w-6 text-primary" /> */}
                 <Image src="./assets/img/icon.png" alt="Logo" width={24} height={24} className="h-6 w-6" />
                 <span className="text-xl font-bold">SEM Scholars</span>
               </div>
