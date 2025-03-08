@@ -9,10 +9,10 @@ const Testimonial = () => {
           <div className="container mx-auto max-w-5xl">
             <div className="flex flex-col sm:flex-row justify-between items-center mb-12 gap-4">
               <div>
-                <h2 className="text-3xl font-bold">What Our Students Say</h2>
-                <p className="mt-2 text-lg text-muted-foreground">Hear from our community of learners</p>
+                <h2 className="text-3xl font-bold">Review </h2>
+                <p className="mt-2 text-lg text-muted-foreground">Feedback từ mentee của SEM</p>
               </div>
-              <Button variant="outline">View All Testimonials</Button>
+              <Button variant="outline">Thành tích của SEM</Button>
             </div>
 
             <TestimonialCarousel />

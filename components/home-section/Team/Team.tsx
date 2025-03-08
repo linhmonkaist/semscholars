@@ -10,9 +10,9 @@ const Team = () => {
     <section className="py-16 px-4 bg-background">
           <div className="container mx-auto max-w-5xl">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold">Meet Our Team</h2>
+              <h2 className="text-3xl font-bold">Đội ngũ mentor</h2>
               <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-                Our dedicated educators and staff are committed to providing the highest quality educational experience
+                Đội ngũ mentor nhiệt huyết, tận tình, luôn biết cách khai phá tiềm năng và ủng hộ mentee nhiệt tình nhất trên con đường du học.
               </p>
             </div>
 
@@ -29,7 +29,8 @@ const Team = () => {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100 flex items-end justify-center p-4">
                       <div className="flex gap-4">
-                        <a href={member.social.twitter} className="text-white hover:text-primary transition-colors">
+                        <p className="text-white">Xem Thêm</p>
+                        {/* <a href={member.social.twitter} className="text-white hover:text-primary transition-colors">
                           <TwitterIcon className="h-5 w-5" />
                         </a>
                         <a href={member.social.linkedin} className="text-white hover:text-primary transition-colors">
@@ -37,13 +38,15 @@ const Team = () => {
                         </a>
                         <a href={member.social.github} className="text-white hover:text-primary transition-colors">
                           <GithubIcon className="h-5 w-5" />
-                        </a>
+                        </a> */}
                       </div>
                     </div>
                   </div>
                   <h3 className="text-xl font-bold">{member.name}</h3>
                   <p className="text-primary font-medium mb-2">{member.role}</p>
-                  <p className="text-sm text-muted-foreground">{member.bio}</p>
+                  <p className="text-base text-muted-foreground">{member.bio}</p>
+                  <br/>
+                  <p className="text-sm">{member.hashtag}</p>
                 </div>
               ))}
             </div>

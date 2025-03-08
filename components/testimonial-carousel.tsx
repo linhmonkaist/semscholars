@@ -12,43 +12,55 @@ import { useResponsive } from "@/hooks/use-responsive"
 const testimonials = [
   {
     id: 1,
-    name: "Jessica Thompson",
-    role: "High School Student",
-    avatar: "/placeholder.svg?height=50&width=50",
+    name: "Trần Hồng Quyên",
+    role: "GKS-G 2022, Political Science, JBNU, Korea",
+    avatar: "/assets/img/alumni/quyen.jpg?height=50&width=50",
     rating: 5,
-    text: "The tutoring I received helped me improve my math grade from a C to an A-. My tutor was patient and explained concepts in ways that made sense to me.",
+    text: "Hành trình chinh phục thành công học bổng chính phủ Hàn Quốc của mình không thể không kể đến sự đồng hành của Linh và team SEM Scholars. Cảm ơn Linh và team đã giúp mình có được một sự chuẩn bị đầy đủ, kỹ lưỡng và luôn support mình trên chặng đường này ❤️❤️❤️ Mình cũng muốn gửi đến các bạn mentee tương lai một câu quote mình rất thích: “Người thực hiện được ước mơ không phải là người giỏi nhất, mà là người đến cuối vẫn không từ bỏ”. Vậy nên mình tin với sự đam mê, chân thành và kiên trì, chúng ta sẽ sớm đạt được học bổng thôi",
   },
   {
     id: 2,
-    name: "Michael Rodriguez",
-    role: "Parent",
-    avatar: "/placeholder.svg?height=50&width=50",
+    name: "Phạm Hoàng Ân",
+    role: "GKS-G 2022, MBA, SKKU, Korea",
+    avatar: "/assets/img/alumni/an.jpg?height=50&width=50",
     rating: 5,
-    text: "My son struggled with reading comprehension for years. After just three months with EduLearn, his confidence has soared and his reading skills have improved dramatically.",
+    text: "Trong quá trình thực hiện bất cứ một dự định hay kế hoạch nào, chúng ta luôn cần những người đồng hành, đặc biệt là những người có kinh nghiệm và có khả năng truyền được cảm hứng để chúng ta có thể hoàn thành được mục tiêu đề ra. Cảm ơn chị Linh và Jinchuriki đã mang đến nguồn năng lượng đó cho mình trong suốt quá trình gấp rút, chỉ vỏn vẹn có 2 tuần, chuẩn bị cho GKS-G 2022.",
   },
   {
     id: 3,
-    name: "David Chen",
-    role: "College Student",
-    avatar: "/placeholder.svg?height=50&width=50",
-    rating: 4,
-    text: "The SAT prep course was exactly what I needed. The strategies they taught helped me raise my score by 200 points and get into my dream school.",
+    name: "Đặng Thế Nguyễn",
+    role: "GKS-G 2023, Korean language & literature, SNU",
+    avatar: "/assets/img/alumni/2023/the_nguyen.jpeg?height=50&width=50",
+    rating: 5,
+    text: "Em cảm thấy mình thật đúng đắn khi lựa chọn SEM để đồng hành cùng em trong suốt quá trình chuẩn \
+        bị cho học bổng GKS 2023. Em nhớ lúc đấy là ngày 7/2 em mới bắt đầu liên hệ cho team và khoảng \
+        giữa tháng 2 em mới bắt đầu viết bài luận và chuẩn bị hồ sơ. Do khá gấp nên lúc đó em cũng không thể \
+        suy nghĩ được những ý tưởng hay cho bài luận nhưng nhờ có mentor \"ném đá\" và gợi ý cho em khá \
+        nhiều nên bài của em cũng dần hoàn thiện hơn. \
+        Trong suốt quá trình chuẩn bị học bổng cùng mentor, em cảm thấy mentor của team SEM rất tâm huyết \
+        và siêu có tâm khi hướng dẫn trong quá trình chuẩn bị hồ sơ, tỉ mỉ từng câu chữ khi sửa bài luận cho \
+        em nên em mong team luôn phát huy điểm này ạ ❤️",
   },
   {
     id: 4,
-    name: "Sarah Williams",
-    role: "Adult Learner",
-    avatar: "/placeholder.svg?height=50&width=50",
+    name: "Trần Linh Chi",
+    role: "GKS-G 2023, Finance, Yonsei",
+    avatar: "/assets/img/alumni/Yonsei.jpg?height=50&width=50",
     rating: 5,
-    text: "As someone returning to education after 15 years, I was nervous about taking online courses. The support from EduLearn made the transition smooth and enjoyable.",
+    text: "Cảm ơn Linh, Phúc với team SEM rất rất nhiều vì support cho chị hết mình trong suốt 6 tháng apply học bổng. Nhờ có mentor guide từ những ngày đầu viết essay \
+    nên chị mới hiểu được tính consistent cần có trong bài essay và chị luôn nghĩ đấy là điều giúp chị đỗ GKS. Điểm phát huy của team SEM thì nhiều lắm kể không hết, chị \
+    chỉ nói mong muốn thôi nhé: chị mong team làm việc chuyên nghiệp và tỉ mỉ như vẫn luôn vậy, mở rộng mentor networking đa dạng trường học, đa dạng ngành nghề,",
   },
   {
     id: 5,
-    name: "James Wilson",
-    role: "High School Student",
-    avatar: "/placeholder.svg?height=50&width=50",
+    name: "Trang Phạm",
+    role: "Ewha PhD Scholarship, Korea",
+    avatar: "/assets/img/alumni/Ewha.png?height=50&width=50",
     rating: 5,
-    text: "The physics course helped me understand concepts I had struggled with for years. The interactive simulations and clear explanations made all the difference.",
+    text: "Hi team SEM. Đầu tiên mình rất cảm ơn team (đặc biệt là mentor Minh Đức) đã hỗ trợ mình rất nhiều trong quá trình apply Ph.D. Sau khi nói chuyện với mentor \
+    Minh Đức, mình thấy rất ấn tượng vì mong muốn giúp đỡ những bạn/ anh/ chị không có điều kiện tài chính dư dả để du học tự túc của team. Mình hi vọng team có thể tiếp \
+    tục phát triển lớn hơn trong tương lai và giúp đỡ được nhiều bạn/ anh/ chị hơn nữa. Vậy nên mình có donate một xíu cho team và hi vọng team sẽ ngày càng lớn mạnh trong\
+    tương lai nhé ❤️",
   },
   {
     id: 6,
