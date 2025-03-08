@@ -20,7 +20,7 @@ export const teamMembers: TeamMember[]= [
       name: "Linh Mon",
       role: "Founder, Mentor",
       bio: "Double major, Computer Science và Business Technology Management, KAIST, Hàn Quốc",
-      image: "./assets/img/team/linhmon.jpg",
+      image: "/assets/img/team/linhmon.jpg",
       social: {
         twitter: "#",
         linkedin: "#",
@@ -32,7 +32,7 @@ export const teamMembers: TeamMember[]= [
       name: "Phạm Minh Đức",
       role: role,
       bio: "PhD, Biochemistry, Molecular, Cellular and Developmental Biology, University of California, Davis, Mỹ",
-      image: "./assets/img/team/minh_duc.jpg",
+      image: "/assets/img/team/minh_duc.jpg",
       social: {
         twitter: "#",
         linkedin: "#",
@@ -44,7 +44,7 @@ export const teamMembers: TeamMember[]= [
       name: "Nguyễn Ngọc Mai",
       role: role,
       bio: "Double major, Computer Science và Business Technology Management, KAIST, Hàn Quốc.",
-      image: "./assets/img/team/ngoc_mai.jpg",
+      image: "/assets/img/team/ngoc_mai.jpg",
       social: {
         twitter: "#",
         linkedin: "#",
@@ -56,7 +56,7 @@ export const teamMembers: TeamMember[]= [
       name: "Hoàng Đức Kiên",
       role: role,
       bio: "Master, Statistics, Swiss Federal Institute of Technology Lausanne (EPFL), Thụy Sĩ",
-      image: "./assets/img/team/kien.jpg",
+      image: "/assets/img/team/kien.jpg",
       social: {
         twitter: "#",
         linkedin: "#",
@@ -68,7 +68,7 @@ export const teamMembers: TeamMember[]= [
       name: "Đỗ Hoàng Thế Phúc",
       role: role,
       bio: "Double major, Microbiology và International relation, Jeonbuk National University, Hàn Quốc",
-      image: "./assets/img/team/phuc.jpg",
+      image: "/assets/img/team/phuc.jpg",
       social: {
         twitter: "#",
         linkedin: "#",
@@ -80,7 +80,7 @@ export const teamMembers: TeamMember[]= [
       name: "Ngọ Thị Cúc",
       role: role,
       bio: "Master, Korean Language & Literature, Kyunghee University, Hàn Quốc.",
-      image: "./assets/img/team/Cucngo.jpg",
+      image: "/assets/img/team/Cucngo.jpg",
       social: {
         twitter: "#",
         linkedin: "#",
@@ -92,7 +92,7 @@ export const teamMembers: TeamMember[]= [
       name: "Vũ Ngân Giang",
       role: role,
       bio: "Bachelor, Bussiness Administration, Korea University, Hàn Quốc",
-      image: "./assets/img/team/giang.jpg",
+      image: "/assets/img/team/giang.jpg",
       social: {
         twitter: "#",
         linkedin: "#",
@@ -104,7 +104,7 @@ export const teamMembers: TeamMember[]= [
       name: "Phương Anh",
       role: role,
       bio: "Bachelor, Bussiness Administration, Korea University, Hàn Quốc",
-      image: "./assets/img/team/phuongAnh.jpg",
+      image: "/assets/img/team/phuongAnh.jpg",
       social: {
         twitter: "#",
         linkedin: "#",
@@ -116,7 +116,7 @@ export const teamMembers: TeamMember[]= [
       name: "Nguyễn Hoàng Liên",
       role: role,
       bio: "Double major, Media & Communication và International relation, Korea University, Hàn Quốc",
-      image: "./assets/img/team/Lien.jpg",
+      image: "/assets/img/team/Lien.jpg",
       social: {
         twitter: "#",
         linkedin: "#",
@@ -128,7 +128,7 @@ export const teamMembers: TeamMember[]= [
       name: "Đặng Thị Diệu Hiền",
       role: role,
       bio: "Bachelor, Media & Communication, Hanyang University, Hàn Quốc",
-      image: "./assets/img/team/hien.jpg",
+      image: "/assets/img/team/hien.jpg",
       social: {
         twitter: "#",
         linkedin: "#",
@@ -140,7 +140,7 @@ export const teamMembers: TeamMember[]= [
       name: "Ninh Phạm Thành Trung",
       role: role,
       bio: "Master, Environmental Engineering, KAIST, Hàn Quốc",
-      image: "./assets/img/team/thanh_trung.jpg",
+      image: "/assets/img/team/thanh_trung.jpg",
       social: {
         twitter: "#",
         linkedin: "#",
@@ -152,7 +152,7 @@ export const teamMembers: TeamMember[]= [
       name: "Phạm Quỳnh Nhi",
       role: role,
       bio: "Bachelor, Bussiness Administration, SNU, Hàn Quốc",
-      image: "./assets/img/team/quynhnhi.jpg",
+      image: "/assets/img/team/quynhnhi.jpg",
       social: {
         twitter: "#",
         linkedin: "#",
@@ -164,7 +164,7 @@ export const teamMembers: TeamMember[]= [
       name: "Nguyễn Phương Ngọc",
       role: role,
       bio: "Master, Media & Communications, Ewha Womans University, Hàn Quốc",
-      image: "./assets/img/team/phuong_ngoc.jpg",
+      image: "/assets/img/team/phuong_ngoc.jpg",
       social: {
         twitter: "#",
         linkedin: "#",
@@ -176,7 +176,7 @@ export const teamMembers: TeamMember[]= [
       name: "Hoàng Thị Hồng Ngọc",
       role: role,
       bio: "Master, Korean Education, Ewha Womans University, Hàn Quốc",
-      image: "./assets/img/team/hoang_ngoc.png",
+      image: "/assets/img/team/hoang_ngoc.png",
       social: {
         twitter: "#",
         linkedin: "#",
