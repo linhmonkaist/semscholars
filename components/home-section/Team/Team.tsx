@@ -21,7 +21,7 @@ const Team = () => {
                 <div key={index} className="group flex flex-col items-center text-center">
                   <div className="relative mb-4 overflow-hidden rounded-lg">
                     <Image
-                      src={member.image || "/assets/img/icon.png"}
+                      src={member.image || ets/img/icon.png"}
                       alt={member.name || "Member image"}
                       className="h-64 w-full object-cover transition-transform duration-300 group-hover:scale-105"
                       width={300}
