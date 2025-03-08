@@ -195,6 +195,14 @@ export function TestimonialCarousel() {
 }
 
 function TestimonialCard({ testimonial }: { testimonial: (typeof testimonials)[0] }) {
+  const [isExpanded, setIsExpanded] = React.useState(false);
+
+  // Limit the text length for preview
+  const previewLength = 500; // Adjust this value based on your design
+
+  const handleToggle = () => {
+    setIsExpanded(!isExpanded);
+  };
   return (
     <Card className="h-full">
       <CardContent className="p-6 flex flex-col h-full">
@@ -207,7 +215,16 @@ function TestimonialCard({ testimonial }: { testimonial: (typeof testimonials)[0
           ))}
         </div>
 
-        <p className="text-sm text-muted-foreground flex-grow mb-4">"{testimonial.text}"</p>
+        <p className="text-sm text-muted-foreground flex-grow mb-4">
+          {isExpanded ? testimonial.text : `${testimonial.text.slice(0, previewLength)}...`}
+        </p>
+        {testimonial.text.length > previewLength && (
+        <button 
+          onClick={handleToggle} 
+          className="text-blue-500 hover:underline">
+          {isExpanded ? "Read Less" : "Read More"}
+        </button>
+        )}
 
         <div className="flex items-center gap-3 mt-auto pt-4 border-t">
           <Avatar className="h-10 w-10">
