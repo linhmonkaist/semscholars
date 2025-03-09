@@ -81,9 +81,9 @@ const testimonials = [
   },
   {
     id: 7,
-    name: "Robert Johnson",
-    role: "Middle School Student",
-    avatar: "/placeholder.svg?height=50&width=50",
+    name: "Nguyễn Tiến Quang Vinh",
+    role: "KAIST Scholarship 2024, Computer Science, KAIST, Korea",
+    avatar: "./assets/img/alumni/quangvinh.jpg?height=50&width=50",
     rating: 4,
     text: "The writing workshop helped me improve my essays and creative writing. I'm now getting consistent A's on my English assignments.",
   },
