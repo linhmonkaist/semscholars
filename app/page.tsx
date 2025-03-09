@@ -14,8 +14,8 @@ import Intro from "@/components/home-section/Intro"
 
 export default function HomePage() {
   return (
-    <div className="flex min-h-screen flex-col">
-      <TopNavbar />
+    // <div className="flex min-h-screen flex-col">
+    //   <TopNavbar />
       <main className="flex-1">
         {/* Hero Section */}
         <Intro />
@@ -53,10 +53,6 @@ export default function HomePage() {
           </div>
         </section>
       </main>
-
-      {/* Footer */}
-      <Footer />
-    </div>
   )
 }
 

@@ -13,6 +13,7 @@ import {
   SidebarMenuSubButton,
   SidebarMenuSubItem,
 } from "@/components/ui/sidebar"
+import Link from "next/link"
 
 export function NavMain({
   items,
@@ -35,6 +36,7 @@ export function NavMain({
         {items.map((item) => (
           <Collapsible key={item.title} asChild defaultOpen={item.isActive} className="group/collapsible">
             <SidebarMenuItem>
+            <Link href={item.url}>
               <CollapsibleTrigger asChild>
                 <SidebarMenuButton tooltip={item.title} isActive={item.isActive}>
                   {item.icon && <item.icon />}
@@ -44,6 +46,7 @@ export function NavMain({
                   )}
                 </SidebarMenuButton>
               </CollapsibleTrigger>
+              </Link>
               {item.items && (
                 <CollapsibleContent>
                   <SidebarMenuSub>

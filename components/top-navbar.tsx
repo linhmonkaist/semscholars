@@ -153,7 +153,6 @@ export function TopNavbar() {
                 <span className="text-xl font-bold">SEM Scholars</span>
               </div>
               <div className="my-4 px-2">
-                <Input placeholder="Search courses, resources..." />
               </div>
               <nav className="flex flex-col gap-4 px-2">
                 {data.navMain.map((item) => (
