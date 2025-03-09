@@ -22,7 +22,7 @@ export function AppSidebar({ data, ...props }: { data: SidebarItem[] } &React.Co
       <SidebarHeader>
         <Link href="/">
           <div className="flex items-center gap-2 px-4 py-2">
-            <Image src="/assets/img/icon.png" alt="Logo" width={24} height={24} className="h-6 w-6" />
+            <Image src="./assets/img/icon.png" alt="Logo" width={24} height={24} className="h-6 w-6" />
             <span className="text-xl font-bold">SEM Scholars</span>
           </div>
         </Link>
