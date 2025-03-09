@@ -44,7 +44,7 @@ export const teamMembers: TeamMember[]= [
       name: "Nguyễn Ngọc Mai",
       role: role,
       bio: "Double major, Computer Science và Business Technology Management, KAIST, Hàn Quốc.",
-      image: "./assets/img/team/ngoc_mai.jpg",
+      image: "./assets/img/team/mainguyen.png",
       social: {
         twitter: "#",
         linkedin: "#",
