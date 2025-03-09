@@ -81,16 +81,11 @@ const testimonials = [
   },
   {
     id: 7,
-    name: "Nguyễn Tiến Quang Vinh",
-    role: "KAIST Scholarship 2024, Computer Science, KAIST",
-    avatar: "./assets/img/alumni/quangvinh.jpg?height=50&width=50",
+    name: "Robert Johnson",
+    role: "Middle School Student",
+    avatar: "/placeholder.svg?height=50&width=50",
     rating: 4,
-    text: " Khi mới bắt đầu có ý định mong muốn đi du học Hàn Quốc hệ tiếng Anh, mình đã rất mông lung trong việc tìm trung tâm tư vấn bởi khá hiếm tổ chức hỗ trợ tư vấn\
-     về con đường này, nhưng mình đã may mắn được giới thiệu và biết đến SEM. Qua SEM mà mình đã được tư vấn và định hướng rất rõ về các trường và chương trình học không\
-      chỉ ở Hàn mà còn ở các quốc gia khác nữa. Quá trình apply của mình diễn ra trùng với thời gian mình ôn thi HSGQG nên sự hỗ trợ và tư vấn cần thiết về hồ sơ, bài luận\
-       và phỏng vấn đã giúp mình giảm bớt rất nhiều áp lực cùng một lúc. Dù xuất phát muộn hơn các bạn rất nhiều nhưng nhờ SEM mà mình đã đỗ các trường Hàn Quốc cũng như\
-        các suất học bổng 100% chỉ trong 1.5 tháng. Mình đã trở nên vô cùng tự tin trên hành trình chinh phục các cảnh cửa đại học quốc tế và các học bổng giá trị cao khi\
-         có sự sát cánh đến từ SEM và đặc biệt là mentor chính Ngọc Mai.",
+    text: "The writing workshop helped me improve my essays and creative writing. I'm now getting consistent A's on my English assignments.",
   },
   {
     id: 8,
