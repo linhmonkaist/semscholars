@@ -13,7 +13,7 @@ const Footer = () => {
                 <span className="text-xl font-bold">SEM Scholars</span>
               </div>
               <p className="text-muted-foreground">
-                Cung cấp dịch vụ từ vấn giáo dục quốc tế từ năm 2020. Giúp đỡ các bạn trả trên con đường chinh phục các trường đại học danh giá trên toàn thế giới. 
+                Cung cấp dịch vụ từ vấn giáo dục quốc tế từ năm 2020. Hỗ trợ các bạn trẻ trên con đường chinh phục các trường đại học danh giá trên toàn thế giới. 
               </p>
             </div>
 
@@ -74,13 +74,13 @@ const Footer = () => {
               <ul className="space-y-2">
                 <li className="text-muted-foreground">SEM Scholars</li>
                 <li className="text-muted-foreground">semscholars.team@gmail.com</li>
-                <li className="text-muted-foreground">(555) 123-4567</li>
+                {/* <li className="text-muted-foreground">Facebook: SEM Scholars</li> */}
               </ul>
             </div>
           </div>
 
           <div className="mt-12 pt-6 border-t text-center text-muted-foreground">
-            <p>© 2025 EduLearn. All rights reserved.</p>
+            <p>© 2020 SEM Scholars. All rights reserved.</p>
           </div>
         </div>
       </footer>
