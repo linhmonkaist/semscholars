@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "homepage": "https://linhmonkaist.github.io/repo_name",
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.3",
     "@radix-ui/react-collapsible": "^1.1.3",
