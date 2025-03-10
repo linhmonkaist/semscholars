@@ -1,5 +1,5 @@
 "use client"
-import { AppSidebar } from "../../components/app-sidebar"
+import { AppSidebar } from "@/components/app-sidebar"
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -15,6 +15,8 @@ import { Button } from "@/components/ui/button"
 import { Card, CardHeader, CardTitle, CardContent, CardFooter, CardDescription } from "@/components/ui/card"
 import { Badge, Clock, Calendar, Users, BookOpen, CheckCircle2, DollarSign, CheckIcon } from "lucide-react"
 import Footer from "@/components/home-section/Footer"
+import Link from "next/link"
+import { applicationFormURL } from "@/app/globalVariables"
 
 
 export default function Page() {
@@ -29,7 +31,7 @@ export default function Page() {
             <Breadcrumb>
               <BreadcrumbList>
                 <BreadcrumbItem className="hidden md:block">
-                  <BreadcrumbLink href="#">Building Your Application</BreadcrumbLink>
+                  <BreadcrumbLink href="#">Overview</BreadcrumbLink>
                 </BreadcrumbItem>
                 <BreadcrumbSeparator className="hidden md:block" />
                 <BreadcrumbItem>
@@ -85,12 +87,14 @@ export default function Page() {
 
                   <div className="flex flex-col md:flex-row gap-4 items-center justify-between p-6 rounded-lg bg-muted">
                     <div>
-                      <h3 className="text-xl font-bold mb-1">Ready to start learning?</h3>
-                      <p className="text-muted-foreground">Enroll now and begin your web development journey today.</p>
+                      <h3 className="text-xl font-bold mb-1">Bạn đã sẵn sàng chinh phục học bổng?</h3>
+                      <p className="text-muted-foreground">Đăng ký ngay và bắt đầu hành trình ngay hôm nay.</p>
                     </div>
-                    <Button size="lg" className="w-full md:w-auto">
-                      Register for Course
-                    </Button>
+                    <Link href={applicationFormURL} target="_blank">
+                      <Button size="lg" className="w-full md:w-auto">
+                        Đăng ký ngay
+                      </Button>
+                    </Link>
                   </div>
                 </div>
               </div>
