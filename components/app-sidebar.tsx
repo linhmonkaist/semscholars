@@ -3,8 +3,6 @@
 import type * as React from "react"
 import Image from "next/image"
 import { BookOpen, LayoutDashboard, Library, LifeBuoy, LucideIcon, Settings, Users } from "lucide-react"
-import Image from "next/image"
-import { BookOpen, LayoutDashboard, Library, LifeBuoy, LucideIcon, Settings, Users } from "lucide-react"
 
 import { NavMain } from "./nav-main"
 import { Sidebar, SidebarContent, SidebarHeader, SidebarRail } from "@/components/ui/sidebar"
@@ -17,18 +15,7 @@ export type SidebarItem = {
   isActive: boolean;
   items?: { title: string; url: string }[];
 };
-import { Sidebar, SidebarContent, SidebarHeader, SidebarRail } from "@/components/ui/sidebar"
-import Link from "next/link"
 
-export type SidebarItem = {
-  title: string;
-  url: string;
-  icon?: LucideIcon;
-  isActive: boolean;
-  items?: { title: string; url: string }[];
-};
-
-export function AppSidebar({ data, ...props }: { data: SidebarItem[] } &React.ComponentProps<typeof Sidebar>) {
 export function AppSidebar({ data, ...props }: { data: SidebarItem[] } &React.ComponentProps<typeof Sidebar>) {
   return (
     <Sidebar collapsible="icon" {...props}>
