@@ -1,10 +1,12 @@
 import type { NextConfig } from "next";
 
-const isGithubPages = process.env.GITHUB_ACTIONS === 'true';
+const isGitHubPages = process.env.DEPLOY_TARGET === 'github-pages';
 
 const nextConfig: NextConfig = {
-  basePath: isGithubPages ? '/semscholars' : '',
-  assetPrefix: isGithubPages ? '/semscholars/' : '',
+  assetPrefix: isGitHubPages ? 'https://linhmonkaist/semscholars': '',
+  basePath: isGitHubPages ? '/semscholars' : '',
+  // assetPrefix: isGithubPages ? '/semscholars/' : '',
+
 };
 
 export default nextConfig;
