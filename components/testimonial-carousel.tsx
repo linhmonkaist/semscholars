@@ -89,11 +89,11 @@ const testimonials = [
   },
   {
     id: 8,
-    name: "Lisa Patel",
-    role: "Parent",
-    avatar: "/placeholder.svg?height=50&width=50",
+    name: "Trần Thị Minh Phương",
+    role: "UIC 100% Scholarship 2025, Economics, Yonsei",
+    avatar: "./assets/img/alumni/Yonsei.jpg?height=50&width=50",
     rating: 5,
-    text: "Finding a program that could challenge my gifted child was difficult until we discovered EduLearn. The advanced courses have kept her engaged and learning.",
+    text: "Mình nghĩ điểm mạnh nhất trong quá trình apply của mình là phần interview đã kéo cả bộ hồ sơ của mình lên. Trong quá trình mock interview, mentor Ngọc Mai đã mở rộng mindset của mình rất nhiều về định hướng ngành học và nghề nghiệp trong tương lai để mình có thể chuẩn bị tốt trong buổi phỏng vấn. Mình và mentor cũng đã chuẩn bị rất kỹ mọi câu hỏi có thể xuất hiện trong lúc phỏng vấn nên giáo sư hỏi gì mình cũng có ideas để trả lời.",
   },
 ]
 
