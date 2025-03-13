@@ -1,3 +1,4 @@
+"use client"
 import { SidebarItem } from "@/components/app-sidebar";
 import { LayoutDashboard, BookOpen, Library, Users, LifeBuoy, Settings } from "lucide-react";
 

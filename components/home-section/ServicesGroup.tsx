@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+"use client"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card";
 import { GraduationCap, Users, Video } from "lucide-react";
 

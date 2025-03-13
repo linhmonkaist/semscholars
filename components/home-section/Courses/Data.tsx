@@ -1,3 +1,5 @@
+"use client"
+
 export const featuredCourses = [
     {
       id: 1,

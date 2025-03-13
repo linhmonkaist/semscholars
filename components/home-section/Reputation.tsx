@@ -1,3 +1,4 @@
+"use client"
 import { Users, BookOpen, GraduationCap, Trophy } from 'lucide-react'
 import React from 'react'
 
