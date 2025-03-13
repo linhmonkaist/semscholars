@@ -28,6 +28,7 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    environment: Github-action-production
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -74,15 +75,13 @@ jobs:
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with Next.js
-        run: ${{ steps.detect-package-manager.outputs.runner }} next build
+        run: ${{ steps.detect-package-manager.outputs.runner }} next build && touch ./out/.nojekyll
       - name: Ensure public files are included
         run: cp -r public/. .next/public || echo "No public folder found"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
-      - name: List directories in ./out
-        run: ls -l ./out
 
   # Deployment job
   deploy:
