@@ -5,17 +5,11 @@ import Image from 'next/image';
 
 import {
   BookOpen,
-  GraduationCap,
   LayoutDashboard,
   Library,
   LifeBuoy,
   Menu,
-  MessageSquare,
-  ScrollText,
-  Settings,
   Users,
-  User,
-  LogOut,
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
@@ -29,7 +23,7 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
 import { cn } from "@/lib/utils"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -74,20 +68,20 @@ const data = {
     },
     {
       title: "Resources",
-      url: "/resources",
+      url: "/dashboard",
       icon: Library,
       items: [
         {
           title: "Study Materials",
-          url: "/resources/materials",
+          url: "/dashboard",
         },
         {
           title: "Practice Tests",
-          url: "/resources/tests",
+          url: "/dashboard",
         },
         {
           title: "Downloads",
-          url: "/resources/downloads",
+          url: "/dashboard",
         },
       ],
     },
