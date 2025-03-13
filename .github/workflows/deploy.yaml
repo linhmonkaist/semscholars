@@ -82,6 +82,10 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
+      - name: check env var
+        run: env
+      - name: Verify BasePath in `.next` directory
+        run: ls -la .next
 
   # Deployment job
   deploy:

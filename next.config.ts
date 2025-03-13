@@ -7,4 +7,6 @@ const nextConfig: NextConfig = {
   output: 'export',
 };
 
+console.log('Next.js basePath:', nextConfig.basePath);
+
 export default nextConfig;
