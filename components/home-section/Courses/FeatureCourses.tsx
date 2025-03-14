@@ -4,6 +4,7 @@ import { Card, CardDescription, CardFooter, CardHeader, CardTitle } from '@/comp
 import { Users, BookOpen } from 'lucide-react'
 import React from 'react'
 import { featuredCourses } from './Data'
+import Link from 'next/link'
 
 const FeatureCourses = () => {
   return (
@@ -14,7 +15,9 @@ const FeatureCourses = () => {
                 <h2 className="text-3xl font-bold">Gói mentor nổi bật</h2>
                 <p className="mt-2 text-lg text-muted-foreground">Khám phá các gói mentor phổ biến nhất của SEM</p>
               </div>
-              <Button>Xem tất cả</Button>
+              <Link href="/courses">
+                <Button>Xem tất cả</Button>
+              </Link>
             </div>
 
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -27,6 +30,7 @@ const FeatureCourses = () => {
                       className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
                     />
                   </div>
+                  <Link href={course.course_url}>
                   <CardHeader>
                     <div className="flex justify-between items-center mb-2">
                       <span className="text-sm font-medium px-2.5 py-0.5 rounded bg-primary/10 text-primary">
@@ -47,6 +51,7 @@ const FeatureCourses = () => {
                       {course.lessons}
                     </div>
                   </CardFooter>
+                  </Link>
                 </Card>
               ))}
             </div>

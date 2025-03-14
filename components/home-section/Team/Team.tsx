@@ -1,9 +1,10 @@
 "use client"
 
-import { GithubIcon, LinkedinIcon, TwitterIcon } from 'lucide-react'
 import React from 'react'
 import Image from 'next/image';
-import { teamMembers } from './Data'
+import { teamMembers } from '@/app/team/Data';
+import Link from 'next/link';
+
 
 const Team = () => {
   return (
@@ -27,15 +28,19 @@ const Team = () => {
                       width={300}
                       height={300}
                     />
+                    <Link href={`/team#${member.id}`}>
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100 flex items-end justify-center p-4">
+                      
                       <div className="flex gap-4">
                         <p className="text-white">Xem Thêm</p>
                       </div>
+                      
                     </div>
+                    </Link>
                   </div>
                   <h3 className="text-xl font-bold">{member.name}</h3>
                   <p className="text-primary font-medium mb-2">{member.role}</p>
-                  <p className="text-base text-muted-foreground">{member.bio}</p>
+                  <p className="text-base text-muted-foreground">{member.description}</p>
                   <br/>
                   <p className="text-sm">{member.hashtag}</p>
                 </div>

@@ -7,6 +7,7 @@ import ServicesGroup from "@/components/home-section/ServicesGroup"
 import Reputation from "@/components/home-section/Reputation"
 import Intro from "@/components/home-section/Intro"
 import Footer from "@/components/home-section/Footer"
+import Link from "next/link"
 
 export default function HomePage() {
   return (
@@ -34,17 +35,21 @@ export default function HomePage() {
         {/* CTA Section */}
         <section className="py-16 px-4 bg-primary text-primary-foreground">
           <div className="container mx-auto max-w-5xl text-center">
-            <h2 className="text-3xl font-bold md:text-4xl">Ready to Start Your Learning Journey?</h2>
+            <h2 className="text-3xl font-bold md:text-4xl">Sẵn sàng bắt đầu chinh phục học bổng danh giá?</h2>
             <p className="mt-4 text-lg md:text-xl max-w-2xl mx-auto">
-              Join thousands of students who have transformed their education with our services.
+              Tham gia cùng SEM Scholars để hiện thực hóa giấc mơ chinh phục học bổng
             </p>
             <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
+              <Link href='/courses'>
               <Button size="lg" variant="secondary">
-                Get Started Today
+                Bắt đầu ngay bây giờ
               </Button>
+              </Link>
+              <Link href="/contact">
               <Button size="lg" variant="outline" className="bg-transparent">
-                Contact Our Team
+                Liên hệ SEM Scholars
               </Button>
+              </Link>
             </div>
           </div>
         </section>

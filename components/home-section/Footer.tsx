@@ -19,52 +19,47 @@ const Footer = () => {
             </div>
 
             <div>
-              <h3 className="font-semibold text-lg mb-4">Services</h3>
+              <h3 className="font-semibold text-lg mb-4">Dịch vụ</h3>
               <ul className="space-y-2">
                 <li>
-                  <Link href="#" className="text-muted-foreground hover:text-foreground">
-                    Private Tutoring
+                  <Link href="/courses" className="text-muted-foreground hover:text-foreground">
+                    Tổng quan
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-muted-foreground hover:text-foreground">
-                    Group Classes
+                  <Link href="/courses/single" className="text-muted-foreground hover:text-foreground">
+                    Chương trình mentor lẻ
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-muted-foreground hover:text-foreground">
-                    Online Courses
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-muted-foreground hover:text-foreground">
-                    Test Preparation
+                  <Link href="courses/multi" className="text-muted-foreground hover:text-foreground">
+                    Chương trình mentor A-Z
                   </Link>
                 </li>
               </ul>
             </div>
 
             <div>
-              <h3 className="font-semibold text-lg mb-4">Resources</h3>
+              <h3 className="font-semibold text-lg mb-4">Liên kết khác</h3>
               <ul className="space-y-2">
                 <li>
-                  <Link href="#" className="text-muted-foreground hover:text-foreground">
-                    Blog
+                  <Link href="/team" className="text-muted-foreground hover:text-foreground">
+                    Mentor team SEM
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-muted-foreground hover:text-foreground">
-                    Study Materials
+                  <Link href="/mentee" className="text-muted-foreground hover:text-foreground">
+                    Thành tích
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-muted-foreground hover:text-foreground">
-                    Free Assessments
+                  <Link href="/support" className="text-muted-foreground hover:text-foreground">
+                    Hỗ trợ
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-muted-foreground hover:text-foreground">
-                    Learning Tips
+                  <Link href="/about" className="text-muted-foreground hover:text-foreground">
+                    Về SEM Scholars
                   </Link>
                 </li>
               </ul>

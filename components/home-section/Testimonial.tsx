@@ -2,6 +2,7 @@
 import React from 'react'
 import { Button } from '../ui/button'
 import { TestimonialCarousel } from '../testimonial-carousel'
+import Link from 'next/link'
 
 const Testimonial = () => {
   return (
@@ -12,7 +13,9 @@ const Testimonial = () => {
                 <h2 className="text-3xl font-bold">Review </h2>
                 <p className="mt-2 text-lg text-muted-foreground">Feedback từ mentee của SEM</p>
               </div>
+              <Link href="/mentee">
               <Button variant="outline">Thành tích của SEM</Button>
+              </Link>
             </div>
 
             <TestimonialCarousel />

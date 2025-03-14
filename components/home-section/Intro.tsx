@@ -2,6 +2,7 @@
 import React from 'react'
 import { Button } from '../ui/button'
 import Image from 'next/image';
+import Link from 'next/link';
 
 
 const Intro = () => {
@@ -17,10 +18,14 @@ const Intro = () => {
                   Đội ngũ tiên phong trong hỗ trợ các bạn trẻ Việt Nam chinh phục các trường đại học danh giá trên thế giới. 
                 </p>
                 <div className="mt-8 flex flex-col sm:flex-row gap-4">
-                  <Button size="lg">Dịch vụ</Button>
-                  <Button size="lg" variant="outline">
-                    Liên hệ
-                  </Button>
+                  <Link href="/courses">
+                    <Button size="lg">Dịch vụ</Button>
+                  </Link>
+                  <Link href="/contact">
+                    <Button size="lg" variant="outline">
+                      Liên hệ
+                    </Button>
+                  </Link>
                 </div>
               </div>
               <div className="relative hidden md:block">

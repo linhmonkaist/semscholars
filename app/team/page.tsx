@@ -8,75 +8,65 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Button } from "@/components/ui/button"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Star, MapPin, GraduationCap } from "lucide-react"
-
-// Define the team member type
-interface TeamMember {
-  id: string
-  name: string
-  image: string
-  description: string
-  reputation: number
-  majors: string[]
-  countries: string[]
-}
+import {TeamMember, teamMembers} from "@/app/team/Data"
 
 // Sample data
-const teamMembers: TeamMember[] = [
-  {
-    id: "1",
-    name: "Jane Smith",
-    image: "/placeholder.svg?height=200&width=200",
-    description: "Experienced mentor with 10+ years in software development and machine learning.",
-    reputation: 4.9,
-    majors: ["Computer Science", "Machine Learning", "Data Science"],
-    countries: ["USA", "Canada", "UK"],
-  },
-  {
-    id: "2",
-    name: "John Doe",
-    image: "/placeholder.svg?height=200&width=200",
-    description: "Specialized in web development and UI/UX design with a focus on accessibility.",
-    reputation: 4.7,
-    majors: ["Web Development", "UI/UX Design", "Accessibility"],
-    countries: ["Germany", "France", "Spain"],
-  },
-  {
-    id: "3",
-    name: "Alex Chen",
-    image: "/placeholder.svg?height=200&width=200",
-    description: "Expert in mobile app development and cloud architecture.",
-    reputation: 4.8,
-    majors: ["Mobile Development", "Cloud Computing", "DevOps"],
-    countries: ["Japan", "Singapore", "Australia"],
-  },
-  {
-    id: "4",
-    name: "Maria Rodriguez",
-    image: "/placeholder.svg?height=200&width=200",
-    description: "Specializes in cybersecurity and blockchain technology.",
-    reputation: 4.6,
-    majors: ["Cybersecurity", "Blockchain", "Network Security"],
-    countries: ["Mexico", "Brazil", "Argentina"],
-  },
-  {
-    id: "5",
-    name: "David Kim",
-    image: "/placeholder.svg?height=200&width=200",
-    description: "Focused on AI research and natural language processing.",
-    reputation: 4.9,
-    majors: ["Artificial Intelligence", "NLP", "Machine Learning"],
-    countries: ["South Korea", "China", "India"],
-  },
-  {
-    id: "6",
-    name: "Sarah Johnson",
-    image: "/placeholder.svg?height=200&width=200",
-    description: "Expert in game development and computer graphics.",
-    reputation: 4.8,
-    majors: ["Game Development", "Computer Graphics", "3D Modeling"],
-    countries: ["UK", "USA", "Canada"],
-  },
-]
+// const teamMembers: TeamMember[] = [
+//   {
+//     id: "1",
+//     name: "Jane Smith",
+//     image: "/placeholder.svg?height=200&width=200",
+//     description: "Experienced mentor with 10+ years in software development and machine learning.",
+//     reputation: 4.9,
+//     majors: ["Computer Science", "Machine Learning", "Data Science"],
+//     countries: ["USA", "Canada", "UK"],
+//   },
+//   {
+//     id: "2",
+//     name: "John Doe",
+//     image: "/placeholder.svg?height=200&width=200",
+//     description: "Specialized in web development and UI/UX design with a focus on accessibility.",
+//     reputation: 4.7,
+//     majors: ["Web Development", "UI/UX Design", "Accessibility"],
+//     countries: ["Germany", "France", "Spain"],
+//   },
+//   {
+//     id: "3",
+//     name: "Alex Chen",
+//     image: "/placeholder.svg?height=200&width=200",
+//     description: "Expert in mobile app development and cloud architecture.",
+//     reputation: 4.8,
+//     majors: ["Mobile Development", "Cloud Computing", "DevOps"],
+//     countries: ["Japan", "Singapore", "Australia"],
+//   },
+//   {
+//     id: "4",
+//     name: "Maria Rodriguez",
+//     image: "/placeholder.svg?height=200&width=200",
+//     description: "Specializes in cybersecurity and blockchain technology.",
+//     reputation: 4.6,
+//     majors: ["Cybersecurity", "Blockchain", "Network Security"],
+//     countries: ["Mexico", "Brazil", "Argentina"],
+//   },
+//   {
+//     id: "5",
+//     name: "David Kim",
+//     image: "/placeholder.svg?height=200&width=200",
+//     description: "Focused on AI research and natural language processing.",
+//     reputation: 4.9,
+//     majors: ["Artificial Intelligence", "NLP", "Machine Learning"],
+//     countries: ["South Korea", "China", "India"],
+//   },
+//   {
+//     id: "6",
+//     name: "Sarah Johnson",
+//     image: "/placeholder.svg?height=200&width=200",
+//     description: "Expert in game development and computer graphics.",
+//     reputation: 4.8,
+//     majors: ["Game Development", "Computer Graphics", "3D Modeling"],
+//     countries: ["UK", "USA", "Canada"],
+//   },
+// ]
 
 export default function TeamMembersPage() {
   const { isMobile, isTablet, isDesktop } = useResponsive()
@@ -127,7 +117,7 @@ export default function TeamMembersPage() {
               <SelectValue placeholder="Filter by country" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="all">All Countries</SelectItem>
+              <SelectItem value="all">Xem tất cả</SelectItem>
               {allCountries.map((country) => (
                 <SelectItem key={country} value={country}>
                   {country}
@@ -143,7 +133,7 @@ export default function TeamMembersPage() {
               <SelectValue placeholder="Filter by major" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="all">All Majors</SelectItem>
+              <SelectItem value="all">Xem tất cả</SelectItem>
               {allMajors.map((major) => (
                 <SelectItem key={major} value={major}>
                   {major}
@@ -185,7 +175,7 @@ export default function TeamMembersPage() {
 
 function MemberCard({ member }: { member: TeamMember }) {
   return (
-    <Card className="h-full flex flex-col">
+    <Card className="h-full flex flex-col" id={member.id}>
       <CardHeader className="flex flex-row items-center gap-4 pb-2">
         <Avatar className="h-16 w-16">
           <AvatarImage src={member.image} alt={member.name} />
@@ -194,14 +184,16 @@ function MemberCard({ member }: { member: TeamMember }) {
         <div>
           <h2 className="text-xl font-bold">{member.name}</h2>
           <div className="flex items-center text-amber-500">
-            <Star className="h-4 w-4 fill-current" />
-            <span className="ml-1">{member.reputation.toFixed(1)}</span>
+            {/* <Star className="h-4 w-4 fill-current" /> */}
+            <span className="ml-1">{member.role}</span>
           </div>
         </div>
       </CardHeader>
 
       <CardContent className="flex-grow">
         <p className="text-muted-foreground mb-4">{member.description}</p>
+        <p className="text-muted-foreground mb-4">{member.received_scholarship}</p>
+        <p className="text-muted-foreground mb-4">{member.mentor_history}</p>
 
         <div className="space-y-3">
           <div className="flex items-start gap-2">
