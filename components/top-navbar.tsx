@@ -78,27 +78,8 @@ const data = {
       icon: Users,
     },
     {
-      title: "Hỗ trợ",
-      url: "/support",
-      icon: LifeBuoy,
-      items: [
-        {
-          title: "Help Center",
-          url: "/support/help",
-        },
-        {
-          title: "Contact Tutors",
-          url: "/support/tutors",
-        },
-        {
-          title: "FAQs",
-          url: "/support/faqs",
-        },
-      ],
-    },
-    {
       title: "Về chúng tôi",
-      url: "/contact",
+      url: "/about",
       icon: LifeBuoy,
     },
     {
@@ -126,7 +107,7 @@ export function TopNavbar() {
             </SheetTrigger>
             <SheetContent side="left" className="w-[300px] sm:w-[350px]">
               <div className="flex items-center gap-2 px-2 py-4">
-                <Image src="./assets/img/icon.png" alt="Logo" width={24} height={24} className="h-6 w-6" />
+                <Image src="/assets/img/icon.png" alt="Logo" width={24} height={24} className="h-6 w-6" />
                 <span className="text-xl font-bold">SEM Scholars</span>
               </div>
               <div className="my-4 px-2">
@@ -159,7 +140,7 @@ export function TopNavbar() {
 
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <Image src="./assets/img/icon.png" alt="Logo" width={24} height={24} className="h-6 w-6" />
+            <Image src="/assets/img/icon.png" alt="Logo" width={24} height={24} className="h-6 w-6" />
             <span className="text-xl font-bold">SEM Scholars</span>
           </Link>
         </div>

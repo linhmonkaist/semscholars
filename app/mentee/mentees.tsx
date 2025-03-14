@@ -1806,7 +1806,7 @@ export const mentees: Mentee[] = [
   },
   {
     id: "thocom2004@gmail.com",
-    name: "Đỗ Minh Ngọc (Ngọc)",
+    name: "Đỗ Minh Ngọc",
     image: "",
     scholarships: [
       "Ewha Scholarship"
@@ -1986,7 +1986,7 @@ export const mentees: Mentee[] = [
   },
   {
     id: "duyenlnk123@gmail.com",
-    name: "LÊ NGUYỄN KỲ DUYÊN",
+    name: "Lê Nguyễn Kỳ Duyên",
     image: "",
     scholarships: [
       "Admission"
@@ -2219,7 +2219,7 @@ export const mentees: Mentee[] = [
   },
   {
     id: "minhhtrangg12345@gmail.com",
-    name: "MEXT 1: Minh Trang",
+    name: "Minh Trang",
     image: "",
     scholarships: [
       "MEXT Scholarship"

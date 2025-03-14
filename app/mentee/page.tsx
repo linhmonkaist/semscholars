@@ -10,6 +10,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { GraduationCap, MapPin, Award, Building, Users, ChevronDown, ChevronUp, BookOpen } from "lucide-react"
 import { mentees } from "./mentees"
+import Footer from "@/components/home-section/Footer"
 
 // Define the mentee type
 interface Mentee {
@@ -99,6 +100,7 @@ export default function MenteesPage() {
   }
 
   return (
+    <>
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-8 text-center">Our Successful Mentees</h1>
 
@@ -302,6 +304,8 @@ export default function MenteesPage() {
         </div>
       )}
     </div>
+    <Footer/>
+    </>
   )
 }
 
@@ -309,6 +313,7 @@ function MenteeCard({ mentee }: { mentee: Mentee }) {
   const [expanded, setExpanded] = useState(false)
 
   return (
+    <>
     <Card className="h-full overflow-hidden">
       <CardHeader className="flex flex-row items-center gap-1.5 p-2 pb-1.5">
         <Avatar className="h-7 w-7">
@@ -423,6 +428,7 @@ function MenteeCard({ mentee }: { mentee: Mentee }) {
         </div>
       </CardContent>
     </Card>
+    </>
   )
 }
 

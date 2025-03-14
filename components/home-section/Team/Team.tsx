@@ -4,6 +4,7 @@ import React from 'react'
 import Image from 'next/image';
 import { teamMembers } from '@/app/team/Data';
 import Link from 'next/link';
+import Footer from '../Footer';
 
 
 const Team = () => {
