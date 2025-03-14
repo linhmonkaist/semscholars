@@ -2,7 +2,7 @@
 
 import type * as React from "react"
 import Image from "next/image"
-import { BookOpen, LayoutDashboard, Library, LifeBuoy, LucideIcon, Settings, Users } from "lucide-react"
+import {LucideIcon } from "lucide-react"
 
 import { NavMain } from "./nav-main"
 import { Sidebar, SidebarContent, SidebarHeader, SidebarRail } from "@/components/ui/sidebar"
@@ -29,7 +29,6 @@ export function AppSidebar({ data, ...props }: { data: SidebarItem[] } &React.Co
         {/* <SearchForm /> */}
       </SidebarHeader>
       <SidebarContent>
-        <NavMain items={data} />
         <NavMain items={data} />
       </SidebarContent>
       <SidebarRail />

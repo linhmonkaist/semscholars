@@ -6,6 +6,7 @@ import FeatureCourses from "@/components/home-section/Courses/FeatureCourses"
 import ServicesGroup from "@/components/home-section/ServicesGroup"
 import Reputation from "@/components/home-section/Reputation"
 import Intro from "@/components/home-section/Intro"
+import Footer from "@/components/home-section/Footer"
 
 export default function HomePage() {
   return (
@@ -47,6 +48,8 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+
+        <Footer />
       </main>
   )
 }

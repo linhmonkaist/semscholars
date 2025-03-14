@@ -10,7 +10,7 @@ export const data: SidebarItem[] = [
       isActive: true,
     },
     {
-      title: "Các gói mentor lẻ",
+      title: "Chương trình mentor lẻ",
       url: "/courses/single",
       icon: BookOpen,
       isActive: true,
@@ -38,7 +38,7 @@ export const data: SidebarItem[] = [
       ],
     },
     {
-      title: "Các gói mentor A-Z",
+      title: "Chương trình mentor A-Z",
       url: "/courses/multi",
       icon: Library,
       isActive: true,

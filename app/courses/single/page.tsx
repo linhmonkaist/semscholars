@@ -29,7 +29,7 @@ export default function Page() {
             <Breadcrumb>
               <BreadcrumbList>
                 <BreadcrumbItem className="hidden md:block">
-                  <BreadcrumbLink href="#">Overview</BreadcrumbLink>
+                  <BreadcrumbLink href="#">Chương trình mentor lẻ</BreadcrumbLink>
                 </BreadcrumbItem>
                 <BreadcrumbSeparator className="hidden md:block" />
                 <BreadcrumbItem>
@@ -44,7 +44,7 @@ export default function Page() {
               <div className="rounded-xl bg-background p-8 shadow-sm border" id="overview">
                 <div className="max-w-3xl mx-auto">
                   {/* <Badge className="mb-4">Web Development</Badge> */}
-                  <h1 className="text-3xl font-bold mb-4">Tổng quan chương trình mentor lẻ</h1>
+                  <h1 className="text-3xl font-bold mb-4 mt-8">Tổng quan chương trình mentor lẻ</h1>
 
                   <p className="text-lg mb-6">
                   Chương trình mentor lẻ cung cấp các buổi mentoring linh hoạt, tập trung vào từng chủ đề cụ thể theo nhu cầu của mentee. <br/>
@@ -106,7 +106,7 @@ export default function Page() {
               {/* Course Syllabus Preview */}
               <div className="rounded-xl bg-background p-8 shadow-sm border" id="consulting">
                 <div className="max-w-3xl mx-auto">
-                  <h2 className="text-2xl font-bold mb-4">Gói Tư vấn apply - Giải Đáp Mọi Thắc Mắc Cùng Mentor</h2>
+                  <h2 className="text-2xl font-bold mb-4 mt-8">Gói Tư vấn apply - Giải Đáp Mọi Thắc Mắc Cùng Mentor</h2>
                   <p className="mb-6 text-lg">
                   Bạn mới bắt đầu tìm hiểu về quy trình apply học bổng? Bạn có nhiều câu hỏi chuyên sâu nhưng khó tìm được câu trả lời? Bạn cần nhận xét và góp ý cho CV 
                   của mình? Hoặc đơn giản, bạn muốn trò chuyện trực tiếp với một mentor có kinh nghiệm để được hướng dẫn rõ ràng hơn? Gói tư vấn apply sẽ giúp bạn giải đáp
@@ -160,20 +160,17 @@ export default function Page() {
                       </div>
                     </div>
                   </div>
-                  <a href="/courses/single">
                   <Link href={applicationFormURL} target="_blank">
                       <Button size="lg" className="w-full">
                         Đăng ký ngay
                       </Button>
                     </Link>
-
-                  </a>
                 </div>
               </div>
               {/* Course Syllabus Preview */}
               <div className="rounded-xl bg-background p-8 shadow-sm border" id="essayFeedback">
                 <div className="max-w-3xl mx-auto">
-                  <h2 className="text-2xl font-bold mb-4">Gói Essay Feedback - Nâng cấp hồ sơ du học</h2>
+                  <h2 className="text-2xl font-bold mb-4 mt-8">Gói Essay Feedback - Nâng cấp hồ sơ du học</h2>
                   <p className="mb-6 text-lg">
                   Bạn đã hoàn thành bài essay của mình nhưng chưa chắc chắn liệu nó đã đủ thuyết phục? Bạn muốn có một mentor giàu kinh nghiệm góp ý để nâng cấp bài viết 
                   trước khi nộp? Essay Feedback là lựa chọn hoàn hảo dành cho bạn!
@@ -229,21 +226,18 @@ export default function Page() {
                       </div>
                     </div>
                   </div>
-                  <a href="/courses/single">
                   <Link href={applicationFormURL} target="_blank">
                       <Button size="lg" className="w-full">
                         Đăng ký ngay
                       </Button>
                     </Link>
-
-                  </a>
                 </div>
               </div>
 
               {/* Course Syllabus Preview */}
               <div className="rounded-xl bg-background p-8 shadow-sm border" id="mockInterview">
                 <div className="max-w-3xl mx-auto">
-                  <h2 className="text-2xl font-bold mb-4">Gói Mock Interview - Tự Tin Chinh Phục Vòng Phỏng Vấn</h2>
+                  <h2 className="text-2xl font-bold mb-4 mt-8">Gói Mock Interview - Tự Tin Chinh Phục Vòng Phỏng Vấn</h2>
                   <p className="mb-6 text-lg">
                   Bạn sắp bước vào vòng phỏng vấn học bổng và muốn có sự chuẩn bị tốt nhất? Bạn muốn thử sức với một buổi phỏng vấn thử cùng mentor để cải thiện kỹ năng
                   trả lời? Mock Interview sẽ giúp bạn sẵn sàng với vòng phỏng vấn một cách tự tin nhất!
@@ -301,21 +295,18 @@ export default function Page() {
                       </div>
                     </div>
                   </div>
-                  <a href="/courses/single">
                   <Link href={applicationFormURL} target="_blank">
                       <Button size="lg" className="w-full">
                         Đăng ký ngay
                       </Button>
                     </Link>
-
-                  </a>
                 </div>
               </div>
 
               {/* Course Syllabus Preview */}
               <div className="rounded-xl bg-background p-8 shadow-sm border" id="coverletter">
                 <div className="max-w-3xl mx-auto">
-                  <h2 className="text-2xl font-bold mb-4">Gói Feedback CV & Cover Letter - Tạo Ấn Tượng Ngay Từ Hồ Sơ 📄 </h2>
+                  <h2 className="text-2xl font-bold mb-4 mt-8">Gói Feedback CV & Cover Letter - Tạo Ấn Tượng Ngay Từ Hồ Sơ 📄 </h2>
                   <p className="mb-6 text-lg">
                   Bạn muốn CV và Cover Letter của mình thật chuyên nghiệp, thu hút giáo sư hoặc hội đồng xét tuyển học bổng? Bạn 
                   cần một mentor giàu kinh nghiệm giúp chỉnh sửa và tối ưu hóa hồ sơ? Feedback CV & Cover Letter là lựa chọn dành cho bạn!
@@ -374,14 +365,11 @@ export default function Page() {
                       </div>
                     </div>
                   </div>
-                  <a href="/courses/single">
                   <Link href={applicationFormURL} target="_blank">
                       <Button size="lg" className="w-full">
                         Đăng ký ngay
                       </Button>
                     </Link>
-
-                  </a>
                 </div>
               </div>
             </div>

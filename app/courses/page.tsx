@@ -12,9 +12,7 @@ import { Separator } from "@/components/ui/separator"
 import { SidebarInset, SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar"
 import { data } from "./sidebar-data"
 import { Button } from "@/components/ui/button"
-import { Card, CardHeader, CardTitle, CardContent, CardFooter, CardDescription } from "@/components/ui/card"
-import { Badge, Clock, Calendar, Users, BookOpen, CheckCircle2, DollarSign, CheckIcon } from "lucide-react"
-import Footer from "@/components/home-section/Footer"
+import { Clock, Calendar, Users, BookOpen, CheckCircle2, DollarSign, CheckIcon } from "lucide-react"
 import Link from "next/link"
 import { applicationFormURL } from "@/app/globalVariables"
 
@@ -41,15 +39,7 @@ export default function Page() {
             </Breadcrumb>
           </div>
         </header>
-        {/* <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
-          <div className="min-h-[100vh] flex-1 rounded-xl bg-muted/50 md:min-h-min" />
-          <div className="grid auto-rows-min gap-4 md:grid-cols-3">
-            <div className="aspect-video rounded-xl bg-muted/50" />
-            <div className="aspect-video rounded-xl bg-muted/50" />
-            <div className="aspect-video rounded-xl bg-muted/50" />
-          </div>
-          
-        </div> */}
+
         <div className="flex flex-1 flex-col gap-6 p-6">
               {/* Simple Course Overview Block */}
               <div className="rounded-xl bg-background p-8 shadow-sm border">
@@ -143,13 +133,13 @@ export default function Page() {
                       </div>
                     </div>
                   </div>
-                  <a href="/courses/single">
+                  <Link href="/courses/single">
                   <Button variant="outline" className="w-full">
                     
                         Chi tiết chương trình mentor lẻ
                     
                   </Button>
-                  </a>
+                  </Link>
                 </div>
               </div>
               {/* Course Syllabus Preview */}
@@ -197,11 +187,11 @@ export default function Page() {
                       </div>
                     </div>
                   </div>
-                  <a href="/courses/multi">
+                  <Link href="/courses/multi">
                   <Button variant="outline" className="w-full">
                     Chi tiết chương trình mentor A-Z
                   </Button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

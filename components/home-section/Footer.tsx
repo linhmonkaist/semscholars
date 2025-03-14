@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -21,24 +22,24 @@ const Footer = () => {
               <h3 className="font-semibold text-lg mb-4">Services</h3>
               <ul className="space-y-2">
                 <li>
-                  <a href="#" className="text-muted-foreground hover:text-foreground">
+                  <Link href="#" className="text-muted-foreground hover:text-foreground">
                     Private Tutoring
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-muted-foreground hover:text-foreground">
+                  <Link href="#" className="text-muted-foreground hover:text-foreground">
                     Group Classes
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-muted-foreground hover:text-foreground">
+                  <Link href="#" className="text-muted-foreground hover:text-foreground">
                     Online Courses
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-muted-foreground hover:text-foreground">
+                  <Link href="#" className="text-muted-foreground hover:text-foreground">
                     Test Preparation
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -47,24 +48,24 @@ const Footer = () => {
               <h3 className="font-semibold text-lg mb-4">Resources</h3>
               <ul className="space-y-2">
                 <li>
-                  <a href="#" className="text-muted-foreground hover:text-foreground">
+                  <Link href="#" className="text-muted-foreground hover:text-foreground">
                     Blog
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-muted-foreground hover:text-foreground">
+                  <Link href="#" className="text-muted-foreground hover:text-foreground">
                     Study Materials
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-muted-foreground hover:text-foreground">
+                  <Link href="#" className="text-muted-foreground hover:text-foreground">
                     Free Assessments
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-muted-foreground hover:text-foreground">
+                  <Link href="#" className="text-muted-foreground hover:text-foreground">
                     Learning Tips
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

@@ -30,15 +30,6 @@ const Team = () => {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100 flex items-end justify-center p-4">
                       <div className="flex gap-4">
                         <p className="text-white">Xem Thêm</p>
-                        {/* <a href={member.social.twitter} className="text-white hover:text-primary transition-colors">
-                          <TwitterIcon className="h-5 w-5" />
-                        </a>
-                        <a href={member.social.linkedin} className="text-white hover:text-primary transition-colors">
-                          <LinkedinIcon className="h-5 w-5" />
-                        </a>
-                        <a href={member.social.github} className="text-white hover:text-primary transition-colors">
-                          <GithubIcon className="h-5 w-5" />
-                        </a> */}
                       </div>
                     </div>
                   </div>

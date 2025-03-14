@@ -38,6 +38,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { Input } from "@/components/ui/input"
+import Link from "next/link"
 
 // This is sample data for an educational platform
 const data = {
@@ -201,10 +202,10 @@ export function TopNavbar() {
           </Sheet>
 
           {/* Logo */}
-          <a href="/" className="flex items-center gap-2">
+          <Link href="/" className="flex items-center gap-2">
             <GraduationCap className="h-6 w-6 text-primary" />
             <span className="text-xl font-bold">EduLearn</span>
-          </a>
+          </Link>
         </div>
 
         {/* Desktop Navigation */}

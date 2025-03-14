@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import * as React from "react"
 import Image from 'next/image';
@@ -34,6 +34,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { Input } from "@/components/ui/input"
+import Link from "next/link";
 
 // This is sample data for an educational platform
 const data = {
@@ -158,13 +159,13 @@ export function TopNavbar() {
                     {item.items && (
                       <div className="ml-8 flex flex-col gap-2">
                         {item.items.map((subItem) => (
-                          <a
+                          <Link
                             key={subItem.title}
-                            href={subItem.url}
+                            href={`${subItem.url}`}
                             className="text-muted-foreground hover:text-foreground"
                           >
                             {subItem.title}
-                          </a>
+                          </Link>
                         ))}
                       </div>
                     )}
@@ -175,10 +176,10 @@ export function TopNavbar() {
           </Sheet>
 
           {/* Logo */}
-          <a href="/" className="flex items-center gap-2">
+          <Link href="/" className="flex items-center gap-2">
             <Image src="./assets/img/icon.png" alt="Logo" width={24} height={24} className="h-6 w-6" />
             <span className="text-xl font-bold">SEM Scholars</span>
-          </a>
+          </Link>
         </div>
 
         {/* Desktop Navigation */}
@@ -192,15 +193,15 @@ export function TopNavbar() {
                     <NavigationMenuContent>
                       <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
                         {item.items.map((subItem) => (
-                          <ListItem key={subItem.title} title={subItem.title} href={subItem.url} />
+                          <ListItem key={subItem.title} title={subItem.title} href={`${subItem.url}`} />
                         ))}
                       </ul>
                     </NavigationMenuContent>
                   </>
                 ) : (
-                  <NavigationMenuLink href={item.url} className={navigationMenuTriggerStyle()}>
+                  <Link href={`${item.url}`} className={navigationMenuTriggerStyle()}>
                     {item.title}
-                  </NavigationMenuLink>
+                  </Link>
                 )}
               </NavigationMenuItem>
             ))}
@@ -216,8 +217,8 @@ const ListItem = React.forwardRef<React.ElementRef<"a">, React.ComponentPropsWit
     return (
       <li>
         <NavigationMenuLink asChild>
-          <a
-            ref={ref}
+          <Link
+            href={props.href || "#"}
             className={cn(
               "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
               className,
@@ -226,7 +227,7 @@ const ListItem = React.forwardRef<React.ElementRef<"a">, React.ComponentPropsWit
           >
             <div className="text-sm font-medium leading-none">{title}</div>
             <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">{children}</p>
-          </a>
+          </Link>
         </NavigationMenuLink>
       </li>
     )

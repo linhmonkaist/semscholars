@@ -1,6 +1,8 @@
 "use client"
 import React from 'react'
 import { Button } from '../ui/button'
+import Image from 'next/image';
+
 
 const Intro = () => {
   return (
@@ -22,10 +24,12 @@ const Intro = () => {
                 </div>
               </div>
               <div className="relative hidden md:block">
-                <img
-                  src="./assets/img/icon.png?height=400&width=500"
+              <Image
+                  src="./assets/img/logo.png"
                   alt="Students learning"
                   className="rounded-lg shadow-lg"
+                  width={500} // Set the width
+                  height={400} // Set the height
                 />
               </div>
             </div>
