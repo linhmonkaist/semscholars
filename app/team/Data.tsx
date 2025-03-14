@@ -195,7 +195,7 @@ export const teamMembers: TeamMember[]= [
       received_scholarship: "Nhận học bổng GKS-G 2023",
       mentor_history: "Hỗ trợ thành công mentee apply ngành ngôn ngữ Hàn, giáo dục tiếng Hàn tại Hàn Quốc",
       hashtag: "Hỗ trợ apply học bổng các ngành ngôn ngữ tại Hàn Quốc",
-      majors: ["Khoa học xã hội"],
+      majors: ["Khoa học xã hội", "Ngôn ngữ Hàn"],
       countries: ["Châu Á"]
     },
   ]
