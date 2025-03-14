@@ -40,73 +40,45 @@ import Link from "next/link";
 const data = {
   navMain: [
     {
-      title: "Home",
+      title: "Trang chủ",
       url: "/",
       icon: LayoutDashboard,
     },
     {
-      title: "Courses",
+      title: "Dịch vụ",
       url: "/courses",
       icon: BookOpen,
       items: [
         {
-          title: "All Courses",
+          title: "Tất cả dịch vụ",
           url: "/courses",
         },
         {
-          title: "My Enrolled Courses",
-          url: "/courses/enrolled",
+          title: "Chương trình mentor lẻ",
+          url: "/courses/single",
         },
         {
-          title: "Recommended",
-          url: "/courses/recommended",
+          title: "Chương trình mentor A-Z",
+          url: "/courses/multi",
         },
         {
-          title: "Certificates",
-          url: "/courses/certificates",
+          title: "Câu hỏi thường gặp",
+          url: "/courses/questions",
         },
       ],
     },
     {
-      title: "Resources",
-      url: "/dashboard",
+      title: "Đội ngũ",
+      url: "/team",
       icon: Library,
-      items: [
-        {
-          title: "Study Materials",
-          url: "/dashboard",
-        },
-        {
-          title: "Practice Tests",
-          url: "/dashboard",
-        },
-        {
-          title: "Downloads",
-          url: "/dashboard",
-        },
-      ],
     },
     {
-      title: "Community",
-      url: "/community",
+      title: "Thành tích",
+      url: "/mentee",
       icon: Users,
-      items: [
-        {
-          title: "Discussion Forums",
-          url: "/community/forums",
-        },
-        {
-          title: "Study Groups",
-          url: "/community/groups",
-        },
-        {
-          title: "Events",
-          url: "/community/events",
-        },
-      ],
     },
     {
-      title: "Support",
+      title: "Hỗ trợ",
       url: "/support",
       icon: LifeBuoy,
       items: [
@@ -123,6 +95,16 @@ const data = {
           url: "/support/faqs",
         },
       ],
+    },
+    {
+      title: "Về chúng tôi",
+      url: "/contact",
+      icon: LifeBuoy,
+    },
+    {
+      title: "Liên hệ",
+      url: "/contact",
+      icon: LifeBuoy,
     },
   ],
 }
