@@ -7,6 +7,7 @@ import { Youtube, Instagram, AtSign, Facebook, Mail, MessageSquare, ExternalLink
 import { Music2 as TiktokIcon } from "lucide-react"
 import Footer from "@/components/home-section/Footer"
 import Link from "next/link"
+import Image from "next/image"
 
 // Contact information
 const socialLinks = [
@@ -48,10 +49,10 @@ const socialLinks = [
       "bg-blue-100 text-blue-600 hover:bg-blue-200 dark:bg-blue-900/20 dark:text-blue-400 dark:hover:bg-blue-900/30",
   },
   {
-    name: "Email: semscholars.team@gmail.com",
+    name: "Email",
     url: "https://mail.google.com/mail/?view=cm&fs=1&to=semscholars.team@gmail.com&su=Subject&body=Body text",
     icon: Mail,
-    description: "Nhắn tin cho SEM",
+    description: "Email theo địa chỉ: semscholars.team@gmail.com",
     color:
       "bg-blue-100 text-blue-600 hover:bg-blue-200 dark:bg-blue-900/20 dark:text-blue-400 dark:hover:bg-blue-900/30",
   },
@@ -83,7 +84,7 @@ const founderLinks = [
     name: "Founder Linh Mon",
     url: "https://www.facebook.com/LinhMonKGSP",
     icon: Facebook,
-    description: "Connect with our founder",
+    description: "Kết nối với founder của SEM",
     color:
       "bg-blue-100 text-blue-600 hover:bg-blue-200 dark:bg-blue-900/20 dark:text-blue-400 dark:hover:bg-blue-900/30",
   },
@@ -91,7 +92,7 @@ const founderLinks = [
     name: "Founder's Instagram",
     url: "https://www.instagram.com/_linh_mon/",
     icon: Instagram,
-    description: "Follow our founder's journey",
+    description: "Theo dõi chặng đường của founder!",
     color:
       "bg-purple-100 text-purple-600 hover:bg-purple-200 dark:bg-purple-900/20 dark:text-purple-400 dark:hover:bg-purple-900/30",
   },
@@ -101,38 +102,59 @@ export default function ContactPage() {
   const { isMobile, isTablet, isDesktop } = useResponsive()
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-2 text-center">Liên hệ</h1>
+    <div className="container mx-auto px-4 py-8 max-w-5xl">
+      {/* <h1 className="text-3xl font-bold mb-2 text-center">Liên hệ</h1>
       <p className="text-center text-muted-foreground mb-8 max-w-2xl mx-auto">
       Kết nối với SEM thông qua nhiều nền tảng và cộng đồng khác nhau. SEM Scholars luôn sẵn sàng lắng nghe và hỗ trợ bạn!
-      </p>
+      </p> *
+          <section className="py-16 px-4 bg-background">
+          <div className="container mx-auto max-w-5xl">
+      
+      /}
 
       {/* Email Contact Card */}
+      {/* Contact Card */}
       <Card className="mb-8 overflow-hidden">
         <CardContent className="p-0">
-          <div className="flex flex-col md:flex-row items-center">
-            <div className="bg-primary/10 p-8 flex items-center justify-center md:w-1/3">
-              <Facebook className="h-16 w-16 text-primary" />
+          <div className="flex flex-col md:flex-row items-center md:ml-8">
+            <div className="w-full max-w-[180px] md:max-w-[220px]">
+              <div className="relative aspect-[1.9/1] w-full">
+                <Image
+                  src="./assets/img/logo.png?height=971&width=1844"
+                  alt="SEM Logo"
+                  fill
+                  sizes="(max-width: 768px) 180px, 220px"
+                  className="object-contain"
+                  priority
+                />
+              </div>
             </div>
-            <div className="p-6 md:p-8 md:w-2/3">
-              <h2 className="text-2xl font-bold mb-2">Trò chuyện cùng SEM</h2>
-              <p className="text-muted-foreground mb-4">
-              Bạn có thắc mắc về chương trình mentor của SEM không ? Hãy gửi tin nhắn cho SEM và chúng mình sẽ trả lời bạn sớm nhất có thể.
+            <div className="p-6 md:p-8 w-full md:w-2/3">
+              <h2 className="text-xl md:text-2xl font-bold mb-2 text-primary">Trò chuyện cùng SEM</h2>
+              <p className="text-muted-foreground mb-4 text-sm md:text-base">
+                Bạn có thắc mắc về chương trình mentor của SEM không? Hãy gửi tin nhắn cho SEM và chúng mình sẽ trả lời
+                bạn sớm nhất có thể.
               </p>
-              <Button className="flex items-center gap-2" size="lg">
-                <Facebook className="h-4 w-4" />
-                <Link href="https://www.facebook.com/SEMScholarsTeam">SEM Scholars - Scholarship Exploring with Mentors</Link>
-              </Button>
+              <a
+                href="https://www.facebook.com/SEMScholarsTeam"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full block"
+              >
+                <Button className="flex items-center gap-2 w-full" size="lg">
+                  <Facebook className="h-4 w-4 flex-shrink-0" />
+                  <span className="truncate">SEM Scholars - Scholarship Exploring with Mentors</span>
+                </Button>
+              </a>
             </div>
           </div>
         </CardContent>
       </Card>
-
       {/* Social Media Section */}
-      <h2 className="text-2xl font-bold mb-4">Theo dõi SEM Scholars</h2>
+      <h2 className="text-2xl font-bold mb-4 text-primary">Theo dõi SEM Scholars</h2>
       <div className={`grid gap-4 mb-8 ${isMobile ? "grid-cols-1" : isTablet ? "grid-cols-2" : "grid-cols-4"}`}>
         {socialLinks.map((link) => (
-          <a key={link.name} href={link.url} target="_blank" rel="noopener noreferrer" className="block">
+          <Link key={link.name} href={link.url} target="_blank" rel="noopener noreferrer" className="block">
             <Card className="h-full transition-transform hover:scale-[1.02]">
               <CardContent className="p-6">
                 <div className={`w-12 h-12 rounded-full ${link.color} flex items-center justify-center mb-4`}>
@@ -145,15 +167,15 @@ export default function ContactPage() {
                 <p className="text-muted-foreground text-sm">{link.description}</p>
               </CardContent>
             </Card>
-          </a>
+          </Link>
         ))}
       </div>
 
       {/* Community Groups Section */}
-      <h2 className="text-2xl font-bold mb-4">Tham gia cộng đồng của SEM Scholars</h2>
+      <h2 className="text-2xl font-bold mb-4 text-primary">Tham gia cộng đồng của SEM Scholars</h2>
       <div className={`grid gap-4 mb-8 ${isMobile ? "grid-cols-1" : "grid-cols-2"}`}>
         {communityGroups.map((group) => (
-          <a key={group.name} href={group.url} target="_blank" rel="noopener noreferrer" className="block">
+          <Link key={group.name} href={group.url} target="_blank" rel="noopener noreferrer" className="block">
             <Card className="h-full transition-transform hover:scale-[1.02]">
               <CardContent className="p-6">
                 <div className={`w-12 h-12 rounded-full ${group.color} flex items-center justify-center mb-4`}>
@@ -169,15 +191,15 @@ export default function ContactPage() {
                 <p className="text-muted-foreground text-sm">{group.description}</p>
               </CardContent>
             </Card>
-          </a>
+          </Link>
         ))}
       </div>
 
       {/* Founder Links Section */}
-      <h2 className="text-2xl font-bold mb-4">Kết nối với Founder Linh Mon</h2>
+      <h2 className="text-2xl font-bold mb-4 text-primary">Kết nối với Founder Linh Mon</h2>
       <div className={`grid gap-4 ${isMobile ? "grid-cols-1" : "grid-cols-2"}`}>
         {founderLinks.map((link) => (
-          <a key={link.name} href={link.url} target="_blank" rel="noopener noreferrer" className="block">
+          <Link key={link.name} href={link.url} target="_blank" rel="noopener noreferrer" className="block">
             <Card className="h-full transition-transform hover:scale-[1.02]">
               <CardContent className="p-6">
                 <div className={`w-12 h-12 rounded-full ${link.color} flex items-center justify-center mb-4`}>
@@ -190,15 +212,15 @@ export default function ContactPage() {
                 <p className="text-muted-foreground text-sm">{link.description}</p>
               </CardContent>
             </Card>
-          </a>
+          </Link>
         ))}
       </div>
 
       {/* Message Us Section */}
       <div className="mt-12 text-center">
-        <h2 className="text-2xl font-bold mb-4">Have a Question?</h2>
+        <h2 className="text-2xl font-bold mb-4 text-primary">Bạn có câu hỏi ? </h2>
         <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-          We're here to help with any questions about our mentoring program, scholarships, or university applications.
+          SEM ở đây để giải đáp mọi thắc mắc về chương trình mentor, học bổng của các nước trên thế giới.
         </p>
 
       </div>

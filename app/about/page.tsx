@@ -10,8 +10,8 @@ export default function AboutPage() {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <div className="max-w-4xl mx-auto">
-        <h1 className="text-3xl font-bold mb-2 text-center">About Us</h1>
+      <div className="max-w-5xl mx-auto">
+        <h1 className="text-3xl font-bold mb-2 text-center">SEM Scholars - Scholarship Exploring with Mentors</h1>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
           Empowering students to achieve their academic dreams through mentorship and guidance.
         </p>
@@ -26,14 +26,14 @@ export default function AboutPage() {
                 <h2 className="text-xl font-bold">Our Mission</h2>
               </div>
               <div className="p-6">
-                <p className="text-muted-foreground mb-4">
-                  Our mission is to democratize access to quality education by connecting aspiring students with
-                  experienced mentors who have successfully navigated the complex landscape of scholarships and
-                  university admissions.
-                </p>
-                <p className="text-muted-foreground">
-                  We believe that every talented student deserves the opportunity to reach their full potential,
-                  regardless of their background or financial circumstances.
+                <p className="text-muted-foreground mb-4 text-lg">
+                SEM Scholars được thành lập với sứ mệnh xây dựng một môi trường học tập và phát triển chuyên nghiệp, nơi các bạn trẻ không chỉ được hỗ trợ về học bổng mà
+                còn được trang bị những kỹ năng thiết yếu để vươn xa trong hành trình học tập và sự nghiệp. Đội ngũ SEM cam kết mang lại giá trị thông qua sự hướng dẫn tận
+                tâm, các dịch vụ chất lượng cao và sự đồng hành bền vững, giúp mentees không chỉ đạt được học bổng danh giá mà còn phát triển toàn diện về tư duy, kỹ năng
+                và định hướng tương lai. <br/>
+                Với tinh thần “Scholarship Exploring with Mentors”, SEM Scholars không chỉ là một tổ chức hỗ trợ du học mà còn là người bạn đồng hành, người dẫn dắt giúp
+                các bạn
+                khám phá cơ hội, truyền động lực và tiếp sức mạnh để biến ước mơ du học thành hiện thực.
                 </p>
               </div>
             </CardContent>
@@ -47,13 +47,12 @@ export default function AboutPage() {
                 <h2 className="text-xl font-bold">Our Vision</h2>
               </div>
               <div className="p-6">
-                <p className="text-muted-foreground mb-4">
-                  We envision a world where geographic and economic barriers no longer limit educational opportunities,
-                  where mentorship bridges the gap between talent and opportunity.
-                </p>
-                <p className="text-muted-foreground">
-                  By 2030, we aim to have helped 10,000 students secure scholarships and admissions to top universities
-                  worldwide, creating a global network of successful alumni who pay it forward.
+                <p className="text-muted-foreground mb-4 text-lg">
+                SEM Scholars hướng đến trở thành một tổ chức tiên phong trong lĩnh vực hỗ trợ du học và phát triển cá nhân, tạo ra một cộng đồng vững mạnh nơi mỗi cá nhân
+                đều có cơ hội tiếp cận với nền giáo dục chất lượng cao trên thế giới. Với sự kết hợp giữa kiến thức, kinh nghiệm và công nghệ, SEM không ngừng cải tiến các
+                dịch vụ, mở rộng phạm vi hỗ trợ để đáp ứng nhu cầu ngày càng đa dạng của mentees.<br/>
+                Trong tương lai, SEM Scholars sẽ tiếp tục xây dựng một hệ sinh thái tư vấn và đào tạo chuyên sâu, giúp các bạn trẻ Việt Nam không chỉ đạt được học bổng mà 
+                còn trang bị hành trang vững chắc để thành công trong môi trường học thuật và chuyên nghiệp toàn cầu.
                 </p>
               </div>
             </CardContent>
@@ -66,21 +65,21 @@ export default function AboutPage() {
           {[
             {
               icon: Users,
-              title: "Community",
+              title: "Chuyên Nghiệp và Tận Tâm",
               description:
-                "We foster a supportive community where knowledge is shared freely and connections last a lifetime.",
+                "SEM Scholars cam kết cung cấp dịch vụ chất lượng, hỗ trợ tận tâm để giúp mentees đạt được mục tiêu du học và phát triển bản thân.",
             },
             {
               icon: Award,
-              title: "Excellence",
+              title: "Đổi Mới và Sáng Tạo",
               description:
-                "We strive for excellence in everything we do, from the quality of our mentorship to the success of our students.",
+                "SEM luôn sáng tạo và cải tiến để mang đến những giải pháp tối ưu, giúp các bạn trẻ vượt qua thử thách và nắm bắt cơ hội du học.",
             },
             {
               icon: Globe,
-              title: "Inclusivity",
+              title: "Đoàn Kết và Hợp Tác",
               description:
-                "We embrace diversity and ensure our programs are accessible to talented students from all backgrounds.",
+                "Chúng tôi tạo môi trường hợp tác, nơi mọi người cùng chia sẻ, học hỏi và phát triển để cùng nhau chinh phục ước mơ du học.",
             },
           ].map((value, index) => (
             <Card key={index} className="h-full">
@@ -96,56 +95,56 @@ export default function AboutPage() {
         </div>
 
         {/* Our History Section */}
-        <h2 className="text-2xl font-bold mb-6 text-center">Our History</h2>
+        <h2 className="text-2xl font-bold mb-6 text-center">Quá trình phát triển</h2>
         <Card className="mb-16 overflow-hidden">
           <CardContent className="p-0">
             <div className="bg-primary/10 p-4 flex items-center gap-3">
               <History className="h-6 w-6 text-primary" />
-              <h2 className="text-xl font-bold">The Journey So Far</h2>
+              <h2 className="text-xl font-bold">Hành trình của SEM</h2>
             </div>
             <div className="p-6 space-y-6">
               <div className="border-l-2 border-primary/30 pl-4 ml-2 relative">
                 <div className="absolute w-4 h-4 bg-primary rounded-full -left-[9px] -top-1"></div>
-                <h3 className="text-lg font-semibold mb-1">2018: The Beginning</h3>
+                <h3 className="text-lg font-semibold mb-1">Tháng 3, 2020: Hành trình được bắt đầu</h3>
                 <p className="text-muted-foreground">
-                  Founded by a group of scholarship recipients who wanted to give back, our organization started as a
-                  small Facebook group where successful applicants shared tips and advice.
+                  Thành lập bởi founder Linh Mon với các video hướng dẫn apply học bổng chính phủ Hàn Quốc tại kênh youtube Linh Mon. 
+                  Năm đầu tiên mentor, team đã có cho mình 3 mentee đậu học bổng GKS-U 2021, 1 bạn đậu học bổng toàn phần của KAIST- trường đại học khoa học kĩ thuật hàng đầu Hàn Quốc
+ và 1 bạn đậu vào trường Seoul National University(SNU)- trường đại học rank 1 Hàn Quốc
                 </p>
               </div>
 
               <div className="border-l-2 border-primary/30 pl-4 ml-2 relative">
                 <div className="absolute w-4 h-4 bg-primary rounded-full -left-[9px] -top-1"></div>
-                <h3 className="text-lg font-semibold mb-1">2019: Formal Mentorship Program</h3>
+                <h3 className="text-lg font-semibold mb-1">2021: Tìm kiếm đồng đội</h3>
                 <p className="text-muted-foreground">
-                  We launched our structured mentorship program, pairing 50 mentees with 15 mentors who had secured
-                  scholarships to prestigious universities.
+                 Founder tìm được những người cộng sự mới và bắt đầu cùng nhau phát triển team và hỗ trợ mentee nộp các học bổng tại Hàn Quốc
                 </p>
               </div>
 
               <div className="border-l-2 border-primary/30 pl-4 ml-2 relative">
                 <div className="absolute w-4 h-4 bg-primary rounded-full -left-[9px] -top-1"></div>
-                <h3 className="text-lg font-semibold mb-1">2020: Going Digital</h3>
+                <h3 className="text-lg font-semibold mb-1">2022: SEM Scholars được ra mắt</h3>
                 <p className="text-muted-foreground">
-                  The global pandemic accelerated our digital transformation. We moved all our services online, allowing
-                  us to reach students in remote areas and expand our mentor network globally.
+                 Team được đổi tên thành SEM Scholars- Scholarship Exploring with Mentors. Nhiều mentor đầy tâm huyết đã gia nhập team SEM và cùng team hỗ trợ các bạn mentee apply học bổng trên toàn thế giới.
                 </p>
               </div>
 
               <div className="border-l-2 border-primary/30 pl-4 ml-2 relative">
                 <div className="absolute w-4 h-4 bg-primary rounded-full -left-[9px] -top-1"></div>
-                <h3 className="text-lg font-semibold mb-1">2022: Milestone Achievement</h3>
+                <h3 className="text-lg font-semibold mb-1">2024: Thành tựu quan trọng</h3>
                 <p className="text-muted-foreground">
-                  We celebrated our 500th successful scholarship recipient and expanded our services to include
-                  specialized tracks for different fields of study.
+                  Team đã nâng cao thành tích với hơn 100 mentee thành công chinh phục hơn 150 suất học bổng trên toàn thế giới. Các mentee xuất sắc cũng lần lượt chinh phục
+                  nhiều học bổng mới và nhiều miền đất mới trên thế giới. <br/>
+                  Team SEM Scholars cũng mở rộng bộ máy nhân sự với các thành viên trong team Marketing, Media, Mentor, HR, Tech.
                 </p>
               </div>
 
               <div className="pl-4 ml-2 relative">
                 <div className="absolute w-4 h-4 bg-primary rounded-full -left-[9px] -top-1"></div>
-                <h3 className="text-lg font-semibold mb-1">2023: Today and Beyond</h3>
+                <h3 className="text-lg font-semibold mb-1">2025: Hành trình tương lai</h3>
                 <p className="text-muted-foreground">
-                  With a community of over 5,000 members, 200+ active mentors, and a success rate of 70%, we continue to
-                  grow and refine our programs to better serve aspiring scholars worldwide.
+                  Với cộng đồng hơn 30.000 thành viên, hơn 14 mentor và tỷ lệ thành công là 70%, chúng tôi tiếp tục nỗ lực không ngừng nghỉ trong việc
+                  phát triển và cải tiến các chương trình mentor của mình để hỗ trợ tốt hơn cho các học giả trên toàn thế giới.
                 </p>
               </div>
             </div>
@@ -153,27 +152,27 @@ export default function AboutPage() {
         </Card>
 
         {/* Impact Section */}
-        <h2 className="text-2xl font-bold mb-6 text-center">Our Impact</h2>
+        <h2 className="text-2xl font-bold mb-6 text-center">Sức ảnh hưởng</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
           {[
             {
               icon: Users,
-              stat: "5,000+",
+              stat: "30,000+",
               label: "Community Members",
             },
             {
               icon: GraduationCap,
-              stat: "800+",
-              label: "Successful Admissions",
+              stat: "100+",
+              label: "Successful Mentees",
             },
             {
               icon: Award,
-              stat: "650+",
+              stat: "150+",
               label: "Scholarships Secured",
             },
             {
               icon: Globe,
-              stat: "45+",
+              stat: "16+",
               label: "Countries Represented",
             },
           ].map((item, index) => (
@@ -189,10 +188,10 @@ export default function AboutPage() {
 
         {/* Final CTA */}
         <div className="text-center mb-8">
-          <h2 className="text-2xl font-bold mb-4">Join Our Mission</h2>
+          <h2 className="text-2xl font-bold mb-4">Tham gia sứ mệnh của chúng tôi</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Whether you're a student seeking guidance, an alumnus wanting to give back, or a supporter of educational
-            access, there's a place for you in our community.
+           Dù bạn là sinh viên đang tìm kiếm sự hướng dẫn, cựu sinh viên muốn đóng góp lại cho cộng đồng, hay người ủng hộ việc tiếp cận giáo dục, SEM Scholars luôn 
+           chào đón bạn gia nhập cộng đồng của chúng tôi.
           </p>
         </div>
       </div>

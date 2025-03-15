@@ -11,6 +11,8 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { GraduationCap, MapPin, Award, Building, Users, ChevronDown, ChevronUp, BookOpen } from "lucide-react"
 import { mentees } from "./mentees"
 import Footer from "@/components/home-section/Footer"
+import Testimonial from "@/components/home-section/Testimonial"
+import { TestimonialCarousel } from "@/components/testimonial-carousel"
 
 // Define the mentee type
 interface Mentee {
@@ -29,12 +31,12 @@ interface Mentee {
 
 export default function MenteesPage() {
   const { isMobile, isTablet, isDesktop } = useResponsive()
-  const [selectedUniversity, setSelectedUniversity] = useState<string>("all")
-  const [selectedCountry, setSelectedCountry] = useState<string>("all")
-  const [selectedMajor, setSelectedMajor] = useState<string>("all")
-  const [selectedScholarship, setSelectedScholarship] = useState<string>("all")
-  const [selectedMentor, setSelectedMentor] = useState<string>("all")
-  const [activeTab, setActiveTab] = useState<string>("all")
+  const [selectedUniversity, setSelectedUniversity] = useState<string>("Tất cả")
+  const [selectedCountry, setSelectedCountry] = useState<string>("Tất cả")
+  const [selectedMajor, setSelectedMajor] = useState<string>("Tất cả")
+  const [selectedScholarship, setSelectedScholarship] = useState<string>("Tất cả")
+  const [selectedMentor, setSelectedMentor] = useState<string>("Tất cả")
+  const [activeTab, setActiveTab] = useState<string>("Tất cả")
 
   // Extract unique values for filters
   const allUniversities = useMemo(() => {
@@ -76,15 +78,15 @@ export default function MenteesPage() {
     })
     return Array.from(mentors).sort()
   }, [])
-
+  const reverse_mentee = mentees.slice().reverse()
   // Filter mentees based on selected filters
   const filteredMentees = useMemo(() => {
-    return mentees.filter((mentee) => {
-      const matchesUniversity = selectedUniversity === "all" || mentee.universities.includes(selectedUniversity)
-      const matchesCountry = selectedCountry === "all" || mentee.countries.includes(selectedCountry)
-      const matchesMajor = selectedMajor === "all" || mentee.majors.includes(selectedMajor)
-      const matchesScholarship = selectedScholarship === "all" || mentee.scholarships.includes(selectedScholarship)
-      const matchesMentor = selectedMentor === "all" || mentee.mentors.includes(selectedMentor)
+    return reverse_mentee.filter((mentee) => {
+      const matchesUniversity = selectedUniversity === "Tất cả" || mentee.universities.includes(selectedUniversity)
+      const matchesCountry = selectedCountry === "Tất cả" || mentee.countries.includes(selectedCountry)
+      const matchesMajor = selectedMajor === "Tất cả" || mentee.majors.includes(selectedMajor)
+      const matchesScholarship = selectedScholarship === "Tất cả" || mentee.scholarships.includes(selectedScholarship)
+      const matchesMentor = selectedMentor === "Tất cả" || mentee.mentors.includes(selectedMentor)
 
       return matchesUniversity && matchesCountry && matchesMajor && matchesScholarship && matchesMentor
     })
@@ -92,34 +94,35 @@ export default function MenteesPage() {
 
   // Reset all filters
   const resetFilters = () => {
-    setSelectedUniversity("all")
-    setSelectedCountry("all")
-    setSelectedMajor("all")
-    setSelectedScholarship("all")
-    setSelectedMentor("all")
+    setSelectedUniversity("Tất cả")
+    setSelectedCountry("Tất cả")
+    setSelectedMajor("Tất cả")
+    setSelectedScholarship("Tất cả")
+    setSelectedMentor("Tất cả")
   }
 
   return (
     <>
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-8 text-center">Our Successful Mentees</h1>
-
+      <h1 className="text-3xl font-bold mb-8 text-center">Mentee của SEM</h1>
+      <TestimonialCarousel />
+      <div className="mb-8 mt-8"></div>
       {/* Tabs for mobile view */}
       {isMobile && (
         <Tabs value={activeTab} onValueChange={setActiveTab} className="mb-6">
           <TabsList className="grid grid-cols-3 mb-4">
-            <TabsTrigger value="all">All Filters</TabsTrigger>
-            <TabsTrigger value="academic">Academic</TabsTrigger>
-            <TabsTrigger value="location">Location</TabsTrigger>
+            <TabsTrigger value="Tất cả">Tất cả lựa chọn</TabsTrigger>
+            <TabsTrigger value="academic">Học thuật</TabsTrigger>
+            <TabsTrigger value="location">Vị trí</TabsTrigger>
           </TabsList>
 
-          <TabsContent value="all" className="space-y-4">
+          <TabsContent value="Tất cả" className="space-y-4">
             <Select value={selectedScholarship} onValueChange={setSelectedScholarship}>
               <SelectTrigger>
                 <SelectValue placeholder="Filter by scholarship" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="all">All Scholarships</SelectItem>
+                <SelectItem value="Tất cả">Tất cả học bổng</SelectItem>
                 {allScholarships.map((scholarship) => (
                   <SelectItem key={scholarship} value={scholarship}>
                     {scholarship}
@@ -133,7 +136,7 @@ export default function MenteesPage() {
                 <SelectValue placeholder="Filter by mentor" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="all">All Mentors</SelectItem>
+                <SelectItem value="Tất cả">Tất cả mentor</SelectItem>
                 {allMentors.map((mentor) => (
                   <SelectItem key={mentor} value={mentor}>
                     {mentor}
@@ -143,7 +146,7 @@ export default function MenteesPage() {
             </Select>
 
             <Button variant="outline" onClick={resetFilters} className="w-full">
-              Reset All Filters
+              Xóa lựa chọn
             </Button>
           </TabsContent>
 
@@ -153,7 +156,7 @@ export default function MenteesPage() {
                 <SelectValue placeholder="Filter by university" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="all">All Universities</SelectItem>
+                <SelectItem value="Tất cả">Tất cả các trường</SelectItem>
                 {allUniversities.map((university) => (
                   <SelectItem key={university} value={university}>
                     {university}
@@ -167,7 +170,7 @@ export default function MenteesPage() {
                 <SelectValue placeholder="Filter by major" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="all">All Majors</SelectItem>
+                <SelectItem value="Tất cả">Tất cả ngành học</SelectItem>
                 {allMajors.map((major) => (
                   <SelectItem key={major} value={major}>
                     {major}
@@ -183,7 +186,7 @@ export default function MenteesPage() {
                 <SelectValue placeholder="Filter by country" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="all">All Countries</SelectItem>
+                <SelectItem value="Tất cả">Tất cả quốc gia</SelectItem>
                 {allCountries.map((country) => (
                   <SelectItem key={country} value={country}>
                     {country}
@@ -203,7 +206,7 @@ export default function MenteesPage() {
               <SelectValue placeholder="Filter by university" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="all">All Universities</SelectItem>
+              <SelectItem value="Tất cả">Tất cả các trường</SelectItem>
               {allUniversities.map((university) => (
                 <SelectItem key={university} value={university}>
                   {university}
@@ -217,7 +220,7 @@ export default function MenteesPage() {
               <SelectValue placeholder="Filter by country" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="all">All Countries</SelectItem>
+              <SelectItem value="Tất cả">Tất cả quốc gia</SelectItem>
               {allCountries.map((country) => (
                 <SelectItem key={country} value={country}>
                   {country}
@@ -231,7 +234,7 @@ export default function MenteesPage() {
               <SelectValue placeholder="Filter by major" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="all">All Majors</SelectItem>
+              <SelectItem value="Tất cả">Tất cả ngành học</SelectItem>
               {allMajors.map((major) => (
                 <SelectItem key={major} value={major}>
                   {major}
@@ -245,7 +248,7 @@ export default function MenteesPage() {
               <SelectValue placeholder="Filter by scholarship" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="all">All Scholarships</SelectItem>
+              <SelectItem value="Tất cả">Tất cả học bổng</SelectItem>
               {allScholarships.map((scholarship) => (
                 <SelectItem key={scholarship} value={scholarship}>
                   {scholarship}
@@ -259,7 +262,7 @@ export default function MenteesPage() {
               <SelectValue placeholder="Filter by mentor" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="all">All Mentors</SelectItem>
+              <SelectItem value="Tất cả">Tất cả mentor</SelectItem>
               {allMentors.map((mentor) => (
                 <SelectItem key={mentor} value={mentor}>
                   {mentor}
@@ -269,7 +272,7 @@ export default function MenteesPage() {
           </Select>
 
           <Button variant="outline" onClick={resetFilters} className="md:col-span-2 lg:col-span-5">
-            Reset All Filters
+            Xóa chọn lọc
           </Button>
         </div>
       )}
@@ -297,9 +300,16 @@ export default function MenteesPage() {
       {/* No results message */}
       {filteredMentees.length === 0 && (
         <div className="text-center py-12">
-          <p className="text-xl text-muted-foreground">No mentees match your filters</p>
+          <p className="text-xl text-muted-foreground">
+            Không có kết quả phù hợp với lựa chọn: <br/>
+            Quốc gia: {selectedCountry}, <br/>
+            Trường: {selectedUniversity}, <br/>
+            Ngành học: {selectedMajor},<br/>
+            Học bổng: {selectedScholarship}, <br/>
+            Mentor: {selectedMentor}  
+          </p>
           <Button onClick={resetFilters} variant="secondary" className="mt-4">
-            Reset Filters
+            Xóa chọn lọc
           </Button>
         </div>
       )}

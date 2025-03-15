@@ -10,7 +10,7 @@ const Testimonial = () => {
           <div className="container mx-auto max-w-5xl">
             <div className="flex flex-col sm:flex-row justify-between items-center mb-12 gap-4">
               <div>
-                <h2 className="text-3xl font-bold">Review </h2>
+                <h2 className="text-3xl font-bold text-center">Review </h2>
                 <p className="mt-2 text-lg text-muted-foreground">Feedback từ mentee của SEM</p>
               </div>
               <Link href="/mentee">
