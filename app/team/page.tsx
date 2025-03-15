@@ -221,7 +221,7 @@ function MemberCard({ member }: { member: TeamMember }) {
       </CardContent>
 
       <CardFooter>
-        <Button className="w-full">Contact Mentor</Button>
+        {/* <Button className="w-full">Contact Mentor</Button> */}
       </CardFooter>
     </Card>
   )
