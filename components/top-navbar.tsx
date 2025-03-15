@@ -51,10 +51,10 @@ const data = {
           title: "Chương trình mentor A-Z",
           url: "/courses/multi",
         },
-        {
-          title: "Câu hỏi thường gặp",
-          url: "/courses/questions",
-        },
+        // {
+        //   title: "Câu hỏi thường gặp",
+        //   url: "/courses/questions",
+        // },
       ],
     },
     {
