@@ -172,7 +172,7 @@ export default function AboutPage() {
             },
             {
               icon: Globe,
-              stat: "16+",
+              stat: "17+",
               label: "Countries Represented",
             },
           ].map((item, index) => (

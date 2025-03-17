@@ -81,9 +81,13 @@ export const teamMembers: TeamMember[]= [
       id: "thephuc", 
       name: "Đỗ Hoàng Thế Phúc",
       role: role,
-      description: "Double major, Microdescriptionlogy và International relation, Jeonbuk National University, Hàn Quốc",
+      description: "Double major, Plant Medicine và International Development Cooperation, Jeonbuk National University, Hàn Quốc",
       image: "/assets/img/team/phuc.jpg",
-      received_scholarship: "Nhận học bổng GKS-U 2020, học bổng Eramus Mundus 2025",
+      received_scholarship: "Nhận Học bổng Erasmus Mundus Joint Masters 2025, Học bổng Latvian \
+      State Scholarships for Studies and Summer Schools 2024 at Rezekne Academy of Technologies,\
+      Riga, Latvia, Học bổng Erasmus+ International Credit Mobility between JBNU, Korea and \
+      Universitat Hohenheim, Stuttgart, Germany, 2024, Học bổng Global Korea Scholarship\
+      Undergraduate 2020",
       mentor_history: "Hỗ trợ thành công mentee apply các ngành khác nhau của GKS và học bổng trường tại Hàn Quốc",
       majors: ["Khoa học kỹ thuật", "Khoa học xã hội"],
       hashtag: "Hỗ trợ apply tất cả các học bổng trên toàn thế giới.",
@@ -142,7 +146,7 @@ export const teamMembers: TeamMember[]= [
       name: "Đặng Thị Diệu Hiền",
       role: role,
       description: "Bachelor, Media & Communication, Hanyang University, Hàn Quốc",
-      image: "/assets/img/team/hien.jpg",
+      image: "/assets/img/team/hien.png",
       received_scholarship: "Nhận học bổng GKS-U 2021",
       mentor_history: "Hỗ trợ thành công mentee apply các ngành social science tại Hàn Quốc",
       hashtag: "Hỗ trợ apply học bổng ngành Media & Communication tại Hàn Quốc",

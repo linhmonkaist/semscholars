@@ -2330,5 +2330,47 @@ export const mentees: Mentee[] = [
       "Ngân Giang"
     ],
     degree: "Bachelor"
+  },
+  {
+    id: "ngtranbaokhanh342007@gmail.com",
+    name: "Nguyễn Trần Bảo Khanh",
+    image: "",
+    scholarships: [
+      "VinUni Scholarship",
+    ],
+    universities: [
+      "VinUni",
+    ],
+    countries: [
+      "Vietnam"
+    ],
+    majors: [
+      "Media & Communication"
+    ],
+    mentors: [
+      "Quỳnh Nhi"
+    ],
+    degree: "Bachelor"
+  },
+  {
+    id: "vothuyngan5678@gmail.com",
+    name: "Võ Thùy Ngân",
+    image: "",
+    scholarships: [
+      "VinUni Dean's Distinction Scholarship",
+    ],
+    universities: [
+      "VinUni",
+    ],
+    countries: [
+      "Vietnam"
+    ],
+    majors: [
+      "Multimedia Communication"
+    ],
+    mentors: [
+      "Hoàng Liên"
+    ],
+    degree: "Bachelor"
   }
 ];
