@@ -30,7 +30,7 @@ const Intro = () => {
               </div>
               <div className="relative hidden md:block">
               <Image
-                  src="/assets/img/cover.png"
+                  src="./assets/img/cover.png"
                   alt="Students learning"
                   className="rounded-lg shadow-lg"
                   width={500} // Set the width

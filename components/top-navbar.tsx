@@ -100,7 +100,7 @@ export function TopNavbar() {
             <SheetContent side="left" className="w-[300px] sm:w-[350px]">
               <SheetTitle className="text-left"></SheetTitle>
               <div className="flex items-center gap-2 px-2 py-4">
-                <Image src="/assets/img/icon.png" alt="Logo" width={24} height={24} className="h-6 w-6" />
+                <Image src="./assets/img/icon.png" alt="Logo" width={24} height={24} className="h-6 w-6" />
                 <span className="text-xl font-bold">SEM Scholars</span>
               </div>
               <div className="my-4 px-2">
@@ -137,7 +137,7 @@ export function TopNavbar() {
 
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <Image src="/assets/img/icon.png" alt="Logo" width={24} height={24} className="h-6 w-6" />
+            <Image src="./assets/img/icon.png" alt="Logo" width={24} height={24} className="h-6 w-6" />
             <span className="text-xl font-bold">SEM Scholars</span>
           </Link>
         </div>
