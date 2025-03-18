@@ -4,6 +4,7 @@ const isGithubPages = process.env.GITHUB_PAGES === 'true';
 
 const nextConfig: NextConfig = {
   basePath: isGithubPages ? '/semscholars' : '',
+  assetPrefix: isGithubPages ? '/semscholars/' : '',
   // output: 'export',
 };
 
