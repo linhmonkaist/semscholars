@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "SEM Scholars",
-  description: "SEM Scholars founed by Linh Mon",
+  description: "SEM Scholars, đội ngũ tiên phong trong hỗ trợ các bạn trẻ Việt Nam chinh phục các trường đại học danh giá trên thế giới.",
 };
 
 export default function RootLayout({
