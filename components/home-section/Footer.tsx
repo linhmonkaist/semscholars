@@ -14,7 +14,7 @@ const Footer = () => {
                 <span className="text-xl font-bold">SEM Scholars</span>
               </div>
               <p className="text-muted-foreground">
-                Cung cấp dịch vụ từ vấn giáo dục quốc tế từ năm 2020. Hỗ trợ các bạn trẻ trên con đường chinh phục các trường đại học danh giá trên toàn thế giới. 
+                Cung cấp dịch vụ tư vấn giáo dục quốc tế từ năm 2020. Hỗ trợ các bạn trẻ trên con đường chinh phục các trường đại học danh giá trên toàn thế giới. 
               </p>
             </div>
 
