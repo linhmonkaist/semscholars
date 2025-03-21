@@ -1875,13 +1875,13 @@ export const mentees: Mentee[] = [
       "Fast Retailing Scholarship"
     ],
     universities: [
-      "Sophia Uni"
+      "Sophia Uni", "Nagoya University"
     ],
     countries: [
       "Japan"
     ],
     majors: [
-      "Sophia Program for Sustainable Futures"
+      "Sophia Program for Sustainable Futures", "Economics"
     ],
     mentors: [
       "Ngọc Mai"
@@ -2372,5 +2372,68 @@ export const mentees: Mentee[] = [
       "Hoàng Liên"
     ],
     degree: "Bachelor"
-  }
+  },
+  {
+    id: "phamducduyvn01@gmail.com",
+    name: "Phạm Đức Duy",
+    image: "",
+    scholarships: [
+      "KAIST Scholarship",
+    ],
+    universities: [
+      "KAIST",
+    ],
+    countries: [
+      "Korea"
+    ],
+    majors: [
+      "Electrical Engineering"
+    ],
+    mentors: [
+      "Ngọc Mai"
+    ],
+    degree: "Bachelor"
+  },
+  {
+    id: "anhduchsgs2701@gmail.com",
+    name: "Hoàng Anh Đức",
+    image: "",
+    scholarships: [
+      "KAIST Scholarship",
+    ],
+    universities: [
+      "KAIST",
+    ],
+    countries: [
+      "Korea"
+    ],
+    majors: [
+      "Computer Science"
+    ],
+    mentors: [
+      "Ngọc Mai"
+    ],
+    degree: "Bachelor"
+  },
+  {
+    id: "nguyenbalinh.polaris@gmail.com",
+    name: "Nguyễn Bá Linh",
+    image: "",
+    scholarships: [
+      "Asean Undergraduate Scholarship",
+    ],
+    universities: [
+      "Nanyang Technological University",
+    ],
+    countries: [
+      "Singapore"
+    ],
+    majors: [
+      "Electrical and Electronic Engineering"
+    ],
+    mentors: [
+      "Ngọc Mai"
+    ],
+    degree: "Bachelor"
+  },
 ];
