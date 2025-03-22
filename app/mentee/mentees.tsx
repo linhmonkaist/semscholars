@@ -2436,4 +2436,25 @@ export const mentees: Mentee[] = [
     ],
     degree: "Bachelor"
   },
+  {
+    id: "nguyennhatquang.mai.relevant@gmail.com",
+    name: "Nguyễn Nhật Quang",
+    image: "",
+    scholarships: [
+      "KAIST Scholarship",
+    ],
+    universities: [
+      "KAIST",
+    ],
+    countries: [
+      "Korea"
+    ],
+    majors: [
+      "Computer Science"
+    ],
+    mentors: [
+      "Ngọc Mai"
+    ],
+    degree: "Bachelor"
+  },
 ];
