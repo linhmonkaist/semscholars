@@ -202,4 +202,16 @@ export const teamMembers: TeamMember[]= [
       majors: ["Khoa học xã hội", "Ngôn ngữ Hàn"],
       countries: ["Châu Á"]
     },
+    {
+      id: "hoangan",
+      name: "Phạm Hoàng Ân",
+      role: role,
+      description: "Master, Business Administration in Management and Marketing, SKKU, Hàn Quốc",
+      image: "./assets/img/team/hoang_an.png",
+      received_scholarship: "Nhận học bổng GKS-G 2022",
+      mentor_history: "Hỗ trợ thành công mentee apply ngành Social Science tại Hàn Quốc",
+      hashtag: "Hỗ trợ apply học bổng các ngành khoa học xã hội tại Hàn Quốc",
+      majors: ["Khoa học xã hội"],
+      countries: ["Châu Á"]
+    },
   ]
