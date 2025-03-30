@@ -137,7 +137,7 @@ const testimonials = [
     id: 12,
     name: "Thanh Long",
     role: "KAIST Scholarship, AI College, KAIST, Korea. Admission from ETH Zurich and EPFL, Switzerland",
-    avatar: "./assets/img/alumni/phan.jpg?height=50&width=50",
+    avatar: "./assets/img/alumni/.jpg?height=50&width=50",
     rating: 5,
     text: "Ban đầu mình tìm hiểu SEM Scholars và cảm thấy có thể tin tưởng gửi gắm tương lai của bản thân ở đây. Mình được biết các bạn trong đội ngũ SEM\
     đều là những người có trình độ cao, dày dặn kinh nghiệm và chưa kể mọi người cũng rất nhiệt tình nữa nên mình hoàn toàn tin tưởng SEM khi apply. Nhiều \
@@ -152,7 +152,7 @@ const testimonials = [
     id: 13,
     name: "Nguyễn Hoàng Minh",
     role: "Yonsei UIC Scholarship, Economics, Yonsei, Korea.",
-    avatar: "./assets/img/alumni/phan.jpg?height=50&width=50",
+    avatar: "./assets/img/alumni/Yonsei.jpg?height=50&width=50",
     rating: 5,
     text: "Mình đã tìm hiểu rất kỹ về ngành học, dù biết nhiều bạn cũng đã nghiên cứu về trường, nhưng mình cảm giác ít bạn đi sâu vào ngành học như vậy. \
     Mình đã tìm hiểu rất kỹ và còn có một buổi mock interview với mentor Ngọc Mai ở SEM. Nhờ buổi đó, mình đã học hỏi rất nhiều về kinh tế, về ngành học\
@@ -164,7 +164,7 @@ const testimonials = [
     id: 14,
     name: "Nguyễn Cảnh Hoàng",
     role: "PhD Scholarship, Stony Brook University, USA",
-    avatar: "./assets/img/alumni/phan.jpg?height=50&width=50",
+    avatar: "./assets/img/alumni/.jpg?height=50&width=50",
     rating: 5,
     text: "Mình biết đến SEM qua bạn Linh Mon. Hơn hết, một điều trùng hợp thú vị là các bạn mentors khác cũng là sinh viên tại KAIST, trở thành mối nên \
     duyên của mình và SEM từ đó. Nói về SEM thì mình nhận thấy các bạn, đặc biệt là Linh đều vô cùng tâm huyết, hỗ trợ nhiệt tình, thân thiện và vô cùng \
@@ -176,7 +176,7 @@ const testimonials = [
     id: 15,
     name: "Nguyễn Khánh Ngân",
     role: "Full ride scholarship from Fulbright University, Vietnam",
-    avatar: "./assets/img/alumni/phan.jpg?height=50&width=50",
+    avatar: "./assets/img/alumni/fulbright.jpg?height=50&width=50",
     rating: 5,
     text: "Mình ấn tượng đội ngũ mentors của SEM. Ngoài chị Linh, thì mentor Hoàng Liên là người hỗ trợ mình trong việc sửa bài luận. Chị Hoàng Liên đã \
     truyền cho mình rất nhiều cảm hứng và niềm tin. Chị không thẳng thắn phê bình mình là ý này hay, ý này không hay. Thay vào đó, chị giúp mình từng bước \
@@ -187,7 +187,7 @@ const testimonials = [
     id: 16,
     name: "Phạm Ngọc Trâm Anh",
     role: "GKS-G, KyungHee University, Korea",
-    avatar: "./assets/img/alumni/phan.jpg?height=50&width=50",
+    avatar: "./assets/img/alumni/KyungHee.jpg?height=50&width=50",
     rating: 5,
     text: "Sau những lần tự apply không thành công, mình nhận ra rằng bản thân còn nhiều thiếu sót và đang lạc hướng. Mình cảm thấy cần có một người có kinh\
     nghiệm để chỉ ra những lỗi sai của mình, và SEM với đội ngũ mentor và mentee đã thành công nhận được GKS chính là minh chứng tin cậy. Cuối cùng, nửa cuối\
@@ -201,7 +201,7 @@ const testimonials = [
     id: 17,
     name: "Đào Thị Thanh Yến",
     role: "GKS-G, Yonsei University, Korea",
-    avatar: "./assets/img/alumni/phan.jpg?height=50&width=50",
+    avatar: "./assets/img/alumni/Yonsei.jpg?height=50&width=50",
     rating: 5,
     text: "Mình biết đến SEM qua mạng xã hội và sự giới thiệu của một người chị đã từng theo học tại Yonsei. Trong quãng thời gian đồng hành cùng các mentor,\
      đặc biệt là sự giúp đỡ của mentor Linh Mon và Ngân Giang, mình có rất nhiều kỷ niệm đáng nhớ. Mình không chỉ trau dồi được khả năng viết luận mà còn cải\
@@ -213,7 +213,7 @@ const testimonials = [
     id: 18,
     name: "Nguyễn Thanh Mai",
     role: "GKS-G, Kangwon National University, Korea",
-    avatar: "./assets/img/alumni/phan.jpg?height=50&width=50",
+    avatar: "./assets/img/alumni/kangwon.jpg?height=50&width=50",
     rating: 5,
     text: "Mình rất biết ơn SEM vì sự hỗ trợ trong hành trình apply GKS-G. Các mentor của SEM, đặc biệt là mentor Linh Mon và Ngân Giang, đã giúp mình rất \
     nhiều trong việc viết luận và chuẩn bị phỏng vấn. Bộ tài liệu của SEM giúp mình hiểu rõ cấu trúc bài luận và những điều cần tránh khi viết, từ đó giúp \
@@ -225,7 +225,7 @@ const testimonials = [
     id: 19,
     name: "Quách Diệu Linh",
     role: "GKS-G, Kyungpook University, Korea",
-    avatar: "./assets/img/alumni/phan.jpg?height=50&width=50",
+    avatar: "./assets/img/alumni/none.jpg?height=50&width=50",
     rating: 5,
     text: "Không chỉ là ấn tượng mà mình còn muốn cảm ơn mentor của mình là Hoàng Liên vì sự nhiệt tình vô cùng tận của em ấy. Có những hôm mình và Liên vừa \
     ngủ dậy đã meet với nhau để sửa bài, mặt mày 2 đứa bơ phờ mà vẫn gắng dí deadline cùng nhau chạy. Mình biết Liên rất bận, em ấy vừa phải học, vừa phải \
