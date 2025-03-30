@@ -103,6 +103,135 @@ const testimonials = [
     rating: 5,
     text: "Em xin cảm ơn chị Ngọc và team SEM rất nhiều ạ. Chị đã cho em một cái nhìn khác hơn và cách triển khai có hệ thống hơn bài luận của mình.",
   },
+  {
+    id: 10,
+    name: "Hồ Anh Tùng",
+    role: "PhD Scholarship, Stony Brook University, USA",
+    avatar: "./assets/img/alumni/2025/tung.jpg?height=50&width=50",
+    rating: 5,
+    text: "Do mình phải gấp rút ôn thi các chứng chỉ, chuẩn bị các tài liệu liên quan như làm hồ sơ, viết luận, và thư giới thiệu,.. nên mình đã\
+     gặp rất nhiều khó khăn vì có quá nhiều thông tin làm mình hoang mang chưa biết bắt đầu từ đâu: Viết về điều gì của mình, viết như thế nào,... Ấy vậy, \
+     mình gặp được SEM với sự hỗ trợ các mentor như anh Kiên, chị Linh Mon. Mọi người đã giúp mình rất nhiều trong việc sửa bài luận, ân cần chỉ cho mình \
+     cần viết gì và viết như thế nào để ấn tượng, hoàn thiện hồ sơ ra sao trong thời gian gấp rút ấy. Từ đó mình thấy việc làm hồ sơ trở nên dễ dàng hơn hẳn,\
+     cũng như giảm bớt áp lực về thời gian cùng với vô vàn thông tin cần phải nắm, do đó mình đã đạt được học bổng thành công. Mình cảm thấy may mắn tìm được\
+      SEM và cùng mọi người xây dựng hồ sơ thật chỉn chu để nhận được học bổng danh giá bậc PhD của Stony Brook.",
+  },
+  {
+    id: 11,
+    name: "Nguyễn Hòa Phan",
+    role: "KAIST Scholarship, Computer Science, KAIST, Korea",
+    avatar: "./assets/img/alumni/phan.jpg?height=50&width=50",
+    rating: 5,
+    text: "Hành trình apply học bổng của mình khá gian nan. May thay thì mình đã biết tới SEM. Hồ sơ của mình có nhiều điểm yếu nhưng các mentor ở SEM đã\
+    chỉ cho mình cách cải thiện, cũng như cho mình biết những điều mà trường mong đợi ở mình. Giây phút nhận được thư báo đỗ, mình vỡ oà vì cuối cùng đạt \
+    được một điều mà mình đã cố gắng từ lâu. Có lẽ uy tín tạo nên danh tiếng. Mình biết đến SEM vì thấy nhiều bạn mentee của SEM đỗ KAIST và GKS-U. Sau khi \
+    tìm hiểu thì mình thấy trong SEM có rất nhiều bạn mentor học tại KAIST nên mình quyết định tham gia. Mình tin rằng những người đó sẽ cho mình những thông\
+    tin đúng đắn và hữu ích nhất về KAIST cũng như cuộc sống tại Hàn Quốc. Mentor Ngọc Mai là người sửa bài luận cho mình. Có vài thời điểm mình vào file\
+    google docs vào lúc 1h sáng hay 2h sáng Việt Nam (3-4h sáng ở Hàn) thì thấy Ngọc Mai đang sửa bài. Mình thật sự bất ngờ vì các mentor của SEM làm việc \
+    không ngại giờ giấc, không biết mệt mỏi. Để viết được một bài luận hoàn thiện, thể hiện được tính cách và cá tính của mình là một điều không hề dễ dàng.\
+    Mentor Ngọc Mai đã giúp mình rất nhiều trong việc chỉnh sửa câu cũng như ý tưởng của bài luận. Để hoàn thiện một bài luận hoàn chỉnh thì mình đã phải\
+    sửa đi sửa lại tận 4-5 lần. Ngoài ra, cách khai thác bài luận cũng quan trọng. Điểm yếu của mình là tiếng anh không tốt và GPA không được cao. Nhưng các\
+    mentor đã giúp mình xây dựng hồ sơ thể hiện được những điểm mạnh của mình về học thuật, thể thao, hoạt động ngoại khóa",
+  },
+  {
+    id: 12,
+    name: "Thanh Long",
+    role: "KAIST Scholarship, AI College, KAIST, Korea. Admission from ETH Zurich and EPFL, Switzerland",
+    avatar: "./assets/img/alumni/phan.jpg?height=50&width=50",
+    rating: 5,
+    text: "Ban đầu mình tìm hiểu SEM Scholars và cảm thấy có thể tin tưởng gửi gắm tương lai của bản thân ở đây. Mình được biết các bạn trong đội ngũ SEM\
+    đều là những người có trình độ cao, dày dặn kinh nghiệm và chưa kể mọi người cũng rất nhiệt tình nữa nên mình hoàn toàn tin tưởng SEM khi apply. Nhiều \
+    lần mình đã không chắc chắn về nhiều thứ. Những lúc ấy mình thưởng tham khảo từ chị Linh Mon hay những mentor mà mình quen, họ đều đưa ra những lời \
+    khuyên hữu ích từ nhiều góc nhìn khác nhau nên đã giúp ích cho mình rất nhiều trong quãng thời gian ấy. Khoảnh khắc mình nhận được học bổng KAIST, mình\
+    đã rất vui và mình biết ngành Computer Science không hề dễ. Ở KAIST, mình mong muốn được đi làm research intern ở một số công ty lớn ở Hàn và đặc biệt\
+    là có được publication ở top reference vì nó rất khó và mình sẽ cố gắng chinh phục. Mình mong rằng các bạn sẽ không tự so sánh bản thân để bị peer\
+    pressure rồi sinh stress. Khi đã quyết định apply thì cứ gạt bỏ hết áp lực và làm hết sức có thể. Hãy chuẩn bị sớm để có đủ thời gian trau chuốt và \
+    cùng mentor chỉnh sửa bộ hồ sơ của mình nhé!",
+  },
+  {
+    id: 13,
+    name: "Nguyễn Hoàng Minh",
+    role: "Yonsei UIC Scholarship, Economics, Yonsei, Korea.",
+    avatar: "./assets/img/alumni/phan.jpg?height=50&width=50",
+    rating: 5,
+    text: "Mình đã tìm hiểu rất kỹ về ngành học, dù biết nhiều bạn cũng đã nghiên cứu về trường, nhưng mình cảm giác ít bạn đi sâu vào ngành học như vậy. \
+    Mình đã tìm hiểu rất kỹ và còn có một buổi mock interview với mentor Ngọc Mai ở SEM. Nhờ buổi đó, mình đã học hỏi rất nhiều về kinh tế, về ngành học\
+    tương lai để có thể tự tin phỏng vấn và nói rõ là mình muốn học về những tác động của Economics lên nền giáo dục và sau này mình muốn làm research \
+    cho những điều này, cũng như mong muốn làm trong những tổ chức giáo dục về vấn để này để phát triển nền giáo dục Việt Nam. Khoảnh khắc nhận được học \
+    bổng 100% từ UIC YONSEI mình cảm thấy rất tuyệt vời. Mình cảm ơn SEM Scholars và mentor Ngọc Mai rất nhiều vì đã hỗ trợ mình có được học bổng này.",
+  },
+  {
+    id: 14,
+    name: "Nguyễn Cảnh Hoàng",
+    role: "PhD Scholarship, Stony Brook University, USA",
+    avatar: "./assets/img/alumni/phan.jpg?height=50&width=50",
+    rating: 5,
+    text: "Mình biết đến SEM qua bạn Linh Mon. Hơn hết, một điều trùng hợp thú vị là các bạn mentors khác cũng là sinh viên tại KAIST, trở thành mối nên \
+    duyên của mình và SEM từ đó. Nói về SEM thì mình nhận thấy các bạn, đặc biệt là Linh đều vô cùng tâm huyết, hỗ trợ nhiệt tình, thân thiện và vô cùng \
+    chuyên nghiệp. Sau khi biết đến SEM cũng là khoảnh khắc mình tiến hành chuẩn bị cho việc du học Mỹ ở bậc tiến sĩ, khi đó, bạn Linh đã giúp đỡ mình rất \
+    nhiều trong bài luận và định hướng du học. Nhờ sự hỗ trợ từ SEM mà mình đã tự tin hơn khi thể hiện bản thân ở trong bài luận cá nhân. Mình rất cảm ơn SEM và \
+    bạn Linh đã giúp mình trong quá trình chuẩn bị hồ sơ và bài luận.",
+  },
+  {
+    id: 15,
+    name: "Nguyễn Khánh Ngân",
+    role: "Full ride scholarship from Fulbright University, Vietnam",
+    avatar: "./assets/img/alumni/phan.jpg?height=50&width=50",
+    rating: 5,
+    text: "Mình ấn tượng đội ngũ mentors của SEM. Ngoài chị Linh, thì mentor Hoàng Liên là người hỗ trợ mình trong việc sửa bài luận. Chị Hoàng Liên đã \
+    truyền cho mình rất nhiều cảm hứng và niềm tin. Chị không thẳng thắn phê bình mình là ý này hay, ý này không hay. Thay vào đó, chị giúp mình từng bước \
+    selfreflect bản thân để tự mình khám phá và đặt câu hỏi cho chính bản thân mình. Và bởi vì hiểu mình, hiểu những câu chuyện của mình và những điều mình \
+    thực sự muốn chia sẻ, đã giúp mình có thể viết luận bằng cả tình yêu và hy vọng của mình. ",
+  },
+  {
+    id: 16,
+    name: "Phạm Ngọc Trâm Anh",
+    role: "GKS-G, KyungHee University, Korea",
+    avatar: "./assets/img/alumni/phan.jpg?height=50&width=50",
+    rating: 5,
+    text: "Sau những lần tự apply không thành công, mình nhận ra rằng bản thân còn nhiều thiếu sót và đang lạc hướng. Mình cảm thấy cần có một người có kinh\
+    nghiệm để chỉ ra những lỗi sai của mình, và SEM với đội ngũ mentor và mentee đã thành công nhận được GKS chính là minh chứng tin cậy. Cuối cùng, nửa cuối\
+     năm 2023, mình đã quyết định trở thành SEM mentee cho hành trình tiếp theo. Mentor Linh Mon và Thế Phúc đã giúp mình gợi ý dàn ý và cách xây dựng idea \
+     sao cho logic và thuyết phục. Mình đã tìm kiếm ý tưởng từ những điều gần gũi trong cuộc sống, như gia đình hay môi trường làm việc. Mình có một điểm yếu \
+     lớn là ngôn từ thể hiện hơi khó hiểu, nhưng hai bạn mentor luôn rất tận tâm, lắng nghe và thấu hiểu hàm ý của mình. Họ đã chỉnh sửa và khai thác điểm mạnh\
+     của mình, đặc biệt luôn nhấn mạnh rằng không nên mơ hồ mà phải tạo ra dấu ấn khác biệt cho người đọc. Thực sự cảm ơn hai mentor Linh và Phúc rất nhiều vì \
+     giúp mình có một bài luận tuyệt vời như vậy.",
+  },
+  {
+    id: 17,
+    name: "Đào Thị Thanh Yến",
+    role: "GKS-G, Yonsei University, Korea",
+    avatar: "./assets/img/alumni/phan.jpg?height=50&width=50",
+    rating: 5,
+    text: "Mình biết đến SEM qua mạng xã hội và sự giới thiệu của một người chị đã từng theo học tại Yonsei. Trong quãng thời gian đồng hành cùng các mentor,\
+     đặc biệt là sự giúp đỡ của mentor Linh Mon và Ngân Giang, mình có rất nhiều kỷ niệm đáng nhớ. Mình không chỉ trau dồi được khả năng viết luận mà còn cải\
+     thiện kỹ năng tham gia phỏng vấn vòng đại sứ quán. Mình nghĩ thời gian đáng nhớ nhất chính là khi chuẩn bị cho buổi phỏng vấn vòng đại sứ quán với Ngân\
+     Giang. Những chia sẻ và kinh nghiệm của mentor Ngân Giang đã giúp mình chuẩn bị rất tốt và hoàn toàn tự tin khi bước vào buổi phỏng vấn với các bác và \
+     cô ở đại sứ quán. Đây là một trải nghiệm mà mình rất trân trọng và biết ơn.",
+  },
+  {
+    id: 18,
+    name: "Nguyễn Thanh Mai",
+    role: "GKS-G, Kangwon National University, Korea",
+    avatar: "./assets/img/alumni/phan.jpg?height=50&width=50",
+    rating: 5,
+    text: "Mình rất biết ơn SEM vì sự hỗ trợ trong hành trình apply GKS-G. Các mentor của SEM, đặc biệt là mentor Linh Mon và Ngân Giang, đã giúp mình rất \
+    nhiều trong việc viết luận và chuẩn bị phỏng vấn. Bộ tài liệu của SEM giúp mình hiểu rõ cấu trúc bài luận và những điều cần tránh khi viết, từ đó giúp \
+    mình tự viết được bản thảo đầu tiên. Các mentor đã tận tình sửa bài, đưa ra những lời khuyên hữu ích, giúp mình trình bày suy nghĩ mạch lạc và chân thực \
+    nhất. Và cũng nhờ phỏng vấn thử, mình đã tự tin hơn khi bước vào phỏng vấn thực tế. SEM thực sự là một người bạn đồng hành đáng tin cậy trong hành trình \
+    này.",
+  },
+  {
+    id: 19,
+    name: "Quách Diệu Linh",
+    role: "GKS-G, Kyungpook University, Korea",
+    avatar: "./assets/img/alumni/phan.jpg?height=50&width=50",
+    rating: 5,
+    text: "Không chỉ là ấn tượng mà mình còn muốn cảm ơn mentor của mình là Hoàng Liên vì sự nhiệt tình vô cùng tận của em ấy. Có những hôm mình và Liên vừa \
+    ngủ dậy đã meet với nhau để sửa bài, mặt mày 2 đứa bơ phờ mà vẫn gắng dí deadline cùng nhau chạy. Mình biết Liên rất bận, em ấy vừa phải học, vừa phải \
+    làm những công việc khác nhưng mỗi khi mình cần hỏi bất cứ điều gì, kể cả trong hay sau quá trình apply, Liên vẫn trả lời mình rất rất nhiệt tình. Cảm \
+    ơn SEM rất nhiều vì đã giúp mình chinh phục GKS!!",
+  },
 ]
 
 export function TestimonialCarousel() {
