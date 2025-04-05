@@ -39,7 +39,7 @@ export const teamMembers: TeamMember[]= [
       id: "minhduc",
       name: "Phạm Minh Đức",
       role: role,
-      description: "PhD, descriptionchemistry, Molecular, Cellular and Developmental descriptionlogy, University of California, Davis, Mỹ. \
+      description: "PhD, Biochemistry, Molecular, Cellular and Developmental Biology, University of California, Davis, Mỹ. \
       Cựu sinh viên ngành Bio and Brain Engineering tại KAIST, Hàn Quốc.",
       image: "./assets/img/team/minh_duc.jpg",
       received_scholarship: "Nhận học bổng Dean's Distinguished Graduate Fellowship, học bổng 100% của KAIST, Huyndai Motor Chung Mong-Koo Global Scholarship, \
