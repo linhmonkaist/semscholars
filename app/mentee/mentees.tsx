@@ -2457,4 +2457,46 @@ export const mentees: Mentee[] = [
     ],
     degree: "Bachelor"
   },
+  {
+    id: "tranghoang180602@gmail.com",
+    name: "Hoàng Huyền Trang",
+    image: "",
+    scholarships: [
+      "Admission",
+    ],
+    universities: [
+      "SNU",
+    ],
+    countries: [
+      "Korea"
+    ],
+    majors: [
+      "MBA"
+    ],
+    mentors: [
+      "Ngọc Mai"
+    ],
+    degree: "Master"
+  },
+  {
+    id: "tonybuoitoi2019@gmail.com",
+    name: "Phạm Tuấn Hùng",
+    image: "",
+    scholarships: [
+      "Admission",
+    ],
+    universities: [
+      "The Hong Kong Polytechnic University",
+    ],
+    countries: [
+      "Hong Kong"
+    ],
+    majors: [
+      "Mechanical Engineering"
+    ],
+    mentors: [
+      "Ngọc Mai"
+    ],
+    degree: "Bachelor"
+  },
 ];
