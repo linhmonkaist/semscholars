@@ -1875,13 +1875,13 @@ export const mentees: Mentee[] = [
       "Fast Retailing Scholarship"
     ],
     universities: [
-      "Sophia Uni", "Nagoya University"
+      "Sophia University", "Nagoya University", "Waseda University", "Kyoto University"
     ],
     countries: [
       "Japan"
     ],
     majors: [
-      "Sophia Program for Sustainable Futures", "Economics"
+      "Sophia Program for Sustainable Futures", "Economics", "International Liberal Studies"
     ],
     mentors: [
       "Ngọc Mai"
@@ -2378,10 +2378,10 @@ export const mentees: Mentee[] = [
     name: "Phạm Đức Duy",
     image: "",
     scholarships: [
-      "KAIST Scholarship",
+      "KAIST Scholarship", "DGIST Scholarship", "UNIST Scholarship"
     ],
     universities: [
-      "KAIST",
+      "KAIST","DGIST","UNIST"
     ],
     countries: [
       "Korea"
