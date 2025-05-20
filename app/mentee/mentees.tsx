@@ -2499,4 +2499,25 @@ export const mentees: Mentee[] = [
     ],
     degree: "Bachelor"
   },
+  {
+    id: "vietanh6880@gmail.com",
+    name: "Ngô Việt Anh",
+    image: "",
+    scholarships: [
+      "Admission",
+    ],
+    universities: [
+      "SKKU",
+    ],
+    countries: [
+      "Korea"
+    ],
+    majors: [
+      "Interaction Science"
+    ],
+    mentors: [
+      "Minh Đức"
+    ],
+    degree: "Master"
+  },
 ];
