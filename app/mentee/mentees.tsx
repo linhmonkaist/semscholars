@@ -2520,4 +2520,130 @@ export const mentees: Mentee[] = [
     ],
     degree: "Master"
   },
+  {
+    id: "lephuonglinhh.1109@gmail.com",
+    name: "Lê Phương Linh",
+    image: "",
+    scholarships: [
+      "SNU Admission, SKKU Scholarship",
+    ],
+    universities: [
+      "SKKU, SNU",
+    ],
+    countries: [
+      "Korea"
+    ],
+    majors: [
+      "Business Administration"
+    ],
+    mentors: [
+      "Ngân Giang, Linh Mon"
+    ],
+    degree: "Bachelor"
+  },
+  {
+    id: "luongtrinhhien167@gmail.com",
+    name: "Trịnh Hiền Lương",
+    image: "",
+    scholarships: [
+      "GKS-G",
+    ],
+    universities: [
+      "Sogang",
+    ],
+    countries: [
+      "Korea"
+    ],
+    majors: [
+      "Media & Communication"
+    ],
+    mentors: [
+      "Hoàng Liên, Linh Mon"
+    ],
+    degree: "Bachelor"
+  },
+  {
+    id: "phanh.dpa@gmail.com",
+    name: "Đặng Phương Anh",
+    image: "",
+    scholarships: [
+      "Admission",
+    ],
+    universities: [
+      "Yonsei, ChungAng",
+    ],
+    countries: [
+      "Korea"
+    ],
+    majors: [
+      "Business"
+    ],
+    mentors: [
+      "Ngân Giang"
+    ],
+    degree: "Master"
+  },
+  {
+    id: "minhnguyet972003@gmail.com",
+    name: "Đồng Minh Nguyệt",
+    image: "",
+    scholarships: [
+      "GKS-G",
+    ],
+    universities: [
+      "KU",
+    ],
+    countries: [
+      "Korea"
+    ],
+    majors: [
+      "Korean Linguistics"
+    ],
+    mentors: [
+      "Cúc Ngọ"
+    ],
+    degree: "Master"
+  },
+  {
+    id: "leeminhdatkorea@gmail.com",
+    name: "Lê Minh Đạt",
+    image: "",
+    scholarships: [
+      "GKS-G",
+    ],
+    universities: [
+      "Chungnam National University",
+    ],
+    countries: [
+      "Korea"
+    ],
+    majors: [
+      "Korean language & literature"
+    ],
+    mentors: [
+      "Hồng Ngọc, Linh Mon"
+    ],
+    degree: "Master"
+  },
+  {
+    id: "duongsuong15101998@gmail.com",
+    name: "Dương Thị Thanh Sương",
+    image: "",
+    scholarships: [
+      "GKS-G",
+    ],
+    universities: [
+      "Kangwon National University",
+    ],
+    countries: [
+      "Korea"
+    ],
+    majors: [
+      "Media & Communication"
+    ],
+    mentors: [
+      "Phương Ngọc, Linh Mon"
+    ],
+    degree: "Master"
+  },
 ];
