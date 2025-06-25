@@ -2525,7 +2525,7 @@ export const mentees: Mentee[] = [
     name: "Lê Phương Linh",
     image: "",
     scholarships: [
-      "SNU Admission, SKKU Scholarship",
+      "SNU Admission", "SKKU Scholarship",
     ],
     universities: [
       "SKKU, SNU",
@@ -2537,7 +2537,7 @@ export const mentees: Mentee[] = [
       "Business Administration"
     ],
     mentors: [
-      "Ngân Giang, Linh Mon"
+      "Ngân Giang", "Linh Mon"
     ],
     degree: "Bachelor"
   },
@@ -2558,7 +2558,7 @@ export const mentees: Mentee[] = [
       "Media & Communication"
     ],
     mentors: [
-      "Hoàng Liên, Linh Mon"
+      "Hoàng Liên", "Linh Mon"
     ],
     degree: "Bachelor"
   },
@@ -2621,7 +2621,7 @@ export const mentees: Mentee[] = [
       "Korean language & literature"
     ],
     mentors: [
-      "Hồng Ngọc, Linh Mon"
+      "Hồng Ngọc", "Linh Mon"
     ],
     degree: "Master"
   },
@@ -2642,8 +2642,134 @@ export const mentees: Mentee[] = [
       "Media & Communication"
     ],
     mentors: [
-      "Phương Ngọc, Linh Mon"
+      "Phương Ngọc", "Linh Mon"
     ],
     degree: "Master"
+  },
+  {
+    id: "ngmhchauu@gmail.com",
+    name: "Nguyễn Minh Châu",
+    image: "",
+    scholarships: [
+      "GKS-G",
+    ],
+    universities: [
+      "PNU",
+    ],
+    countries: [
+      "Korea"
+    ],
+    majors: [
+      "International Trade"
+    ],
+    mentors: [
+      "Ngân Giang"
+    ],
+    degree: "Master"
+  },
+  {
+    id: "thaolinh13052002@gmail.com",
+    name: "Phương Thảo Linh",
+    image: "",
+    scholarships: [
+      "GKS-G",
+    ],
+    universities: [
+      "KU",
+    ],
+    countries: [
+      "Korea"
+    ],
+    majors: [
+      "Finance"
+    ],
+    mentors: [
+      "Hoàng Ân"
+    ],
+    degree: "Master"
+  },
+  {
+    id: "dtt26902@gmail.com",
+    name: "Đặng Thu Trúc",
+    image: "",
+    scholarships: [
+      "GKS-G",
+    ],
+    universities: [
+      "SKKU", "PNU",
+    ],
+    countries: [
+      "Korea"
+    ],
+    majors: [
+      "Finance"
+    ],
+    mentors: [
+      "Linh Mon", "Phương Anh"
+    ],
+    degree: "Master"
+  },
+  {
+    id: "phuong.pth2100@gmail.com",
+    name: "Phạm Thị Hà Phương",
+    image: "",
+    scholarships: [
+      "GKS-G",
+    ],
+    universities: [
+      "Ewha", "JBNU",
+    ],
+    countries: [
+      "Korea"
+    ],
+    majors: [
+      "Media & Communication"
+    ],
+    mentors: [
+      "Phương Ngọc"
+    ],
+    degree: "Master"
+  },
+  {
+    id: "dieumai2810@gmail.com",
+    name: "Bùi Thị Diệu Mai",
+    image: "",
+    scholarships: [
+      "Yonsei UIC Scholarship",
+    ],
+    universities: [
+      "Yonsei UIC"
+    ],
+    countries: [
+      "Korea"
+    ],
+    majors: [
+      "Economics"
+    ],
+    mentors: [
+      "Ngân Giang"
+    ],
+    degree: "Bachelor"
+  },
+  {
+    id: "swanquynhnga03@gmail.com",
+    name: "Nguyễn Thị Quỳnh Nga",
+    image: "",
+    scholarships: [
+      "Hyundai Scholarship",
+    ],
+    universities: [
+      "Exchange program"
+    ],
+    countries: [
+      "Korea"
+    ],
+    majors: [
+      "Korean Studies"
+    ],
+    mentors: [
+      "Hồng Ngọc", "Cúc Ngọ"
+    ],
+    degree: "Bachelor"
   },
 ];
