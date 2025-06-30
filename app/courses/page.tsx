@@ -15,6 +15,9 @@ import { Button } from "@/components/ui/button"
 import { Clock, Calendar, Users, BookOpen, CheckCircle2, DollarSign, CheckIcon } from "lucide-react"
 import Link from "next/link"
 import { applicationFormURL } from "@/app/globalVariables"
+import FocusPackageTable from "@/components/FocusPackageTable"
+import ComboPackageTable from "@/components/ComboPackageTable"
+import SinglePackageTable from "@/components/SinglePackageTable"
 
 
 export default function Page() {
@@ -45,33 +48,35 @@ export default function Page() {
               <div className="rounded-xl bg-background p-8 shadow-sm border">
                 <div className="max-w-3xl mx-auto">
                   {/* <Badge className="mb-4">Web Development</Badge> */}
-                  <h1 className="text-3xl font-bold mb-4">Tổng quan chương trình mentor</h1>
+                  <h1 className="text-3xl font-bold mb-4">Tổng quan các chương trình hỗ trợ của SEM Scholars</h1>
 
                   <p className="text-lg text-muted-foreground mb-6">
-                  SEM Scholars cung cấp hai chương trình mentor: Chương trình mentor lẻ với các buổi mentoring riêng lẻ và Chương trình mentor không giới hạn cho phép học 
-                  viên tham gia không giới hạn buổi mentor trong tối đa một năm, hỗ trợ toàn diện trong suốt quá trình săn học bổng. Cả hai chương tình đều do các mentor giàu
-                   kinh nghiệm, đã thành công trong việc săn học bổng và du học, trực tiếp hướng dẫn.
+                  SEM Scholars cung cấp hệ sinh thái mentoring toàn diện dành cho học sinh, sinh viên 
+                  Việt Nam mong muốn chinh phục học bổng quốc tế. Hiện tại SEM cung cấp 3 nhóm chương trình mentor chính: Gói
+                  lẻ - hỗ trợ chuyên biệt theo nhu cầu, Gói focus - hỗ trợ đồng hành một học bổng/trường cụ thể,
+                  Gói combo - chinh phục nhiều học bổng/ trường cùng lúc. Các gói hỗ trợ đều do các 
+                  mentor giàu kinh nghiệm, đã thành công trong việc săn học bổng và du học, trực tiếp hướng dẫn.
                   </p>
 
-                  <h3 className="text-xl font-bold mb-3">Quyền lợi:</h3>
+                  <h3 className="text-xl font-bold mb-3">Các chương trình được thiết kế dựa trên:</h3>
                   <ul className="space-y-2 mb-6">
                     <li className="flex items-start gap-2">
                       <div className="rounded-full bg-primary/10 p-1 mt-0.5">
                         <CheckIcon className="h-3 w-3 text-primary" />
                       </div>
-                      <span>Hướng dẫn cá nhân một kèm một với các mentor dày dặn kinh nghiệm</span>
+                      <span>Đặc thù từng loại học bổng (GKS, KAIST, Fast Retailing, Mỹ, Châu Âu, v.v.)</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <div className="rounded-full bg-primary/10 p-1 mt-0.5">
                         <CheckIcon className="h-3 w-3 text-primary" />
                       </div>
-                      <span>Hình thức mentor online qua Google Meet</span>
+                      <span>Khu vực apply (Châu Á, Châu Âu, Mỹ, Úc,…)</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <div className="rounded-full bg-primary/10 p-1 mt-0.5">
                         <CheckIcon className="h-3 w-3 text-primary" />
                       </div>
-                      <span>Mentee được lựa chọn mentor mong muốn</span>
+                      <span>Nhu cầu cụ thể của mentee: hỗ trợ lẻ, gói toàn diện theo trường/học bổng, hoặc combo nhiều trường.</span>
                     </li>
                   </ul>
 
@@ -94,11 +99,13 @@ export default function Page() {
                 <div className="max-w-3xl mx-auto">
                   <h2 className="text-2xl font-bold mb-4">Gói mentor lẻ</h2>
                   <p className="mb-6">
-                  Đây là dịch vụ dành cho học viên có nhu cầu nhận sự hỗ trợ một cách cụ thể và linh hoạt. Mỗi buổi mentoring trong gói này sẽ tập trung vào một chủ đề 
-                  riêng biệt mà học viên mong muốn được cải thiện hoặc tìm hiểu thêm, ví dụ như viết bài luận xin học bổng, chuẩn bị hồ sơ du học, hoặc luyện phỏng vấn. 
-                  Mỗi buổi mentoring sẽ kéo dài trong thời gian cố định (thường là 1-2 giờ) và được lên kế hoạch cụ thể dựa trên yêu cầu của học viên. Dịch vụ này thích 
+                  Đây là chương trình mentor dành cho mentee có nhu cầu nhận sự hỗ trợ một cách cụ thể và linh hoạt. Mỗi buổi mentoring trong gói này sẽ tập trung vào một chủ đề 
+                  riêng biệt mà mentee mong muốn được cải thiện hoặc tìm hiểu thêm, ví dụ như viết bài luận xin học bổng, chuẩn bị hồ sơ du học, hoặc luyện phỏng vấn. 
+                  Mỗi buổi mentoring sẽ kéo dài trong thời gian cố định và được lên kế hoạch cụ thể dựa trên yêu cầu của mentee. Các gói mentor này thích 
                   hợp cho những ai cần sự trợ giúp vào những thời điểm cụ thể và không muốn cam kết dài hạn.
                   </p>
+
+                  <SinglePackageTable />
 
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
                     <div className="flex flex-col gap-2 items-center text-center p-4 rounded-lg bg-muted/50">
@@ -129,15 +136,13 @@ export default function Page() {
                       <DollarSign className="h-6 w-6 text-primary" />
                       <div>
                         <p className="font-medium">Chi phí</p>
-                        <p className="text-sm text-muted-foreground">Chỉ từ 150.000 VND</p>
+                        <p className="text-sm text-muted-foreground">Từ 150.000 VND</p>
                       </div>
                     </div>
                   </div>
                   <Link href="/courses/single">
-                  <Button variant="outline" className="w-full">
-                    
+                  <Button size="lg" className="w-full">
                         Chi tiết chương trình mentor lẻ
-                    
                   </Button>
                   </Link>
                 </div>
@@ -145,14 +150,15 @@ export default function Page() {
               {/* Course Syllabus Preview */}
               <div className="rounded-xl bg-background p-8 shadow-sm border">
                 <div className="max-w-3xl mx-auto">
-                  <h2 className="text-2xl font-bold mb-4">Chương trình mentor A-Z</h2>
+                  <h2 className="text-2xl font-bold mb-4">Gói Focus</h2>
                   <p className="mb-6">
-                  Chương trình này dành cho học viên muốn nhận sự hỗ trợ toàn diện và liên tục trong suốt quá trình chuẩn bị hồ sơ du học, từ giai đoạn lập kế hoạch cho 
-                  đến khi hoàn thiện hồ sơ và chuẩn bị phỏng vấn. Chương trình cho phép học viên tham gia các buổi mentoring không giới hạn số lượng trong thời gian tối 
-                  đa là một năm, mang lại sự linh động tối đa để học viên có thể được hỗ trợ khi cần. Các buổi mentoring sẽ bao gồm tất cả các khía cạnh quan trọng trong 
-                  quá trình ứng tuyển học bổng và du học, từ việc lập kế hoạch du học, hướng dẫn viết bài luận, chỉnh sửa hồ sơ, đến luyện phỏng vấn và tư vấn chiến lược 
-                  học bổng. Chương trình này phù hợp với những học viên có kế hoạch dài hạn và muốn nhận sự hỗ trợ xuyên suốt trong suốt quá trình.
+                  Chương trình này dành cho mentee muốn nhận sự hỗ trợ toàn diện và liên tục trong suốt quá trình chuẩn bị hồ sơ du học, từ giai đoạn lập kế hoạch cho 
+                  đến khi hoàn thiện hồ sơ và chuẩn bị phỏng vấn. Mentee sẽ được tham gia các buổi mentoring không giới hạn số lượng trong thời gian tối 
+                  đa là một năm, mang lại sự linh động tối đa để mentee có thể được hỗ trợ khi cần. Các buổi mentoring sẽ bao gồm tất cả các khía cạnh quan trọng trong 
+                  quá trình ứng tuyển học bổng, từ việc lập kế hoạch apply, hướng dẫn viết bài luận, chỉnh sửa hồ sơ đến luyện phỏng vấn. Chương trình này phù hợp với
+                   những mentee đã xác định được học bổng/trường cụ thể và muốn nhận sự hỗ trợ xuyên suốt trong suốt quá trình.
                   </p>
+                  <FocusPackageTable />
 
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
                     <div className="flex flex-col gap-2 items-center text-center p-4 rounded-lg bg-muted/50">
@@ -183,13 +189,71 @@ export default function Page() {
                       <DollarSign className="h-6 w-6 text-primary" />
                       <div>
                         <p className="font-medium">Chi phí</p>
-                        <p className="text-sm text-muted-foreground">Chỉ từ 5,000,000 VND</p>
+                        <p className="text-sm text-muted-foreground">Tùy theo học bổng và khu vực</p>
                       </div>
                     </div>
                   </div>
                   <Link href="/courses/multi">
-                  <Button variant="outline" className="w-full">
-                    Chi tiết chương trình mentor A-Z
+                  <Button size="lg" className="w-full">
+                    Chi tiết chương trình Focus
+                  </Button>
+                  </Link>
+                </div>
+              </div>
+
+              <div className="rounded-xl bg-background p-8 shadow-sm border">
+                <div className="max-w-3xl mx-auto">
+                  <h2 className="text-2xl font-bold mb-4">Gói Combo</h2>
+                  <p className="mb-6">
+                  Gói Combo dành cho những mentee có mục tiêu ứng tuyển cùng lúc nhiều trường hoặc nhiều chương
+                  trình học bổng và cần xây dựng chiến lược apply tổng thể, thống nhất và hiệu quả. Trong suốt 
+                  quá trình, mentee sẽ được mentor đồng hành liên tục và hỗ trợ không giới hạn số buổi, tối đa 
+                  trong một năm.
+                  Chương trình tập trung vào tư duy chiến lược đa mục tiêu: từ xây dựng danh sách trường phù 
+                  hợp, so sánh lợi thế giữa các lựa chọn, đến cá nhân hóa bài luận và phỏng vấn theo từng 
+                  trường. Mentee cũng sẽ được hỗ trợ sâu về xây dựng portfolio, hoạt động ngoại khóa, chuẩn bị 
+                  tài chính (đặc biệt với học bổng Mỹ).
+                  Gói Combo phù hợp với mentee đang nhắm đến tối đa hóa cơ hội đậu học bổng qua nhiều lựa chọn,
+                  đồng thời muốn có một mentor dẫn dắt xuyên suốt và linh hoạt trong từng lựa chọn.
+                  </p>
+                  <ComboPackageTable />
+
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
+                    <div className="flex flex-col gap-2 items-center text-center p-4 rounded-lg bg-muted/50">
+                      <Clock className="h-6 w-6 text-primary" />
+                      <div>
+                        <p className="font-medium">Thời lượng</p>
+                        <p className="text-sm text-muted-foreground">Không giới hạn</p>
+                      </div>
+                    </div>
+
+                    <div className="flex flex-col gap-2 items-center text-center p-4 rounded-lg bg-muted/50">
+                      <Calendar className="h-6 w-6 text-primary" />
+                      <div>
+                        <p className="font-medium">Hình thức</p>
+                        <p className="text-sm text-muted-foreground">Online</p>
+                      </div>
+                    </div>
+
+                    <div className="flex flex-col gap-2 items-center text-center p-4 rounded-lg bg-muted/50">
+                      <BookOpen className="h-6 w-6 text-primary" />
+                      <div>
+                        <p className="font-medium">Độ dài</p>
+                        <p className="text-sm text-muted-foreground">Tối đa 1 năm</p>
+                      </div>
+                    </div>
+
+                    <div className="flex flex-col gap-2 items-center text-center p-4 rounded-lg bg-muted/50">
+                      <DollarSign className="h-6 w-6 text-primary" />
+                      <div>
+                        <p className="font-medium">Chi phí</p>
+                        <p className="text-sm text-muted-foreground">Tùy theo học bổng và khu vực</p>
+                      </div>
+                    </div>
+                  </div>
+                  <Link href="/courses/multi">
+                  <Button size="lg" className="w-full">
+                    Chi tiết chương trình Combo
                   </Button>
                   </Link>
                 </div>

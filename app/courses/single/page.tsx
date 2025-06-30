@@ -114,7 +114,7 @@ export default function Page() {
                   <br/><br/>
                   <strong>🌟 Nội dung gói tư vấn:</strong><br/>
                   Buổi tư vấn apply là cuộc trò chuyện 1:1 giữa mentor và mentee nhằm giải đáp mọi thắc mắc liên quan đến việc apply học bổng. Mentor sẽ hỗ trợ bạn:<br/>
-                  ✅ Định hướng và tư vấn cách xây dựng hồ sơ mạnh mẽ hơn<br/>
+                  ✅ Định hướng và tư vấn cách xây dựng hồ sơ có tính cạnh tranh hơn<br/>
                   ✅ Đánh giá, nhận xét và góp ý cải thiện CV<br/>
                   ✅ Chia sẻ kinh nghiệm apply thực tế từ người đi trước<br/>
                   ✅ Giải đáp về cuộc sống du học, cách ôn thi các chứng chỉ và các vấn đề khác liên quan<br/><br/>
@@ -180,7 +180,7 @@ export default function Page() {
                   ✔️ Cần góp ý, nhận xét để bài viết trở nên rõ ràng, mạch lạc và thuyết phục hơn<br/>
                   <br/>
                   <strong>🌟 Nội dung :</strong><br/>
-                  ✅ Mentor sẽ đọc, đánh giá và nhận chi tiết bài viết của bạn trước buôi meeting<br/>
+                  ✅ Mentor sẽ đọc, đánh giá và nhận chi tiết bài viết của bạn trước buổi meeting<br/>
                   ✅ Trong buổi meeting, mentor sẽ cùng bạn đi qua các nhận xét, góp ý về cách trình bày, logic, ngữ pháp, văn phong và tính thuyết phục<br/>
                   ✅ Mentor sẽ đưa ra những đề xuất giúp bài viết nổi bật hơn<br/>
                   ✅ Chia sẻ kinh nghiệm apply thực tế từ người đi trước<br/>

@@ -48,8 +48,12 @@ const data = {
           url: "/courses/single",
         },
         {
-          title: "Chương trình mentor A-Z",
-          url: "/courses/multi",
+          title: "Chương trình mentor Focus",
+          url: "/courses/focus",
+        },
+        {
+          title: "Chương trình mentor Combo",
+          url: "/courses/combo",
         },
         // {
         //   title: "Câu hỏi thường gặp",

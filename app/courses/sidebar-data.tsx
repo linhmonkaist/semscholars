@@ -38,30 +38,58 @@ export const data: SidebarItem[] = [
       ],
     },
     {
-      title: "Chương trình mentor A-Z",
-      url: "/courses/multi",
+      title: "Chương trình mentor Focus",
+      url: "/courses/focus",
       icon: Library,
       isActive: true,
       items: [
         {
           title: "Tổng quan",
-          url: "/courses/multi#overview",
+          url: "/courses/focus#overview",
         },
         {
-            title: "Gói Định hướng",
-            url: "/courses/multi#preApply",
+            title: "Gói GKS",
+            url: "/courses/focus#GKS",
         },
         {
-          title: "Gói Essay chuyên sâu",
-          url: "/courses/multi#essay",
+          title: "Gói khối IST",
+          url: "/courses/focus#IST",
         },
         {
-            title: "Gói Basic",
-            url: "/courses/multi#basic",
+            title: "Gói Grad Europe",
+            url: "/courses/focus#Eurograd",
         },
         {
-          title: "Gói Premium",
-          url: "/courses/multi#premium",
+          title: "Gói USA Scholarship",
+          url: "/courses/focus#USA",
+        },
+        {
+          title: "Gói General Scholarship",
+          url: "/courses/focus#general",
+        },
+      ],
+    },
+    {
+      title: "Chương trình mentor Combo",
+      url: "/courses/combo",
+      icon: Library,
+      isActive: true,
+      items: [
+        {
+          title: "Tổng quan",
+          url: "/courses/combo#overview",
+        },
+        {
+            title: "Gói Regional Combo",
+            url: "/courses/combo#regional",
+        },
+        {
+          title: "Gói Fast Retailing Combo",
+          url: "/courses/combo#FR",
+        },
+        {
+            title: "Gói Global Combo",
+            url: "/courses/combo#global",
         },
       ],
     },
