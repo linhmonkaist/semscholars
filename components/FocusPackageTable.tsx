@@ -16,7 +16,7 @@ const focusPackages: FocusPackage[] = [
   },
   {
     name: 'Khối IST',
-    target: 'Học bổng các trường khoa học kỹ thuật: HKUST, KAIST, UNIST, DGIST, GIST, POSTECH',
+    target: 'Học bổng của một trong các trường khoa học kỹ thuật: HKUST, KAIST, UNIST, DGIST, GIST, POSTECH',
     price: '15.000.000 VNĐ',
     payment: 'Thanh toán hai đợt',
   },
