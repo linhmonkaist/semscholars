@@ -177,7 +177,7 @@ export default function Page() {
                   <h2 className="text-2xl font-bold mb-4 mt-8">Gói khối IST - STEM Focus</h2>
                   <p className="mb-6 text-lg">
                   Gói này phù hợp với học sinh, sinh viên có định hướng theo học ngành STEM (Khoa học, Công nghệ, 
-                  Kỹ thuật, Khoa học cơ bản) và đang nhắm tới các học bổng toàn phần của những trường kỹ thuật 
+                  Kỹ thuật, Khoa học cơ bản) và đang nhắm tới các học bổng toàn phần của một trong những trường kỹ thuật 
                   hàng đầu tại châu Á: <br/>
                   🇰🇷 KAIST (Korea Advanced Institute of Science and Technology), POSTECH, UNIST, DGIST, GIST <br/>
                   🇭🇰 HKUST (The Hong Kong University of Science and Technology) <br/>
@@ -185,7 +185,7 @@ export default function Page() {
                   luận logic, tư duy nghiên cứu khoa học rõ ràng và phỏng vấn xuất sắc.
                   <br/><br/>
                   <strong>🔍 Đối tượng phù hợp:</strong><br/>
-                  ✔️ Các bạn đang mong muốn giành học bổng từ các trường đại học nêu trên<br/>
+                  ✔️ Các bạn đang mong muốn giành học bổng từ một trong các trường đại học nêu trên<br/>
                   ✔️ Cần mentor giàu kinh nghiệm, là sinh viên các trường STEM hàng đầu<br/>
                   <br/>
                   <strong>🌟 Chi phí và hình thức thanh toán:</strong><br/>

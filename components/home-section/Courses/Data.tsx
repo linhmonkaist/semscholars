@@ -14,24 +14,24 @@ export const featuredCourses = [
     },
     {
       id: 2,
-      title: "Gói Basic",
-      description: "Được hướng dẫn apply một học bổng hoặc một trường từ những bước đầu cho đến khi có kết quả chính thức.",
+      title: "Gói Focus - GKS",
+      description: "Gói mentor dành riêng cho học bổng chính phủ Hàn Quốc (GKS) hệ đại học và sau đại học",
       image: "./assets/img/basic.png?height=200&width=300",
-      category: "Gói A-Z",
+      category: "Gói Focus",
       level: "",
       students: "",
       lessons: "Maximum: 1 năm",
-      course_url: "courses/multi#basic"
+      course_url: "courses/focus#GKS"
     },
     {
       id: 3,
-      title: "Gói Premium",
-      description: "Được hướng dẫn apply không giới hạn số trường từ những bước đầu cho đến khi có kết quả chính thức.",
+      title: "Gói Combo - Regional Combo 5-Uni",
+      description: "Được hỗ trợ apply tối đa 5 trường trong trong khu vực: Châu Á, Châu Âu, Châu Úc",
       image: "./assets/img/premium.png?height=200&width=300",
-      category: "Gói A-Z",
+      category: "Gói Combo",
       level: "",
       students: "",
       lessons: "Maximum: 1 năm",
-      course_url: "courses/multi#premium"
+      course_url: "courses/combo#regional"
     },
   ]
