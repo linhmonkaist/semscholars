@@ -32,8 +32,13 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="courses/multi" className="text-muted-foreground hover:text-foreground">
-                    Chương trình mentor A-Z
+                  <Link href="courses/focus" className="text-muted-foreground hover:text-foreground">
+                    Chương trình mentor Focus
+                  </Link>
+                </li>
+                <li>
+                  <Link href="courses/combo" className="text-muted-foreground hover:text-foreground">
+                    Chương trình mentor Combo
                   </Link>
                 </li>
               </ul>
