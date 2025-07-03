@@ -2772,4 +2772,46 @@ export const mentees: Mentee[] = [
     ],
     degree: "Bachelor"
   },
+  {
+    id: "saomaicao99@gmail.com",
+    name: "Sao Mai",
+    image: "",
+    scholarships: [
+      "GKS-G",
+    ],
+    universities: [
+      "BUFS"
+    ],
+    countries: [
+      "Korea"
+    ],
+    majors: [
+      "English language and literature"
+    ],
+    mentors: [
+      "Cúc Ngọ"
+    ],
+    degree: "Master"
+  },
+  {
+    id: "hienkhanh1812@gmail.com",
+    name: "Khánh Hiền",
+    image: "",
+    scholarships: [
+      "Ewha Scholarship",
+    ],
+    universities: [
+      "Ewha"
+    ],
+    countries: [
+      "Korea"
+    ],
+    majors: [
+      "Korean language and literature"
+    ],
+    mentors: [
+      "Hồng Ngọc", "Linh Mon"
+    ],
+    degree: "Master"
+  },
 ];
