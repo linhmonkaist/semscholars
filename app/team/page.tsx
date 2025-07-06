@@ -117,7 +117,7 @@ export default function TeamMembersPage() {
               <SelectValue placeholder="Filter by country" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="all">Xem tất cả</SelectItem>
+              <SelectItem value="all">Xem tất cả khu vực</SelectItem>
               {allCountries.map((country) => (
                 <SelectItem key={country} value={country}>
                   {country}
@@ -133,7 +133,7 @@ export default function TeamMembersPage() {
               <SelectValue placeholder="Filter by major" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="all">Xem tất cả</SelectItem>
+              <SelectItem value="all">Xem tất cả khối ngành</SelectItem>
               {allMajors.map((major) => (
                 <SelectItem key={major} value={major}>
                   {major}
