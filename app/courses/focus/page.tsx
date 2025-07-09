@@ -190,7 +190,7 @@ export default function Page() {
                   <br/>
                   <strong>🌟 Chi phí và hình thức thanh toán:</strong><br/>
                   📑 Chi phí: <span className="text-red-600">15,000,000 VND</span> <br/>
-                  💼 Hình thức thanh toán: thanh toán <span className="text-red-600">10,000,000 VND</span> tại thời điểm đăng ký. Thanh toán  <span className="text-red-600">5,000,000 VND</span> còn lại tại thời điểm có admisson.<br/>
+                  💼 Hình thức thanh toán: thanh toán <span className="text-red-600">10,000,000 VND</span> tại thời điểm đăng ký. Thanh toán  <span className="text-red-600">5,000,000 VND</span> còn lại tại thời điểm có thư mời nhập học.<br/>
                   <br/>
                   </p>
 

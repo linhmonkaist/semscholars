@@ -2814,4 +2814,25 @@ export const mentees: Mentee[] = [
     ],
     degree: "Master"
   },
+  {
+    id: "tientrantrung.elearn@gmail.com",
+    name: "Tran",
+    image: "",
+    scholarships: [
+      "Admission",
+    ],
+    universities: [
+      "SNU"
+    ],
+    countries: [
+      "Korea"
+    ],
+    majors: [
+      "Artificial Intelligence"
+    ],
+    mentors: [
+      "Minh Đức"
+    ],
+    degree: "Master"
+  },
 ];
