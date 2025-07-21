@@ -193,7 +193,7 @@ export default function Page() {
                       </div>
                     </div>
                   </div>
-                  <Link href="/courses/multi">
+                  <Link href="/courses/focus">
                   <Button size="lg" className="w-full">
                     Chi tiết chương trình Focus
                   </Button>
@@ -251,7 +251,7 @@ export default function Page() {
                       </div>
                     </div>
                   </div>
-                  <Link href="/courses/multi">
+                  <Link href="/courses/combo">
                   <Button size="lg" className="w-full">
                     Chi tiết chương trình Combo
                   </Button>
