@@ -177,9 +177,9 @@ export default function Page() {
                   <h2 className="text-2xl font-bold mb-4 mt-8">Gói Fast Retailing Combo</h2>
                   <p className="mb-6 text-lg">
                   Gói này dành cho các mentee mong muốn apply học bổng Fast Retailing - Quỹ học bổng của Tập 
-                  đoàn UNIQLO, dành cho sinh viên châu Á có nguyện vọng học tập tại Nhật Bản. Điểm đặc biệt của
+                  đoàn UNIQLO, quỹ học bổng dành cho sinh viên châu Á có nguyện vọng học tập tại Nhật Bản. Điểm đặc biệt của
                   chương trình này là mentee phải nộp hồ sơ xin học bổng trước, trải qua vòng hồ sơ và phỏng vấn.
-                  Chỉ sau khi trúng tuyển học bổng, mentee mới được chọn trường phù hợp để apply. <br/>
+                  Sau khi trúng tuyển học bổng, mentee sẽ đến bước chọn các trường phù hợp để apply aadmission. <br/>
                   Điều này đòi hỏi mentee phải có chiến lược apply linh hoạt, bài luận xuất sắc ngay từ đầu, 
                   và chuẩn bị kỹ cho giai đoạn apply trường sau khi đã đậu học bổng. <br/>
                   <br/><br/>
