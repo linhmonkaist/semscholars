@@ -53,14 +53,10 @@ export const teamMembers: TeamMember[]= [
       id: "mainguyen",
       name: "Nguyễn Ngọc Mai",
       role: role,
-      description: "Double major, Computer Science và Business Technology Management, KAIST, Hàn Quốc.",
+      description: "Theo học ngành Computer Science và chuyên ngành kép Business Technology Management, KAIST, Hàn Quốc.",
       image: "./assets/img/team/mainguyen.png",
-      received_scholarship: "Từng đạt học bổng toàn phần của KAIST; học bổng 100% và hỗ trợ tài chính của các trường: Minerva University (Mỹ), Texas Christian University\
-      (Mỹ), Allegheny College (Mỹ), Depauw University (Mỹ), Hobart & William Smith College (Mỹ), Lewis & Clarke College (Mỹ), Miami University (Mỹ), Ohio Wesleyan\
-       University (Mỹ), Rhodes College (Mỹ), Tokyo International University (Nhật); Đạt học bổng 95% Duke Kunshan University (Trung Quốc), 75% Swinburne University of \
-       Technology (Úc), 50% Deakin University (Úc), 90% SP Jain School of Global and Management (Úc), 80% Ritsumeikan Asia Pacific University (Nhật); Nhận được thư mời \
-       nhập học với học bổng/hỗ trợ tài chính cao từ Fulbright University Vietnam, VinUniversity, The Hong Kong University of Science and Technology (Hồng Kông).",
-      mentor_history: "Hỗ trợ thành công mentee dành học bổng toàn phần của KAIST và các học bổng khác trên thế giới.",
+      received_scholarship: "Từng đạt học bổng toàn phần của KAIST, học bổng 100% và hỗ trợ tài chính của các trường ở Mỹ như Minerva University, học bổng 95% từ Duke Kunshan University (Trung Quốc), học bổng 75% Swinburne University of Technology, 50% Deakin University, 90% SP Jain (Úc), học bổng từ toàn phần đến bán phần từ TIU và APU (Nhật), học bổng và hỗ trợ tài chính cao từ HKUST (Hồng Kông), Fulbright University Vietnam, và VinUniversity.",
+      mentor_history: "Hỗ trợ thành công nhiều mentee dành học bổng từ toàn phần đến bán phần từ các trường đại học top đầu Hàn Quốc như KAIST, SNU, Yonsei UIC, học bổng toàn phần ASEAN tại NTU Singapore, học bổng Fast Retailing và các trường đại học top Nhật Bản như Kyoto, Waseda, và Nagoya, học bổng toàn phần tại Châu Âu theo dạng hiệp định, và các trường đại học ở Hông Kông.",
       majors: ["Khoa học kỹ thuật", "Khoa học xã hội"],
       countries: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc"],
       hashtag: "Hỗ trợ apply tất cả các học bổng trên toàn thế giới.",

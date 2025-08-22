@@ -1875,7 +1875,7 @@ export const mentees: Mentee[] = [
       "Fast Retailing Scholarship"
     ],
     universities: [
-      "Sophia University", "Nagoya University", "Waseda University", "Kyoto University"
+      "Kyoto University", "Waseda University", "Nagoya University", "Sophia University",  "Keio University"
     ],
     countries: [
       "Japan"
@@ -2269,7 +2269,7 @@ export const mentees: Mentee[] = [
     name: "Trần Thị Minh Phương",
     image: "",
     scholarships: [
-      "Yonsei UIC Scholarship"
+      "Yonsei UIC Full Scholarship"
     ],
     universities: [
       "Yonsei UIC"
@@ -2462,7 +2462,7 @@ export const mentees: Mentee[] = [
     name: "Hoàng Huyền Trang",
     image: "",
     scholarships: [
-      "Admission",
+      "20% Tuition Fee Scholarship",
     ],
     universities: [
       "SNU",
@@ -2486,7 +2486,7 @@ export const mentees: Mentee[] = [
       "Admission",
     ],
     universities: [
-      "The Hong Kong Polytechnic University",
+      "The Hong Kong Polytechnic University", "SNU"
     ],
     countries: [
       "Hong Kong"
