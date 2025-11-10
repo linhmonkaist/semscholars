@@ -24,7 +24,7 @@ export const mentees: Mentee[] = [
       "Korea"
     ],
     majors: [
-      "Business administration"
+      "Business Administration"
     ],
     mentors: [
       "Linh Mon"
@@ -87,7 +87,7 @@ export const mentees: Mentee[] = [
       "Korea"
     ],
     majors: [
-      "Business administration"
+      "Business Administration"
     ],
     mentors: [
       "Linh Mon"
@@ -237,7 +237,7 @@ export const mentees: Mentee[] = [
       "Korea"
     ],
     majors: [
-      "Business administration"
+      "Business Administration"
     ],
     mentors: [
       "Linh Mon"
@@ -259,7 +259,7 @@ export const mentees: Mentee[] = [
       "Korea"
     ],
     majors: [
-      "Business administration"
+      "Business Administration"
     ],
     mentors: [
       "Linh Mon"
@@ -405,7 +405,7 @@ export const mentees: Mentee[] = [
       "Korea"
     ],
     majors: [
-      "Business administration"
+      "Business Administration"
     ],
     mentors: [
       "Linh Mon"
@@ -426,7 +426,7 @@ export const mentees: Mentee[] = [
       "Korea"
     ],
     majors: [
-      "Business administration"
+      "Business Administration"
     ],
     mentors: [
       "Linh Mon"
@@ -468,7 +468,7 @@ export const mentees: Mentee[] = [
       "Korea"
     ],
     majors: [
-      "Business administration"
+      "Business Administration"
     ],
     mentors: [
       "Linh Mon"
@@ -804,7 +804,7 @@ export const mentees: Mentee[] = [
       "Korea"
     ],
     majors: [
-      "Business administration"
+      "Business Administration"
     ],
     mentors: [
       "Linh Mon"
@@ -909,7 +909,7 @@ export const mentees: Mentee[] = [
       "Korea"
     ],
     majors: [
-      "Business administration"
+      "Business Administration"
     ],
     mentors: [
       "Ngân Giang"
@@ -930,7 +930,7 @@ export const mentees: Mentee[] = [
       "Korea"
     ],
     majors: [
-      "Business administration"
+      "Business Administration"
     ],
     mentors: [
       "Ngân Giang"
@@ -951,7 +951,7 @@ export const mentees: Mentee[] = [
       "Korea"
     ],
     majors: [
-      "Business administration"
+      "Business Administration"
     ],
     mentors: [
       "Ngân Giang","Linh Mon"
@@ -1040,7 +1040,7 @@ export const mentees: Mentee[] = [
       "Korea"
     ],
     majors: [
-      "Business administration"
+      "Business Administration"
     ],
     mentors: [
       "Ngân Giang","Linh Mon"
@@ -1680,10 +1680,10 @@ export const mentees: Mentee[] = [
       "Admission"
     ],
     universities: [
-      "HongKong Baptist University"
+      "Hong Kong Baptist University"
     ],
     countries: [
-      "HongKong"
+      "Hong Kong"
     ],
     majors: [
       "Media & Communication"
@@ -1905,7 +1905,7 @@ export const mentees: Mentee[] = [
       "Korea"
     ],
     majors: [
-      "Business administration"
+      "Business Administration"
     ],
     mentors: [
       "Linh Mon"
@@ -2042,7 +2042,7 @@ export const mentees: Mentee[] = [
       "Korea"
     ],
     majors: [
-      "International business"
+      "International Business"
     ],
     mentors: [
       "Ngân Giang"
@@ -2528,7 +2528,7 @@ export const mentees: Mentee[] = [
       "SNU Admission", "SKKU Scholarship",
     ],
     universities: [
-      "SKKU, SNU",
+      "SKKU", "SNU"
     ],
     countries: [
       "Korea"
@@ -2807,7 +2807,7 @@ export const mentees: Mentee[] = [
       "Korea"
     ],
     majors: [
-      "Korean language and literature"
+      "Korean language & literature"
     ],
     mentors: [
       "Hồng Ngọc", "Linh Mon"
@@ -2832,6 +2832,27 @@ export const mentees: Mentee[] = [
     ],
     mentors: [
       "Minh Đức"
+    ],
+    degree: "Master"
+  },
+  {
+    id: "linhpupet307@gmail.com",
+    name: "Phuong Linh",
+    image: "",
+    scholarships: [
+      "AMA+ Scholarship",
+    ],
+    universities: [
+      "Korea National University of Arts"
+    ],
+    countries: [
+      "Korea"
+    ],
+    majors: [
+      "Broadcasting"
+    ],
+    mentors: [
+      "Diệu Hiền"
     ],
     degree: "Master"
   },

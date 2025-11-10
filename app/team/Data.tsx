@@ -79,11 +79,12 @@ export const teamMembers: TeamMember[]= [
       role: role,
       description: "Double major, Plant Medicine và International Development Cooperation, Jeonbuk National University, Hàn Quốc",
       image: "./assets/img/team/phuc.jpg",
-      received_scholarship: "Nhận Học bổng Erasmus Mundus Joint Masters 2025, Học bổng Latvian \
-      State Scholarships for Studies and Summer Schools 2024 at Rezekne Academy of Technologies,\
-      Riga, Latvia, Học bổng Erasmus+ International Credit Mobility between JBNU, Korea and \
-      Universitat Hohenheim, Stuttgart, Germany, 2024, Học bổng Global Korea Scholarship\
-      Undergraduate 2020",
+      received_scholarship: "Nhận Học bổng Máster Erasmus Mundus en Sanidad Vegetal en Agricultura\
+      Sostenible (UNIPD, Ý và UPV, Tây Ban Nha), Học bổng Latvian State Scholarships for Studies\
+      and Summer Schools 2024 at Rezekne Academy of Technologies, Riga, Latvia, \
+      Học bổng Erasmus+ International Credit Mobility between JBNU, Korea and \
+      Universitat Hohenheim, Stuttgart, Germany, 2024, Học bổng GKS-U ngành Plant Medicine \
+      and International Development and Cooperation tại Jeonbuk National University, Hàn Quốc",
       mentor_history: "Hỗ trợ thành công mentee apply các ngành khác nhau của GKS và học bổng trường tại Hàn Quốc",
       majors: ["Khoa học kỹ thuật", "Khoa học xã hội"],
       hashtag: "Hỗ trợ apply tất cả các học bổng trên toàn thế giới.",
