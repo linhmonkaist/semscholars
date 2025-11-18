@@ -154,7 +154,7 @@ export const teamMembers: TeamMember[]= [
       id: "thanhtrung",
       name: "Ninh Phạm Thành Trung",
       role: role,
-      description: "Master, Environmental Engineering, KAIST, Hàn Quốc",
+      description: "PhD, Environmental Engineering, KAIST, Hàn Quốc",
       image: "./assets/img/team/thanh_trung.jpg",
       received_scholarship: "Nhận học bổng GKS-G 2022, học bổng toàn phần cho hệ thạc sĩ tại National Taiwan University (Đài Loan), học bổng VLIR-UOS (Full-ride) cho bậc thạc sĩ tại Bỉ.",
       mentor_history: "Hỗ trợ thành công mentee apply GKS-G và học bổng chính phủ Đài Loan (MOE Taiwan Scholarship 2023).",
