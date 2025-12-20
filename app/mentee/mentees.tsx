@@ -2856,4 +2856,214 @@ export const mentees: Mentee[] = [
     ],
     degree: "Master"
   },
+  {
+    id: "buily4133@gmail.com",
+    name: "Bùi Hương Ly",
+    image: "",
+    scholarships: [
+      "Romanian MFA Scholarships",
+    ],
+    universities: [
+      ""
+    ],
+    countries: [
+      "Romania"
+    ],
+    majors: [
+      ""
+    ],
+    mentors: [
+      "Ngọc Mai"
+    ],
+    degree: "Bachelor"
+  },
+  {
+    id: "trinhdanle138@gmail.com",
+    name: "Trịnh Đan Lê",
+    image: "",
+    scholarships: [
+      "SNU Global talent Scholarship II", "HISP Scholarship", "Ewha 100% Scholarship"
+    ],
+    universities: [
+      "SNU", "Hanyang", "Ewha"
+    ],
+    countries: [
+      "Korea"
+    ],
+    majors: [
+      "Business Administration"
+    ],
+    mentors: [
+      "Linh Mon"
+    ],
+    degree: "Bachelor"
+  },
+  {
+    id: "lluuhoang3@gmail.com",
+    name: "Lưu Hoàng Linh",
+    image: "",
+    scholarships: [
+      "Yonsei GLC Scholarship", "Ewha 100% Scholarship"
+    ],
+    universities: [
+      "Yonsei", "Ewha"
+    ],
+    countries: [
+      "Korea"
+    ],
+    majors: [
+      "Media & Communication"
+    ],
+    mentors: [
+      "Linh Mon"
+    ],
+    degree: "Bachelor"
+  },
+  {
+    id: "nguyenngocnhuhuynh4949@gmail.com",
+    name: "Nguyễn Ngọc Như Huỳnh",
+    image: "",
+    scholarships: [
+      "Admisison"
+    ],
+    universities: [
+      "Ewha"
+    ],
+    countries: [
+      "Korea"
+    ],
+    majors: [
+      "Materials Science"
+    ],
+    mentors: [
+      "Linh Mon"
+    ],
+    degree: "Bachelor"
+  },
+  {
+    id: "tranhonghanh.vnu@gmail.com",
+    name: "Trần Thị Hồng Hạnh",
+    image: "",
+    scholarships: [
+      "Admisison"
+    ],
+    universities: [
+      "Ewha"
+    ],
+    countries: [
+      "Korea"
+    ],
+    majors: [
+      "Korean language & literature"
+    ],
+    mentors: [
+      "Cúc Ngọ"
+    ],
+    degree: "Master"
+  },
+  {
+    id: "tranthuthao275@gmail.com",
+    name: "Trần Thu Thảo",
+    image: "",
+    scholarships: [
+      "Admisison"
+    ],
+    universities: [
+      "Yonsei"
+    ],
+    countries: [
+      "Korea"
+    ],
+    majors: [
+      "Business Administration"
+    ],
+    mentors: [
+      "Ngọc Mai"
+    ],
+    degree: "Bachelor"
+  },
+  {
+    id: "anantrang101296@gmail.com",
+    name: "Trần Quỳnh Trang",
+    image: "",
+    scholarships: [
+      "Admisison"
+    ],
+    universities: [
+      "Yonsei"
+    ],
+    countries: [
+      "Korea"
+    ],
+    majors: [
+      "Economics"
+    ],
+    mentors: [
+      "Ngân Giang"
+    ],
+    degree: "Bachelor"
+  },
+  {
+    id: "brickskhoi@gmail.com",
+    name: "Phùng Tuấn Khôi",
+    image: "",
+    scholarships: [
+      "MBZUAI Full-ride Scholarship"
+    ],
+    universities: [
+      "MBZUAI"
+    ],
+    countries: [
+      "UAE"
+    ],
+    majors: [
+      "Computer Science"
+    ],
+    mentors: [
+      "Ngọc Mai"
+    ],
+    degree: "Bachelor"
+  },
+  {
+    id: "lananguyen2609@gmail.com",
+    name: "Nguyễn Hà Phương Lan",
+    image: "",
+    scholarships: [
+      "APU Scholarship"
+    ],
+    universities: [
+      "APU"
+    ],
+    countries: [
+      "Japan"
+    ],
+    majors: [
+      "Asia Pacific Studies"
+    ],
+    mentors: [
+      "Ngọc Mai"
+    ],
+    degree: "Bachelor"
+  },
+  {
+    id: "lehuonggiangatwork@gmail.com",
+    name: "Lê Hương Giang",
+    image: "",
+    scholarships: [
+      "Admission"
+    ],
+    universities: [
+      "Yonsei"
+    ],
+    countries: [
+      "Korea"
+    ],
+    majors: [
+      "International Studies"
+    ],
+    mentors: [
+      "Ngọc Mai"
+    ],
+    degree: "Bachelor"
+  },
 ];
