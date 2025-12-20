@@ -232,6 +232,18 @@ const testimonials = [
     làm những công việc khác nhưng mỗi khi mình cần hỏi bất cứ điều gì, kể cả trong hay sau quá trình apply, Liên vẫn trả lời mình rất rất nhiệt tình. Cảm \
     ơn SEM rất nhiều vì đã giúp mình chinh phục GKS!!",
   },
+  {
+    id: 20,
+    name: "Hồng Hạnh",
+    role: "GSIS Ewha Womans University, Korea",
+    avatar: "./assets/img/alumni/none.jpg?height=50&width=50",
+    rating: 5,
+    text: "Chị Cúc ơi, em có kết quả cuối cùng của Ewha rồi chị ạ. Em PASS rồi ạ. Em cảm ơn \
+    chị Cúc đã đồng hành cùng em trong suốt quãng thời gian vừa qua. Chị đã giúp đỡ em rất nhiều từ \
+    việc gợi ý và sửa bài luận đến những rắc rối trong quá trình apply. Em cảm ơn chị rất nhiều. \
+    Em cảm thấy rất vui và hạnh phúc khi đã đạt được kết quả mong muốn, và cũng không phụ tâm huyết \
+    và sự kỳ vọng của chị. Em iuuu chị Cúc rất nhìu.",
+  },
 ]
 
 export function TestimonialCarousel() {
