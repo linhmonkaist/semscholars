@@ -17,7 +17,7 @@ const focusPackages: FocusPackage[] = [
   {
     name: 'Khối IST',
     target: 'Học bổng của một trong các trường khoa học kỹ thuật: HKUST, KAIST, UNIST, DGIST, GIST, POSTECH',
-    price: '15.000.000 VNĐ',
+    price: 'Từ 15.000.000 - 20.000.000 VNĐ',
     payment: 'Thanh toán hai đợt',
   },
   {
@@ -35,7 +35,7 @@ const focusPackages: FocusPackage[] = [
   {
     name: 'General Scholarship',
     target: 'Du học các học bổng không nằm trong danh sách kể trên',
-    price: 'Từ 9.000.000 - 12.000.000 VNĐ',
+    price: 'Từ 9.500.000 - 12.000.000 VNĐ',
     payment: 'Thanh toán 1 lần trước khi bắt đầu',
   },
 ];

@@ -2856,27 +2856,27 @@ export const mentees: Mentee[] = [
     ],
     degree: "Master"
   },
-  {
-    id: "buily4133@gmail.com",
-    name: "Bùi Hương Ly",
-    image: "",
-    scholarships: [
-      "Romanian MFA Scholarships",
-    ],
-    universities: [
-      ""
-    ],
-    countries: [
-      "Romania"
-    ],
-    majors: [
-      ""
-    ],
-    mentors: [
-      "Ngọc Mai"
-    ],
-    degree: "Bachelor"
-  },
+  // {
+  //   id: "buily4133@gmail.com",
+  //   name: "Bùi Hương Ly",
+  //   image: "",
+  //   scholarships: [
+  //     "Romanian MFA Scholarships",
+  //   ],
+  //   universities: [
+  //     "Unknown"
+  //   ],
+  //   countries: [
+  //     "Romania"
+  //   ],
+  //   majors: [
+  //     "Unknown"
+  //   ],
+  //   mentors: [
+  //     "Ngọc Mai"
+  //   ],
+  //   degree: "Bachelor"
+  // },
   {
     id: "trinhdanle138@gmail.com",
     name: "Trịnh Đan Lê",

@@ -188,9 +188,10 @@ export default function Page() {
                   ✔️ Các bạn đang mong muốn giành học bổng từ một trong các trường đại học nêu trên<br/>
                   ✔️ Cần mentor giàu kinh nghiệm, là sinh viên các trường STEM hàng đầu<br/>
                   <br/>
-                  <strong>🌟 Chi phí và hình thức thanh toán:</strong><br/>
-                  📑 Chi phí: <span className="text-red-600">15,000,000 VND</span> <br/>
-                  💼 Hình thức thanh toán: thanh toán <span className="text-red-600">10,000,000 VND</span> tại thời điểm đăng ký. Thanh toán  <span className="text-red-600">5,000,000 VND</span> còn lại tại thời điểm có thư mời nhập học.<br/>
+                  <strong>🌟 Chi phí:</strong><br/>
+                  💼 Thông thường: <span className="text-red-600">15,000,000 VND</span> - Áp dụng cho đơn đăng ký trong tháng bình thường<br/>
+                  🎯 Urgent: <span className="text-red-600">20,000,000 VND</span> - Áp dụng cho đơn đăng ký trước deadline 30 ngày.<br/>
+                  💼 Hình thức thanh toán: tại thời điểm đăng ký thanh toán <span className="text-red-600">10,000,000 VND đối với đợt thông thường và 15,000,000 VND đối với đợt urgent</span>. Thanh toán  <span className="text-red-600">5,000,000 VND</span> còn lại tại thời điểm có thư mời nhập học.<br/>
                   <br/>
                   </p>
 
@@ -270,7 +271,7 @@ export default function Page() {
                   <br/>
                   <strong>🌟 Chi phí:</strong><br/>
                   💼 Thông thường: <span className="text-red-600">9,500,000 VND</span> - Áp dụng cho đơn đăng ký trong tháng bình thường<br/>
-                  🎯 Urgen: <span className="text-red-600">12,000,000 VND</span> - Áp dụng cho đơn đăng ký trước deadline 1 tháng.<br/>
+                  🎯 Urgent: <span className="text-red-600">12,000,000 VND</span> - Áp dụng cho đơn đăng ký trước deadline 1 tháng.<br/>
                   <br/>
                   </p>
                   <Link href={applicationFormURL} target="_blank">
