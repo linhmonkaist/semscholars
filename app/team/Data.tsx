@@ -211,4 +211,16 @@ export const teamMembers: TeamMember[]= [
       majors: ["Khoa học xã hội"],
       countries: ["Châu Á"]
     },
+    {
+      id: "huongnguyen",
+      name: "Nguyễn Thị Thanh Hường",
+      role: role,
+      description: "Tốt nghiệp cử nhân ngành Dược học Đại học Y Dược Huế, tốt nghiệp thạc sĩ về nghiên cứu và phát triển thuốc tại Vương quốc Anh",
+      image: "./assets/img/team/huong_nguyen.png",
+      received_scholarship: "Nhận học bổng Sakura Science cho chương trình trao đổi sinh viên tại Nhật Bản và học bổng toàn phần Women in STEM cho chương trình thạc sĩ về nghiên cứu và phát triển thuốc tại Vương quốc Anh",
+      mentor_history: "Hỗ trợ thành công mentee apply các ngành Khoa học sức khoẻ, Khoa học kỹ thuật ở Anh, Thuỵ Điển, Bỉ.",
+      hashtag: "Hỗ trợ apply học bổng các ngành khoa học sức khỏe, khoa học kỹ thuật trên toàn thế giới",
+      majors: ["Khoa học sức khỏe", "Khoa học kỹ thuật"],
+      countries: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc"]
+    },
   ]
