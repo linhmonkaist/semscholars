@@ -158,8 +158,8 @@ export default function Page() {
                   📑 Early bird: <span className="text-red-600">8,500,000 VND</span> - Áp dụng cho đơn đăng 
                   ký từ tháng 12 đến tháng 2 đối với GKS-U; từ tháng 4 đến hết tháng 7 đối với GKS-G <br/>
                   💼 Thông thường: <span className="text-red-600">9,500,000 VND</span> - Áp dụng cho đơn đăng ký trong tháng bình thường<br/>
-                  🎯 Urgent: <span className="text-red-600">12,000,000 VND</span> - Áp dụng cho đơn đăng ký trước deadline 1 tháng. Cụ thể: đơn đăng
-                  ký tháng 9 đối với GKS-U; đơn đăng ký tháng 2 đối với GKS-G <br/>
+                  🎯 Urgent: <span className="text-red-600">12,000,000 VND</span> - Áp dụng cho đơn đăng ký trước deadline 1,5 tháng. Cụ thể: đơn đăng
+                  ký sau ngày 15/8 đối với GKS-U; đơn đăng ký sau ngày 15/1 đối với GKS-G <br/>
                   <br/>
                   </p>
                   <Link href={applicationFormURL} target="_blank">
