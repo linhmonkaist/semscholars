@@ -18,6 +18,26 @@ export interface TeamMember {
   hashtag: string
   majors: string[]
   countries: string[]
+  details: {
+    profile: string[]
+    achievements: string[]
+    statement: string
+    philosophy: string
+    records: string[]
+    highlight_record: string[]
+    support: string
+    tags?: string[]
+  }
+}
+
+export const DETAIL_HEADERS: Partial<Record<keyof TeamMember["details"], string>> = {
+  profile: "Hồ sơ cá nhân",
+  achievements: "Thành tích nổi bật",
+  statement: "Tuyên ngôn cá nhân",
+  philosophy: "Triết lý mentoring",
+  records: "Kết quả đã đạt được",
+  highlight_record: "Dấu ấn nổi bật",
+  support: "SEM có thể hỗ trợ gì?",
 }
 
 export const teamMembers: TeamMember[]= [
@@ -34,6 +54,23 @@ export const teamMembers: TeamMember[]= [
       majors: ["Khoa học kỹ thuật", "Khoa học xã hội"],
       countries: ["Châu Mỹ", "Châu Á", "Châu Âu"],
       hashtag: "Hỗ trợ apply tất cả các học bổng trên toàn thế giới.",
+      details: {
+        profile: ["Cử nhân ngành Computer Science và Business Technology Management, KAIST, Hàn Quốc", "Founder của SEM Scholars - Scholarship Exploring with Mentors","Software Engineer tại Microsoft Việt Nam"],
+        achievements: ["Giải nhì học sinh giỏi quốc gia môn Vật Lý năm 2017", "Học bổng chính phủ Hàn Quốc năm 2020", "Học bổng Daewoong dành cho sinh viên đang học tại Hàn năm 2022", "Tham dự KAIST Global Entrepreneurship Summer School 2024 tại Mỹ"],
+        statement: "Mình hỗ trợ mentee ở tất cả các bậc học và ngành học, với trọng tâm định hướng cá nhân \
+        hóa. Thông qua kinh nghiệm đồng hành cùng mentee ở nhiều nền tảng học thuật khác nhau, mình mong muốn \
+        giúp các bạn mentee hiểu rõ điểm mạnh của bản thân, xác định hướng đi phù hợp và xây dựng câu chuyện cá \
+        nhân một cách thuyết phục. Bên cạnh việc hỗ trợ các ngành học và học bổng mà team đã từng chinh phục, mình\
+         đặc biệt tận hưởng quá trình cùng mentee khám phá những ngành học mới, học bổng mới, và tìm ra con đường \
+         phù hợp nhất với từng cá nhân.",
+        philosophy: "Học bổng không chọn người giỏi nhất, mà chọn người phù hợp nhất. Đừng cố trở thành một phiên\
+         bản hoàn hảo của người khác. Hãy tập trung hiểu rõ điểm mạnh của mình, xây dựng câu chuyện của chính\
+         mình, và kiên trì đi đến cùng. Kết quả sẽ đến theo cách xứng đáng nhất.",
+        records: ["Đã hỗ trợ thành công nhiều mentee đậu học bổng từ toàn phần đến bán phần ở các bậc học khác nhau tại Mỹ, Hàn Quốc, Thụy Sĩ, Việt Nam, Anh Quốc."],
+        highlight_record: [],
+        support: "",
+        tags: ["Châu Mỹ", "Châu Á", "Châu Âu", "Khoa học kỹ thuật", "Khoa học xã hội"]
+      }
     },
     {
       id: "minhduc",
@@ -48,6 +85,15 @@ export const teamMembers: TeamMember[]= [
       majors: ["Khoa học kỹ thuật"],
       countries: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc"],
       hashtag: "Hỗ trợ apply các ngành Technology & Science trên toàn thế giới.",
+      details: {
+        profile: [],
+        achievements: [],
+        statement: "",
+        philosophy: "",
+        records: [],
+        highlight_record: [],
+        support: "",
+      }
     },
     {
       id: "mainguyen",
@@ -60,6 +106,15 @@ export const teamMembers: TeamMember[]= [
       majors: ["Khoa học kỹ thuật", "Khoa học xã hội"],
       countries: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc"],
       hashtag: "Hỗ trợ apply tất cả các học bổng trên toàn thế giới.",
+      details: {
+        profile: [],
+        achievements: [],
+        statement: "",
+        philosophy: "",
+        records: [],
+        highlight_record: [],
+        support: "",
+      }
     },
     {
       id: "duckien",
@@ -72,6 +127,15 @@ export const teamMembers: TeamMember[]= [
       majors: ["Khoa học kỹ thuật"],
       countries: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc"],
       hashtag: "Hỗ trợ apply học bổng các ngành Technology & Science trên toàn thế giới",
+      details: {
+        profile: [],
+        achievements: [],
+        statement: "",
+        philosophy: "",
+        records: [],
+        highlight_record: [],
+        support: "",
+      }
     },
     {
       id: "thephuc", 
@@ -89,6 +153,15 @@ export const teamMembers: TeamMember[]= [
       majors: ["Khoa học kỹ thuật", "Khoa học xã hội"],
       hashtag: "Hỗ trợ apply tất cả các học bổng trên toàn thế giới.",
       countries: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc"],
+      details: {
+        profile: [],
+        achievements: [],
+        statement: "",
+        philosophy: "",
+        records: [],
+        highlight_record: [],
+        support: "",
+      }
     },
     {
       id: "cucngo",
@@ -100,7 +173,16 @@ export const teamMembers: TeamMember[]= [
       mentor_history: "Hỗ trợ thành công mentee apply các ngành ngôn ngữ Hàn, giáo dục tiếng Hàn",
       hashtag: "Hỗ trợ apply khối ngành ngôn ngữ tại Hàn Quốc",
       majors: ["Ngôn ngữ Hàn"],
-      countries: ["Châu Á"]
+      countries: ["Châu Á"],
+      details: {
+        profile: [],
+        achievements: [],
+        statement: "",
+        philosophy: "",
+        records: [],
+        highlight_record: [],
+        support: "",
+      }
     },
     {
       id: "ngangiang", 
@@ -112,7 +194,16 @@ export const teamMembers: TeamMember[]= [
       mentor_history: "Hỗ trợ thành công mentee apply các ngành social science tại Việt Nam và Hàn Quốc",
       hashtag: "Hỗ trợ apply học bổng các ngành Social Science trên toàn thế giới",
       majors: ["Khoa học xã hội"],
-      countries: ["Châu Á"]
+      countries: ["Châu Á"],
+      details: {
+        profile: [],
+        achievements: [],
+        statement: "",
+        philosophy: "",
+        records: [],
+        highlight_record: [],
+        support: "",
+      }
     },
     {
       id: "phuonganh",
@@ -124,7 +215,16 @@ export const teamMembers: TeamMember[]= [
       mentor_history: "Hỗ trợ thành công mentee apply các ngành social science tại Hàn Quốc",
       hashtag: "Hỗ trợ apply học bổng các ngành Social Science tại Hàn Quốc",
       majors: ["Khoa học xã hội"],
-      countries: ["Châu Á"]
+      countries: ["Châu Á"],
+      details: {
+        profile: [],
+        achievements: [],
+        statement: "",
+        philosophy: "",
+        records: [],
+        highlight_record: [],
+        support: "",
+      }
     },
     {
       id: "hoanglien",
@@ -136,7 +236,16 @@ export const teamMembers: TeamMember[]= [
       mentor_history: "Hỗ trợ thành công mentee apply các ngành social science tại Hàn Quốc",
       hashtag: "Hỗ trợ apply học bổng các ngành Social Science trên toàn thế giới",
       majors: ["Khoa học xã hội"],
-      countries: ["Châu Á"]
+      countries: ["Châu Á"],
+      details: {
+        profile: [],
+        achievements: [],
+        statement: "",
+        philosophy: "",
+        records: [],
+        highlight_record: [],
+        support: "",
+      }
     },
     {
       id: "dieuhien",
@@ -148,7 +257,16 @@ export const teamMembers: TeamMember[]= [
       mentor_history: "Hỗ trợ thành công mentee apply các ngành social science tại Hàn Quốc",
       hashtag: "Hỗ trợ apply học bổng ngành Media & Communication tại Hàn Quốc",
       majors: ["Khoa học xã hội"],
-      countries: ["Châu Á"]
+      countries: ["Châu Á"],
+      details: {
+        profile: [],
+        achievements: [],
+        statement: "",
+        philosophy: "",
+        records: [],
+        highlight_record: [],
+        support: "",
+      }
     },
     {
       id: "thanhtrung",
@@ -160,21 +278,30 @@ export const teamMembers: TeamMember[]= [
       mentor_history: "Hỗ trợ thành công mentee apply GKS-G và học bổng chính phủ Đài Loan (MOE Taiwan Scholarship 2023).",
       hashtag: "Hỗ trợ apply học bổng các ngành Technology & Science trên toàn thế giới",
       majors: ["Khoa học kỹ thuật"],
-      countries: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc"]
+      countries: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc"],
+      details: {
+        profile: [],
+        achievements: [],
+        statement: "",
+        philosophy: "",
+        records: [],
+        highlight_record: [],
+        support: "",
+      }
     },
-    {
-      id: "quynhnhi",
-      name: "Phạm Quỳnh Nhi",
-      role: role,
-      description: "Bachelor, Bussiness Administration, SNU, Hàn Quốc",
-      image: "./assets/img/team/quynhnhi.jpg",
-      received_scholarship: "Đạt học bổng 100% của trường SNU, học bổng toàn phần có sinh hoạt phí của trường CUHK, học bổng tập đoàn Amore Pacific Hàn Quốc, học bổng \
-      doanh nghiệp Việt-Hàn Green Academy, học bổng viện nghiên cứu môi trường châu Á.",
-      mentor_history: "Hỗ trợ thành công mentee apply ngành khoa học xã hội tại các trường đại học ở Việt Nam và Hàn Quốc",
-      hashtag: "Hỗ trợ apply học bổng các ngành Social Science trên toàn thế giới",
-      majors: ["Khoa học xã hội"],
-      countries: ["Châu Á"]
-    },
+    // {
+    //   id: "quynhnhi",
+    //   name: "Phạm Quỳnh Nhi",
+    //   role: role,
+    //   description: "Bachelor, Bussiness Administration, SNU, Hàn Quốc",
+    //   image: "./assets/img/team/quynhnhi.jpg",
+    //   received_scholarship: "Đạt học bổng 100% của trường SNU, học bổng toàn phần có sinh hoạt phí của trường CUHK, học bổng tập đoàn Amore Pacific Hàn Quốc, học bổng \
+    //   doanh nghiệp Việt-Hàn Green Academy, học bổng viện nghiên cứu môi trường châu Á.",
+    //   mentor_history: "Hỗ trợ thành công mentee apply ngành khoa học xã hội tại các trường đại học ở Việt Nam và Hàn Quốc",
+    //   hashtag: "Hỗ trợ apply học bổng các ngành Social Science trên toàn thế giới",
+    //   majors: ["Khoa học xã hội"],
+    //   countries: ["Châu Á"]
+    // },
     {
       id: "phuongngoc",
       name: "Nguyễn Phương Ngọc",
@@ -185,7 +312,16 @@ export const teamMembers: TeamMember[]= [
       mentor_history: "Hỗ trợ thành công mentee apply ngành khoa học xã hội tại Hàn Quốc",
       hashtag: "Hỗ trợ apply học bổng các ngành Social Science trên toàn thế giới",
       majors: ["Khoa học xã hội"],
-      countries: ["Châu Á"]
+      countries: ["Châu Á"],
+      details: {
+        profile: [],
+        achievements: [],
+        statement: "",
+        philosophy: "",
+        records: [],
+        highlight_record: [],
+        support: "",
+      }
     },
     {
       id: "hoangngoc",
@@ -197,7 +333,16 @@ export const teamMembers: TeamMember[]= [
       mentor_history: "Hỗ trợ thành công mentee apply ngành ngôn ngữ Hàn, giáo dục tiếng Hàn tại Hàn Quốc",
       hashtag: "Hỗ trợ apply học bổng các ngành ngôn ngữ tại Hàn Quốc",
       majors: ["Khoa học xã hội", "Ngôn ngữ Hàn"],
-      countries: ["Châu Á"]
+      countries: ["Châu Á"],
+      details: {
+        profile: [],
+        achievements: [],
+        statement: "",
+        philosophy: "",
+        records: [],
+        highlight_record: [],
+        support: "",
+      }
     },
     {
       id: "hoangan",
@@ -209,7 +354,16 @@ export const teamMembers: TeamMember[]= [
       mentor_history: "Hỗ trợ thành công mentee apply ngành Social Science tại Hàn Quốc",
       hashtag: "Hỗ trợ apply học bổng các ngành khoa học xã hội tại Hàn Quốc",
       majors: ["Khoa học xã hội"],
-      countries: ["Châu Á"]
+      countries: ["Châu Á"],
+      details: {
+        profile: [],
+        achievements: [],
+        statement: "",
+        philosophy: "",
+        records: [],
+        highlight_record: [],
+        support: "",
+      }
     },
     {
       id: "huongnguyen",
@@ -221,6 +375,15 @@ export const teamMembers: TeamMember[]= [
       mentor_history: "Hỗ trợ thành công mentee apply các ngành Khoa học sức khoẻ, Khoa học kỹ thuật ở Anh, Thuỵ Điển, Bỉ.",
       hashtag: "Hỗ trợ apply học bổng các ngành khoa học sức khỏe, khoa học kỹ thuật trên toàn thế giới",
       majors: ["Khoa học sức khỏe", "Khoa học kỹ thuật"],
-      countries: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc"]
+      countries: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc"],
+      details: {
+        profile: [],
+        achievements: [],
+        statement: "",
+        philosophy: "",
+        records: [],
+        highlight_record: [],
+        support: "",
+      }
     },
   ]
