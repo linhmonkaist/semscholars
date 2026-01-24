@@ -1,6 +1,7 @@
+"use client"
 import React from "react"
-import {DETAIL_HEADERS, TeamMember, teamMembers} from "@/app/team/Data"
-import { notFound, useParams } from "next/navigation"
+import {DETAIL_HEADERS, TeamMember} from "@/app/team/Data"
+import { useParams } from "next/navigation"
 
 function renderMentorDetails(details: TeamMember["details"]) {
   return Object.entries(details).map(([key, value]) => {
