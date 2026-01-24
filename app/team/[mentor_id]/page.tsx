@@ -4,9 +4,9 @@ import MentorDetailClient from "./MentorDetailClient"
 import { notFound } from "next/navigation"
 
 type PageProps = {
-  params: {
+  params: Promise<{
     mentor_id: string
-  }
+  }>
 }
 
 export function generateStaticParams() {
@@ -15,8 +15,10 @@ export function generateStaticParams() {
   }))
 }
 
-export default function MentorDetailPage({ params }: PageProps) {
-  const mentor = teamMembers.find((m) => m.id === params.mentor_id)
+export default async function MentorDetailPage({ params }: PageProps) {
+  const { mentor_id } = await params
+
+  const mentor = teamMembers.find((m) => m.id === mentor_id)
 
   if (!mentor) {
     notFound()
