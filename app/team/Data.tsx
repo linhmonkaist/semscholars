@@ -1,4 +1,3 @@
-"use client"
 interface SocialLinks {
     twitter: string;
     linkedin: string;

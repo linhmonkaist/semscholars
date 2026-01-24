@@ -1,5 +1,5 @@
 import React from "react"
-import { teamMembers} from "@/app/team/Data"
+import { teamMembers } from "@/app/team/Data"
 import MentorDetailClient from "./MentorDetailClient"
 import { notFound } from "next/navigation"
 
