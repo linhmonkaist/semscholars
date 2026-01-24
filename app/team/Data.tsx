@@ -55,7 +55,7 @@ export const teamMembers: TeamMember[]= [
       hashtag: "Hỗ trợ apply tất cả các học bổng trên toàn thế giới.",
       details: {
         profile: ["Cử nhân ngành Computer Science và Business Technology Management, KAIST, Hàn Quốc", "Founder của SEM Scholars - Scholarship Exploring with Mentors","Software Engineer tại Microsoft Việt Nam"],
-        achievements: ["Giải nhì học sinh giỏi quốc gia môn Vật Lý năm 2017", "Học bổng chính phủ Hàn Quốc năm 2020", "Học bổng Daewoong dành cho sinh viên đang học tại Hàn năm 2022", "Tham dự KAIST Global Entrepreneurship Summer School 2024 tại Mỹ"],
+        achievements: ["Giải nhì học sinh giỏi quốc gia môn Vật Lý năm 2017", "Học bổng chính phủ Hàn Quốc năm 2020", "Học bổng Daewoong dành cho sinh viên đang học tại Hàn năm 2022", "Học bổng Trại hè KAIST Global Entrepreneurship Summer School 2024 (USA)"],
         statement: "Mình hỗ trợ mentee ở tất cả các bậc học và ngành học, với trọng tâm định hướng cá nhân \
         hóa. Thông qua kinh nghiệm đồng hành cùng mentee ở nhiều nền tảng học thuật khác nhau, mình mong muốn \
         giúp các bạn mentee hiểu rõ điểm mạnh của bản thân, xác định hướng đi phù hợp và xây dựng câu chuyện cá \
@@ -106,11 +106,15 @@ export const teamMembers: TeamMember[]= [
       countries: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc"],
       hashtag: "Hỗ trợ apply tất cả các học bổng trên toàn thế giới.",
       details: {
-        profile: [],
-        achievements: [],
-        statement: "",
+        profile: ["Cử nhân ngành Computer Science và Business Technology Management, KAIST, Hàn Quốc"],
+        achievements: ["Học bổng Toàn phần KAIST Scholarship", 
+          "Học bổng Trại hè Leeds-KAIST International Leadership Programme 2024 (UK)", 
+          "Học bổng Trại hè KAIST Global Entrepreneurship Summer School 2023 (USA)",
+          "Học bổng Toàn phần Trường TH School của Quỹ “Vì Tầm Vóc Việt” trị giá 1,5 tỉ VNĐ (2018 - 2021",
+          "Thành tích Apply 2021: Học bổng 100% và hỗ trợ tài chính của các trường ở Mỹ như Minerva University, học bổng 95% từ Duke Kunshan University (Trung Quốc), học bổng 75% Swinburne University of Technology, 50% Deakin University, 90% SP Jain (Úc), học bổng từ toàn phần đến bán phần từ TIU và APU (Nhật), học bổng và hỗ trợ tài chính cao từ HKUST (Hồng Kông), Fulbright University Vietnam, và VinUniversity."],
+        statement: "Mình cho rằng bước quan trọng nhất trong bộ hồ sơ du học là giúp học sinh xác định rõ bản thân mong muốn gì và định hướng như thế nào, trước hết là ngành học và xa hơn là định hướng tương lai. Vì vậy, mình thường dành nhiều thời gian cho phần này. Bên cạnh đó, mình có kinh nghiệm định hướng các hoạt động ngoại khóa phù hợp với từng nhóm ngành khác nhau và đã hỗ trợ mentee apply chương trình cử nhân và cao học trong các lĩnh vực khoa học kỹ thuật, kinh doanh kinh tế, khoa học xã hội, chương trình MBA cũng như các ngành mang định hướng nghệ thuật như thiết kế, bao gồm cả việc hướng dẫn học sinh xây dựng portfolio.",
         philosophy: "",
-        records: [],
+        records: ["Hỗ trợ thành công nhiều mentee dành học bổng từ toàn phần đến bán phần từ các trường đại học top đầu Hàn Quốc như KAIST (14 suất), SNU, YONSEI, học phần toàn phần MBZUAI (UAE), học bổng toàn phần ASEAN tại NTU (Singapore), học bổng toàn phần CUHK và thư mời nhập học của HKBU & PolyU (Hồng Kông), học bổng Fast Retailing và các trường đại học top Nhật Bản như Kyoto, Waseda, và Nagoya, học bổng toàn phần tại Châu Âu theo dạng hiệp định (Hungary) và thư mời nhập học của KU Leuven (Bỉ)."],
         highlight_record: [],
         support: "",
       }
