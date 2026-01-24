@@ -14,7 +14,7 @@ const testimonials = [
     id: 1,
     name: "Trần Hồng Quyên",
     role: "GKS-G 2022, Political Science, JBNU, Korea",
-    avatar: "./assets/img/alumni/quyen.jpg?height=50&width=50",
+    avatar: "/assets/img/alumni/quyen.jpg?height=50&width=50",
     rating: 5,
     text: "Hành trình chinh phục thành công học bổng chính phủ Hàn Quốc của mình không thể không kể đến sự đồng hành của Linh và team SEM Scholars. Cảm ơn Linh và team đã giúp mình có được một sự chuẩn bị đầy đủ, kỹ lưỡng và luôn support mình trên chặng đường này ❤️❤️❤️ Mình cũng muốn gửi đến các bạn mentee tương lai một câu quote mình rất thích: “Người thực hiện được ước mơ không phải là người giỏi nhất, mà là người đến cuối vẫn không từ bỏ”. Vậy nên mình tin với sự đam mê, chân thành và kiên trì, chúng ta sẽ sớm đạt được học bổng thôi",
   },
@@ -22,7 +22,7 @@ const testimonials = [
     id: 2,
     name: "Phạm Hoàng Ân",
     role: "GKS-G 2022, MBA, SKKU, Korea",
-    avatar: "./assets/img/alumni/an.jpg?height=50&width=50",
+    avatar: "/assets/img/alumni/an.jpg?height=50&width=50",
     rating: 5,
     text: "Trong quá trình thực hiện bất cứ một dự định hay kế hoạch nào, chúng ta luôn cần những người đồng hành, đặc biệt là những người có kinh nghiệm và có khả năng truyền được cảm hứng để chúng ta có thể hoàn thành được mục tiêu đề ra. Cảm ơn chị Linh và Jinchuriki đã mang đến nguồn năng lượng đó cho mình trong suốt quá trình gấp rút, chỉ vỏn vẹn có 2 tuần, chuẩn bị cho GKS-G 2022.",
   },
@@ -30,7 +30,7 @@ const testimonials = [
     id: 3,
     name: "Đặng Thế Nguyễn",
     role: "GKS-G 2023, Korean language & literature, SNU",
-    avatar: "./assets/img/alumni/2023/the_nguyen.jpeg?height=50&width=50",
+    avatar: "/assets/img/alumni/2023/the_nguyen.jpeg?height=50&width=50",
     rating: 5,
     text: "Em cảm thấy mình thật đúng đắn khi lựa chọn SEM để đồng hành cùng em trong suốt quá trình chuẩn \
         bị cho học bổng GKS 2023. Em nhớ lúc đấy là ngày 7/2 em mới bắt đầu liên hệ cho team và khoảng \
@@ -45,7 +45,7 @@ const testimonials = [
     id: 4,
     name: "Trần Linh Chi",
     role: "GKS-G 2023, Finance, Yonsei",
-    avatar: "./assets/img/alumni/Yonsei.jpg?height=50&width=50",
+    avatar: "/assets/img/alumni/Yonsei.jpg?height=50&width=50",
     rating: 5,
     text: "Cảm ơn Linh, Phúc với team SEM rất rất nhiều vì support cho chị hết mình trong suốt 6 tháng apply học bổng. Nhờ có mentor guide từ những ngày đầu viết essay \
     nên chị mới hiểu được tính consistent cần có trong bài essay và chị luôn nghĩ đấy là điều giúp chị đỗ GKS. Điểm phát huy của team SEM thì nhiều lắm kể không hết, chị \
@@ -55,7 +55,7 @@ const testimonials = [
     id: 5,
     name: "Trang Phạm",
     role: "Ewha PhD Scholarship, Korea",
-    avatar: "./assets/img/alumni/Ewha.png?height=50&width=50",
+    avatar: "/assets/img/alumni/Ewha.png?height=50&width=50",
     rating: 5,
     text: "Hi team SEM. Đầu tiên mình rất cảm ơn team (đặc biệt là mentor Minh Đức) đã hỗ trợ mình rất nhiều trong quá trình apply Ph.D. Sau khi nói chuyện với mentor \
     Minh Đức, mình thấy rất ấn tượng vì mong muốn giúp đỡ những bạn/ anh/ chị không có điều kiện tài chính dư dả để du học tự túc của team. Mình hi vọng team có thể tiếp \
@@ -66,7 +66,7 @@ const testimonials = [
     id: 6,
     name: "Hoàng Giai Ngọc",
     role: "GKS-U 2024, Data Science, KU, Korea",
-    avatar: "./assets/img/alumni/KU.jpg?height=50&width=50",
+    avatar: "/assets/img/alumni/KU.jpg?height=50&width=50",
     rating: 5,
     text: "Đầu tiên, em muốn cảm ơn chị Linh vì đã cùng em “chiến đấu” với bài luận vào mỗi buổi tối trong suốt vài tháng qua. Dù cho có muộn như nào, chị vẫn luôn giúp\
     em có được lịch meeting sớm nhất. Khi đó, chị không chỉ giúp em hoàn thiện từng câu chữ mà còn giúp em tìm ra hướng đi về cuộc sống đại học, kể cho em nghe những kinh\
@@ -83,7 +83,7 @@ const testimonials = [
     id: 7,
     name: "Nguyễn Tiến Quang Vinh",
     role: "KAIST Scholarship 2024, Computer Science, KAIST, Korea",
-    avatar: "./assets/img/alumni/quangvinh.jpg?height=50&width=50",
+    avatar: "/assets/img/alumni/quangvinh.jpg?height=50&width=50",
     rating: 5,
     text: " Khi mới bắt đầu có ý định mong muốn đi du học Hàn Quốc hệ tiếng Anh, mình đã rất mông lung trong việc tìm trung tâm tư vấn bởi khá hiếm tổ chức hỗ trợ tư vấn về con đường này, nhưng mình đã may mắn được giới thiệu và biết đến SEM. Qua SEM mà mình đã được tư vấn và định hướng rất rõ về các trường và chương trình học không chỉ ở Hàn mà còn ở các quốc gia khác nữa. Quá trình apply của mình diễn ra trùng với thời gian mình ôn thi HSGQG nên sự hỗ trợ và tư vấn cần thiết về hồ sơ, bài luận và phỏng vấn đã giúp mình giảm bớt rất nhiều áp lực cùng một lúc. Dù xuất phát muộn hơn các bạn rất nhiều nhưng nhờ SEM mà mình đã đỗ các trường Hàn Quốc cũng như các suất học bổng 100% chỉ trong 1.5 tháng. Mình đã trở nên vô cùng tự tin trên hành trình chinh phục các cảnh cửa đại học quốc tế và các học bổng giá trị cao khi có sự sát cánh đến từ SEM và đặc biệt là mentor chính Ngọc Mai.",
   },
@@ -91,7 +91,7 @@ const testimonials = [
     id: 8,
     name: "Trần Thị Minh Phương",
     role: "UIC 100% Scholarship 2025, Economics, Yonsei",
-    avatar: "./assets/img/alumni/Yonsei.jpg?height=50&width=50",
+    avatar: "/assets/img/alumni/Yonsei.jpg?height=50&width=50",
     rating: 5,
     text: "Mình nghĩ điểm mạnh nhất trong quá trình apply của mình là phần interview đã kéo cả bộ hồ sơ của mình lên. Trong quá trình mock interview, mentor Ngọc Mai đã mở rộng mindset của mình rất nhiều về định hướng ngành học và nghề nghiệp trong tương lai để mình có thể chuẩn bị tốt trong buổi phỏng vấn. Mình và mentor cũng đã chuẩn bị rất kỹ mọi câu hỏi có thể xuất hiện trong lúc phỏng vấn nên giáo sư hỏi gì mình cũng có ideas để trả lời.",
   },
@@ -99,7 +99,7 @@ const testimonials = [
     id: 9,
     name: "Thảo Nhi",
     role: "Apply GKS-G ngành Giáo dục tiếng Hàn",
-    avatar: "./assets/img/alumni/2025/thaonhi.png?height=50&width=50",
+    avatar: "/assets/img/alumni/2025/thaonhi.png?height=50&width=50",
     rating: 5,
     text: "Em xin cảm ơn chị Ngọc và team SEM rất nhiều ạ. Chị đã cho em một cái nhìn khác hơn và cách triển khai có hệ thống hơn bài luận của mình.",
   },
@@ -107,7 +107,7 @@ const testimonials = [
     id: 10,
     name: "Hồ Anh Tùng",
     role: "PhD Scholarship, Stony Brook University, USA",
-    avatar: "./assets/img/alumni/2025/tung.jpg?height=50&width=50",
+    avatar: "/assets/img/alumni/2025/tung.jpg?height=50&width=50",
     rating: 5,
     text: "Do mình phải gấp rút ôn thi các chứng chỉ, chuẩn bị các tài liệu liên quan như làm hồ sơ, viết luận, và thư giới thiệu,.. nên mình đã\
      gặp rất nhiều khó khăn vì có quá nhiều thông tin làm mình hoang mang chưa biết bắt đầu từ đâu: Viết về điều gì của mình, viết như thế nào,... Ấy vậy, \
@@ -120,7 +120,7 @@ const testimonials = [
     id: 11,
     name: "Nguyễn Hòa Phan",
     role: "KAIST Scholarship, Computer Science, KAIST, Korea",
-    avatar: "./assets/img/alumni/phan.jpg?height=50&width=50",
+    avatar: "/assets/img/alumni/phan.jpg?height=50&width=50",
     rating: 5,
     text: "Hành trình apply học bổng của mình khá gian nan. May thay thì mình đã biết tới SEM. Hồ sơ của mình có nhiều điểm yếu nhưng các mentor ở SEM đã\
     chỉ cho mình cách cải thiện, cũng như cho mình biết những điều mà trường mong đợi ở mình. Giây phút nhận được thư báo đỗ, mình vỡ oà vì cuối cùng đạt \
@@ -137,7 +137,7 @@ const testimonials = [
     id: 12,
     name: "Thanh Long",
     role: "KAIST Scholarship, AI College, KAIST, Korea. Admission from ETH Zurich and EPFL, Switzerland",
-    avatar: "./assets/img/alumni/.jpg?height=50&width=50",
+    avatar: "/assets/img/alumni/.jpg?height=50&width=50",
     rating: 5,
     text: "Ban đầu mình tìm hiểu SEM Scholars và cảm thấy có thể tin tưởng gửi gắm tương lai của bản thân ở đây. Mình được biết các bạn trong đội ngũ SEM\
     đều là những người có trình độ cao, dày dặn kinh nghiệm và chưa kể mọi người cũng rất nhiệt tình nữa nên mình hoàn toàn tin tưởng SEM khi apply. Nhiều \
@@ -152,7 +152,7 @@ const testimonials = [
     id: 13,
     name: "Nguyễn Hoàng Minh",
     role: "Yonsei UIC Scholarship, Economics, Yonsei, Korea.",
-    avatar: "./assets/img/alumni/Yonsei.jpg?height=50&width=50",
+    avatar: "/assets/img/alumni/Yonsei.jpg?height=50&width=50",
     rating: 5,
     text: "Mình đã tìm hiểu rất kỹ về ngành học, dù biết nhiều bạn cũng đã nghiên cứu về trường, nhưng mình cảm giác ít bạn đi sâu vào ngành học như vậy. \
     Mình đã tìm hiểu rất kỹ và còn có một buổi mock interview với mentor Ngọc Mai ở SEM. Nhờ buổi đó, mình đã học hỏi rất nhiều về kinh tế, về ngành học\
@@ -164,7 +164,7 @@ const testimonials = [
     id: 14,
     name: "Nguyễn Cảnh Hoàng",
     role: "PhD Scholarship, Stony Brook University, USA",
-    avatar: "./assets/img/alumni/.jpg?height=50&width=50",
+    avatar: "/assets/img/alumni/.jpg?height=50&width=50",
     rating: 5,
     text: "Mình biết đến SEM qua bạn Linh Mon. Hơn hết, một điều trùng hợp thú vị là các bạn mentors khác cũng là sinh viên tại KAIST, trở thành mối nên \
     duyên của mình và SEM từ đó. Nói về SEM thì mình nhận thấy các bạn, đặc biệt là Linh đều vô cùng tâm huyết, hỗ trợ nhiệt tình, thân thiện và vô cùng \
@@ -176,7 +176,7 @@ const testimonials = [
     id: 15,
     name: "Nguyễn Khánh Ngân",
     role: "Full ride scholarship from Fulbright University, Vietnam",
-    avatar: "./assets/img/alumni/fulbright.jpg?height=50&width=50",
+    avatar: "/assets/img/alumni/fulbright.jpg?height=50&width=50",
     rating: 5,
     text: "Mình ấn tượng đội ngũ mentors của SEM. Ngoài chị Linh, thì mentor Hoàng Liên là người hỗ trợ mình trong việc sửa bài luận. Chị Hoàng Liên đã \
     truyền cho mình rất nhiều cảm hứng và niềm tin. Chị không thẳng thắn phê bình mình là ý này hay, ý này không hay. Thay vào đó, chị giúp mình từng bước \
@@ -187,7 +187,7 @@ const testimonials = [
     id: 16,
     name: "Phạm Ngọc Trâm Anh",
     role: "GKS-G, KyungHee University, Korea",
-    avatar: "./assets/img/alumni/KyungHee.jpg?height=50&width=50",
+    avatar: "/assets/img/alumni/KyungHee.jpg?height=50&width=50",
     rating: 5,
     text: "Sau những lần tự apply không thành công, mình nhận ra rằng bản thân còn nhiều thiếu sót và đang lạc hướng. Mình cảm thấy cần có một người có kinh\
     nghiệm để chỉ ra những lỗi sai của mình, và SEM với đội ngũ mentor và mentee đã thành công nhận được GKS chính là minh chứng tin cậy. Cuối cùng, nửa cuối\
@@ -201,7 +201,7 @@ const testimonials = [
     id: 17,
     name: "Đào Thị Thanh Yến",
     role: "GKS-G, Yonsei University, Korea",
-    avatar: "./assets/img/alumni/Yonsei.jpg?height=50&width=50",
+    avatar: "/assets/img/alumni/Yonsei.jpg?height=50&width=50",
     rating: 5,
     text: "Mình biết đến SEM qua mạng xã hội và sự giới thiệu của một người chị đã từng theo học tại Yonsei. Trong quãng thời gian đồng hành cùng các mentor,\
      đặc biệt là sự giúp đỡ của mentor Linh Mon và Ngân Giang, mình có rất nhiều kỷ niệm đáng nhớ. Mình không chỉ trau dồi được khả năng viết luận mà còn cải\
@@ -213,7 +213,7 @@ const testimonials = [
     id: 18,
     name: "Nguyễn Thanh Mai",
     role: "GKS-G, Kangwon National University, Korea",
-    avatar: "./assets/img/alumni/kangwon.jpg?height=50&width=50",
+    avatar: "/assets/img/alumni/kangwon.jpg?height=50&width=50",
     rating: 5,
     text: "Mình rất biết ơn SEM vì sự hỗ trợ trong hành trình apply GKS-G. Các mentor của SEM, đặc biệt là mentor Linh Mon và Ngân Giang, đã giúp mình rất \
     nhiều trong việc viết luận và chuẩn bị phỏng vấn. Bộ tài liệu của SEM giúp mình hiểu rõ cấu trúc bài luận và những điều cần tránh khi viết, từ đó giúp \
@@ -225,7 +225,7 @@ const testimonials = [
     id: 19,
     name: "Quách Diệu Linh",
     role: "GKS-G, Kyungpook University, Korea",
-    avatar: "./assets/img/alumni/none.jpg?height=50&width=50",
+    avatar: "/assets/img/alumni/none.jpg?height=50&width=50",
     rating: 5,
     text: "Không chỉ là ấn tượng mà mình còn muốn cảm ơn mentor của mình là Hoàng Liên vì sự nhiệt tình vô cùng tận của em ấy. Có những hôm mình và Liên vừa \
     ngủ dậy đã meet với nhau để sửa bài, mặt mày 2 đứa bơ phờ mà vẫn gắng dí deadline cùng nhau chạy. Mình biết Liên rất bận, em ấy vừa phải học, vừa phải \
@@ -236,7 +236,7 @@ const testimonials = [
     id: 20,
     name: "Hồng Hạnh",
     role: "GSIS Ewha Womans University, Korea",
-    avatar: "./assets/img/alumni/none.jpg?height=50&width=50",
+    avatar: "/assets/img/alumni/none.jpg?height=50&width=50",
     rating: 5,
     text: "Chị Cúc ơi, em có kết quả cuối cùng của Ewha rồi chị ạ. Em PASS rồi ạ. Em cảm ơn \
     chị Cúc đã đồng hành cùng em trong suốt quãng thời gian vừa qua. Chị đã giúp đỡ em rất nhiều từ \

@@ -120,7 +120,7 @@ export default function ContactPage() {
             <div className="w-full max-w-[180px] md:max-w-[220px]">
               <div className="relative aspect-[1.9/1] w-full">
                 <Image
-                  src="./assets/img/cover.png?height=971&width=1844"
+                  src="/assets/img/cover.png?height=971&width=1844"
                   alt="SEM Logo"
                   fill
                   sizes="(max-width: 768px) 180px, 220px"
