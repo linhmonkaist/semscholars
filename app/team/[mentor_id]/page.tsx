@@ -2,14 +2,7 @@
 
 import React from "react"
 import {DETAIL_HEADERS, TeamMember, teamMembers} from "@/app/team/Data"
-import { notFound } from "next/navigation"
-import { Tags } from "lucide-react"
-
-type PageProps = {
-  params: Promise<{
-    mentor_id: string
-  }>
-}
+import { notFound, useParams } from "next/navigation"
 
 function renderMentorDetails(details: TeamMember["details"]) {
   return Object.entries(details).map(([key, value]) => {
@@ -49,70 +42,16 @@ function renderMentorDetails(details: TeamMember["details"]) {
 }
 
 
-export default function MentorDetailPage({ params }: PageProps) {
-const breadcrumbs = [
-  { id: 1, name: 'Đội ngũ', href: '../team' },
-]
+const MentorDetailPage = () => {
+  const params = useParams();
+  const { mentor_id } = params;
 
-const product = {
-  name: 'Minh Đức',
-  price: '$192',
-  href: '#',
-  breadcrumbs: [
-    { id: 1, name: 'Đội ngũ', href: '#' },
-  ],
-  images: [
-    {
-      src: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-02-secondary-product-shot.jpg',
-      alt: 'Two each of gray, white, and black shirts laying flat.',
-    },
-    {
-      src: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-02-tertiary-product-shot-01.jpg',
-      alt: 'Model wearing plain black basic tee.',
-    },
-    {
-      src: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-02-tertiary-product-shot-02.jpg',
-      alt: 'Model wearing plain gray basic tee.',
-    },
-    {
-      src: 'https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-02-featured-product-shot.jpg',
-      alt: 'Model wearing plain white basic tee.',
-    },
-  ],
-  colors: [
-    { id: 'white', name: 'White', classes: 'bg-white checked:outline-gray-400' },
-    { id: 'gray', name: 'Gray', classes: 'bg-gray-200 checked:outline-gray-400' },
-    { id: 'black', name: 'Black', classes: 'bg-gray-900 checked:outline-gray-900' },
-  ],
-  sizes: [
-    { name: 'XXS', inStock: false },
-    { name: 'XS', inStock: true },
-    { name: 'S', inStock: true },
-    { name: 'M', inStock: true },
-    { name: 'L', inStock: true },
-    { name: 'XL', inStock: true },
-    { name: '2XL', inStock: true },
-    { name: '3XL', inStock: true },
-  ],
-  description:
-    'The Basic Tee 6-Pack allows you to fully express your vibrant personality with three grayscale options. Feeling adventurous? Put on a heather gray tee. Want to be a trendsetter? Try our exclusive colorway: "Black". Need to add an extra pop of color to your outfit? Our white tee has you covered.',
-  highlights: [
-    'Hand cut and sewn locally',
-    'Dyed with our proprietary colors',
-    'Pre-washed & pre-shrunk',
-    'Ultra-soft 100% cotton',
-  ],
-  details:
-    'The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming "Charcoal Gray" limited release.',
-}
-const reviews = { href: '#', average: 4, totalCount: 117 }
-
-function classNames(...classes: string[]) {
-  return classes.filter(Boolean).join(' ')
-}
-
-// export default function Example() {
-  const { mentor_id } = React.use(params)
+  if (typeof mentor_id != 'string') {
+    throw new Error('Invalid cookbookId');
+  }
+  const breadcrumbs = [
+    { id: 1, name: 'Đội ngũ', href: '../team' },
+  ]
 
   const mentor = teamMembers.find((m) => m.id === mentor_id)
 
@@ -207,3 +146,5 @@ function classNames(...classes: string[]) {
     </div>
   )
 }
+
+export default MentorDetailPage; 
