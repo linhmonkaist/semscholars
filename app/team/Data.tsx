@@ -45,7 +45,7 @@ export const teamMembers: TeamMember[]= [
       name: "Linh Mon",
       role: "Founder, Mentor",
       description: "Đã tốt nghiệp ngành Computer Science và Business Technology Management, KAIST, Hàn Quốc",
-      image: "./assets/img/team/linhmon.jpg",
+      image: "/assets/img/team/linhmon.jpg",
       received_scholarship: "Nhận học bổng chính phủ Hàn Quốc năm 2020, học bổng Daewoong, học bổng Microsoft Youthspark.\
       Nhận thư mời từ 3 trường: KAIST, Đại học Quốc gia Seoul(SNU) và Đại học Yonsei",
       mentor_history: "Hỗ trợ thành công mentee đậu các bậc học Tiến sĩ, Thạc sĩ, Đại học và các chương trình ngắn hạn ở Mỹ, Hàn Quốc, Nhật Bản, Việt Nam, Thụy Sĩ \
