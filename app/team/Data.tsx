@@ -117,6 +117,7 @@ export const teamMembers: TeamMember[]= [
         records: ["Hỗ trợ thành công nhiều mentee dành học bổng từ toàn phần đến bán phần từ các trường đại học top đầu Hàn Quốc như KAIST (14 suất), SNU, YONSEI, học phần toàn phần MBZUAI (UAE), học bổng toàn phần ASEAN tại NTU (Singapore), học bổng toàn phần CUHK và thư mời nhập học của HKBU & PolyU (Hồng Kông), học bổng Fast Retailing và các trường đại học top Nhật Bản như Kyoto, Waseda, và Nagoya, học bổng toàn phần tại Châu Âu theo dạng hiệp định (Hungary) và thư mời nhập học của KU Leuven (Bỉ)."],
         highlight_record: [],
         support: "",
+        tags: ["Châu Mỹ", "Châu Á", "Châu Âu", "Khoa học kỹ thuật", "Khoa học xã hội"]
       }
     },
     {
@@ -387,6 +388,33 @@ export const teamMembers: TeamMember[]= [
         records: [],
         highlight_record: [],
         support: "",
+      }
+    },
+    {
+      id: "minhnguyet",
+      name: "Đồng Minh Nguyệt",
+      role: role,
+      description: "Master, Korean Language & Culture, Korea University, Hàn Quốc",
+      image: "/assets/img/team/minh_nguyet.png",
+      received_scholarship: "Nhận học bổng GKS-G 2025",
+      mentor_history: "Hỗ trợ thành công mentee apply các ngành ngôn ngữ.",
+      hashtag: "Hỗ trợ apply học bổng các ngành ngôn ngữ tại Hàn Quốc",
+      majors: ["Khoa học xã hội", "Ngôn ngữ Hàn"],
+      countries: ["Châu Á"],
+      details: {
+        profile: ["Tốt nghiệp ngành sư phạm tiếng Hàn trường Đại học Ngoại ngữ - Đại học Quốc gia Hà Nội.", "Đang theo học thạc sĩ ngành Ngôn ngữ và Văn hóa Hàn Quốc tại Korea University."],
+        achievements: ["Giải Nhất kỳ thi học sinh giỏi tiếng Hàn cấp Đại học Quốc gia Hà Nội năm 2018",
+          "Giải Nhất cuộc thi nói tiếng Hàn Think Korea-Thang Long.OKTA năm 2021",
+          "Giải Nhất cuộc thi nói tiếng Hàn toàn quốc - Cúp Đại sứ Hàn Quốc năm 2022",
+          "Giải Ba cuộc thi hùng biện tiếng Hàn K-SPEECH năm 2024",
+          "Học bổng Chính phủ Hàn Quốc năm 2025"
+        ],
+        statement: "Mình tin rằng việc apply học bổng không chỉ là quá trình chuẩn bị giấy tờ hay hoàn thành một bài luận, mà là cả một hành trình khám phá bản thân - hiểu rõ mình là ai, mình thực sự mong muốn điều gì và đâu là điểm mạnh của bản thân.Từ những trải nghiệm cá nhân, mình mong muốn được đồng hành cùng các bạn mentee còn đang bối rối trong giai đoạn bắt đầu bằng việc gợi mở và định hướng để các bạn tự nhận ra điểm mạnh và mục tiêu phù hợp với bản thân.",
+        philosophy: "Mình không đặt ra một khuôn mẫu cố định để các bạn phải theo bởi mỗi người đều có con đường riêng, và điều quan trọng nhất là bạn hiểu rõ chính bản thân mình. Mình ở đây với vai trò một mentor - người đồng hành và hỗ trợ các bạn, còn mọi quyết định vẫn thuộc về chính các bạn. Điều mình mong đợi ở mentee là sự quyết tâm, tập trung và nỗ lực hết sức cho mục tiêu đã chọn.",
+        records: [],
+        highlight_record: [],
+        support: "",
+        tags: ["Châu Á", "Khoa học xã hội", "Ngôn ngữ Hàn"]
       }
     },
   ]

@@ -2,6 +2,9 @@
 import React from "react"
 import {DETAIL_HEADERS, TeamMember} from "@/app/team/Data"
 import { useParams } from "next/navigation"
+import { applicationFormURL } from "@/app/globalVariables"
+import Link from "next/link"
+import { Button } from "@/components/ui/button"
 
 function renderMentorDetails(details: TeamMember["details"]) {
   return Object.entries(details).map(([key, value]) => {
@@ -105,7 +108,7 @@ export default function MentorDetailClient({
               />
             </div>
 
-            <form className="mt-10">
+            <div className="mt-10">
               {/* Sizes */}
               <div className="mt-10">
                 <h3 className="text-sm font-medium text-gray-900 mb-3">
@@ -123,13 +126,12 @@ export default function MentorDetailClient({
                 </div>
               </div>
 
-              <button
-                type="submit"
-                className="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-hidden"
-              >
-                Add to bag
-              </button>
-            </form>
+              <Link href={applicationFormURL} target="_blank">
+                <Button size="lg" className="w-full mt-4">
+                  Đăng ký ngay
+                </Button>
+              </Link>
+            </div>
           </div>
 
           <div className="py-10 lg:col-span-2 lg:col-start-1 lg:border-r lg:border-gray-200 lg:pt-6 lg:pr-8 lg:pb-16">
