@@ -85,13 +85,14 @@ export const teamMembers: TeamMember[]= [
       countries: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc"],
       hashtag: "Hỗ trợ apply các ngành Technology & Science trên toàn thế giới.",
       details: {
-        profile: [],
-        achievements: [],
+        profile: ["PhD, Biochemistry, Molecular, Cellular and Developmental Biology, University of California, Davis, Mỹ", "Cựu sinh viên ngành Bio and Brain Engineering tại KAIST, Hàn Quốc."],
+        achievements: ["Nhận học bổng Dean's Distinguished Graduate Fellowship", "Học bổng 100% của KAIST cho bậc đại học và thạc sĩ", "Huyndai Motor Chung Mong-Koo Global Scholarship", "50% Scholarship for Bachelor Program at NUS"],
         statement: "",
         philosophy: "",
-        records: [],
+        records: ["Từng hướng dẫn thành công mentee đậu hệ đại học, thạc sĩ và PhD ở Mỹ và master ở Hà Lan, Mỹ, Hàn Quốc."],
         highlight_record: [],
         support: "",
+        tags: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc", "Khoa học kỹ thuật"]
       }
     },
     {
@@ -110,11 +111,11 @@ export const teamMembers: TeamMember[]= [
         achievements: ["Học bổng Toàn phần KAIST Scholarship", 
           "Học bổng Trại hè Leeds-KAIST International Leadership Programme 2024 (UK)", 
           "Học bổng Trại hè KAIST Global Entrepreneurship Summer School 2023 (USA)",
-          "Học bổng Toàn phần Trường TH School của Quỹ “Vì Tầm Vóc Việt” trị giá 1,5 tỉ VNĐ (2018 - 2021",
+          "Học bổng Toàn phần Trường TH School của Quỹ “Vì Tầm Vóc Việt” trị giá 1,5 tỉ VNĐ (2018 - 2021)",
           "Thành tích Apply 2021: Học bổng 100% và hỗ trợ tài chính của các trường ở Mỹ như Minerva University, học bổng 95% từ Duke Kunshan University (Trung Quốc), học bổng 75% Swinburne University of Technology, 50% Deakin University, 90% SP Jain (Úc), học bổng từ toàn phần đến bán phần từ TIU và APU (Nhật), học bổng và hỗ trợ tài chính cao từ HKUST (Hồng Kông), Fulbright University Vietnam, và VinUniversity."],
         statement: "Mình cho rằng bước quan trọng nhất trong bộ hồ sơ du học là giúp học sinh xác định rõ bản thân mong muốn gì và định hướng như thế nào, trước hết là ngành học và xa hơn là định hướng tương lai. Vì vậy, mình thường dành nhiều thời gian cho phần này. Bên cạnh đó, mình có kinh nghiệm định hướng các hoạt động ngoại khóa phù hợp với từng nhóm ngành khác nhau và đã hỗ trợ mentee apply chương trình cử nhân và cao học trong các lĩnh vực khoa học kỹ thuật, kinh doanh kinh tế, khoa học xã hội, chương trình MBA cũng như các ngành mang định hướng nghệ thuật như thiết kế, bao gồm cả việc hướng dẫn học sinh xây dựng portfolio.",
         philosophy: "",
-        records: ["Hỗ trợ thành công nhiều mentee dành học bổng từ toàn phần đến bán phần từ các trường đại học top đầu Hàn Quốc như KAIST (14 suất), SNU, YONSEI, học phần toàn phần MBZUAI (UAE), học bổng toàn phần ASEAN tại NTU (Singapore), học bổng toàn phần CUHK và thư mời nhập học của HKBU & PolyU (Hồng Kông), học bổng Fast Retailing và các trường đại học top Nhật Bản như Kyoto, Waseda, và Nagoya, học bổng toàn phần tại Châu Âu theo dạng hiệp định (Hungary) và thư mời nhập học của KU Leuven (Bỉ)."],
+        records: ["Hỗ trợ thành công nhiều mentee dành học bổng từ toàn phần đến bán phần từ các trường đại học top đầu Hàn Quốc như KAIST (14 suất), SNU, YONSEI", "Hỗ trợ thành công học bổng toàn phần MBZUAI (UAE)", "Hỗ trợ thành công học bổng toàn phần ASEAN tại NTU (Singapore)", "Hỗ trợ thành công học bổng toàn phần CUHK và thư mời nhập học của HKBU & PolyU (Hồng Kông)", "Hỗ trợ thành công học bổng Fast Retailing và các trường đại học top Nhật Bản như Kyoto, Waseda, và Nagoya", "Hỗ trợ thành công học bổng toàn phần tại Châu Âu theo dạng hiệp định (Hungary) và thư mời nhập học của KU Leuven (Bỉ)."],
         highlight_record: [],
         support: "",
         tags: ["Châu Mỹ", "Châu Á", "Châu Âu", "Khoa học kỹ thuật", "Khoa học xã hội"]
@@ -132,13 +133,14 @@ export const teamMembers: TeamMember[]= [
       countries: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc"],
       hashtag: "Hỗ trợ apply học bổng các ngành Technology & Science trên toàn thế giới",
       details: {
-        profile: [],
-        achievements: [],
+        profile: ["Đã tốt nghiệp master, Statistics, Swiss Federal Institute of Technology Lausanne (EPFL), Thụy Sĩ. Cựu sinh viên KAIST, ngành Mathematical Sciences"],
+        achievements: ["Nhận học bổng toàn phần của KAIST"],
         statement: "",
         philosophy: "",
-        records: [],
+        records: ["Hướng dẫn thành công các mentee apply Hàn Quốc, Thụy Sĩ các ngành khoa học kỹ thuật"],
         highlight_record: [],
         support: "",
+        tags: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc", "Khoa học kỹ thuật"]
       }
     },
     {
@@ -153,18 +155,19 @@ export const teamMembers: TeamMember[]= [
       Học bổng Erasmus+ International Credit Mobility between JBNU, Korea and \
       Universitat Hohenheim, Stuttgart, Germany, 2024, Học bổng GKS-U ngành Plant Medicine \
       and International Development and Cooperation tại Jeonbuk National University, Hàn Quốc",
-      mentor_history: "Hỗ trợ thành công mentee apply các ngành khác nhau của GKS và học bổng trường tại Hàn Quốc",
+      mentor_history: "Hỗ trợ thành công mentee apply các ngành khác nhau của nhiều học bổng trên thế giới",
       majors: ["Khoa học kỹ thuật", "Khoa học xã hội"],
       hashtag: "Hỗ trợ apply tất cả các học bổng trên toàn thế giới.",
       countries: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc"],
       details: {
-        profile: [],
-        achievements: [],
+        profile: ["Máster Erasmus Mundus en Sanidad Vegetal en Agricultura Sostenible, University of Padova"],
+        achievements: ["Nhận Học bổng Máster Erasmus Mundus en Sanidad Vegetal en Agricultura Sostenible (UNIPD, Ý và UPV, Tây Ban Nha)", "Học bổng Latvian State Scholarships for Studies and Summer Schools 2024 at Rezekne Academy of Technologies, Riga, Latvia", "Học bổng Erasmus+ International Credit Mobility between JBNU, Korea and Universitat Hohenheim, Stuttgart, Germany, 2024", "Học bổng GKS-U ngành Plant Medicine and International Development and Cooperation tại Jeonbuk National University, Hàn Quốc"],
         statement: "",
         philosophy: "",
-        records: [],
+        records: ["Hỗ trợ thành công mentee apply các ngành khác nhau của nhiều học bổng trên thế giới"],
         highlight_record: [],
         support: "",
+        tags: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc", "Khoa học kỹ thuật", "Khoa học xã hội"]
       }
     },
     {
@@ -176,16 +179,17 @@ export const teamMembers: TeamMember[]= [
       received_scholarship: "Nhận học bổng GKS-G 2022 nhận được thư mời nhập học từ 3 trường: Kyunghee Uni, Keimyung Uni, Sookmyung Women's Uni.",
       mentor_history: "Hỗ trợ thành công mentee apply các ngành ngôn ngữ Hàn, giáo dục tiếng Hàn",
       hashtag: "Hỗ trợ apply khối ngành ngôn ngữ tại Hàn Quốc",
-      majors: ["Ngôn ngữ Hàn"],
+      majors: ["Ngôn ngữ"],
       countries: ["Châu Á"],
       details: {
-        profile: [],
-        achievements: [],
+        profile: ["Đã tốt nghiệp master, Korean Language & Literature, Kyunghee University, Hàn Quốc."],
+        achievements: ["Nhận học bổng GKS-G 2022 nhận được thư mời nhập học từ 3 trường: Kyunghee Uni, Keimyung Uni, Sookmyung Women's Uni."],
         statement: "",
         philosophy: "",
-        records: [],
+        records: ["Hỗ trợ thành công mentee apply các ngành ngôn ngữ Hàn, giáo dục tiếng Hàn"],
         highlight_record: [],
         support: "",
+        tags: ["Châu Á", "Ngôn ngữ"]
       }
     },
     {
@@ -200,13 +204,14 @@ export const teamMembers: TeamMember[]= [
       majors: ["Khoa học xã hội"],
       countries: ["Châu Á"],
       details: {
-        profile: [],
-        achievements: [],
+        profile: ["Bachelor, Bussiness Administration, Korea University, Hàn Quốc"],
+        achievements: ["Nhận học bổng GKS-U 2022, nhận được thư mời nhập học từ Korea University, Yonsei University"],
         statement: "",
         philosophy: "",
-        records: [],
+        records: ["Hỗ trợ thành công mentee apply các ngành social science tại Việt Nam và Hàn Quốc"],
         highlight_record: [],
         support: "",
+        tags: ["Châu Á", "Khoa học xã hội"]
       }
     },
     {
@@ -221,13 +226,14 @@ export const teamMembers: TeamMember[]= [
       majors: ["Khoa học xã hội"],
       countries: ["Châu Á"],
       details: {
-        profile: [],
-        achievements: [],
+        profile: ["Bachelor, Bussiness Administration, Korea University, Hàn Quốc"],
+        achievements: ["Nhận học bổng GKS-U,EGPP của Ewha Womans University. Nhận được thư mời nhập học từ Korea University, Yonsei University"],
         statement: "",
         philosophy: "",
-        records: [],
+        records: ["Hỗ trợ thành công mentee apply các ngành social science tại Hàn Quốc"],
         highlight_record: [],
         support: "",
+        tags: ["Châu Á", "Khoa học xã hội"]
       }
     },
     {
@@ -242,13 +248,14 @@ export const teamMembers: TeamMember[]= [
       majors: ["Khoa học xã hội"],
       countries: ["Châu Á"],
       details: {
-        profile: [],
-        achievements: [],
+        profile: ["Double major, Media & Communication và International relation, Korea University, Hàn Quốc"],
+        achievements: ["Nhận học bổng GKS-U 2022. Nhận được thư mời nhập học từ Korea University, Yonsei University"],
         statement: "",
         philosophy: "",
-        records: [],
+        records: ["Hỗ trợ thành công mentee apply các ngành social science tại Hàn Quốc"],
         highlight_record: [],
         support: "",
+        tags: ["Châu Á", "Khoa học xã hội"]
       }
     },
     {
@@ -263,13 +270,14 @@ export const teamMembers: TeamMember[]= [
       majors: ["Khoa học xã hội"],
       countries: ["Châu Á"],
       details: {
-        profile: [],
-        achievements: [],
+        profile: ["Đã tốt nghiệp ngành Media & Communication, Hanyang University, Hàn Quốc"],
+        achievements: ["Nhận học bổng GKS-U 2021"],
         statement: "",
         philosophy: "",
-        records: [],
+        records: ["Hỗ trợ thành công mentee apply các ngành social science tại Hàn Quốc"],
         highlight_record: [],
         support: "",
+        tags: ["Châu Á", "Khoa học xã hội"]
       }
     },
     {
@@ -284,13 +292,14 @@ export const teamMembers: TeamMember[]= [
       majors: ["Khoa học kỹ thuật"],
       countries: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc"],
       details: {
-        profile: [],
-        achievements: [],
+        profile: ["PhD, Environmental Engineering, KAIST, Hàn Quốc"],
+        achievements: ["Nhận học bổng GKS-G 2022", "Học bổng toàn phần cho hệ thạc sĩ tại National Taiwan University (Đài Loan)", "Học bổng VLIR-UOS (Full-ride) cho bậc thạc sĩ tại Bỉ."],
         statement: "",
         philosophy: "",
-        records: [],
+        records: ["Hỗ trợ thành công mentee apply GKS-G và học bổng chính phủ Đài Loan (MOE Taiwan Scholarship 2023)."],
         highlight_record: [],
         support: "",
+        tags: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc", "Khoa học kỹ thuật"]
       }
     },
     // {
@@ -318,13 +327,14 @@ export const teamMembers: TeamMember[]= [
       majors: ["Khoa học xã hội"],
       countries: ["Châu Á"],
       details: {
-        profile: [],
-        achievements: [],
+        profile: ["Master, Media & Communications, Ewha Womans University, Hàn Quốc"],
+        achievements: ["Nhận học bổng GKS-G 2024"],
         statement: "",
         philosophy: "",
-        records: [],
+        records: ["Hỗ trợ thành công mentee apply ngành khoa học xã hội tại Hàn Quốc"],
         highlight_record: [],
         support: "",
+        tags: ["Châu Á", "Khoa học xã hội"]
       }
     },
     {
@@ -339,13 +349,14 @@ export const teamMembers: TeamMember[]= [
       majors: ["Khoa học xã hội", "Ngôn ngữ Hàn"],
       countries: ["Châu Á"],
       details: {
-        profile: [],
-        achievements: [],
+        profile: ["Master, Korean Education, Ewha Womans University, Hàn Quốc"],
+        achievements: ["Nhận học bổng GKS-G 2023"],
         statement: "",
         philosophy: "",
-        records: [],
+        records: ["Hỗ trợ thành công mentee apply ngành ngôn ngữ Hàn, giáo dục tiếng Hàn tại Hàn Quốc"],
         highlight_record: [],
         support: "",
+        tags: ["Châu Á", "Khoa học xã hội", "Ngôn ngữ Hàn"]
       }
     },
     {
@@ -360,13 +371,14 @@ export const teamMembers: TeamMember[]= [
       majors: ["Khoa học xã hội"],
       countries: ["Châu Á"],
       details: {
-        profile: [],
-        achievements: [],
+        profile: ["Master, Business Administration in Management and Marketing, SKKU, Hàn Quốc"],
+        achievements: ["Nhận học bổng GKS-G 2022"],
         statement: "",
         philosophy: "",
-        records: [],
+        records: ["Hỗ trợ thành công mentee apply ngành Social Science tại Hàn Quốc"],
         highlight_record: [],
         support: "",
+        tags: ["Châu Á", "Khoa học xã hội"]
       }
     },
     {
@@ -381,13 +393,14 @@ export const teamMembers: TeamMember[]= [
       majors: ["Khoa học sức khỏe", "Khoa học kỹ thuật"],
       countries: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc"],
       details: {
-        profile: [],
-        achievements: [],
-        statement: "",
-        philosophy: "",
-        records: [],
+        profile: ["Tốt nghiệp cử nhân ngành Dược học Đại học Y Dược Huế", "Tốt nghiệp thạc sĩ về nghiên cứu và phát triển thuốc, Liverpool John Moores University, tại Vương quốc Anh", "Nghiên cứu viên tại Nottingham, UK"],
+        achievements: ["Nhận học bổng Sakura Science cho chương trình trao đổi sinh viên tại Nhật Bản", "Nhận học bổng toàn phần Thạc sĩ Women in STEM British Council năm 2021", "Đồng tác giả trên bằng sáng chế 'Methods for treating benzodiazepines misuse/use disorder' với University of Mississippi Medical Center, US"],
+        statement: "Mình hỗ trợ mentee xây dựng câu chuyện cá nhân để apply học bổng, câu chuyện nơi mà mentee thể hiện điểm mạnh của bản thân và định hướng tương lai rõ ràng để chứng minh mentee là ứng cử viên phù hợp với học bổng.",
+        philosophy: "Hiểu rõ chương trình bạn apply, dám nghĩ lớn cho mục tiêu nghề nghiệp tương lai là cách làm câu chuyện của bạn nổi bật.",
+        records: ["Hỗ trợ thành công mentee apply các ngành Khoa học sức khoẻ, Khoa học kỹ thuật ở Anh, Thuỵ Điển, Bỉ, Ý và Pháp."],
         highlight_record: [],
         support: "",
+        tags: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc", "Khoa học sức khỏe", "Khoa học kỹ thuật"]
       }
     },
     {
@@ -430,8 +443,8 @@ export const teamMembers: TeamMember[]= [
       countries: ["Châu Á", "Châu Âu", "Châu Mỹ", "Châu Úc", "Toàn thế giới"],
       details: {
         profile: ["Tốt nghiệp ngành tài chính trường đại học kinh tế quốc dân.", "Ex-Associate tại EY Việt Nam", "Tốt nghiệp thạc sĩ ngành Finance tại Yonsei University."],
-        achievements: ["Học bổng BIDV dành cho sinh viên NEU có thành tích xuất sắc kỳ II năm học 2018-2019",
-          "Học bổng chính phủ Hàn Quốc bậc Cao học năm 2023, nhận được thư mời từ 3 trường đại học: Yonsei Uni, Ewha Uni và JBNU"
+        achievements: ["Nhận học bổng BIDV dành cho sinh viên NEU có thành tích xuất sắc kỳ II năm học 2018-2019",
+          "Nhận học bổng chính phủ Hàn Quốc bậc Cao học năm 2023, nhận được thư mời từ 3 trường đại học: Yonsei Uni, Ewha Uni và JBNU"
         ],
         statement: "If you aim at nothing, you hit nothing",
         philosophy: "A mentor is someone who sees more talent and ability within a person than they see in themselves and helps brings it out",

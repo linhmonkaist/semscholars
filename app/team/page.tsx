@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Star, MapPin, GraduationCap } from "lucide-react"
 import {TeamMember, teamMembers} from "@/app/team/Data"
+import Link from "next/link"
 
 // Sample data
 // const teamMembers: TeamMember[] = [
@@ -156,7 +157,9 @@ export default function TeamMembersPage() {
       {/* Team Members Grid */}
       <div className={`grid gap-6 ${isMobile ? "grid-cols-1" : isTablet ? "grid-cols-2" : "grid-cols-3"}`}>
         {filteredMembers.map((member) => (
-          <MemberCard key={member.id} member={member} />
+          <Link key={member.id} href={`/team/${member.id}`} className="block">
+            <MemberCard member={member} />
+          </Link>
         ))}
       </div>
 
@@ -226,4 +229,3 @@ function MemberCard({ member }: { member: TeamMember }) {
     </Card>
   )
 }
-
