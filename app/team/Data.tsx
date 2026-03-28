@@ -454,4 +454,29 @@ export const teamMembers: TeamMember[]= [
         tags: ["Châu Á", "Khoa học xã hội", "Finance", "Business", "Accounting", "Management"]
       }
     },
+    {
+      id: "dieumai",
+      name: "Diệu Mai",
+      role: role,
+      description: "Bachelor, Economics, UIC- Yonsei University, Hàn Quốc",
+      image: "/assets/img/team/none.png",
+      received_scholarship: "Nhận học bổng Admissions Scholarship (covering 100% tuition fees) của UIC Yonsei.",
+      mentor_history: "",
+      hashtag: "Hỗ trợ apply học bổng các trường tại Hàn Quốc",
+      majors: ["Khoa học xã hội"],
+      countries: ["Châu Á"],
+      details: {
+        profile: ["Cử nhân ngành Economics, Underwood International College, Yonsei University."],
+        achievements: ["Học bổng Admissions Scholarship (covering 100% tuition fees) của UIC Yonsei.",
+          "Huy chương Bạc Toán HKIMO vòng quốc gia năm 2021.",
+          "Giải Nhất học sinh giỏi Toán cấp cụm Ba Đình - Tây Hồ năm 2023, Nhì năm 2024."
+        ],
+        statement: "Hành trình chạm đến ước mơ chưa bao giờ là dễ dàng. Nhưng trên từng bước đi, khi bạn vẫn kiên định hướng về phía trước, bạn cũng đang âm thầm trở thành phiên bản mà chính mình từng ngưỡng mộ. Growth is slow, but it does exist.",
+        philosophy: "Dấu ấn của mỗi cá nhân không chỉ đến từ thành tích, tài năng hay triển vọng tương lai mà được định hình những giá trị tốt đẹp cá nhân đó có thể đóng góp cho cộng đồng của mình. Một người tỏa sáng không chỉ chiếu rọi chính mình, mà còn lan tỏa ánh sáng ấy đến cả một vùng xung quanh.",
+        records: [],
+        highlight_record: [],
+        support: "",
+        tags: ["Châu Á", "Yonsei", "Economics"]
+      }
+    },
   ]

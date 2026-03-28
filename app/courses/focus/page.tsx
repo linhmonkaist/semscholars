@@ -189,9 +189,9 @@ export default function Page() {
                   ✔️ Cần mentor giàu kinh nghiệm, là sinh viên các trường STEM hàng đầu<br/>
                   <br/>
                   <strong>🌟 Chi phí:</strong><br/>
-                  💼 Thông thường: <span className="text-red-600">15,000,000 VND</span> - Áp dụng cho đơn đăng ký trong tháng bình thường<br/>
-                  🎯 Urgent: <span className="text-red-600">20,000,000 VND</span> - Áp dụng cho đơn đăng ký trước deadline 30 ngày.<br/>
-                  💼 Hình thức thanh toán: tại thời điểm đăng ký thanh toán <span className="text-red-600">10,000,000 VND đối với đợt thông thường và 15,000,000 VND đối với đợt urgent</span>. Thanh toán  <span className="text-red-600">5,000,000 VND</span> còn lại tại thời điểm có thư mời nhập học.<br/>
+                  💼 Thông thường: <span className="text-red-600">20,000,000 VND</span> - Áp dụng cho đơn đăng ký trong tháng bình thường<br/>
+                  🎯 Urgent: <span className="text-red-600">25,000,000 VND</span> - Áp dụng cho đơn đăng ký trước deadline 45 ngày.<br/>
+                  💼 Hình thức thanh toán: tại thời điểm đăng ký thanh toán <span className="text-red-600">15,000,000 VND đối với đợt thông thường và 20,000,000 VND đối với đợt urgent</span>. Thanh toán  <span className="text-red-600">5,000,000 VND</span> còn lại tại thời điểm có thư mời nhập học.<br/>
                   <br/>
                   </p>
 
