@@ -133,10 +133,19 @@ export const teamMembers: TeamMember[]= [
       countries: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc"],
       hashtag: "Hỗ trợ apply học bổng các ngành Technology & Science trên toàn thế giới",
       details: {
-        profile: ["Đã tốt nghiệp master, Statistics, Swiss Federal Institute of Technology Lausanne (EPFL), Thụy Sĩ", "Cựu sinh viên KAIST, ngành Mathematical Sciences"],
-        achievements: ["Nhận học bổng toàn phần của KAIST"],
-        statement: "",
-        philosophy: "",
+        profile: [
+          "CEO & Cofounder Wequant, Cofounder Chilgu Trading",
+          "Đã tốt nghiệp master, Statistics, Swiss Federal Institute of Technology Lausanne (EPFL), Thụy Sĩ", 
+          "Cựu sinh viên KAIST, ngành Mathematical Sciences"
+        ],
+        achievements: [
+          "3 năm kinh nghiệm Nghiên cứu định lượng",
+          "Cử nhân khoa Toán KAIST",
+          "Top 18 Đồng đội cuộc thi Toán dành cho Đại học SImon Marais 2019",
+          "Dean's List khoa Toán KAIST kỳ thu 2018",
+          "Nhận học bổng toàn phần của KAIST"],
+        statement: "Ai cũng xứng đáng có được cơ hội được học tập, phát triển, và tỏa sáng. Không quan trọng bạn ở nơi đâu, đến từ đâu, mình cùng SEM sẽ cố hết sức để bạn nắm bắt được cơ hội và đạt được điều bạn muốn",
+        philosophy: "Điều quan trọng nhất là một trái tim không bỏ cuộc",
         records: ["Hướng dẫn thành công các mentee apply Hàn Quốc, Thụy Sĩ các ngành khoa học kỹ thuật"],
         highlight_record: [],
         support: "",
@@ -160,11 +169,37 @@ export const teamMembers: TeamMember[]= [
       hashtag: "Hỗ trợ apply tất cả các học bổng trên toàn thế giới.",
       countries: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc"],
       details: {
-        profile: ["Máster Erasmus Mundus en Sanidad Vegetal en Agricultura Sostenible, University of Padova"],
-        achievements: ["Nhận Học bổng Máster Erasmus Mundus en Sanidad Vegetal en Agricultura Sostenible (UNIPD, Ý và UPV, Tây Ban Nha)", "Học bổng Latvian State Scholarships for Studies and Summer Schools 2024 at Rezekne Academy of Technologies, Riga, Latvia", "Học bổng Erasmus+ International Credit Mobility between JBNU, Korea and Universitat Hohenheim, Stuttgart, Germany, 2024", "Học bổng GKS-U ngành Plant Medicine and International Development and Cooperation tại Jeonbuk National University, Hàn Quốc"],
-        statement: "",
+        profile: [
+          "Hiện là học viên Thạc sĩ chương trình Erasmus Mundus Joint Master in Plant Health in Sustainable Cropping Systems, theo học tại University of Padova (Ý) và Universitat Politècnicade València (Tây Ban Nha).",
+          "Tốt nghiệp loại Xuất sắc bậc cử nhân ngành Plant Medicine và International Studies (International Development Cooperation) tại Jeonbuk National University (Hàn Quốc)",
+        ],
+        achievements: [
+          "Học bổng toàn phần Erasmus Mundus Joint Master Degree (2025 - 2027) do Ủy ban Châu Âu tài trợ", 
+          "Học bổng toàn phần Global Korea Scholarship, GKS-U (2020 - 2025) do NIIED, Bộ Giáo dục Hàn Quốc tài trợ", 
+          "Học bổng trao đổi Erasmus+ Mobility tại University of Hohenheim, Đức", 
+          "Latvian State Scholarship - Latvian Summer School 2024",
+          "Tốt nghiệp loại Xuất sắc, là 1 trong 30 đại diện trên tổng số 3000 cử nhân nhận bằng tốt nghiệp và giấy khen từ President of Jeonbuk National University",
+          "Tham gia field trip tại Tashkent, Uzbekistan, phối hợp cùng KOICA, UNDP Uzbekistan và Bộ Nông nghiệp Uzbekistan trong dự án nông nghiệp bền vững giảm phát thải, thuộc sáng kiến Glocal University 30 do Bộ Giáo dục Hàn Quốc tài trợ",
+          "Grand Award - Global Issues Creative Solution Competition 2025 do Jeonbuk National University và Jeonbuk International Cooperation Agency tổ chức",
+          "Best Poster Presentation - The 10th Annual Conference of Vietnamese Young Scientists (ACVYS 2024)",
+          "Dean's List các năm 2021, 2022, 2023, 2024 tại Jeonbuk National University",
+          "Grand Award và Influential Award tại các cuộc thi học thuật quốc tế ASEAN-ROK Youth Presentation",
+          "Giải Ba - Cuộc thi Nghiên cứu Khoa học Kỹ thuật cấp Quốc gia dành cho học sinh THCS và THPT (VSEF 2019)"
+        ],
+        statement: "Mình tin rằng điều quan trọng nhất trong hành trình apply học bổng không phải là có một \
+                    hồ sơ “hoàn hảo”, mà là hiểu rõ bản thân muốn gì và biết cách thể hiện câu chuyện riêng \
+                    của mình một cách thuyết phục.Từ chính trải nghiệm săn học bổng của bản thân, mình \
+                    hiểu rằng mỗi mentee đều có những điểm mạnh riêng, và khi được định hướng đúng, các \
+                    bạn hoàn toàn có thể chạm tới những cơ hội lớn. Vì vậy, khi đồng hành cùng mentee, \
+                    mình tập trung hỗ trợ các bạn xác định định hướng phù hợp, xây dựng hồ sơ dựa trên \
+                    năng lực thật sự, và thể hiện bản thân một cách rõ ràng, nổi bật. Mình mong muốn không \
+                    chỉ giúp mentee giành được học bổng, mà còn giúp các bạn tự tin hơn trên hành trình \
+                    phát triển bản thân và mở ra nhiều cơ hội cho tương lai.",
         philosophy: "",
-        records: ["Hỗ trợ thành công mentee apply các ngành khác nhau của nhiều học bổng trên thế giới"],
+        records: ["Hỗ trợ thành công nhiều mentee đạt học bổng Global Korea Scholarship, GKS-U: 5+ suất, GKS-G: 10+ suất",
+          "Hỗ trợ thành công học bổng bán phần và thư mời nhập học từ các trường đại học hàng đầu tại Hàn Quốc như: Yonsei University \
+          Chung-Ang University, Sogang University, Sejong University"
+        ],
         highlight_record: [],
         support: "",
         tags: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc", "Khoa học kỹ thuật", "Khoa học xã hội"]
@@ -197,18 +232,24 @@ export const teamMembers: TeamMember[]= [
       name: "Vũ Ngân Giang",
       role: role,
       description: "Bachelor, Bussiness Administration, Korea University, Hàn Quốc",
-      image: "/assets/img/team/giang.jpg",
+      image: "/assets/img/team/ngangiang.jpeg",
       received_scholarship: "Nhận học bổng GKS-U 2022, nhận được thư mời nhập học từ Korea University, Yonsei University",
       mentor_history: "Hỗ trợ thành công mentee apply các ngành social science tại Việt Nam và Hàn Quốc",
       hashtag: "Hỗ trợ apply học bổng các ngành Social Science trên toàn thế giới",
       majors: ["Khoa học xã hội"],
       countries: ["Châu Á"],
       details: {
-        profile: ["Bachelor, Bussiness Administration, Korea University, Hàn Quốc"],
-        achievements: ["Nhận học bổng GKS-U 2022, nhận được thư mời nhập học từ Korea University, Yonsei University"],
-        statement: "",
+        profile: ["Bachelor, Bussiness Administration, Korea University, Hàn Quốc", "Chuyên sâu về Business Analytics và Financial Analysis & Investment."],
+        achievements: [
+          "Đại diện Korea University tham gia RSM Case Competition 2024 tổ chức tại Erasmus University- Netherlands",
+          "Bronze Prize - KUBS Challenge 2023, cuộc thi giải business case của KU nhằm chọn đại diện dự thi quốc tế",
+          "Top 4 National Round - HSBC/HKU Asia Pacific Business Case Competition 2023",
+          "Nhận học bổng GKS-U 2022, nhận được thư mời nhập học từ Korea University, Yonsei University",
+          "Giải Nhất - Kỳ thi Olympic cấp Đại học Ngoại Ngữ - Đại học Quốc gia Việt Nam dành cho học sinh THPT năm 2020,  môn Tiếng Hàn "
+        ],
+        statement: "Mình tin rằng một bộ hồ sơ du học mạnh không bắt đầu từ việc “làm đẹp thành tích”, mà bắt đầu từ việc hiểu rõ bản thân thực sự muốn gì và phù hợp với điều gì. Vì vậy, trong quá trình mentoring, mình luôn ưu tiên giúp mentee xác định rõ định hướng để xây dựng lộ trình và câu chuyện cá nhân, đảm bảo tính nhất quán và thuyết phục. Mình đã có kinh nghiệm đồng hành cùng mentee ở nhiều lĩnh vực, trong đó nổi bật nhất là nhóm ngành Khoa học Xã hội, Quản trị Kinh doanh, Kinh tế.",
         philosophy: "",
-        records: ["Hỗ trợ thành công mentee apply các ngành social science tại Việt Nam và Hàn Quốc"],
+        records: ["Hỗ trợ thành công nhiều mentee đậu HB toàn phần đến bán phần bậc Đại học và Thạc sĩ từ các trường đại học top đầu tại Hàn Quốc và các trường đại học quốc tế ở Việt Nam."],
         highlight_record: [],
         support: "",
         tags: ["Châu Á", "Khoa học xã hội"]
