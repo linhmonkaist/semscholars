@@ -422,28 +422,28 @@ export const teamMembers: TeamMember[]= [
         tags: ["Châu Á", "Khoa học xã hội"]
       }
     },
-    {
-      id: "huongnguyen",
-      name: "Nguyễn Thị Thanh Hường",
-      role: role,
-      description: "Tốt nghiệp cử nhân ngành Dược học Đại học Y Dược Huế, tốt nghiệp thạc sĩ về nghiên cứu và phát triển thuốc tại Vương quốc Anh",
-      image: "/assets/img/team/huong_nguyen.png",
-      received_scholarship: "Nhận học bổng Sakura Science cho chương trình trao đổi sinh viên tại Nhật Bản và học bổng toàn phần Women in STEM cho chương trình thạc sĩ về nghiên cứu và phát triển thuốc tại Vương quốc Anh",
-      mentor_history: "Hỗ trợ thành công mentee apply các ngành Khoa học sức khoẻ, Khoa học kỹ thuật ở Anh, Thuỵ Điển, Bỉ.",
-      hashtag: "Hỗ trợ apply học bổng các ngành khoa học sức khỏe, khoa học kỹ thuật trên toàn thế giới",
-      majors: ["Khoa học sức khỏe", "Khoa học kỹ thuật"],
-      countries: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc"],
-      details: {
-        profile: ["Tốt nghiệp cử nhân ngành Dược học Đại học Y Dược Huế", "Tốt nghiệp thạc sĩ về nghiên cứu và phát triển thuốc, Liverpool John Moores University, tại Vương quốc Anh", "Nghiên cứu viên tại Nottingham, UK"],
-        achievements: ["Nhận học bổng Sakura Science cho chương trình trao đổi sinh viên tại Nhật Bản", "Nhận học bổng toàn phần Thạc sĩ Women in STEM British Council năm 2021", "Đồng tác giả trên bằng sáng chế 'Methods for treating benzodiazepines misuse/use disorder' với University of Mississippi Medical Center, US"],
-        statement: "Mình hỗ trợ mentee xây dựng câu chuyện cá nhân để apply học bổng, câu chuyện nơi mà mentee thể hiện điểm mạnh của bản thân và định hướng tương lai rõ ràng để chứng minh mentee là ứng cử viên phù hợp với học bổng.",
-        philosophy: "Hiểu rõ chương trình bạn apply, dám nghĩ lớn cho mục tiêu nghề nghiệp tương lai là cách làm câu chuyện của bạn nổi bật.",
-        records: ["Hỗ trợ thành công mentee apply các ngành Khoa học sức khoẻ, Khoa học kỹ thuật ở Anh, Thuỵ Điển, Bỉ, Ý và Pháp."],
-        highlight_record: [],
-        support: "",
-        tags: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc", "Khoa học sức khỏe", "Khoa học kỹ thuật"]
-      }
-    },
+    // {
+    //   id: "huongnguyen",
+    //   name: "Nguyễn Thị Thanh Hường",
+    //   role: role,
+    //   description: "Tốt nghiệp cử nhân ngành Dược học Đại học Y Dược Huế, tốt nghiệp thạc sĩ về nghiên cứu và phát triển thuốc tại Vương quốc Anh",
+    //   image: "/assets/img/team/huong_nguyen.png",
+    //   received_scholarship: "Nhận học bổng Sakura Science cho chương trình trao đổi sinh viên tại Nhật Bản và học bổng toàn phần Women in STEM cho chương trình thạc sĩ về nghiên cứu và phát triển thuốc tại Vương quốc Anh",
+    //   mentor_history: "Hỗ trợ thành công mentee apply các ngành Khoa học sức khoẻ, Khoa học kỹ thuật ở Anh, Thuỵ Điển, Bỉ.",
+    //   hashtag: "Hỗ trợ apply học bổng các ngành khoa học sức khỏe, khoa học kỹ thuật trên toàn thế giới",
+    //   majors: ["Khoa học sức khỏe", "Khoa học kỹ thuật"],
+    //   countries: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc"],
+    //   details: {
+    //     profile: ["Tốt nghiệp cử nhân ngành Dược học Đại học Y Dược Huế", "Tốt nghiệp thạc sĩ về nghiên cứu và phát triển thuốc, Liverpool John Moores University, tại Vương quốc Anh", "Nghiên cứu viên tại Nottingham, UK"],
+    //     achievements: ["Nhận học bổng Sakura Science cho chương trình trao đổi sinh viên tại Nhật Bản", "Nhận học bổng toàn phần Thạc sĩ Women in STEM British Council năm 2021", "Đồng tác giả trên bằng sáng chế 'Methods for treating benzodiazepines misuse/use disorder' với University of Mississippi Medical Center, US"],
+    //     statement: "Mình hỗ trợ mentee xây dựng câu chuyện cá nhân để apply học bổng, câu chuyện nơi mà mentee thể hiện điểm mạnh của bản thân và định hướng tương lai rõ ràng để chứng minh mentee là ứng cử viên phù hợp với học bổng.",
+    //     philosophy: "Hiểu rõ chương trình bạn apply, dám nghĩ lớn cho mục tiêu nghề nghiệp tương lai là cách làm câu chuyện của bạn nổi bật.",
+    //     records: ["Hỗ trợ thành công mentee apply các ngành Khoa học sức khoẻ, Khoa học kỹ thuật ở Anh, Thuỵ Điển, Bỉ, Ý và Pháp."],
+    //     highlight_record: [],
+    //     support: "",
+    //     tags: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc", "Khoa học sức khỏe", "Khoa học kỹ thuật"]
+    //   }
+    // },
     {
       id: "minhnguyet",
       name: "Đồng Minh Nguyệt",
