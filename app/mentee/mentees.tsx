@@ -2903,10 +2903,10 @@ export const mentees: Mentee[] = [
     name: "Lưu Hoàng Linh",
     image: "",
     scholarships: [
-      "Yonsei GLC Scholarship", "Ewha 100% Scholarship"
+      "Yonsei GLC Scholarship", "Ewha 100% Scholarship", "Sogang Scholarship" 
     ],
     universities: [
-      "Yonsei", "Ewha"
+      "Yonsei", "Ewha", "Sogang"
     ],
     countries: [
       "Korea"
@@ -3066,4 +3066,169 @@ export const mentees: Mentee[] = [
     ],
     degree: "Bachelor"
   },
+  {
+    id: "hoaithule784ntt@gmail.com",
+    name: "Lê Hoài Thu",
+    image: "",
+    scholarships: ["GKS-U 2026 Scholarship"],
+    universities: ["Kyungbok National University"],
+    countries: ["Korea"],
+    majors: ["Media & Communication"],
+    mentors: ["Hoàng Liên"],
+    degree: "Bachelor"
+  },
+  {
+    id: "nguyenthao.jessejix@gmail.com",
+    name: "Lê Nguyễn Nguyên Thảo",
+    image: "",
+    scholarships: ["Ewha Scholarship", "Admission"],
+    universities: ["Ewha", "Sogang", "Yonsei"],
+    countries: ["Korea"],
+    majors: ["Media & Communication"],
+    mentors: ["Hoàng Liên"],
+    degree: "Bachelor"
+  },
+  {
+    id: "phanhung0504@gmail.com",
+    name: "Phan Lê Hùng",
+    image: "",
+    scholarships: ["GKS-U 2026 Scholarship"],
+    universities: ["KoreaTech"],
+    countries: ["Korea"],
+    majors: ["Mechanical Engineering"],
+    mentors: ["Thế Phúc", "Linh Mon"],
+    degree: "Bachelor"
+  },
+  {
+    id: "nothingcuo@gmail.com",
+    name: "Bùi Danh Thành",
+    image: "",
+    scholarships: ["GKS-U 2026 Scholarship"],
+    universities: ["Daegu"],
+    countries: ["Korea"],
+    majors: ["Electrical Engineering"],
+    mentors: ["Ngọc Mai", "Linh Mon"],
+    degree: "Bachelor"
+  },
+  {
+    id: "ngan071020008@gmail.com",
+    name: "Võ Hoàng Ngân",
+    image: "",
+    scholarships: ["CUHK Scholarship"],
+    universities: ["The Chinese University of Hong Kong"],
+    countries: ["Hong Kong"],
+    majors: ["Journalism and Communication"],
+    mentors: ["Ngọc Mai"],
+    degree: "Bachelor"
+  },
+  {
+    id: "dangthuhienhy0208@gmail.com",
+    name: "Đặng Thu Hiên",
+    image: "",
+    scholarships: ["Master Scholarship"],
+    universities: ["Soonchunhyang University"],
+    countries: ["Korea"],
+    majors: ["Chemistry"],
+    mentors: ["Thành Trung"],
+    degree: "Master"
+  },
+  {
+    id: "tranthiquynhgiang@gmail.com",
+    name: "Trần Nguyên Khải",
+    image: "",
+    scholarships: ["KAIST Scholarship"],
+    universities: ["KAIST"],
+    countries: ["Korea"],
+    majors: ["Computer Science"],
+    mentors: ["Ngọc Mai"],
+    degree: "Bachelor"
+  },
+  {
+    id: "gaga24309@gmail.com",
+    name: "Đỗ Hoàng Nam",
+    image: "",
+    scholarships: ["KAIST Scholarship"],
+    universities: ["KAIST"],
+    countries: ["Korea"],
+    majors: ["Computer Science"],
+    mentors: ["Ngọc Mai"],
+    degree: "Bachelor"
+  },
+  {
+    id: "phuonglinhnguyenha2602@gmail.com",
+    name: "Nguyễn Hà Phương Linh",
+    image: "",
+    scholarships: ["Admission"],
+    universities: ["NTU"],
+    countries: ["Singapore"],
+    majors: ["Electrical Engineering"],
+    mentors: ["Ngọc Mai"],
+    degree: "Bachelor"
+  },
+  {
+    id: "dungvml2605@gmail.com",
+    name: "Vũ Mỹ Lệ Dung",
+    image: "",
+    scholarships: ["KAIST Scholarship", "Admission"],
+    universities: ["KAIST", "NTU"],
+    countries: ["Korea", "Singapore"],
+    majors: ["Electrical Engineering"],
+    mentors: ["Ngọc Mai", "Thành Trung"],
+    degree: "Bachelor"
+  },
+  {
+    id: "minmin.90994@gmail.com",
+    name: "Minh Anh Nguyễn",
+    image: "",
+    scholarships: ["Admission"],
+    universities: ["Ewha"],
+    countries: ["Korea"],
+    majors: ["Consumer Science"],
+    mentors: ["Linh Chi", "Linh Mon"],
+    degree: "Master"
+  },
+  {
+    id: "linhnn050908@gmail.com",
+    name: "Nguyễn Ngọc Linh",
+    image: "",
+    scholarships: ["DGIST Scholarship", "UNIST Scholarship"],
+    universities: ["DGIST", "UNIST"],
+    countries: ["Korea"],
+    majors: ["Transdisciplinary Studies"],
+    mentors: ["Ngọc Mai"],
+    degree: "Bachelor"
+  },
+  {
+    id: "nd24022001@gmail.com",
+    name: "Dương Cát Nguyên",
+    image: "",
+    scholarships: ["Admission"],
+    universities: ["Ewha"],
+    countries: ["Korea"],
+    majors: ["Media & Communication"],
+    mentors: ["Phương Ngọc"],
+    degree: "Master"
+  },
+  {
+    id: "keii6531@gmail.com",
+    name: "Ngô Hương Giang",
+    image: "",
+    scholarships: ["Admission"],
+    universities: ["Ewha"],
+    countries: ["Korea"],
+    majors: ["Media & Communication"],
+    mentors: ["Phương Ngọc", "Linh Mon"],
+    degree: "Master"
+  },
+  {
+    id: "bui90248@gmail.com",
+    name: "Bùi Nguyên Phong",
+    image: "",
+    scholarships: ["UNIST Scholarship"],
+    universities: ["UNIST"],
+    countries: ["Korea"],
+    majors: ["Chemical Engineering"],
+    mentors: ["Ngọc Mai"],
+    degree: "Bachelor"
+  }
 ];
