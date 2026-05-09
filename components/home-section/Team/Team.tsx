@@ -29,7 +29,7 @@ const Team = () => {
                       width={300}
                       height={300}
                     />
-                    <Link href={`/team#${member.id}`}>
+                    <Link href={`/team/${member.id}`}>
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100 flex items-end justify-center p-4">
                       
                       <div className="flex gap-4">

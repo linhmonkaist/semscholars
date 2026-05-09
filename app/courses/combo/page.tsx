@@ -33,6 +33,13 @@ export default function Page() {
     'Gia nhập mạng lưới alumni từng đạt học bổng & đang học tập tại nước ngoài',
     // Bạn có thể thêm các quyền lợi khác tại đây
   ];
+  data.forEach(item => {
+    if (item.url === "/courses/combo") {
+      item.isActive = true
+    } else {
+      item.isActive = false
+    }
+  })
   return (
     <SidebarProvider>
       <AppSidebar data={data}/>

@@ -21,6 +21,9 @@ import SinglePackageTable from "@/components/SinglePackageTable"
 
 
 export default function Page() {
+  data.forEach(item => {
+    item.isActive = false
+  })
   return (
     <SidebarProvider>
       <AppSidebar data={data}/>
@@ -52,9 +55,10 @@ export default function Page() {
 
                   <p className="text-lg text-muted-foreground mb-6">
                   SEM Scholars cung cấp hệ sinh thái mentoring toàn diện dành cho học sinh, sinh viên 
-                  Việt Nam mong muốn chinh phục học bổng quốc tế. Hiện tại SEM cung cấp 3 nhóm chương trình mentor chính: Gói
+                  Việt Nam mong muốn chinh phục học bổng quốc tế. Hiện tại SEM cung cấp 4 nhóm chương trình mentor chính: Gói
                   lẻ - hỗ trợ chuyên biệt theo nhu cầu, Gói focus - hỗ trợ đồng hành một học bổng/trường cụ thể,
-                  Gói combo - chinh phục nhiều học bổng/ trường cùng lúc. Các gói hỗ trợ đều do các 
+                  Gói combo - chinh phục nhiều học bổng/ trường cùng lúc và Gói Học bổng ngắn hạn, ngoại khoá - hỗ trợ apply các chương
+                  trình học bổng ngắn hạn, chương trình ngoại khoá. Các gói hỗ trợ đều do các 
                   mentor giàu kinh nghiệm, đã thành công trong việc săn học bổng và du học, trực tiếp hướng dẫn.
                   </p>
 
@@ -76,7 +80,7 @@ export default function Page() {
                       <div className="rounded-full bg-primary/10 p-1 mt-0.5">
                         <CheckIcon className="h-3 w-3 text-primary" />
                       </div>
-                      <span>Nhu cầu cụ thể của mentee: hỗ trợ lẻ, gói toàn diện theo trường/học bổng, hoặc combo nhiều trường.</span>
+                      <span>Nhu cầu cụ thể của mentee: hỗ trợ lẻ, gói toàn diện theo trường/học bổng, combo nhiều trường hoặc học bổng ngắn hạn, ngoại khoá.</span>
                     </li>
                   </ul>
 
@@ -254,6 +258,72 @@ export default function Page() {
                   <Link href="/courses/combo">
                   <Button size="lg" className="w-full">
                     Chi tiết chương trình Combo
+                  </Button>
+                  </Link>
+                </div>
+              </div>
+
+              <div className="rounded-xl bg-background p-8 shadow-sm border">
+                <div className="max-w-3xl mx-auto">
+                  <h2 className="text-2xl font-bold mb-4">Gói Học bổng ngắn hạn và ngoại khoá</h2>
+                  <p className="mb-6">
+                  Gói mentor học bổng ngắn hạn và ngoại khoá cung cấp các buổi mentoring linh hoạt, tập trung vào hỗ trợ cho 
+                  các bạn đang muốn apply các chương trình ngoại khoá hoặc các học bổng ngắn hạn theo từng kỳ.<br/><br/>
+                  Chương trình tập trung vào khai phá câu chuyện cá nhân để tạo nên những bài luận (Essay/Personal Statement) 
+                  ấn tượng, phù hợp với từng chương trình. Đồng thời, lộ trình đảm bảo có thể hỗ trợ mentee trong thời gian
+                   tối ưu để phù hợp chu kỳ apply ngắn của từng chương trình. <br/><br/>
+                  Gói mentor học bổng ngắn hạn và ngoại khoá phù hợp với mentee đang nhắm đến các chương trình trao đổi (như YSEALI, Global UGRAD, các trại 
+                  hè tại Mỹ, Châu Âu, Nhật Bản v.v.). Hoặc các bạn đang muốn apply các học bổng ngắn hạn như Daewoong, SamSung, 
+                  học bổng từng kỳ, học bổng trao đổi. Hồ sơ ngoại khóa xuất sắc và thuyết phục sẽ là "bàn đạp" cho các 
+                  học bổng chính quy dài hạn sau này.
+                  </p>
+
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
+                    <div className="flex flex-col gap-2 items-center text-center p-4 rounded-lg bg-muted/50">
+                      <Clock className="h-6 w-6 text-primary" />
+                      <div>
+                        <p className="font-medium">Thời lượng</p>
+                        <p className="text-sm text-muted-foreground">Không giới hạn</p>
+                      </div>
+                    </div>
+
+                    <div className="flex flex-col gap-2 items-center text-center p-4 rounded-lg bg-muted/50">
+                      <Calendar className="h-6 w-6 text-primary" />
+                      <div>
+                        <p className="font-medium">Hình thức</p>
+                        <p className="text-sm text-muted-foreground">Online</p>
+                      </div>
+                    </div>
+
+
+                    <div className="flex flex-col gap-2 items-center text-center p-4 rounded-lg bg-muted/50">
+                      <DollarSign className="h-6 w-6 text-primary" />
+                      <div>
+                        <p className="font-medium">Chi phí</p>
+                        <p className="text-sm text-muted-foreground">Tùy theo yêu cầu của chương trình</p>
+                      </div>
+                    </div>
+                  </div>
+                  <Link href="/courses/shortterm">
+                  <Button size="lg" className="w-full">
+                    Chi tiết chương trình học bổng ngắn hạn và ngoại khoá
+                  </Button>
+                  </Link>
+                </div>
+              </div>
+
+              <div className="rounded-xl bg-background p-8 shadow-sm border">
+                <div className="max-w-3xl mx-auto">
+                  <h2 className="text-2xl font-bold mb-4">Gói Hỗ trợ xin dấu hợp pháp hoá lãnh sự</h2>
+                  <p className="mb-6">
+                  Gói Hỗ trợ xin dấu hợp pháp hoá lãnh sự cung cấp dịch vụ hỗ trợ dịch thuật
+                  <br/><br/>
+                  
+                  </p>
+
+                  <Link href="/courses/shortterm">
+                  <Button size="lg" className="w-full">
+                    Chi tiết dịch vụ hỗ trợ xin dấu hợp pháp hoá lãnh sự
                   </Button>
                   </Link>
                 </div>

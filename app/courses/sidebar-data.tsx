@@ -93,4 +93,28 @@ export const data: SidebarItem[] = [
         },
       ],
     },
+    {
+      title: "Chương trình học bổng ngắn hạn và ngoại khoá",
+      url: "/courses/shortterm",
+      icon: BookOpen,
+      isActive: true,
+      items: [
+        {
+          title: "Tổng quan",
+          url: "/courses/shortterm#overview",
+        },
+      ],
+    },
+    {
+      title: "Dịch vụ giấy tờ và apply",
+      url: "/courses/yellow-stamp",
+      icon: BookOpen,
+      isActive: true,
+      items: [
+        {
+          title: "Tổng quan",
+          url: "/courses/yellow-stamp#overview",
+        },
+      ],
+    },
   ]

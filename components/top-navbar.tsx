@@ -55,6 +55,14 @@ const data = {
           title: "Chương trình mentor Combo",
           url: "/courses/combo",
         },
+        {
+          title: "Mentor Học bổng ngắn hạn và ngoại khoá",
+          url: "/courses/shortterm",
+        },
+        {
+          title: "Dịch vụ giấy tờ và apply",
+          url: "/courses/yellow-stamp",
+        },
         // {
         //   title: "Câu hỏi thường gặp",
         //   url: "/courses/questions",

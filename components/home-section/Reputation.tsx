@@ -16,7 +16,7 @@ const Reputation = () => {
                 <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 mb-4">
                   <Users className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-4xl font-bold mb-2">100+</h3>
+                <h3 className="text-4xl font-bold mb-2">150+</h3>
                 <p className="text-lg font-medium">Mentee đã hỗ trợ</p>
                 <p className="text-sm text-muted-foreground mt-2">
                   Giúp các bạn học sinh, sinh viên đạt được mục tiêu du học
@@ -27,7 +27,7 @@ const Reputation = () => {
                 <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 mb-4">
                   <BookOpen className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-4xl font-bold mb-2">150+</h3>
+                <h3 className="text-4xl font-bold mb-2">200+</h3>
                 <p className="text-lg font-medium">Suất học bổng</p>
                 <p className="text-sm text-muted-foreground mt-2">
                   Thành công chinh phục các học bổng danh giá trên toàn thế giới

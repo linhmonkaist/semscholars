@@ -18,6 +18,14 @@ import { data } from "@/app/courses/sidebar-data"
 
 
 export default function Page() {
+  data.forEach(item => {
+    item.isActive = false
+  })
+  data.forEach(item => {
+    if (item.url === "/courses/single") {
+      item.isActive = true
+    }
+  })
   return (
     <SidebarProvider>
       <AppSidebar data={data}/>
