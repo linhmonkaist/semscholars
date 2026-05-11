@@ -21,7 +21,6 @@ export default function Page() {
   const benefits: string[] = [
     'Cá nhân hóa toàn bộ hành trình apply với mentor giàu kinh nghiệm.',
     '1 buổi kick-off meeting (30 - 45 phút): đánh giá hồ sơ ; định hướng nội dung hồ sơ ; giải đáp thắc mắc và lên timeline',
-    '1 buổi warm-up meeting (30 phút): lên kế hoạch cá nhân hóa & timeline apply.',
     'Hỗ trợ tối đa 4 buổi meeting chuyên sâu feedback bài luận cá nhân và CV.',
     'Hỗ trợ một buổi mock interview khi vượt qua vòng hồ sơ',
     'Được mentor giải đáp các câu hỏi liên quan trong suốt chương trình mentor.',
@@ -67,6 +66,9 @@ export default function Page() {
                   <p className="text-lg mb-6">
                   Gói mentor học bổng ngắn hạn và ngoại khoá cung cấp các buổi mentoring linh hoạt, tập trung vào hỗ trợ cho 
                   các bạn đang muốn apply các chương trình ngoại khoá hoặc các học bổng ngắn hạn theo từng kỳ. <br/>
+                  Các chương trình trao đổi có thể là các chương trình như YSEALI, Global UGRAD, các trại hè tại Mỹ, Châu Âu, Nhật Bản 
+                  vân vân. Hoặc các học bổng ngắn hạn như Daewoong, SamSung, học bổng từng kỳ, học bổng nghiên cứu mùa hè. <br/>
+                  Hồ sơ ngoại khóa xuất sắc và thuyết phục sẽ là "bàn đạp" cho các học bổng chính quy dài hạn sau này.
                   </p>
                   <br/>
                   <h3 className="text-xl font-bold mb-3">Quyền lợi:</h3>

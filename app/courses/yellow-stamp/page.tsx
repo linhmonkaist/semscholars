@@ -82,7 +82,7 @@ export default function Page() {
                   
                   <p className= "text-lg mb-6">
                     <strong>Lộ trình thanh toán gói dịch vụ:</strong><br/>
-                  💳Bước 1: Nhận tư vấn về thông tin dịch vụ làm hồ sơ với team <Link href="/contact" target="_blank">tại đây 🚀 </Link> <br/>
+                  💳Bước 1: Nhận tư vấn về thông tin dịch vụ làm hồ sơ với team <Link href="/contact" target="_blank"><span className="text-red-600">tại đây 🚀 </span></Link> <br/>
                   📩Bước 2: Team sẽ liên lạc với mentee qua zalo để chốt số lượng giấy tờ và các hạng mục cần hỗ trợ.<br/>
                   📝Bước 3: Mentee gửi hồ sơ bản cứng và bản mềm cho team<br/>
                   🚀Bước 4: Team tiến hành các bước dịch thuật công chứng, xin tem vàng cho bộ hồ sơ của mentee<br/>
