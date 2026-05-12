@@ -2269,7 +2269,7 @@ export const mentees: Mentee[] = [
     name: "Trần Thị Minh Phương",
     image: "",
     scholarships: [
-      "Yonsei UIC Full Scholarship"
+      "Yonsei UIC Scholarship"
     ],
     universities: [
       "Yonsei UIC"
@@ -2924,7 +2924,7 @@ export const mentees: Mentee[] = [
     name: "Nguyễn Ngọc Như Huỳnh",
     image: "",
     scholarships: [
-      "Admisison"
+      "Admission"
     ],
     universities: [
       "Ewha"
@@ -2945,7 +2945,7 @@ export const mentees: Mentee[] = [
     name: "Trần Thị Hồng Hạnh",
     image: "",
     scholarships: [
-      "Admisison"
+      "Admission"
     ],
     universities: [
       "Ewha"
@@ -2966,7 +2966,7 @@ export const mentees: Mentee[] = [
     name: "Trần Thu Thảo",
     image: "",
     scholarships: [
-      "Admisison"
+      "Admission"
     ],
     universities: [
       "Yonsei"
@@ -2987,7 +2987,7 @@ export const mentees: Mentee[] = [
     name: "Trần Quỳnh Trang",
     image: "",
     scholarships: [
-      "Admisison"
+      "Admission"
     ],
     universities: [
       "Yonsei"
@@ -3070,7 +3070,7 @@ export const mentees: Mentee[] = [
     id: "hoaithule784ntt@gmail.com",
     name: "Lê Hoài Thu",
     image: "",
-    scholarships: ["GKS-U 2026 Scholarship"],
+    scholarships: ["GKS-U"],
     universities: ["Kyungbok National University"],
     countries: ["Korea"],
     majors: ["Media & Communication"],
@@ -3092,7 +3092,7 @@ export const mentees: Mentee[] = [
     id: "phanhung0504@gmail.com",
     name: "Phan Lê Hùng",
     image: "",
-    scholarships: ["GKS-U 2026 Scholarship"],
+    scholarships: ["GKS-U"],
     universities: ["KoreaTech"],
     countries: ["Korea"],
     majors: ["Mechanical Engineering"],
@@ -3103,7 +3103,7 @@ export const mentees: Mentee[] = [
     id: "nothingcuo@gmail.com",
     name: "Bùi Danh Thành",
     image: "",
-    scholarships: ["GKS-U 2026 Scholarship"],
+    scholarships: ["GKS-U"],
     universities: ["Daegu"],
     countries: ["Korea"],
     majors: ["Electrical Engineering"],
@@ -3125,7 +3125,7 @@ export const mentees: Mentee[] = [
     id: "dangthuhienhy0208@gmail.com",
     name: "Đặng Thu Hiên",
     image: "",
-    scholarships: ["Master Scholarship"],
+    scholarships: ["Soonchunhyang Scholarship"],
     universities: ["Soonchunhyang University"],
     countries: ["Korea"],
     majors: ["Chemistry"],
