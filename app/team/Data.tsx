@@ -483,13 +483,19 @@ export const teamMembers: TeamMember[]= [
       majors: ["Khoa học xã hội"],
       countries: ["Châu Á", "Châu Âu", "Châu Mỹ", "Châu Úc", "Toàn thế giới"],
       details: {
-        profile: ["Tốt nghiệp ngành tài chính trường đại học kinh tế quốc dân.", "Ex-Associate tại EY Việt Nam", "Tốt nghiệp thạc sĩ ngành Finance tại Yonsei University."],
+        profile: [
+          "Tốt nghiệp Master ngành Finance ở Yonsei University","Tốt nghiệp xuất sắc chuyên ngành Kiểm toán Đại học Kinh tế Quốc dân (NEU)", "Research Associate tại Viện nghiên cứu tại Việt Nam, đồng thời làm việc trong lĩnh vực Sustainable Finance"],
         achievements: ["Nhận học bổng BIDV dành cho sinh viên NEU có thành tích xuất sắc kỳ II năm học 2018-2019",
-          "Nhận học bổng chính phủ Hàn Quốc bậc Cao học năm 2023, nhận được thư mời từ 3 trường đại học: Yonsei Uni, Ewha Uni và JBNU"
+          "Nhận học bổng chính phủ Hàn Quốc bậc Cao học năm 2023, nhận được thư mời từ 3 trường đại học: Yonsei Uni, Ewha Uni và JBNU",
+          "Nhận học bổng Women in business scholarship cho chương trình MBA tại NUS, Singapore",
+          "Nhận PhD admission University of Helsinki, Phần Lan",
+          "Nhận Master admission từ The University of Hong Kong (HKU)"
         ],
         statement: "If you aim at nothing, you hit nothing",
         philosophy: "A mentor is someone who sees more talent and ability within a person than they see in themselves and helps brings it out",
-        records: ["Hỗ trợ thành công cho mentee đậu học bổng toàn phần và học bổng 100% ngành Business/Finance/Accounting/Managment ở bậc học Thạc sĩ và Tiến sĩ tại Singapore, Ý, Hàn Quốc"],
+        records: ["Hỗ trợ thành công cho mentee đậu học bổng toàn phần và học bổng 100% ngành Business/Finance/Accounting/Managment ở bậc học Thạc sĩ và Tiến sĩ tại Singapore, Ý, Hàn Quốc",
+          "Hỗ trợ thành công học bổng SEED - học bổng chính phủ Canada cho exchange program"
+        ],
         highlight_record: [],
         support: "",
         tags: ["Châu Á", "Khoa học xã hội", "Finance", "Business", "Accounting", "Management"]
