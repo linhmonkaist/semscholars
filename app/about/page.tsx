@@ -157,17 +157,17 @@ export default function AboutPage() {
           {[
             {
               icon: Users,
-              stat: "30,000+",
+              stat: "40,000+",
               label: "Community Members",
             },
             {
               icon: GraduationCap,
-              stat: "100+",
+              stat: "150+",
               label: "Successful Mentees",
             },
             {
               icon: Award,
-              stat: "150+",
+              stat: "200+",
               label: "Scholarships Secured",
             },
             {

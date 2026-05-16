@@ -3169,9 +3169,9 @@ export const mentees: Mentee[] = [
     id: "dungvml2605@gmail.com",
     name: "Vũ Mỹ Lệ Dung",
     image: "",
-    scholarships: ["KAIST Scholarship", "Admission"],
-    universities: ["KAIST", "NTU"],
-    countries: ["Korea", "Singapore"],
+    scholarships: ["KAIST Scholarship", "NTU Admission"],
+    universities: ["KAIST", "National Taiwan University"],
+    countries: ["Korea", "Taiwan"],
     majors: ["Electrical Engineering"],
     mentors: ["Ngọc Mai", "Thành Trung"],
     degree: "Bachelor"
