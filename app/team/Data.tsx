@@ -26,6 +26,7 @@ export interface TeamMember {
     highlight_record: string[]
     support: string
     tags?: string[]
+    get_to_know_me?: string[]
   }
 }
 
@@ -37,6 +38,7 @@ export const DETAIL_HEADERS: Partial<Record<keyof TeamMember["details"], string>
   records: "Kết quả đã đạt được",
   highlight_record: "Dấu ấn nổi bật",
   support: "SEM có thể hỗ trợ gì?",
+  get_to_know_me: "Làm quen mình trong 10s",
 }
 
 export const teamMembers: TeamMember[]= [
@@ -368,14 +370,29 @@ export const teamMembers: TeamMember[]= [
       majors: ["Khoa học xã hội"],
       countries: ["Châu Á"],
       details: {
-        profile: ["Master, Media & Communications, Ewha Womans University, Hàn Quốc"],
-        achievements: ["Nhận học bổng GKS-G 2024"],
-        statement: "",
+        profile: ["Theo học bậc Master, ngành Communication & Media, Ewha Womans University, Hàn Quốc",
+          "Tốt nghiệp loại Xuất sắc, Cử nhân ngành Quản trị Marketing CLC, Đại học Kinh tế Quốc dân (NEU)",
+          "Mentor khối ngành Social Science tại SEM Scholars"
+        ],
+        achievements: ["Top Poster Award, Ewha Communication & Media International Conference 2025",
+          "Nhận học bổng chính phủ Hàn Quốc hệ sau đại học,GKS-G 2024",
+          "Gold Winner, hạng mục Strategic Program - Brand Strategy Campaign, The Muse Creative Award 2023",
+          "Giải Nhì, Cuộc thi Sinh viên Nghiên cứu khoa học 2021, Đại học Kinh tế Quốc dân",
+          "Bán kết Giải thưởng Sinh viên nghiên cứu khoa học Euréka, 2021"
+        ],
+        statement: "Mình khá lý tính (MBTI của mình là INTJ, mọc Xử Nữ) và có những quy tắc riêng khi làm việc, nhưng cũng open với mọi ý tưởng khi sáng tạo, với mong muốn giúp mọi người thể hiện được điểm mạnh và tính cá nhân một cách tự tin nhất. Từng là mentee và bây giờ là mentor của team SEM, mình coi công việc này là một sứ mệnh để giúp đỡ các bạn với những gì mình tích luỹ được, cũng đồng thời là cơ hội được giao lưu và học hỏi từ các mentee.",
         philosophy: "",
-        records: ["Hỗ trợ thành công mentee apply ngành khoa học xã hội tại Hàn Quốc"],
+        records: ["Hỗ trợ thành công mentee apply ngành khoa học xã hội tại Hàn Quốc",
+          "Hỗ trợ thành công các mentee đậu học bổng Chính phủ Hàn Quốc."
+        ],
         highlight_record: [],
         support: "",
-        tags: ["Châu Á", "Khoa học xã hội"]
+        tags: ["Châu Á", "Khoa học xã hội"],
+        get_to_know_me: ["Mình xem LoL (thi thoảng Valorant), nhưng mình chơi game điện thoại giỏi nhất (đặc biệt là các game chiến thuật).",
+          "Mình nghe mọi thể loại nhạc, ví dụ: cả Taylor Swift và Kanye West", 
+          "Mình quyết định đi du học (một phần) do xem tử vi và chiêm tinh học",
+          "Định hướng nghiên cứu hiện tại của mình là Media Psychology và Human-AI Interaction"
+        ]
       }
     },
     {
