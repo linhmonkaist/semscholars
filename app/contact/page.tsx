@@ -3,7 +3,7 @@
 import { useResponsive } from "@/hooks/use-responsive"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Youtube, Instagram, AtSign, Facebook, Mail, MessageSquare, ExternalLink, Users } from "lucide-react"
+import { Youtube, Instagram, AtSign, Facebook, Mail, MessageSquare, ExternalLink, Users, Disc } from "lucide-react"
 import { Music2 as TiktokIcon } from "lucide-react"
 import Footer from "@/components/home-section/Footer"
 import Link from "next/link"
@@ -53,6 +53,14 @@ const socialLinks = [
     url: "https://mail.google.com/mail/?view=cm&fs=1&to=semscholars.team@gmail.com&su=Subject&body=Body text",
     icon: Mail,
     description: "Email theo địa chỉ: semscholars.team@gmail.com",
+    color:
+      "bg-blue-100 text-blue-600 hover:bg-blue-200 dark:bg-blue-900/20 dark:text-blue-400 dark:hover:bg-blue-900/30",
+  },
+  {
+    name: "Spotify",
+    url: "https://open.spotify.com/show/5gMBS7eNUgJmVwQSCxLvD1?si=6e5f46d848f84de3&nd=1&dlsi=08a60599ffaf4d03",
+    icon: Disc,
+    description: "Follow SEM Scholars ở Spotify nhé",
     color:
       "bg-blue-100 text-blue-600 hover:bg-blue-200 dark:bg-blue-900/20 dark:text-blue-400 dark:hover:bg-blue-900/30",
   },
