@@ -59,7 +59,6 @@ export default function Page() {
                   <br/>
                   Các gói mentor gồm có: 
                   <br/> <Link href="/courses/single#consulting">🚀 Gói Tư vấn apply học bổng</Link>
-                  <br/> <Link href="/courses/single#essayFeedback">🚀 Gói Essay feedback - hỗ trợ nhận xét bài viết</Link>
                   <br/> <Link href="/courses/single#mockInterview">🚀 Gói Mock Interview - hỗ trợ luyện phỏng vấn</Link>
                   <br/> <Link href="/courses/single#coverletter">🚀 Gói Coverletter & CV feedback - hỗ trợ nhận xét CV và cover letter.</Link>
                   <br/>Mỗi buổi kéo dài 1-2 giờ, được lên kế hoạch theo yêu cầu. 
@@ -165,72 +164,6 @@ export default function Page() {
                       <div>
                         <p className="font-medium">Chi phí</p>
                         <p className="text-sm text-muted-foreground">150.000 VND</p>
-                      </div>
-                    </div>
-                  </div>
-                  <Link href={applicationFormURL} target="_blank">
-                      <Button size="lg" className="w-full">
-                        Đăng ký ngay
-                      </Button>
-                    </Link>
-                </div>
-              </div>
-              {/* Course Syllabus Preview */}
-              <div className="rounded-xl bg-background p-8 shadow-sm border" id="essayFeedback">
-                <div className="max-w-3xl mx-auto">
-                  <h2 className="text-2xl font-bold mb-4 mt-8">Gói Essay Feedback - Nâng cấp hồ sơ du học</h2>
-                  <p className="mb-6 text-lg">
-                  Bạn đã hoàn thành bài essay của mình nhưng chưa chắc chắn liệu nó đã đủ thuyết phục? Bạn muốn có một mentor giàu kinh nghiệm góp ý để nâng cấp bài viết 
-                  trước khi nộp? Essay Feedback là lựa chọn hoàn hảo dành cho bạn!
-                  <br/><br/>
-                  <strong>🔍 Đối tượng phù hợp:</strong><br/>
-                  ✔️ Các bạn đã viết xong một trong các bài viết: Study Plan, Research Statement, Personal Statement hoặc Recommendation Letter<br/>
-                  ✔️ Cần góp ý, nhận xét để bài viết trở nên rõ ràng, mạch lạc và thuyết phục hơn<br/>
-                  <br/>
-                  <strong>🌟 Nội dung :</strong><br/>
-                  ✅ Mentor sẽ đọc, đánh giá và nhận chi tiết bài viết của bạn trước buổi meeting<br/>
-                  ✅ Trong buổi meeting, mentor sẽ cùng bạn đi qua các nhận xét, góp ý về cách trình bày, logic, ngữ pháp, văn phong và tính thuyết phục<br/>
-                  ✅ Mentor sẽ đưa ra những đề xuất giúp bài viết nổi bật hơn<br/>
-                  ✅ Chia sẻ kinh nghiệm apply thực tế từ người đi trước<br/>
-                  <br/>
-
-                  💡 Hình thức: Trực tuyến qua Google Meet<br/>
-                  ⏳ Thời lượng: 1 tiếng/buổi<br/>
-                  📌 Mỗi gói lẻ sẽ feedback một trong các bài viết: Study Plan, Research Statement, Personal Statement hoặc Recommendation Letter<br/><br/>
-
-                  Đây là cơ hội để bạn nhận được phản hồi chuyên sâu từ người có kinh nghiệm, giúp bài viết đạt chất lượng cao nhất trước khi nộp! 🚀
-                  </p>
-
-                  <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
-                    <div className="flex flex-col gap-2 items-center text-center p-4 rounded-lg bg-muted/50">
-                      <Clock className="h-6 w-6 text-primary" />
-                      <div>
-                        <p className="font-medium">Thời lượng</p>
-                        <p className="text-sm text-muted-foreground">60 phút/buổi</p>
-                      </div>
-                    </div>
-
-                    <div className="flex flex-col gap-2 items-center text-center p-4 rounded-lg bg-muted/50">
-                      <Calendar className="h-6 w-6 text-primary" />
-                      <div>
-                        <p className="font-medium">Hình thức</p>
-                        <p className="text-sm text-muted-foreground">Online qua Google Meet</p>
-                      </div>
-                    </div>
-
-                    <div className="flex flex-col gap-2 items-center text-center p-4 rounded-lg bg-muted/50">
-                      <BookOpen className="h-6 w-6 text-primary" />
-                      <div>
-                        <p className="font-medium">Độ dài</p>
-                        <p className="text-sm text-muted-foreground">1 buổi/ 1 gói</p>
-                      </div>
-                    </div>
-
-                    <div className="flex flex-col gap-2 items-center text-center p-4 rounded-lg bg-muted/50">
-                      <DollarSign className="h-6 w-6 text-primary" />
-                      <div>
-                        <p className="font-medium">Chi phí</p>
-                        <p className="text-sm text-muted-foreground">800.000 VND</p>
                       </div>
                     </div>
                   </div>

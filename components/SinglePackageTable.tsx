@@ -15,12 +15,6 @@ const singlePackages: SinglePackage[] = [
     payment: 'Thanh toán 1 lần',
   },
   {
-    name: 'Essay Feedback',
-    target: 'Feedback một trong các bài viết: Study Plan, Personal Statement, Research Statement, Cover Letter hoặc LOR',
-    price: '800.000 VNĐ / 1 tiếng / 1 loại bài',
-    payment: 'Thanh toán 1 lần',
-  },
-  {
     name: 'Mock Interview',
     target: 'Luyện phỏng vấn theo hồ sơ và học bổng cụ thể',
     price: '800.000 VNĐ / 1 tiếng',

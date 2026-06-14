@@ -24,10 +24,6 @@ export const data: SidebarItem[] = [
           url: "/courses/single#consulting",
         },
         {
-          title: "Essay Feedback",
-          url: "/courses/single#essayFeedback",
-        },
-        {
           title: "Mock Interview",
           url: "/courses/single#mockInterview",
         },
