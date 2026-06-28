@@ -321,7 +321,7 @@ export default function Page() {
                   
                   </p>
 
-                  <Link href="/courses/shortterm">
+                  <Link href="/courses/yellow-stamp">
                   <Button size="lg" className="w-full">
                     Chi tiết dịch vụ hỗ trợ xin dấu hợp pháp hoá lãnh sự
                   </Button>
