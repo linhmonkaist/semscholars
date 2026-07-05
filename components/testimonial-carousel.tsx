@@ -1,6 +1,7 @@
 "use client"
 
 import * as React from "react"
+import Link from "next/link"
 import { ChevronLeft, ChevronRight, Star } from "lucide-react"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
@@ -8,8 +9,17 @@ import { Card, CardContent } from "@/components/ui/card"
 import { cn } from "@/lib/utils"
 import { useResponsive } from "@/hooks/use-responsive"
 
+export type TestimonialItem = {
+  id: number
+  name: string
+  role: string
+  avatar: string
+  rating: number
+  text: string
+}
+
 // Sample testimonial data
-const testimonials = [
+export const testimonials: TestimonialItem[] = [
   {
     id: 1,
     name: "Trần Hồng Quyên",
@@ -246,21 +256,27 @@ const testimonials = [
   },
 ]
 
-export function TestimonialCarousel() {
+type TestimonialCarouselProps = {
+  singleItem?: boolean
+  autoSlideMs?: number
+}
+
+export function TestimonialCarousel({ singleItem = false, autoSlideMs = 5000 }: TestimonialCarouselProps) {
   const [currentPage, setCurrentPage] = React.useState(0)
   const [autoplay, setAutoplay] = React.useState(true)
   const { isMobile, isTablet, isDesktop, isLargeDesktop } = useResponsive()
 
   // Determine how many items to show based on screen size
   const visibleItems = React.useMemo(() => {
+    if (singleItem) return 1
     if (isMobile) return 1
     if (isTablet) return 2
     if (isDesktop && !isLargeDesktop) return 3
     return 4 // isLargeDesktop
-  }, [isMobile, isTablet, isDesktop, isLargeDesktop])
+  }, [singleItem, isMobile, isTablet, isDesktop, isLargeDesktop])
 
   // Calculate total pages
-  const totalPages = Math.ceil(testimonials.length / visibleItems)
+  const totalPages = Math.max(1, Math.ceil(testimonials.length / visibleItems))
 
   // Handle navigation
   const nextPage = React.useCallback(() => {
@@ -277,10 +293,10 @@ export function TestimonialCarousel() {
 
     const interval = setInterval(() => {
       nextPage()
-    }, 5000)
+    }, autoSlideMs)
 
     return () => clearInterval(interval)
-  }, [autoplay, nextPage])
+  }, [autoplay, nextPage, autoSlideMs])
 
   // Pause autoplay on hover
   const handleMouseEnter = () => setAutoplay(false)
@@ -303,7 +319,7 @@ export function TestimonialCarousel() {
     <div className="relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
       {/* Testimonials */}
       <div className="w-full">
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className={cn("grid gap-4", singleItem ? "grid-cols-1" : "grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6")}>
           {currentTestimonials.map((testimonial) => (
             <TestimonialCard key={testimonial.id} testimonial={testimonial} />
           ))}
@@ -317,22 +333,24 @@ export function TestimonialCarousel() {
           <span className="sr-only">Previous</span>
         </Button>
 
-        <div className="flex items-center gap-2">
-          {Array.from({ length: totalPages }).map((_, index) => (
-            <Button
-              key={index}
-              variant="ghost"
-              size="icon"
-              className={cn(
-                "h-2 w-2 rounded-full p-0",
-                currentPage === index ? "bg-primary" : "bg-muted-foreground/20 hover:bg-muted-foreground/40",
-              )}
-              onClick={() => setCurrentPage(index)}
-            >
-              <span className="sr-only">Page {index + 1}</span>
-            </Button>
-          ))}
-        </div>
+        {!singleItem && (
+          <div className="flex items-center gap-2">
+            {Array.from({ length: totalPages }).map((_, index) => (
+              <Button
+                key={index}
+                variant="ghost"
+                size="icon"
+                className={cn(
+                  "h-2 w-2 rounded-full p-0",
+                  currentPage === index ? "bg-primary" : "bg-muted-foreground/20 hover:bg-muted-foreground/40",
+                )}
+                onClick={() => setCurrentPage(index)}
+              >
+                <span className="sr-only">Page {index + 1}</span>
+              </Button>
+            ))}
+          </div>
+        )}
 
         <Button variant="outline" size="icon" className="rounded-full" onClick={nextPage}>
           <ChevronRight className="h-4 w-4" />
@@ -344,52 +362,41 @@ export function TestimonialCarousel() {
 }
 
 function TestimonialCard({ testimonial }: { testimonial: (typeof testimonials)[0] }) {
-  const [isExpanded, setIsExpanded] = React.useState(false);
+  const previewLength = 320
 
-  // Limit the text length for preview
-  const previewLength = 500; // Adjust this value based on your design
-
-  const handleToggle = () => {
-    setIsExpanded(!isExpanded);
-  };
   return (
-    <Card className="h-full">
-      <CardContent className="p-6 flex flex-col h-full">
-        <div className="flex items-center gap-2 mb-4">
-          {Array.from({ length: 5 }).map((_, i) => (
-            <Star
-              key={i}
-              className={cn("h-4 w-4", i < testimonial.rating ? "text-yellow-400 fill-yellow-400" : "text-muted")}
-            />
-          ))}
-        </div>
-
-        <p className="text-sm text-muted-foreground flex-grow mb-4">
-          {isExpanded ? testimonial.text : `${testimonial.text.slice(0, previewLength)}...`}
-        </p>
-        {testimonial.text.length > previewLength && (
-        <button 
-          onClick={handleToggle} 
-          className="text-blue-500 hover:underline">
-          {isExpanded ? "Read Less" : "Read More"}
-        </button>
-        )}
-
-        <div className="flex items-center gap-3 mt-auto pt-4 border-t">
-          <Avatar className="h-10 w-10">
-            <AvatarImage src={testimonial.avatar} alt={testimonial.name} />
-            <AvatarFallback>
-              {testimonial.name.charAt(0)}
-              {testimonial.name.split(" ")[1]?.charAt(0)}
-            </AvatarFallback>
-          </Avatar>
-          <div>
-            <p className="text-sm font-medium">{testimonial.name}</p>
-            <p className="text-xs text-muted-foreground">{testimonial.role}</p>
+    <Link href="/mentee" className="block h-full">
+      <Card className="h-full cursor-pointer transition-shadow hover:shadow-md">
+        <CardContent className="p-6 flex flex-col h-full">
+          <div className="flex items-center gap-2 mb-4">
+            {Array.from({ length: 5 }).map((_, i) => (
+              <Star
+                key={i}
+                className={cn("h-4 w-4", i < testimonial.rating ? "text-yellow-400 fill-yellow-400" : "text-muted")}
+              />
+            ))}
           </div>
-        </div>
-      </CardContent>
-    </Card>
+
+          <p className="text-sm text-muted-foreground flex-grow mb-4">
+            {testimonial.text.length > previewLength ? `${testimonial.text.slice(0, previewLength)}...` : testimonial.text}
+          </p>
+
+          <div className="flex items-center gap-3 mt-auto pt-4 border-t">
+            <Avatar className="h-10 w-10">
+              <AvatarImage src={testimonial.avatar} alt={testimonial.name} />
+              <AvatarFallback>
+                {testimonial.name.charAt(0)}
+                {testimonial.name.split(" ")[1]?.charAt(0)}
+              </AvatarFallback>
+            </Avatar>
+            <div>
+              <p className="text-sm font-medium">{testimonial.name}</p>
+              <p className="text-xs text-muted-foreground">{testimonial.role}</p>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+    </Link>
   )
 }
 

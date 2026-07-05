@@ -4,6 +4,7 @@ import {DETAIL_HEADERS, TeamMember} from "@/app/team/Data"
 import { useParams } from "next/navigation"
 import { applicationFormURL } from "@/app/globalVariables"
 import Link from "next/link"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 
 function renderMentorDetails(details: TeamMember["details"]) {
@@ -100,11 +101,13 @@ export default function MentorDetailClient({
 
           {/* Options */}
           <div className="mt-4 lg:row-span-3 lg:mt-0">
-            <div className="w-full h-[420px] overflow-hidden rounded-lg">
-              <img
-              alt="img"
-              src={mentor.image}
-              className="row-span-4 aspect-4/4 size-full rounded-lg object-cover"
+            <div className="relative w-full h-[420px] overflow-hidden rounded-lg">
+              <Image
+                alt={mentor.name}
+                src={mentor.image}
+                fill
+                sizes="(min-width: 1024px) 33vw, 100vw"
+                className="row-span-4 aspect-4/4 size-full rounded-lg object-cover"
               />
             </div>
 

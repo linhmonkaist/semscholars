@@ -5,6 +5,7 @@ import { Users, BookOpen } from 'lucide-react'
 import React from 'react'
 import { featuredCourses } from './Data'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const FeatureCourses = () => {
   return (
@@ -23,10 +24,12 @@ const FeatureCourses = () => {
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
               {featuredCourses.map((course) => (
                 <Card key={course.id} className="overflow-hidden">
-                  <div className="aspect-video w-full overflow-hidden">
-                    <img
+                  <div className="relative aspect-video w-full overflow-hidden">
+                    <Image
                       src={course.image || "/placeholder.svg"}
                       alt={course.title}
+                      fill
+                      sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
                       className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
                     />
                   </div>

@@ -16,14 +16,10 @@ import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet"
 import {
   NavigationMenu,
-  NavigationMenuContent,
   NavigationMenuItem,
-  NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
-import { cn } from "@/lib/utils"
 import Link from "next/link";
 
 // This is sample data for an educational platform
@@ -38,36 +34,6 @@ const data = {
       title: "Dịch vụ",
       url: "/courses",
       icon: BookOpen,
-      items: [
-        {
-          title: "Tất cả dịch vụ",
-          url: "/courses",
-        },
-        {
-          title: "Chương trình mentor lẻ",
-          url: "/courses/single",
-        },
-        {
-          title: "Chương trình mentor Focus",
-          url: "/courses/focus",
-        },
-        {
-          title: "Chương trình mentor Combo",
-          url: "/courses/combo",
-        },
-        {
-          title: "Mentor Học bổng ngắn hạn và ngoại khoá",
-          url: "/courses/shortterm",
-        },
-        {
-          title: "Dịch vụ giấy tờ và apply",
-          url: "/courses/yellow-stamp",
-        },
-        // {
-        //   title: "Câu hỏi thường gặp",
-        //   url: "/courses/questions",
-        // },
-      ],
     },
     {
       title: "Đội ngũ",
@@ -108,7 +74,6 @@ export function TopNavbar() {
                 <span className="sr-only">Toggle menu</span>
               </Button>
             </SheetTrigger>
-            <SheetTrigger asChild>
             <SheetContent side="left" className="w-[300px] sm:w-[350px]">
               <SheetTitle className="text-left"></SheetTitle>
               <div className="flex items-center gap-2 px-2 py-4">
@@ -126,25 +91,10 @@ export function TopNavbar() {
                       <span>{item.title}</span>
                     </div>
                     </Link>
-                    {item.items && (
-                      <div className="ml-8 flex flex-col gap-2">
-                        {item.items.map((subItem) => (
-                          <Link
-                            key={subItem.title}
-                            href={`${subItem.url}`}
-                            onClick={() => setIsOpen(false)}
-                            className="text-muted-foreground hover:text-foreground"
-                          >
-                            {subItem.title}
-                          </Link>
-                        ))}
-                      </div>
-                    )}
                   </div>
                 ))}
               </nav>
             </SheetContent>
-            </SheetTrigger>
           </Sheet>
 
           {/* Logo */}
@@ -159,22 +109,9 @@ export function TopNavbar() {
           <NavigationMenuList>
             {data.navMain.map((item) => (
               <NavigationMenuItem key={item.title}>
-                {item.items ? (
-                  <>
-                    <NavigationMenuTrigger>{item.title}</NavigationMenuTrigger>
-                    <NavigationMenuContent>
-                      <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
-                        {item.items.map((subItem) => (
-                          <ListItem key={subItem.title} title={subItem.title} href={`${subItem.url}`} />
-                        ))}
-                      </ul>
-                    </NavigationMenuContent>
-                  </>
-                ) : (
-                  <Link href={`${item.url}`} className={navigationMenuTriggerStyle()}>
-                    {item.title}
-                  </Link>
-                )}
+                <Link href={`${item.url}`} className={navigationMenuTriggerStyle()}>
+                  {item.title}
+                </Link>
               </NavigationMenuItem>
             ))}
           </NavigationMenuList>
@@ -183,27 +120,4 @@ export function TopNavbar() {
     </header>
   )
 }
-
-const ListItem = React.forwardRef<React.ElementRef<"a">, React.ComponentPropsWithoutRef<"a"> & { title: string }>(
-  ({ className, title, children, ...props }, ref) => {
-    return (
-      <li>
-        <NavigationMenuLink asChild>
-          <Link
-            href={props.href || "#"}
-            className={cn(
-              "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
-              className,
-            )}
-            {...props}
-          >
-            <div className="text-sm font-medium leading-none">{title}</div>
-            <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">{children}</p>
-          </Link>
-        </NavigationMenuLink>
-      </li>
-    )
-  },
-)
-ListItem.displayName = "ListItem"
 

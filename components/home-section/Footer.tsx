@@ -27,17 +27,17 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/courses/single" className="text-muted-foreground hover:text-foreground">
+                  <Link href="/courses#single" className="text-muted-foreground hover:text-foreground">
                     Chương trình mentor lẻ
                   </Link>
                 </li>
                 <li>
-                  <Link href="courses/focus" className="text-muted-foreground hover:text-foreground">
+                  <Link href="/courses#focus" className="text-muted-foreground hover:text-foreground">
                     Chương trình mentor Focus
                   </Link>
                 </li>
                 <li>
-                  <Link href="courses/combo" className="text-muted-foreground hover:text-foreground">
+                  <Link href="/courses#combo" className="text-muted-foreground hover:text-foreground">
                     Chương trình mentor Combo
                   </Link>
                 </li>

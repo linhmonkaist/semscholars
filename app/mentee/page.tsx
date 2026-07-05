@@ -78,10 +78,10 @@ export default function MenteesPage() {
     })
     return Array.from(mentors).sort()
   }, [])
-  const reverse_mentee = mentees.slice().reverse()
   // Filter mentees based on selected filters
   const filteredMentees = useMemo(() => {
-    return reverse_mentee.filter((mentee) => {
+    const reverseMentees = mentees.slice().reverse()
+    return reverseMentees.filter((mentee) => {
       const matchesUniversity = selectedUniversity === "Tất cả" || mentee.universities.includes(selectedUniversity)
       const matchesCountry = selectedCountry === "Tất cả" || mentee.countries.includes(selectedCountry)
       const matchesMajor = selectedMajor === "Tất cả" || mentee.majors.includes(selectedMajor)

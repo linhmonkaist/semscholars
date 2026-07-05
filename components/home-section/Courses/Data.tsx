@@ -10,7 +10,7 @@ export const featuredCourses = [
       level: "150,000 VND",
       students: "",
       lessons: "30 phút/1 gói",
-      course_url: "/courses/single#consulting"
+      course_url: "/courses/single/tu-van-apply"
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ export const featuredCourses = [
       level: "",
       students: "",
       lessons: "Maximum: 1 năm",
-      course_url: "courses/focus#GKS"
+      course_url: "/courses/focus/gks"
     },
     {
       id: 3,
@@ -32,6 +32,6 @@ export const featuredCourses = [
       level: "",
       students: "",
       lessons: "Maximum: 1 năm",
-      course_url: "courses/combo#regional"
+      course_url: "/courses/combo/regional-combo-5-uni"
     },
   ]
