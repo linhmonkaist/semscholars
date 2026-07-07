@@ -4,9 +4,16 @@ import * as React from "react"
 import Link from "next/link"
 import { ChevronLeft, ChevronRight, GraduationCap, Trophy } from "lucide-react"
 
-import { mentees } from "@/app/mentee/mentees"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
+
+type Mentee = {
+  id: string
+  name: string
+  scholarships: string[]
+  universities: string[]
+  mentors: string[]
+}
 
 type FeaturedMentee = {
   id: string
@@ -16,23 +23,52 @@ type FeaturedMentee = {
   mentor: string
 }
 
-const featuredMentees: FeaturedMentee[] = mentees
-  .filter((item) => item.scholarships.length > 0 && item.universities.length > 0)
-  .map((item) => ({
-    id: item.id,
-    name: item.name,
-    scholarship: item.scholarships[0] || "Scholarship",
-    university: item.universities[0] || "University",
-    mentor: item.mentors[0] || "SEM Mentor",
-  }))
-  .reverse()
-
 export function MenteeScholarshipCarousel() {
+  const [mentees, setMentees] = React.useState<Mentee[]>([])
   const [currentIndex, setCurrentIndex] = React.useState(0)
   const [autoplay, setAutoplay] = React.useState(true)
+  const featuredMentees = React.useMemo<FeaturedMentee[]>(
+    () =>
+      mentees
+        .filter((item) => item.scholarships.length > 0 && item.universities.length > 0)
+        .map((item) => ({
+          id: item.id,
+          name: item.name,
+          scholarship: item.scholarships[0] || "Scholarship",
+          university: item.universities[0] || "University",
+          mentor: item.mentors[0] || "SEM Mentor",
+        }))
+        .reverse(),
+    [mentees]
+  )
   const totalPages = featuredMentees.length
 
-  const currentMentee = featuredMentees[currentIndex]
+  React.useEffect(() => {
+    let cancelled = false
+
+    async function loadMentees() {
+      try {
+        const response = await fetch("/data/mentees.json")
+        if (!response.ok) {
+          throw new Error("Failed to load mentees")
+        }
+        const data = (await response.json()) as Mentee[]
+        if (!cancelled) {
+          setMentees(data)
+        }
+      } catch (error) {
+        if (!cancelled) {
+          setMentees([])
+        }
+      }
+    }
+
+    loadMentees()
+
+    return () => {
+      cancelled = true
+    }
+  }, [])
 
   React.useEffect(() => {
     if (currentIndex >= totalPages) {
@@ -55,6 +91,8 @@ export function MenteeScholarshipCarousel() {
   if (!featuredMentees.length) {
     return null
   }
+
+  const currentMentee = featuredMentees[currentIndex]
 
   return (
     <div className="space-y-4" onMouseEnter={() => setAutoplay(false)} onMouseLeave={() => setAutoplay(true)}>

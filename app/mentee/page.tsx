@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useMemo } from "react"
+import { useEffect, useMemo, useState } from "react"
 import { useResponsive } from "@/hooks/use-responsive"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent, CardHeader } from "@/components/ui/card"
@@ -9,7 +9,6 @@ import { Button } from "@/components/ui/button"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { GraduationCap, MapPin, Award, Building, Users, ChevronDown, ChevronUp, BookOpen } from "lucide-react"
-import { mentees } from "./mentees"
 import Footer from "@/components/home-section/Footer"
 import Testimonial from "@/components/home-section/Testimonial"
 import { TestimonialCarousel } from "@/components/testimonial-carousel"
@@ -31,12 +30,45 @@ interface Mentee {
 
 export default function MenteesPage() {
   const { isMobile, isTablet, isDesktop } = useResponsive()
+  const [mentees, setMentees] = useState<Mentee[]>([])
+  const [isLoading, setIsLoading] = useState(true)
   const [selectedUniversity, setSelectedUniversity] = useState<string>("Tất cả")
   const [selectedCountry, setSelectedCountry] = useState<string>("Tất cả")
   const [selectedMajor, setSelectedMajor] = useState<string>("Tất cả")
   const [selectedScholarship, setSelectedScholarship] = useState<string>("Tất cả")
   const [selectedMentor, setSelectedMentor] = useState<string>("Tất cả")
   const [activeTab, setActiveTab] = useState<string>("Tất cả")
+
+  useEffect(() => {
+    let cancelled = false
+
+    async function loadMentees() {
+      try {
+        const response = await fetch("/data/mentees.json")
+        if (!response.ok) {
+          throw new Error("Failed to load mentees")
+        }
+        const data = (await response.json()) as Mentee[]
+        if (!cancelled) {
+          setMentees(data)
+        }
+      } catch (error) {
+        if (!cancelled) {
+          setMentees([])
+        }
+      } finally {
+        if (!cancelled) {
+          setIsLoading(false)
+        }
+      }
+    }
+
+    loadMentees()
+
+    return () => {
+      cancelled = true
+    }
+  }, [])
 
   // Extract unique values for filters
   const allUniversities = useMemo(() => {
@@ -45,7 +77,7 @@ export default function MenteesPage() {
       mentee.universities.forEach((university) => universities.add(university))
     })
     return Array.from(universities).sort()
-  }, [])
+  }, [mentees])
 
   const allCountries = useMemo(() => {
     const countries = new Set<string>()
@@ -53,7 +85,7 @@ export default function MenteesPage() {
       mentee.countries.forEach((country) => countries.add(country))
     })
     return Array.from(countries).sort()
-  }, [])
+  }, [mentees])
 
   const allMajors = useMemo(() => {
     const majors = new Set<string>()
@@ -61,7 +93,7 @@ export default function MenteesPage() {
       mentee.majors.forEach((major) => majors.add(major))
     })
     return Array.from(majors).sort()
-  }, [])
+  }, [mentees])
 
   const allScholarships = useMemo(() => {
     const scholarships = new Set<string>()
@@ -69,7 +101,7 @@ export default function MenteesPage() {
       mentee.scholarships.forEach((scholarship) => scholarships.add(scholarship))
     })
     return Array.from(scholarships).sort()
-  }, [])
+  }, [mentees])
 
   const allMentors = useMemo(() => {
     const mentors = new Set<string>()
@@ -77,7 +109,7 @@ export default function MenteesPage() {
       mentee.mentors.forEach((mentor) => mentors.add(mentor))
     })
     return Array.from(mentors).sort()
-  }, [])
+  }, [mentees])
   // Filter mentees based on selected filters
   const filteredMentees = useMemo(() => {
     const reverseMentees = mentees.slice().reverse()
@@ -90,7 +122,7 @@ export default function MenteesPage() {
 
       return matchesUniversity && matchesCountry && matchesMajor && matchesScholarship && matchesMentor
     })
-  }, [selectedUniversity, selectedCountry, selectedMajor, selectedScholarship, selectedMentor])
+  }, [mentees, selectedUniversity, selectedCountry, selectedMajor, selectedScholarship, selectedMentor])
 
   // Reset all filters
   const resetFilters = () => {
@@ -282,6 +314,8 @@ export default function MenteesPage() {
         Showing {filteredMentees.length} of {mentees.length} mentees
       </p>
 
+      {isLoading && <p className="mb-4 text-sm text-muted-foreground">Loading mentees...</p>}
+
       {/* Mentees Grid */}
       <div
         className={`grid gap-3 ${
@@ -298,7 +332,7 @@ export default function MenteesPage() {
       </div>
 
       {/* No results message */}
-      {filteredMentees.length === 0 && (
+      {!isLoading && filteredMentees.length === 0 && (
         <div className="text-center py-12">
           <p className="text-xl text-muted-foreground">
             Không có kết quả phù hợp với lựa chọn: <br/>
