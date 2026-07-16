@@ -1,0 +1,484 @@
+[
+  {
+    "id": "asean-undergraduate-scholarship-ntu",
+    "slug": "asean-undergraduate-scholarship-ntu",
+    "title": "Học bổng ASEAN hệ Đại học (NTU)",
+    "provider": "Đại học Công nghệ Nanyang (NTU)",
+    "country": "Singapore",
+    "universities": [
+      "NTU"
+    ],
+    "levels": [
+      "Bachelor"
+    ],
+    "fields": [
+      "Kỹ thuật điện",
+      "Khoa học máy tính",
+      "Quản trị kinh doanh"
+    ],
+    "coverage": [
+      "Hỗ trợ 100% học phí toàn khóa",
+      "Trợ cấp sinh hoạt hằng năm"
+    ],
+    "eligibility": [
+      "Tiếng Anh: IELTS/TOEFL được chấp nhận",
+      "Không công bố ngưỡng GPA cứng, hồ sơ cạnh tranh thường có thành tích học tập và hoạt động ngoại khóa tốt."
+    ],
+    "intakes": [
+      "Kỳ Thu 2026: Hạn nộp hồ sơ tháng 2. Ví dụ mốc gần nhất: 15/02/2026. Mốc chính xác có thể thay đổi từng năm."
+    ],
+    "application": {
+      "requiredDocuments": [
+        "Đơn đăng ký NTU",
+        "Bảng điểm",
+        "Bài luận cá nhân",
+        "Chứng chỉ tiếng Anh"
+      ],
+      "officialGuideLinks": [
+        "https://www.ntu.edu.sg"
+      ],
+      "track": [
+        "Nộp hồ sơ tuyển sinh",
+        "Sàng lọc học bổng",
+        "Phỏng vấn (nếu có)"
+      ]
+    },
+    "menteeOutcomes": {
+      "matchingScholarshipKeywords": [
+        "asean undergraduate scholarship",
+        "asean scholarship"
+      ],
+      "matchingUniversities": [
+        "ntu",
+        "nanyang technological university"
+      ],
+      "comment": "Số lượng mentee được hiển thị theo dữ liệu cập nhật từ danh sách mentee công khai của SEM.",
+      "matchingMode": "both"
+    },
+    "relatedInformation": {
+      "comment": "NTU đánh giá cao hồ sơ có định hướng ngành rõ ràng và thành tích bền vững."
+    },
+    "mentoringRecommendation": {
+      "packetName": "Gói Focus General",
+      "bestRegistrationTime": "Trước hạn nộp hồ sơ 4-6 tháng",
+      "comment": "Nên bắt đầu sớm để chuẩn bị bài luận và portfolio hoạt động."
+    },
+    "tags": [
+      "singapore",
+      "university scholarship",
+      "undergraduate"
+    ],
+    "updatedAt": "2026-07-07",
+    "filtering": {
+      "deadlineMonths": [
+        2
+      ],
+      "coverageTypes": [
+        "full-ride"
+      ],
+      "countries": [
+        "Singapore"
+      ],
+      "continents": [
+        "Châu Á"
+      ],
+      "fields": [
+        "Kỹ thuật điện",
+        "Khoa học máy tính",
+        "Quản trị kinh doanh"
+      ]
+    },
+    "content": {
+      "eligibility": "Tiếng Anh: IELTS/TOEFL được chấp nhận Không công bố ngưỡng GPA cứng, hồ sơ cạnh tranh thường có thành tích học tập và hoạt động ngoại khóa tốt.",
+      "coverage": "Hỗ trợ 100% học phí toàn khóa | Trợ cấp sinh hoạt hằng năm",
+      "intakes": [
+        "Kỳ Thu 2026: Hạn nộp hồ sơ tháng 2. Ví dụ mốc gần nhất: 15/02/2026. Mốc chính xác có thể thay đổi từng năm."
+      ]
+    }
+  },
+  {
+    "id": "egpp-ewha",
+    "slug": "egpp-ewha",
+    "title": "Học bổng EGPP - Ewha",
+    "provider": "Đại học Nữ sinh Ewha",
+    "country": "Hàn Quốc",
+    "universities": [
+      "Ewha"
+    ],
+    "levels": [
+      "Bachelor",
+      "Master"
+    ],
+    "fields": [
+      "Quản trị kinh doanh",
+      "Truyền thông",
+      "Quốc tế học"
+    ],
+    "coverage": [
+      "Hỗ trợ 100% học phí trong 2 năm",
+      "Hỗ trợ sinh hoạt phí theo chính sách của trường"
+    ],
+    "eligibility": [
+      "Tiếng Anh: IELTS/TOEFL",
+      "Một số kỳ không yêu cầu GPA tối thiểu công khai; hồ sơ sẽ được xét tổng thể."
+    ],
+    "intakes": [
+      "Kỳ Xuân 2026: Hạn nộp hồ sơ tháng 10. Ví dụ mốc gần nhất: 01/10/2025. Mốc chính xác có thể thay đổi từng năm.",
+      "Kỳ Thu 2026: Hạn nộp hồ sơ tháng 5. Ví dụ mốc gần nhất: 30/05/2026. Mốc chính xác có thể thay đổi từng năm."
+    ],
+    "application": {
+      "requiredDocuments": [
+        "Đơn đăng ký Ewha",
+        "Bài luận mục tiêu học tập",
+        "Thư giới thiệu"
+      ],
+      "officialGuideLinks": [
+        "https://www.ewha.ac.kr"
+      ],
+      "track": [
+        "Nộp hồ sơ tuyển sinh",
+        "Xét học bổng nội bộ"
+      ]
+    },
+    "menteeOutcomes": {
+      "matchingScholarshipKeywords": [
+        "egpp scholarship",
+        "ewha scholarship",
+        "egpp"
+      ],
+      "matchingUniversities": [
+        "ewha"
+      ],
+      "comment": "Số lượng mentee được hiển thị theo dữ liệu cập nhật từ danh sách mentee công khai của SEM.",
+      "matchingMode": "both"
+    },
+    "relatedInformation": {
+      "comment": "Phù hợp với ứng viên có thế mạnh bài luận cá nhân và định hướng học tập thực tế."
+    },
+    "mentoringRecommendation": {
+      "packetName": "Gói Focus General",
+      "bestRegistrationTime": "Trước hạn nộp hồ sơ 3-5 tháng",
+      "comment": "Nên hoàn thiện bài luận và danh sách giấy tờ từ sớm để tránh sát deadline."
+    },
+    "tags": [
+      "korea",
+      "university scholarship"
+    ],
+    "updatedAt": "2026-07-07",
+    "filtering": {
+      "deadlineMonths": [
+        5,
+        10
+      ],
+      "coverageTypes": [
+        "full-ride"
+      ],
+      "countries": [
+        "Hàn Quốc"
+      ],
+      "continents": [
+        "Châu Á"
+      ],
+      "fields": [
+        "Quản trị kinh doanh",
+        "Truyền thông",
+        "Quốc tế học"
+      ]
+    },
+    "content": {
+      "eligibility": "Tiếng Anh: IELTS/TOEFL Một số kỳ không yêu cầu GPA tối thiểu công khai; hồ sơ sẽ được xét tổng thể.",
+      "coverage": "Hỗ trợ 100% học phí trong 2 năm | Hỗ trợ sinh hoạt phí theo chính sách của trường",
+      "intakes": [
+        "Kỳ Xuân 2026: Hạn nộp hồ sơ tháng 10. Ví dụ mốc gần nhất: 01/10/2025. Mốc chính xác có thể thay đổi từng năm.",
+        "Kỳ Thu 2026: Hạn nộp hồ sơ tháng 5. Ví dụ mốc gần nhất: 30/05/2026. Mốc chính xác có thể thay đổi từng năm."
+      ]
+    }
+  },
+  {
+    "id": "snu-global-talent-iii",
+    "slug": "snu-global-talent-iii",
+    "title": "Học bổng SNU Global Talent Scholarship III",
+    "provider": "Đại học Quốc gia Seoul (SNU)",
+    "country": "Hàn Quốc",
+    "universities": [
+      "SNU"
+    ],
+    "levels": [
+      "Bachelor",
+      "Master"
+    ],
+    "fields": [
+      "Quản trị kinh doanh",
+      "Khoa học máy tính",
+      "MBA"
+    ],
+    "coverage": [
+      "Hỗ trợ 100% học phí cho 1 kỳ"
+    ],
+    "eligibility": [
+      "Tiếng Anh: IELTS/TOEFL có thể được yêu cầu tùy khoa",
+      "Thường không có yêu cầu GPA công khai cố định cho mọi khoa; xét theo hồ sơ tổng thể."
+    ],
+    "intakes": [
+      "Kỳ Xuân 2026: Hạn nộp hồ sơ tháng 10. Ví dụ mốc gần nhất: 12/10/2025. Mốc chính xác có thể thay đổi từng năm.",
+      "Kỳ Thu 2026: Hạn nộp hồ sơ tháng 4. Ví dụ mốc gần nhất: 12/04/2026. Mốc chính xác có thể thay đổi từng năm."
+    ],
+    "application": {
+      "requiredDocuments": [
+        "Đơn đăng ký SNU",
+        "Bảng điểm",
+        "Kế hoạch học tập"
+      ],
+      "officialGuideLinks": [
+        "https://en.snu.ac.kr"
+      ],
+      "track": [
+        "Nộp hồ sơ tuyển sinh",
+        "Xét học bổng theo khoa"
+      ]
+    },
+    "menteeOutcomes": {
+      "matchingScholarshipKeywords": [
+        "snu global talent scholarship iii",
+        "snu scholarship"
+      ],
+      "matchingUniversities": [
+        "snu"
+      ],
+      "comment": "Số lượng mentee được hiển thị theo dữ liệu cập nhật từ danh sách mentee công khai của SEM.",
+      "matchingMode": "both"
+    },
+    "relatedInformation": {
+      "comment": "Học bổng ngắn kỳ nên cần chiến lược ưu tiên rõ ràng để tận dụng cơ hội tốt nhất."
+    },
+    "mentoringRecommendation": {
+      "packetName": "Gói lẻ Tư vấn apply + CV/Cover Letter Review",
+      "bestRegistrationTime": "Trước hạn nộp hồ sơ 2-3 tháng",
+      "comment": "Ưu tiên tối ưu bộ hồ sơ ngắn gọn, đúng trọng tâm theo yêu cầu từng khoa."
+    },
+    "tags": [
+      "korea",
+      "short duration coverage"
+    ],
+    "updatedAt": "2026-07-07",
+    "filtering": {
+      "deadlineMonths": [
+        4,
+        10
+      ],
+      "coverageTypes": [
+        "full-tuition"
+      ],
+      "countries": [
+        "Hàn Quốc"
+      ],
+      "continents": [
+        "Châu Á"
+      ],
+      "fields": [
+        "Quản trị kinh doanh",
+        "Khoa học máy tính",
+        "MBA"
+      ]
+    },
+    "content": {
+      "eligibility": "Tiếng Anh: IELTS/TOEFL có thể được yêu cầu tùy khoa Thường không có yêu cầu GPA công khai cố định cho mọi khoa; xét theo hồ sơ tổng thể.",
+      "coverage": "Hỗ trợ 100% học phí cho 1 kỳ",
+      "intakes": [
+        "Kỳ Xuân 2026: Hạn nộp hồ sơ tháng 10. Ví dụ mốc gần nhất: 12/10/2025. Mốc chính xác có thể thay đổi từng năm.",
+        "Kỳ Thu 2026: Hạn nộp hồ sơ tháng 4. Ví dụ mốc gần nhất: 12/04/2026. Mốc chính xác có thể thay đổi từng năm."
+      ]
+    }
+  },
+  {
+    "id": "samsung-scholarship",
+    "slug": "samsung-scholarship",
+    "title": "Học bổng Samsung",
+    "provider": "Quỹ học bổng Samsung",
+    "country": "Hàn Quốc",
+    "universities": [
+      "SNU",
+      "KAIST",
+      "Yonsei"
+    ],
+    "levels": [
+      "Bachelor",
+      "Master"
+    ],
+    "fields": [
+      "Kỹ thuật điện",
+      "Khoa học máy tính",
+      "Khoa học dữ liệu"
+    ],
+    "coverage": [
+      "Hỗ trợ 100% học phí trong 1 năm học",
+      "Trợ cấp hằng năm theo chính sách từng đợt"
+    ],
+    "eligibility": [
+      "Tiếng Anh: IELTS/TOEFL",
+      "Yêu cầu chi tiết tùy chương trình liên kết, nên theo dõi thông báo chính thức từng kỳ."
+    ],
+    "intakes": [
+      "Kỳ Thu 2026: Hạn nộp hồ sơ tháng 3. Ví dụ mốc gần nhất: 01/03/2026. Mốc chính xác có thể thay đổi từng năm."
+    ],
+    "application": {
+      "requiredDocuments": [
+        "Đơn đăng ký",
+        "Bảng điểm",
+        "Bài luận",
+        "Thư giới thiệu"
+      ],
+      "officialGuideLinks": [
+        "https://www.samsung.com"
+      ],
+      "track": [
+        "Nộp hồ sơ",
+        "Sàng lọc",
+        "Phỏng vấn"
+      ]
+    },
+    "menteeOutcomes": {
+      "matchingScholarshipKeywords": [
+        "samsung scholarship"
+      ],
+      "matchingUniversities": [
+        "snu",
+        "kaist",
+        "yonsei"
+      ],
+      "comment": "Số lượng mentee được hiển thị theo dữ liệu cập nhật từ danh sách mentee công khai của SEM.",
+      "matchingMode": "both"
+    },
+    "relatedInformation": {
+      "comment": "Học bổng ưu tiên hồ sơ có năng lực học thuật và định hướng nghề nghiệp rõ ràng."
+    },
+    "mentoringRecommendation": {
+      "packetName": "Gói Focus khối IST",
+      "bestRegistrationTime": "Trước hạn nộp hồ sơ 4-6 tháng",
+      "comment": "Nên chuẩn bị sớm phần bài luận động lực và kế hoạch học tập kỹ thuật."
+    },
+    "tags": [
+      "foundation",
+      "korea"
+    ],
+    "updatedAt": "2026-07-07",
+    "filtering": {
+      "deadlineMonths": [
+        3
+      ],
+      "coverageTypes": [
+        "full-tuition"
+      ],
+      "countries": [
+        "Hàn Quốc"
+      ],
+      "continents": [
+        "Châu Á"
+      ],
+      "fields": [
+        "Kỹ thuật điện",
+        "Khoa học máy tính",
+        "Khoa học dữ liệu"
+      ]
+    },
+    "content": {
+      "eligibility": "Tiếng Anh: IELTS/TOEFL Yêu cầu chi tiết tùy chương trình liên kết, nên theo dõi thông báo chính thức từng kỳ.",
+      "coverage": "Hỗ trợ 100% học phí trong 1 năm học | Trợ cấp hằng năm theo chính sách từng đợt",
+      "intakes": [
+        "Kỳ Thu 2026: Hạn nộp hồ sơ tháng 3. Ví dụ mốc gần nhất: 01/03/2026. Mốc chính xác có thể thay đổi từng năm."
+      ]
+    }
+  },
+  {
+    "id": "nus-scholarship",
+    "slug": "nus-scholarship",
+    "title": "Học bổng NUS",
+    "provider": "Đại học Quốc gia Singapore (NUS)",
+    "country": "Singapore",
+    "universities": [
+      "NUS"
+    ],
+    "levels": [
+      "Bachelor"
+    ],
+    "fields": [
+      "Quản trị kinh doanh",
+      "Khoa học máy tính",
+      "Kinh tế"
+    ],
+    "coverage": [
+      "Hỗ trợ 100% học phí toàn bộ thời gian học"
+    ],
+    "eligibility": [
+      "Tiếng Anh: IELTS/TOEFL",
+      "Không luôn công bố ngưỡng GPA cố định, hội đồng sẽ xét mức độ cạnh tranh của toàn bộ hồ sơ."
+    ],
+    "intakes": [
+      "Kỳ Thu 2026: Hạn nộp hồ sơ tháng 2. Ví dụ mốc gần nhất: 28/02/2026. Mốc chính xác có thể thay đổi từng năm."
+    ],
+    "application": {
+      "requiredDocuments": [
+        "Đơn đăng ký NUS",
+        "Bài luận cá nhân",
+        "Bảng điểm"
+      ],
+      "officialGuideLinks": [
+        "https://www.nus.edu.sg"
+      ],
+      "track": [
+        "Nộp hồ sơ tuyển sinh",
+        "Xét học bổng"
+      ]
+    },
+    "menteeOutcomes": {
+      "matchingScholarshipKeywords": [
+        "nus scholarship",
+        "nus"
+      ],
+      "matchingUniversities": [
+        "nus"
+      ],
+      "comment": "Số lượng mentee được hiển thị theo dữ liệu cập nhật từ danh sách mentee công khai của SEM.",
+      "matchingMode": "both"
+    },
+    "relatedInformation": {
+      "comment": "NUS phù hợp với hồ sơ có thành tích học tập tốt và định hướng phát triển rõ ràng."
+    },
+    "mentoringRecommendation": {
+      "packetName": "Gói Focus General",
+      "bestRegistrationTime": "Trước hạn nộp hồ sơ 4-6 tháng",
+      "comment": "Nên chuẩn bị kỹ bài luận cá nhân và kế hoạch hoạt động học thuật/ngoại khóa."
+    },
+    "tags": [
+      "singapore",
+      "undergraduate"
+    ],
+    "updatedAt": "2026-07-07",
+    "filtering": {
+      "deadlineMonths": [
+        2
+      ],
+      "coverageTypes": [
+        "full-tuition"
+      ],
+      "countries": [
+        "Singapore"
+      ],
+      "continents": [
+        "Châu Á"
+      ],
+      "fields": [
+        "Quản trị kinh doanh",
+        "Khoa học máy tính",
+        "Kinh tế"
+      ]
+    },
+    "content": {
+      "eligibility": "Tiếng Anh: IELTS/TOEFL Không luôn công bố ngưỡng GPA cố định, hội đồng sẽ xét mức độ cạnh tranh của toàn bộ hồ sơ.",
+      "coverage": "Hỗ trợ 100% học phí toàn bộ thời gian học",
+      "intakes": [
+        "Kỳ Thu 2026: Hạn nộp hồ sơ tháng 2. Ví dụ mốc gần nhất: 28/02/2026. Mốc chính xác có thể thay đổi từng năm."
+      ]
+    }
+  }
+]

@@ -5,6 +5,7 @@ import Image from 'next/image';
 
 import {
   BookOpen,
+  GraduationCap,
   LayoutDashboard,
   Library,
   LifeBuoy,
@@ -34,6 +35,11 @@ const data = {
       title: "Dịch vụ",
       url: "/courses",
       icon: BookOpen,
+    },
+    {
+      title: "Khám phá học bổng",
+      url: "/scholarships",
+      icon: GraduationCap,
     },
     {
       title: "Đội ngũ",

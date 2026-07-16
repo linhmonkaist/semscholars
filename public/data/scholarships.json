@@ -1,0 +1,296 @@
+[
+  {
+    "id": "gks-u",
+    "slug": "gks-u",
+    "title": "Học bổng Chính phủ Hàn Quốc hệ Đại học (GKS-U)",
+    "provider": "Bộ giáo dục Hàn Quốc - NIIED",
+    "country": "Hàn Quốc",
+    "universities": [
+      "Hơn 69 trường đại học"
+    ],
+    "levels": [
+      "Bachelor"
+    ],
+    "fields": [
+      "Tất cả các ngành"
+    ],
+    "coverage": [
+      "Miễn 100% học phí",
+      "Trợ cấp sinh hoạt hằng tháng",
+      "Vé máy bay khứ hồi",
+      "Bảo hiểm y tế quốc gia"
+    ],
+    "eligibility": [
+      "Yêu cầu GPA: 80% hoặc top 20% của trường/lớp hoặc tương đương",
+      "Tiếng Anh: không bắt buộc nhưng có IELTS cao sẽ được cộng điểm ưu tiên.",
+      "Tiếng Hàn: không bắt buộc nhưng có TOPIK cao sẽ được cộng điểm ưu tiên.",
+      "Chưa tốt nghiệp đại học",
+      "Không được tốt nghiệp từ một trường cấp 3 hoặc đại học ở Hàn Quốc"
+    ],
+    "intakes": [
+      "Nhập học kỳ thu: Hạn nộp hồ sơ tháng 10. Ví dụ mốc gần nhất: 15/10/2025. Mốc chính xác có thể thay đổi từng năm."
+    ],
+    "application": {
+      "requiredDocuments": [
+        "Đơn đăng ký GKS-U theo form mẫu",
+        "Kế hoạch học tập (Study plan)",
+        "Bài luận cá nhân (Personal Statement)",
+        "Thư giới thiệu (Recommendation letter)",
+        "Bảng điểm (Transcript)",
+        "Bằng tốt nghiệp (Graduation Certificate) hoặc các chứng chỉ tương đương",
+        "Các chứng chỉ khác"
+      ],
+      "officialGuideLinks": [
+        "https://www.studyinkorea.go.kr"
+      ],
+      "track": [
+        "Diện Đại sứ quán (Embassy track)",
+        "Diện Trường đại học (University track)"
+      ]
+    },
+    "menteeOutcomes": {
+      "matchingScholarshipKeywords": [
+        "gks-u",
+        "gks u"
+      ],
+      "matchingUniversities": [],
+      "matchingMode": "scholarshipKeywordsOnly"
+    },
+    "relatedInformation": {
+      "comment": "Học bổng GKS là một trong những học bổng danh giá của Hàn Quốc và có độ cạnh tranh cao. SEM Scholars tự hào là đội ngũ mentor hỗ trợ thành công nhiều mentee chinh phục thành công học bổng danh giá này."
+    },
+    "mentoringRecommendation": {
+      "packetName": "Gói Focus GKS hoặc Gói Combo",
+      "bestRegistrationTime": "Trước hạn nộp hồ sơ 6-8 tháng",
+      "comment": "Nên bắt đầu sớm để có thời gian tối ưu bài luận và hồ sơ học thuật."
+    },
+    "tags": [
+      "government",
+      "korea",
+      "undergraduate"
+    ],
+    "updatedAt": "2026-07-07",
+    "filtering": {
+      "deadlineMonths": [
+        10
+      ],
+      "coverageTypes": [
+        "full-ride"
+      ],
+      "countries": [
+        "Hàn Quốc"
+      ],
+      "continents": [
+        "Châu Á"
+      ],
+      "fields": [
+        "Tất cả các ngành"
+      ]
+    },
+    "content": {
+      "eligibility": "Yêu cầu GPA: Top 20% hoặc tương đương Tiếng Anh: IELTS/TOEFL được chấp nhận bởi một số trường Ngôn ngữ bản địa: TOPIK là lợi thế nhưng không phải lúc nào cũng bắt buộc Không có một mức GPA cố định cho mọi ngành; nên giữ hồ sơ học thuật trong nhóm cạnh tranh cao.",
+      "coverage": "Miễn 100% học phí | Trợ cấp sinh hoạt hằng tháng | Vé máy bay khứ hồi | Bảo hiểm y tế quốc gia",
+      "intakes": [
+        "Nhập học kỳ thu: Hạn nộp hồ sơ tháng 10. Ví dụ mốc gần nhất: 15/10/2025. Mốc chính xác có thể thay đổi từng năm."
+      ]
+    }
+  },
+  {
+    "id": "gks-g",
+    "slug": "gks-g",
+    "title": "Học bổng Chính phủ Hàn Quốc hệ Sau đại học (GKS-G)",
+    "provider": "Bộ giáo dục Hàn Quốc - NIIED",
+    "country": "Hàn Quốc",
+    "universities": [
+      "Hơn 69 trường đại học"
+    ],
+    "levels": [
+      "Master",
+      "PhD"
+    ],
+    "fields": [
+      "Tất cả các ngành"
+    ],
+    "coverage": [
+      "Miễn 100% học phí",
+      "Trợ cấp sinh hoạt hằng tháng",
+      "Vé máy bay khứ hồi",
+      "Bảo hiểm y tế quốc gia"
+    ],
+    "eligibility": [
+      "Yêu cầu GPA: 80% hoặc top 20% của trường/lớp hoặc tương đương",
+      "Tiếng Anh: không bắt buộc nhưng có IELTS cao sẽ được cộng điểm ưu tiên.",
+      "Tiếng Hàn: không bắt buộc nhưng có TOPIK cao sẽ được cộng điểm ưu tiên.",
+      "Đã tốt nghiệp đại học hoặc dự kiến tốt nghiệp trước kỳ nhập học",
+      "Không được có bằng thạc sĩ hoặc tiến sĩ từ một trường đại học ở Hàn Quốc"
+    ],
+    "intakes": [
+      "Kỳ Thu 2027: Hạn nộp hồ sơ tháng 3. Ví dụ mốc gần nhất: 10/03/2026. Mốc chính xác có thể thay đổi từng năm."
+    ],
+    "application": {
+      "requiredDocuments": [
+        "Đơn đăng ký GKS-G theo form mẫu",
+        "Kế hoạch nghiên cứu/học tập (Study plan)",
+        "Bài luận cá nhân (Personal Statement)",
+        "Thư giới thiệu (Recommendation letter)",
+        "Bảng điểm (Transcript)",
+        "Bằng tốt nghiệp (Graduation Certificate) hoặc các chứng chỉ tương đương",
+        "Các chứng chỉ khác"
+      ],
+      "officialGuideLinks": [
+        "https://www.studyinkorea.go.kr"
+      ],
+      "track": [
+        "Diện Đại sứ quán (Embassy track)",
+        "Diện Trường đại học (University track)"
+      ]
+    },
+    "menteeOutcomes": {
+      "matchingScholarshipKeywords": [
+        "gks-g",
+        "gks g"
+      ],
+      "matchingUniversities": [],
+      "matchingMode": "scholarshipKeywordsOnly"
+    },
+    "relatedInformation": {
+      "comment": "Học bổng GKS là một trong những học bổng danh giá của Hàn Quốc và có độ cạnh tranh cao. SEM Scholars tự hào là đội ngũ mentor hỗ trợ thành công nhiều mentee chinh phục thành công học bổng danh giá này."
+    },
+    "mentoringRecommendation": {
+      "packetName": "Gói Focus GKS hoặc Gói Combo",
+      "bestRegistrationTime": "Trước hạn nộp hồ sơ 6-8 tháng",
+      "comment": "Nên bắt đầu sớm để có thời gian tối ưu bài luận và hồ sơ học thuật."
+    },
+    "tags": [
+      "government",
+      "korea",
+      "graduate"
+    ],
+    "updatedAt": "2026-07-07",
+    "filtering": {
+      "deadlineMonths": [
+        3
+      ],
+      "coverageTypes": [
+        "full-ride"
+      ],
+      "countries": [
+        "Hàn Quốc"
+      ],
+      "continents": [
+        "Châu Á"
+      ],
+      "fields": [
+        "Tất cả các ngành"
+      ]
+    },
+    "content": {
+      "eligibility": "Yêu cầu GPA: 80% hoặc top 20% của trường/lớp hoặc tương đương Tiếng Anh: không bắt buộc nhưng có IELTS cao sẽ được cộng điểm ưu tiên. Tiếng Hàn: không bắt buộc nhưng có TOPIK cao sẽ được cộng điểm ưu tiên. Đã tốt nghiệp đại học hoặc dự kiến tốt nghiệp trước kỳ nhập học Không được có bằng thạc sĩ hoặc tiến sĩ từ một trường đại học ở Hàn Quốc",
+      "coverage": "Miễn 100% học phí | Trợ cấp sinh hoạt hằng tháng | Vé máy bay khứ hồi | Bảo hiểm y tế quốc gia",
+      "intakes": [
+        "Kỳ Thu 2026: Hạn nộp hồ sơ tháng 3. Ví dụ mốc gần nhất: 10/03/2025. Mốc chính xác có thể thay đổi từng năm.",
+        "Kỳ Thu 2027: Hạn nộp hồ sơ tháng 3. Ví dụ mốc gần nhất: 10/03/2026. Mốc chính xác có thể thay đổi từng năm."
+      ]
+    }
+  },
+  {
+    "id": "kaist-scholarship",
+    "slug": "kaist-scholarship",
+    "title": "Học bổng KAIST",
+    "provider": "Viện KAIST",
+    "country": "Hàn Quốc",
+    "universities": [
+      "KAIST"
+    ],
+    "levels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
+    "fields": [
+      "Khoa học máy tính",
+      "Kỹ thuật điện",
+      "Hóa học",
+      "AI",
+      "Các ngành khoa học kỹ thuật",
+      "Kinh doanh"
+    ],
+    "coverage": [
+      "Miễn 100% học phí toàn bộ thời gian học",
+      "Trợ cấp sinh hoạt hằng tháng"
+    ],
+    "eligibility": [
+      "Tiếng Anh: IELTS/TOEFL/ các chứng chỉ tương đương",
+      "Không có ngưỡng GPA thống nhất cho mọi ngành, nhưng hồ sơ cần nền tảng học thuật mạnh."
+    ],
+    "intakes": [
+      "Bậc đại học, kỳ thu: Hạn nộp hồ sơ tháng 10 (Early Admission) hoặc tháng 1 (Regular Admission). Ví dụ mốc gần nhất: 29/10/2026 hoặc 21/01/2027.",
+      "Bậc đại học, kỳ xuân: Hạn nộp hồ sơ tháng 10 (Early Admission). Ví dụ mốc gần nhất: 29/10/2026.",
+      "Bậc sau đại học, kỳ xuân: Hạn nộp hồ sơ tháng 9. Mốc gần nhất: 1/9/2026.",
+      "Bậc sau đại học, kỳ thu: Hạn nộp hồ sơ tháng 12 (Early Admission) hoặc tháng 3 (Regular Admission)."
+    ],
+    "application": {
+      "requiredDocuments": [
+        "Đơn đăng ký KAIST (Application Form)",
+        "Bài luận mục tiêu học tập (Statement of Purpose) hoặc các bài luận nhỏ cho bậc đại học",
+        "Thư giới thiệu (Recommendation letter)",
+        "Chứng chỉ ngoại ngữ"
+      ],
+      "officialGuideLinks": [
+        "https://admission.kaist.ac.kr"
+      ],
+      "track": [
+        "Nộp hồ sơ tuyển sinh",
+        "Xét học bổng"
+      ]
+    },
+    "menteeOutcomes": {
+      "matchingScholarshipKeywords": [
+        "kaist scholarship",
+        "kaist"
+      ],
+      "matchingUniversities": [
+        "kaist"
+      ],
+      "matchingMode": "matchingUniversitiesOnly"
+    },
+    "relatedInformation": {
+      "comment": "KAIST là một trường đại học có ranking thuộc top thế giới. Team SEM Scholars tự hào khi có nhiều mentor là cựu sinh viên của KAIST. Với bề dày nền tảng về nghiên cứu và giảng dạy, KAIST đánh giá cao tính học thuật, tư duy nghiên cứu và sự nhất quán trong câu chuyện hồ sơ. SEM Scholars sẽ giúp bạn trở nên nổi bật hơn để chinh phục được hội đồng tuyển sinh của nhà trường."
+    },
+    "mentoringRecommendation": {
+      "packetName": "Gói Focus khối IST và Gói Combo",
+      "bestRegistrationTime": "Trước hạn nộp hồ sơ 5-7 tháng"
+    },
+    "tags": [
+      "korea",
+      "stem"
+    ],
+    "updatedAt": "2026-07-07",
+    "filtering": {
+      "deadlineMonths": [
+        1, 9, 10, 12, 3
+      ],
+      "coverageTypes": [
+        "full-ride"
+      ],
+      "countries": [
+        "Hàn Quốc"
+      ],
+      "continents": [
+        "Châu Á"
+      ],
+      "fields": [
+        "Khoa học máy tính",
+        "Kỹ thuật điện",
+        "Hóa học",
+        "AI",
+        "Các ngành khoa học kỹ thuật",
+        "Kinh doanh"
+      ]
+    },
+    "content": {
+      "eligibility": "Tiếng Anh: IELTS/TOEFL Không có ngưỡng GPA thống nhất cho mọi ngành, nhưng hồ sơ STEM cần nền tảng học thuật mạnh.",
+      "coverage": "Miễn 100% học phí toàn bộ thời gian học | Trợ cấp sinh hoạt hằng tháng"
+    }
+  }
+]

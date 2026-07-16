@@ -312,7 +312,8 @@ export const mentoringPackets: MentoringPacket[] = [
     payment: "Thanh toán 1 lần trước khi bắt đầu",
     paymentDetails: [
       "Thanh toán một lần ngay khi đăng ký để bắt đầu lộ trình cá nhân hóa.",
-      "Chi phí chi tiết được chốt theo tính chất học bổng mục tiêu.",
+      "Thông thường: 9,500,000 VND - Áp dụng cho đơn đăng ký trong tháng bình thường",
+      "Urgent: 12,000,000 VND - Áp dụng cho đơn đăng ký trước deadline 45 ngày.",
     ],
     highlights: [
       "Lộ trình cá nhân hóa theo mục tiêu đặc thù",
