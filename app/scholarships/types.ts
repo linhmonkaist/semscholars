@@ -39,6 +39,7 @@ export type Scholarship = {
     matchingMode?: MenteeMatchingMode
     matchingScholarshipKeywords: string[]
     matchingUniversities?: string[]
+    displayMenteeCount?: number
     comment?: string
   }
   relatedInformation?: {

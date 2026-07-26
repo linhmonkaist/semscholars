@@ -96,6 +96,10 @@ function getContinents(scholarship: Scholarship) {
   return []
 }
 
+function getFields(scholarship: Scholarship) {
+  return Array.from(new Set([...(scholarship.filtering?.fields || []), ...(scholarship.fields || [])]))
+}
+
 export default function ScholarshipsPage() {
   const [scholarships, setScholarships] = useState<Scholarship[]>([])
   const [loading, setLoading] = useState(true)
@@ -158,7 +162,7 @@ export default function ScholarshipsPage() {
     () =>
       Array.from(
         new Set(
-          scholarships.flatMap((item) => item.filtering?.fields || item.fields || [])
+          scholarships.flatMap((item) => getFields(item))
         )
       ).sort((a, b) => a.localeCompare(b, "vi")),
     [scholarships]
@@ -204,7 +208,7 @@ export default function ScholarshipsPage() {
         scholarshipCoverageTypes.some((coverageType) => selectedCoverageTypes.includes(coverageType))
       const fieldMatch =
         selectedFields.length === 0 ||
-        (scholarship.filtering?.fields || scholarship.fields || []).some((field) => selectedFields.includes(field))
+        getFields(scholarship).some((field) => selectedFields.includes(field))
       const monthMatch =
         selectedMonths.length === 0 ||
         scholarship.filtering?.deadlineMonths.some((month) => selectedMonths.includes(String(month)))
@@ -498,7 +502,7 @@ export default function ScholarshipsPage() {
                 </p>
                 <p>
                   <span className="font-semibold">Lĩnh vực:</span>{" "}
-                  {(scholarship.filtering?.fields || scholarship.fields || []).join(", ")}
+                  {getFields(scholarship).join(", ")}
                 </p>
                 {/* <p>
                   <span className="font-semibold">Dữ liệu mentee SEM:</span>{" "}

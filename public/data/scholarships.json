@@ -22,10 +22,8 @@
     ],
     "eligibility": [
       "Yêu cầu GPA: 80% hoặc top 20% của trường/lớp hoặc tương đương",
-      "Tiếng Anh: không bắt buộc nhưng có IELTS cao sẽ được cộng điểm ưu tiên.",
-      "Tiếng Hàn: không bắt buộc nhưng có TOPIK cao sẽ được cộng điểm ưu tiên.",
-      "Chưa tốt nghiệp đại học",
-      "Không được tốt nghiệp từ một trường cấp 3 hoặc đại học ở Hàn Quốc"
+      "Ngoại ngữ: không bắt buộc nhưng có ngoại ngữ tốt (tiếng Anh/ Hàn) sẽ là điểm cộng",
+      "Chưa tốt nghiệp đại học và không được tốt nghiệp từ một trường cấp 3 hoặc đại học ở Hàn Quốc"
     ],
     "intakes": [
       "Nhập học kỳ thu: Hạn nộp hồ sơ tháng 10. Ví dụ mốc gần nhất: 15/10/2025. Mốc chính xác có thể thay đổi từng năm."
@@ -33,11 +31,8 @@
     "application": {
       "requiredDocuments": [
         "Đơn đăng ký GKS-U theo form mẫu",
-        "Kế hoạch học tập (Study plan)",
-        "Bài luận cá nhân (Personal Statement)",
-        "Thư giới thiệu (Recommendation letter)",
-        "Bảng điểm (Transcript)",
-        "Bằng tốt nghiệp (Graduation Certificate) hoặc các chứng chỉ tương đương",
+        "Kế hoạch học tập (Study plan), Bài luận cá nhân (Personal Statement), Thư giới thiệu (Recommendation letter)",
+        "Bảng điểm (Transcript), Bằng tốt nghiệp (Graduation Certificate) hoặc các chứng chỉ tương đương",
         "Các chứng chỉ khác"
       ],
       "officialGuideLinks": [
@@ -208,11 +203,11 @@
       "PhD"
     ],
     "fields": [
+      "Các ngành khoa học kỹ thuật",
       "Khoa học máy tính",
       "Kỹ thuật điện",
       "Hóa học",
       "AI",
-      "Các ngành khoa học kỹ thuật",
       "Kinh doanh"
     ],
     "coverage": [
@@ -252,7 +247,8 @@
       "matchingUniversities": [
         "kaist"
       ],
-      "matchingMode": "matchingUniversitiesOnly"
+      "matchingMode": "matchingUniversitiesOnly",
+      "displayMenteeCount": 15
     },
     "relatedInformation": {
       "comment": "KAIST là một trường đại học có ranking thuộc top thế giới. Team SEM Scholars tự hào khi có nhiều mentor là cựu sinh viên của KAIST. Với bề dày nền tảng về nghiên cứu và giảng dạy, KAIST đánh giá cao tính học thuật, tư duy nghiên cứu và sự nhất quán trong câu chuyện hồ sơ. SEM Scholars sẽ giúp bạn trở nên nổi bật hơn để chinh phục được hội đồng tuyển sinh của nhà trường."
@@ -280,11 +276,11 @@
         "Châu Á"
       ],
       "fields": [
+        "Các ngành khoa học kỹ thuật",
         "Khoa học máy tính",
         "Kỹ thuật điện",
         "Hóa học",
         "AI",
-        "Các ngành khoa học kỹ thuật",
         "Kinh doanh"
       ]
     },

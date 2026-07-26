@@ -20,6 +20,7 @@ const mentees = menteesData as {
   scholarships: string[]
   universities: string[]
 }[]
+const semServiceRegistrationURL = "https://forms.gle/vb5613wWEQbNrDnU6"
 
 export function generateStaticParams() {
   return scholarships.map((scholarship) => ({
@@ -112,6 +113,16 @@ export default async function ScholarshipDetailPage({ params }: ScholarshipDetai
     notFound()
   }
 
+  const relatedFields = Array.from(
+    new Set([...(scholarship.filtering?.fields || []), ...(scholarship.fields || [])])
+  )
+  const officialWebsiteLink = scholarship.application.officialGuideLinks?.[0]
+  const manualMenteeCount = scholarship.menteeOutcomes?.displayMenteeCount
+  const menteeResultCount =
+    typeof manualMenteeCount === "number" && Number.isFinite(manualMenteeCount) && manualMenteeCount >= 0
+      ? `${manualMenteeCount}+`
+      : formatRoughMenteeCount(calculateMatchedMenteeCount(scholarship))
+
   return (
     <main className="mx-auto w-full max-w-6xl space-y-6 p-4 md:p-6">
       <section className="space-y-4 rounded-xl border bg-background p-5 md:p-8">
@@ -142,14 +153,25 @@ export default async function ScholarshipDetailPage({ params }: ScholarshipDetai
         </div>
         <h1 className="text-3xl font-bold text-slate-900">{scholarship.title}</h1>
         <p className="text-slate-600">Đơn vị cấp học bổng: {scholarship.provider}</p>
+        {scholarship.relatedInformation?.comment ? (
+          <p className="text-slate-700">{scholarship.relatedInformation.comment}</p>
+        ) : null}
       </section>
 
-      <section className="grid gap-4 md:grid-cols-2">
+      <section className="space-y-4">
         <Card>
           <CardHeader>
             <CardTitle>Nội dung học bổng</CardTitle>
           </CardHeader>
           <CardContent className="space-y-2 text-sm">
+            <p>
+              <span className="font-semibold">Lĩnh vực phù hợp:</span> {relatedFields.join(", ")}
+            </p>
+            {scholarship.universities?.length ? (
+              <p>
+                <span className="font-semibold">Trường liên quan:</span> {scholarship.universities.join(", ")}
+              </p>
+            ) : null}
             <div>
               <p className="font-semibold">Điều kiện:</p>
               {scholarship.eligibility.length ? (
@@ -199,7 +221,7 @@ export default async function ScholarshipDetailPage({ params }: ScholarshipDetai
         </Card>
       </section>
 
-      <section className="grid gap-4 md:grid-cols-2">
+      <section className="space-y-4">
         <Card>
           <CardHeader>
             <CardTitle>Hồ sơ ứng tuyển</CardTitle>
@@ -233,30 +255,16 @@ export default async function ScholarshipDetailPage({ params }: ScholarshipDetai
           </CardHeader>
           <CardContent className="space-y-3 text-sm">
             <p>
-              <span className="font-semibold">Lĩnh vực phù hợp:</span>{" "}
-              {(scholarship.filtering?.fields || scholarship.fields || []).join(", ")}
-            </p>
-            {scholarship.universities?.length ? (
-              <p>
-                <span className="font-semibold">Trường liên quan:</span> {scholarship.universities.join(", ")}
-              </p>
-            ) : null}
-            <p>
               <span className="font-semibold">Kết quả mentee SEM:</span>{" "}
-              {formatRoughMenteeCount(calculateMatchedMenteeCount(scholarship))} mentee đã đạt học bổng này
+              {menteeResultCount} mentee đã đạt học bổng này
             </p>
             {scholarship.menteeOutcomes?.comment ? (
               <p>
                 <span className="font-semibold">Ghi chú mentee:</span> {scholarship.menteeOutcomes.comment}
               </p>
             ) : null}
-            {scholarship.relatedInformation?.comment ? (
-              <p>
-                <span className="font-semibold">Ghi chú từ team SEM:</span> {scholarship.relatedInformation.comment}
-              </p>
-            ) : null}
             {scholarship.mentoringRecommendation ? (
-              <div className="rounded-md border p-3">
+              <>
                 <p>
                   <span className="font-semibold">Gói mentor phù hợp:</span>{" "}
                   {scholarship.mentoringRecommendation.packetName}
@@ -270,19 +278,26 @@ export default async function ScholarshipDetailPage({ params }: ScholarshipDetai
                     <span className="font-semibold">Lưu ý:</span> {scholarship.mentoringRecommendation.comment}
                   </p>
                 ) : null}
-              </div>
+              </>
             ) : null}
-            {scholarship.application.officialGuideLinks?.length ? (
-              <div className="flex flex-wrap gap-2">
-                {scholarship.application.officialGuideLinks.map((link) => (
-                  <Button key={link} variant="outline" asChild>
-                    <Link href={link} target="_blank" rel="noreferrer">
-                      Website chính thức
-                    </Link>
-                  </Button>
-                ))}
-              </div>
-            ) : null}
+            <div className="flex flex-wrap gap-2">
+              {officialWebsiteLink ? (
+                <Button variant="outline" asChild>
+                  <Link href={officialWebsiteLink} target="_blank" rel="noreferrer">
+                    Website chính thức
+                  </Link>
+                </Button>
+              ) : (
+                <Button variant="outline" disabled>
+                  Website chính thức (đang cập nhật)
+                </Button>
+              )}
+              <Button asChild>
+                <Link href={semServiceRegistrationURL} target="_blank" rel="noreferrer">
+                  Form đăng ký dịch vụ
+                </Link>
+              </Button>
+            </div>
           </CardContent>
         </Card>
       </section>
