@@ -207,28 +207,28 @@ export const teamMembers: TeamMember[]= [
         tags: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc", "Khoa học kỹ thuật", "Khoa học xã hội"]
       }
     },
-    {
-      id: "cucngo",
-      name: "Ngọ Thị Cúc",
-      role: role,
-      description: "Đã tốt nghiệp master, Korean Language & Literature, Kyunghee University, Hàn Quốc.",
-      image: "/assets/img/team/Cucngo.jpg",
-      received_scholarship: "Nhận học bổng GKS-G 2022 nhận được thư mời nhập học từ 3 trường: Kyunghee Uni, Keimyung Uni, Sookmyung Women's Uni.",
-      mentor_history: "Hỗ trợ thành công mentee apply các ngành ngôn ngữ Hàn, giáo dục tiếng Hàn",
-      hashtag: "Hỗ trợ apply khối ngành ngôn ngữ tại Hàn Quốc",
-      majors: ["Ngôn ngữ"],
-      countries: ["Châu Á"],
-      details: {
-        profile: ["Đã tốt nghiệp master, Korean Language & Literature, Kyunghee University, Hàn Quốc."],
-        achievements: ["Nhận học bổng GKS-G 2022 nhận được thư mời nhập học từ 3 trường: Kyunghee Uni, Keimyung Uni, Sookmyung Women's Uni."],
-        statement: "",
-        philosophy: "",
-        records: ["Hỗ trợ thành công mentee apply các ngành ngôn ngữ Hàn, giáo dục tiếng Hàn"],
-        highlight_record: [],
-        support: "",
-        tags: ["Châu Á", "Ngôn ngữ"]
-      }
-    },
+    // {
+    //   id: "cucngo",
+    //   name: "Ngọ Thị Cúc",
+    //   role: role,
+    //   description: "Đã tốt nghiệp master, Korean Language & Literature, Kyunghee University, Hàn Quốc.",
+    //   image: "/assets/img/team/Cucngo.jpg",
+    //   received_scholarship: "Nhận học bổng GKS-G 2022 nhận được thư mời nhập học từ 3 trường: Kyunghee Uni, Keimyung Uni, Sookmyung Women's Uni.",
+    //   mentor_history: "Hỗ trợ thành công mentee apply các ngành ngôn ngữ Hàn, giáo dục tiếng Hàn",
+    //   hashtag: "Hỗ trợ apply khối ngành ngôn ngữ tại Hàn Quốc",
+    //   majors: ["Ngôn ngữ"],
+    //   countries: ["Châu Á"],
+    //   details: {
+    //     profile: ["Đã tốt nghiệp master, Korean Language & Literature, Kyunghee University, Hàn Quốc."],
+    //     achievements: ["Nhận học bổng GKS-G 2022 nhận được thư mời nhập học từ 3 trường: Kyunghee Uni, Keimyung Uni, Sookmyung Women's Uni."],
+    //     statement: "",
+    //     philosophy: "",
+    //     records: ["Hỗ trợ thành công mentee apply các ngành ngôn ngữ Hàn, giáo dục tiếng Hàn"],
+    //     highlight_record: [],
+    //     support: "",
+    //     tags: ["Châu Á", "Ngôn ngữ"]
+    //   }
+    // },
     {
       id: "ngangiang", 
       name: "Vũ Ngân Giang",
