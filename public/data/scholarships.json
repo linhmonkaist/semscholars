@@ -264,7 +264,11 @@
     "updatedAt": "2026-07-07",
     "filtering": {
       "deadlineMonths": [
-        1, 9, 10, 12, 3
+        1,
+        9,
+        10,
+        12,
+        3
       ],
       "coverageTypes": [
         "full-ride"
@@ -287,6 +291,366 @@
     "content": {
       "eligibility": "Tiếng Anh: IELTS/TOEFL Không có ngưỡng GPA thống nhất cho mọi ngành, nhưng hồ sơ STEM cần nền tảng học thuật mạnh.",
       "coverage": "Miễn 100% học phí toàn bộ thời gian học | Trợ cấp sinh hoạt hằng tháng"
+    }
+  },
+  {
+    "id": "skku-scholarship",
+    "slug": "skku-scholarship",
+    "title": "Học bổng Đại học Sungkyunkwan (SKKU)",
+    "provider": "Đại học Sungkyunkwan",
+    "country": "Hàn Quốc",
+    "levels": [
+      "Bachelor"
+    ],
+    "fields": [
+      "Đa ngành"
+    ],
+    "coverage": [
+      "Xét tự động các học bổng đầu vào (Admission scholarships) hoặc học bổng ngoại ngữ dựa trên năng lực tiếng Hàn/Anh"
+    ],
+    "eligibility": [
+      "Là sinh viên quốc tế",
+      "Tuỳ từng track sẽ có yêu cầu ngoại ngữ tuỳ theo",
+      "Nhà trường không có yêu cầu cụ thể về GPA, CV hay các yếu tố khác"
+    ],
+    "intakes": [
+      "Bậc đại học, kỳ xuân: Tháng 8 hàng năm (round 1). Ví dụ mốc gần nhất: 21/8/2026",
+      "Bậc đại học, kỳ xuân: Tháng 8 hàng năm (round 2). Ví dụ mốc gần nhất: 13/11/2026",
+      "Bậc sau đại học, kỳ thu: Tháng 4 hàng năm (round 1). Ví dụ mốc gần nhất: 3/4/2026",
+      "Bậc sau đại học, kỳ thu: Tháng 5 hàng năm (round 2). Ví dụ mốc gần nhất: 29/5/2026",
+      "Bậc sau đại học, kỳ thu: Tháng 7 hàng năm (round 3). Ví dụ mốc gần nhất: 1/7/2026"
+    ],
+    "application": {
+      "requiredDocuments": [
+        "Đơn đăng ký (Application form)",
+        "Bài luận cá nhân (Personal Statement)",
+        "Thư giới thiệu (Recommendation letter)",
+        "Bằng tốt nghiệp và bảng điểm",
+        "Chứng chỉ ngoại ngữ tuỳ yêu cầu của từng track",
+        "Các giấy tờ cá nhân khác theo yêu cầu"
+      ],
+      "officialGuideLinks": [
+        "https://www.skku.edu/eng"
+      ],
+      "track": [
+        "Nộp hồ sơ tuyển sinh online trên hệ thống của trường"
+      ]
+    },
+    "menteeOutcomes": {
+      "matchingScholarshipKeywords": [
+        "skku",
+        "sungkyunkwan"
+      ],
+      "matchingUniversities": [
+        "skku"
+      ],
+      "matchingMode": "matchingUniversitiesOnly",
+      "displayMenteeCount": 8
+    },
+    "relatedInformation": {
+      "comment": "SKKU là một trong những trường đại học lâu đời và có chất lượng giáo dục hàng đầu tại Hàn Quốc. Cơ hội xét học bổng tự động mở ra lợi thế lớn cho các bạn có hồ sơ học thuật mạnh."
+    },
+    "mentoringRecommendation": {
+      "packetName": "Gói Focus General hoặc Gói Combo",
+      "bestRegistrationTime": "Trước hạn nộp hồ sơ 3-5 tháng"
+    },
+    "tags": [
+      "korea",
+      "spring-2027",
+      "skku"
+    ],
+    "updatedAt": "2026-07-27",
+    "filtering": {
+      "deadlineMonths": [
+        8
+      ],
+      "coverageTypes": [
+        "partial",
+        "full-ride"
+      ],
+      "countries": [
+        "Hàn Quốc"
+      ],
+      "continents": [
+        "Châu Á"
+      ],
+      "fields": [
+        "Đa ngành"
+      ]
+    },
+    "content": {
+      "eligibility": "Chỉ xét duyệt qua hồ sơ tài liệu, không cần phỏng vấn.",
+      "coverage": "Trường có nhiều mức học bổng đầu vào (Admission scholarships) tự động xét dựa trên thành tích học thuật."
+    }
+  },
+  {
+    "id": "korea-university-scholarship",
+    "slug": "korea-university-scholarship",
+    "title": "Học bổng Đại học Korea (KU)",
+    "provider": "Korea University",
+    "country": "Hàn Quốc",
+    "universities": [
+      "Korea University"
+    ],
+    "levels": [
+      "Bachelor"
+    ],
+    "fields": [
+      "Đa ngành"
+    ],
+    "coverage": [
+      "Trường có nhiều loại học bổng từ full-ride đến 100% học phí cho đến học bổng bán phần"
+    ],
+    "eligibility": [
+      "Trường không có yêu cầu cụ thể cho tất cả các ngành. Nhưng mỗi ngành sẽ có yêu cầu riêng. Xem chi tiết ở guideline"
+    ],
+    "intakes": [
+      "Bậc đại học, kỳ xuân: tháng 8 hàng năm. Ví dụ mốc gần nhất: 31/8/2026",
+      "Bậc sau đại học, kỳ thu: tháng 3 hàng năm. Ví dụ mốc gần nhất: 13/3/2026"
+    ],
+    "application": {
+      "requiredDocuments": [
+        "Đơn đăng ký Korea University",
+        "Bài luận cá nhân (Personal Statement)",
+        "Bảng điểm, bằng cấp liên quan",
+        "Bằng tốt nghiệp",
+        "Các chứng chỉ khác"  
+      ],
+      "officialGuideLinks": [
+        "https://www.korea.edu"
+      ],
+      "track": [
+        "Nộp hồ sơ tại portal của trường"
+      ]
+    },
+    "menteeOutcomes": {
+      "matchingScholarshipKeywords": [
+        "korea university scholarship",
+        "ku"
+      ],
+      "matchingUniversities": [
+        "korea university",
+        "ku"
+      ],
+      "matchingMode": "matchingUniversitiesOnly"
+    },
+    "relatedInformation": {
+      "comment": "Korea University (thuộc nhóm SKY) cực kỳ cạnh tranh. SEM Scholars tự hào là đội ngũ có nhiều mentor và mentee đã và đang là học sinh tại trường KU."
+    },
+    "mentoringRecommendation": {
+      "packetName": "Gói Focus General hoặc gói Combo",
+      "bestRegistrationTime": "Trước hạn nộp hồ sơ 3-5 tháng"
+    },
+    "tags": [
+      "korea",
+      "spring-2027",
+      "sky"
+    ],
+    "updatedAt": "2026-07-27",
+    "filtering": {
+      "deadlineMonths": [
+        8
+      ],
+      "coverageTypes": [
+        "partial",
+        "full-ride"
+      ],
+      "countries": [
+        "Hàn Quốc"
+      ],
+      "continents": [
+        "Châu Á"
+      ],
+      "fields": [
+        "Đa ngành"
+      ]
+    },
+    "content": {
+      "eligibility": "Bắt buộc có TOPIK 3+, chỉ xét duyệt bằng hồ sơ (không phỏng vấn).",
+      "coverage": "Cạnh tranh học bổng vào các kỳ tiếp theo dựa trên điểm GPA đại học."
+    }
+  },
+  {
+    "id": "yonsei-scholarship",
+    "slug": "yonsei-scholarship",
+    "title": "Học bổng Đại học Yonsei UIC",
+    "provider": "Đại học Yonsei",
+    "country": "Hàn Quốc",
+    "universities": [
+      "Yonsei University"
+    ],
+    "levels": [
+      "Bachelor"
+    ],
+    "fields": [
+      "Khoa học Xã hội và Nhân văn"
+    ],
+    "coverage": [
+      "Học bổng Admissions Scholarship hỗ trợ toàn bộ học phí (full tuition) cho 4 năm và các học bổng bán phần khác"
+    ],
+    "eligibility": [
+      "Tất cả sinh viên quốc tế nộp hồ sơ đều được tự động xét học bổng dựa trên năng lực học thuật",
+      "Cần duy trì GPA ở một mức nhất định mỗi kỳ để giữ học bổng"
+    ],
+    "intakes": [
+      "Bậc đại học, kỳ xuân: tháng 9 hàng năm. Ví dụ mốc gần nhất: 17/9/2026"
+    ],
+    "application": {
+      "requiredDocuments": [
+        "Đơn đăng ký Yonsei UIC",
+        "Bài luận cá nhân (Personal Statement)",
+        "Thư giới thiệu (nếu có)",
+        "Chứng chỉ tiếng Anh (IELTS/TOEFL/ các chứng chỉ tương đương)",
+        "Bảng điểm, bằng cấp liên quan",
+        "Bằng tốt nghiệp",
+        "Các chứng chỉ khác"
+      ],
+      "officialGuideLinks": [
+        "https://uic.yonsei.ac.kr/main/admission.php"
+      ],
+      "track": [
+        "Nộp hồ sơ tuyển sinh qua link ở guideline hoặc qua Common App"
+      ]
+    },
+    "menteeOutcomes": {
+      "matchingScholarshipKeywords": [
+        "yonsei scholarship",
+        "yonsei uic"
+      ],
+      "matchingUniversities": [
+        "yonsei university",
+        "Yonsei",
+        "yonsei uic"
+      ],
+      "matchingMode": "matchingUniversitiesOnly"
+    },
+    "relatedInformation": {
+      "comment": "Yonsei UIC là lựa chọn tuyệt vời cho các bạn mạnh về tiếng Anh muốn lấy bằng cử nhân tại Hàn Quốc với cơ hội học bổng toàn phần 4 năm. SEM Scholars tự hào là đội ngũ có mentor và nhiều mentee đạt học bổng từ Yonsei UIC"
+    },
+    "mentoringRecommendation": {
+      "packetName": "Gói Focus General hoặc Gói Combo",
+      "bestRegistrationTime": "Trước hạn nộp hồ sơ 3-5 tháng"
+    },
+    "tags": [
+      "korea",
+      "spring-2027",
+      "sky",
+      "uic"
+    ],
+    "updatedAt": "2026-07-27",
+    "filtering": {
+      "deadlineMonths": [
+        9
+      ],
+      "coverageTypes": [
+        "full-ride",
+        "partial"
+      ],
+      "countries": [
+        "Hàn Quốc"
+      ],
+      "continents": [
+        "Châu Á"
+      ],
+      "fields": [
+        "Đa ngành",
+        "Khoa học Xã hội và Nhân văn",
+        "Quốc tế học"
+      ]
+    },
+    "content": {
+      "eligibility": "Tự động xét ứng viên nộp hồ sơ, yêu cầu duy trì chuẩn GPA hằng kỳ.",
+      "coverage": "Hệ UIC cấp học bổng toàn phần 4 năm cho các hồ sơ xuất sắc."
+    }
+  },
+  {
+    "id": "snu-scholarship",
+    "slug": "snu-scholarship",
+    "title": "Học bổng Đại học Quốc gia Seoul (SNU)",
+    "provider": "Seoul National University",
+    "country": "Hàn Quốc",
+    "universities": [
+      "Seoul National University (SNU)"
+    ],
+    "levels": [
+      "Bachelor"
+    ],
+    "fields": [
+      "Đa ngành"
+    ],
+    "coverage": [
+      "Trường có nhiều mức học bổng: full-ride, 100% học phí và học bổng bán phần"
+    ],
+    "eligibility": [
+      "Mọi ứng viên quốc tế đều được tự động xét vào danh sách học bổng khi nộp hồ sơ nhập học"
+    ],
+    "intakes": [
+      "Bậc đại học, kỳ xuân: tháng 7 hàng năm. Ví dụ mốc gần nhất: 9/7/2026",
+      "Bậc đại học, kỳ thu: tháng 3 hàng năm.",
+      "Bậc sau đại học, kỳ xuân: tháng 7 hàng năm. Ví dụ mốc gần nhất: 9/7/2026",
+      "Bậc sau đại học, kỳ thu: tháng 3 hàng năm."
+    ],
+    "application": {
+      "requiredDocuments": [
+        "Đơn đăng ký SNU",  
+        "Bài luận cá nhân (Personal Statement)",
+        "Thư giới thiệu",
+        "Bảng điểm, bằng cấp liên quan",
+        "Bằng tốt nghiệp",
+        "Các chứng chỉ khác"
+      ],
+      "officialGuideLinks": [
+        "https://en.snu.ac.kr/admission"
+      ],
+      "track": [
+        "Nộp hồ sơ tuyển sinh qua link ở guideline"
+      ]
+    },
+    "menteeOutcomes": {
+      "matchingScholarshipKeywords": [
+        "snu scholarship",
+        "snu"
+      ],
+      "matchingUniversities": [
+        "snu"
+      ],
+      "matchingMode": "matchingUniversitiesOnly"
+    },
+    "relatedInformation": {
+      "comment": "SNU là đại học top 1 của Hàn Quốc. SEM Scholars tự hào là đội ngũ có mentor và nhiều mentee đạt học bổng từ SNU."
+    },
+    "mentoringRecommendation": {
+      "packetName": "Gói Focus General hoặc Gói Combo",
+      "bestRegistrationTime": "Trước hạn nộp hồ sơ 3-5 tháng"
+    },
+    "tags": [
+      "korea",
+      "snu",
+      "spring-2027"
+    ],
+    "updatedAt": "2026-07-27",
+    "filtering": {
+      "deadlineMonths": [
+        7,
+        3
+      ],
+      "coverageTypes": [
+        "full-ride",
+        "partial"
+      ],
+      "countries": [
+        "Hàn Quốc"
+      ],
+      "continents": [
+        "Châu Á"
+      ],
+      "fields": [
+        "Đa ngành"
+      ]
+    },
+    "content": {
+      "eligibility": "Mọi ứng viên quốc tế đều được tự động xét vào danh sách học bổng khi nộp hồ sơ nhập học",
+      "coverage": "Trường có nhiều mức học bổng: full-ride, 100% học phí và học bổng bán phần"
     }
   }
 ]
