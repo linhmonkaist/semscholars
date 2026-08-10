@@ -652,5 +652,107 @@
       "eligibility": "Mọi ứng viên quốc tế đều được tự động xét vào danh sách học bổng khi nộp hồ sơ nhập học",
       "coverage": "Trường có nhiều mức học bổng: full-ride, 100% học phí và học bổng bán phần"
     }
+  },
+  {
+    "id": "dgist-scholarship",
+    "slug": "dgist-scholarship",
+    "title": "Học bổng toàn phần DGIST",
+    "provider": "Daegu Gyeongbuk Institute of Science and Technology (DGIST)",
+    "country": "Hàn Quốc",
+    "universities": [
+      "DGIST"
+    ],
+    "levels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
+    "fields": [
+      "Khoa học",
+      "Kỹ thuật (STEM)"
+    ],
+    "coverage": [
+      "Miễn 100% học phí",
+      "Cấp sinh hoạt phí hàng tháng (Stipend)",
+      "Hỗ trợ ký túc xá",
+      "Xét hỗ trợ thêm học bổng theo từng kỳ"
+    ],
+    "eligibility": [
+      "Chương trình học 100% tiếng Anh, yêu cầu năng lực tiếng Anh và chuyên môn tốt."
+    ],
+    "intakes": [
+      "Bậc đại học, kỳ thu: Hạn nộp hồ sơ tháng 1 hàng năm. Ví dụ mốc gần nhất: 28/01/2027.",
+      "Bậc sau đại học, kỳ xuân: Hạn nộp hồ sơ tháng 7,9,11 hàng năm. Mốc gần nhất: 09/07/2026, 10/09/2026, 19/11/2026.",
+      "Bậc sau đại học, kỳ thu: Hạn nộp hồ sơ tháng 4 hàng năm. Mốc gần nhất: 22/04/2027."
+    ],
+    "application": {
+      "requiredDocuments": [
+        "CV",
+        "Kế hoạch học tập (SOP)",
+        "Thư giới thiệu",
+        "Bảng điểm",
+        "Chứng chỉ tiếng Anh (không bắt buộc nhưng nên có)"
+      ],
+      "officialGuideLinks": [
+        "http://admission.dgist.ac.kr/site/dgist_admission/menu/478.do"
+      ],
+      "track": [
+        "Nộp hồ sơ online thông qua website studyinkorea"
+      ]
+    },
+    "menteeOutcomes": {
+      "matchingScholarshipKeywords": [
+        "dgist"
+      ],
+      "matchingUniversities": [
+        "DGIST"
+      ],
+      "matchingMode": "scholarshipKeywordsOnly",
+      "displayMenteeCount": 3
+    },
+    "relatedInformation": {
+      "comment": "DGIST là 1 trong 4 viện khoa học công nghệ (IST) top đầu Hàn Quốc."
+    },
+    "mentoringRecommendation": {
+      "packetName": "Gói IST hoặc Gói Combo",
+      "bestRegistrationTime": "Trước hạn nộp hồ sơ 3-6 tháng",
+      "comment": "Nên bắt đầu sớm để liên hệ giáo sư (với bậc Sau đại học) và tối ưu SOP."
+    },
+    "tags": [
+      "university",
+      "korea",
+      "stem",
+      "ist"
+    ],
+    "updatedAt": "2026-08-10",
+    "filtering": {
+      "deadlineMonths": [
+        1,
+        4,
+        7,
+        9,
+        11
+      ],
+      "coverageTypes": [
+        "full-ride"
+      ],
+      "countries": [
+        "Hàn Quốc"
+      ],
+      "continents": [
+        "Châu Á"
+      ],
+      "fields": [
+        "Khoa học",
+        "Kỹ thuật (STEM)"
+      ]
+    },
+    "content": {
+      "eligibility": "Chương trình học 100% tiếng Anh. Yêu cầu nền tảng chuyên môn vững vàng. Hội đồng đánh giá khắt khe về năng lực học thuật và định hướng nghiên cứu.",
+      "coverage": "Miễn 100% học phí | Cấp sinh hoạt phí (stipend) hàng tháng | Hỗ trợ ký túc xá tiện nghi",
+      "intakes": [
+        "Đại học: 02/12/2026 - 28/01/2027 | Sau ĐH (Spring đợt 1): 26/06 - 09/07/2026 | Sau ĐH (Spring đợt 2): 27/08 - 10/09/2026 | Sau ĐH (Spring đợt 3): 05/11 - 19/11/2026 | Sau ĐH (Fall): 08/04 - 22/04/2027"
+      ]
+    }
   }
 ]

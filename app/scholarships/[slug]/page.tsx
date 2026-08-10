@@ -23,8 +23,8 @@ const mentees = menteesData as {
 const semServiceRegistrationURL = "https://forms.gle/vb5613wWEQbNrDnU6"
 
 export function generateStaticParams() {
-  return scholarships.map((scholarship) => ({
-    slug: scholarship.slug,
+  return Array.from(new Set(scholarships.map((scholarship) => scholarship.slug))).map((slug) => ({
+    slug,
   }))
 }
 

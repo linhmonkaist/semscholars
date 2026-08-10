@@ -468,13 +468,13 @@ export default function ScholarshipsPage() {
       ) : null}
 
       <section className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-        {filteredScholarships.map((scholarship) => {
+        {filteredScholarships.map((scholarship, index) => {
           const nearestDeadline = getNearestDeadlineMonth(
             scholarship.filtering?.deadlineMonths || []
           )
 
           return (
-            <Card key={scholarship.id} className="h-full">
+            <Card key={`${scholarship.id}-${scholarship.slug}-${index}`} className="h-full">
               <CardHeader className="space-y-3">
                 <div className="flex flex-wrap items-center gap-2">
                   {getCountries(scholarship).map((country) => (
