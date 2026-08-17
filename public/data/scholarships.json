@@ -754,5 +754,114 @@
         "Đại học: 02/12/2026 - 28/01/2027 | Sau ĐH (Spring đợt 1): 26/06 - 09/07/2026 | Sau ĐH (Spring đợt 2): 27/08 - 10/09/2026 | Sau ĐH (Spring đợt 3): 05/11 - 19/11/2026 | Sau ĐH (Fall): 08/04 - 22/04/2027"
       ]
     }
+  },
+  {
+    "id": "postech-scholarship",
+    "slug": "postech-scholarship",
+    "title": "Học bổng POSTECH",
+    "provider": "Pohang University of Science and Technology (POSTECH)",
+    "country": "Hàn Quốc",
+    "universities": [
+      "POSTECH"
+    ],
+    "levels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
+    "fields": [
+      "Khoa học kỹ thuật (STEM)",
+      "Khoa học máy tính",
+      "Kỹ thuật điện",
+      "Hóa học",
+      "Vật lý"
+    ],
+    "coverage": [
+      "Miễn 100% học phí",
+      "Trợ cấp sinh hoạt hằng tháng",
+      "Hỗ trợ vé máy bay và các khoản phụ cấp khác (nếu đủ điều kiện)"
+    ],
+    "eligibility": [
+      "Ứng viên quốc tế (đại học: cả cha/mẹ cũng không mang quốc tịch Hàn Quốc)",
+      "Tiếng Anh: IELTS/TOEFL/TOEIC/TEPS hoặc thư Medium of Instruction",
+      "Hồ sơ STEM cần nền tảng học thuật mạnh, đặc biệt Toán và Khoa học"
+    ],
+    "intakes": [
+      "Bậc đại học, kỳ xuân: hạn nộp hồ sơ tháng 9. Ví dụ mốc gần nhất: 02/09/2026, 17:00 KST (mở đơn 25/08/2026, 14:00 KST).",
+      "Bậc đại học, kỳ thu: dự kiến mở đơn tháng 3-4.",
+      "Bậc sau đại học, kỳ xuân (đợt 2): hạn nộp hồ sơ tháng 9. Ví dụ mốc gần nhất: 11/09/2026, 18:00 KST (mở đơn 06/07/2026).",
+      "Bậc sau đại học, kỳ thu (đợt 1): hạn nộp hồ sơ tháng 4. Ví dụ mốc gần nhất: 03/04/2026, 18:00 KST."
+    ],
+    "application": {
+      "requiredDocuments": [
+        "Đơn đăng ký (Application Form)",
+        "Bài luận cá nhân (Personal Statement); bậc sau đại học cần thêm Research Plan và CV",
+        "Thư giới thiệu theo mẫu POSTECH (đại học: 1 thư; sau đại học: 2 thư, người giới thiệu gửi trực tiếp)",
+        "Chứng chỉ tiếng Anh hoặc giấy miễn (Medium of Instruction)",
+        "Bảng điểm và bằng tốt nghiệp hoặc giấy chứng nhận dự kiến tốt nghiệp (bản cứng học thuật cần Apostille hoặc xác nhận lãnh sự)",
+        "Chứng minh quốc tịch của ứng viên và cha/mẹ"
+      ],
+      "officialGuideLinks": [
+        "https://adm-g.postech.ac.kr/ENG/"
+      ],
+      "track": [
+        "Đại học: nộp hồ sơ International Admissions qua Study in Korea; xét học bổng tự động, không phỏng vấn",
+        "Sau đại học: nộp online, gửi hồ sơ bản cứng đến Admissions Office trước deadline, sau đó thanh toán lệ phí; TA/RA do khoa/lab/cố vấn xét"
+      ]
+    },
+    "menteeOutcomes": {
+      "matchingScholarshipKeywords": [
+        "postech scholarship",
+        "postech"
+      ],
+      "matchingUniversities": [
+        "postech"
+      ],
+      "displayMenteeCount": 2,
+      "matchingMode": "matchingUniversitiesOnly"
+    },
+    "relatedInformation": {
+      "comment": "POSTECH là một trong bốn viện khoa học công nghệ (IST) hàng đầu Hàn Quốc, mạnh về STEM. Sinh viên đại học quốc tế đủ điều kiện thường được tự động xét học bổng, không cần nộp đơn riêng. Bậc sau đại học còn có thêm Ruth Satter Scholarship (nữ học viên quốc tế châu Á, KRW 5.000.000/năm, 3 suất/năm) và POSCO Global Scholarship (học phí toàn phần và trợ cấp tháng, nộp sau khi trúng tuyển). Mức hỗ trợ theo hướng dẫn kỳ tuyển sinh hiện hành và có thể thay đổi."
+    },
+    "mentoringRecommendation": {
+      "packetName": "Gói Focus khối IST và Gói Combo",
+      "bestRegistrationTime": "Trước hạn nộp hồ sơ 5-7 tháng",
+      "comment": "Nên bắt đầu sớm để chuẩn bị thư giới thiệu, Apostille và (bậc sau đại học) liên hệ khoa/lab."
+    },
+    "tags": [
+      "university",
+      "korea",
+      "stem",
+      "ist",
+      "spring-2027"
+    ],
+    "updatedAt": "2026-08-17",
+    "filtering": {
+      "deadlineMonths": [
+        4,
+        9
+      ],
+      "coverageTypes": [
+        "full-ride"
+      ],
+      "countries": [
+        "Hàn Quốc"
+      ],
+      "continents": [
+        "Châu Á"
+      ],
+      "fields": [
+        "Khoa học",
+        "Kỹ thuật (STEM)",
+        "Khoa học máy tính",
+        "Kỹ thuật điện",
+        "Hóa học",
+        "Vật lý"
+      ]
+    },
+    "content": {
+      "eligibility": "Ứng viên quốc tế. Tiếng Anh: IELTS/TOEFL/TOEIC/TEPS hoặc thư MOI. Hồ sơ STEM cần nền tảng Toán và Khoa học mạnh.",
+      "coverage": "Miễn 100% học phí | Trợ cấp sinh hoạt hằng tháng | Hỗ trợ vé máy bay và các khoản phụ cấp khác (nếu đủ điều kiện)"
+    }
   }
 ]
