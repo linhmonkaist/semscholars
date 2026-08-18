@@ -118,10 +118,13 @@ export default async function ScholarshipDetailPage({ params }: ScholarshipDetai
   )
   const officialWebsiteLink = scholarship.application.officialGuideLinks?.[0]
   const manualMenteeCount = scholarship.menteeOutcomes?.displayMenteeCount
-  const menteeResultCount =
+  const hasManualMenteeCount =
     typeof manualMenteeCount === "number" && Number.isFinite(manualMenteeCount) && manualMenteeCount >= 0
-      ? `${manualMenteeCount}+`
-      : formatRoughMenteeCount(calculateMatchedMenteeCount(scholarship))
+  const matchedMenteeCount = calculateMatchedMenteeCount(scholarship)
+  const shouldShowMenteeResult = hasManualMenteeCount || matchedMenteeCount > 0
+  const menteeResultCount = hasManualMenteeCount
+    ? `${manualMenteeCount}+`
+    : formatRoughMenteeCount(matchedMenteeCount)
 
   return (
     <main className="mx-auto w-full max-w-6xl space-y-6 p-4 md:p-6">
@@ -254,10 +257,12 @@ export default async function ScholarshipDetailPage({ params }: ScholarshipDetai
             <CardTitle>Thông tin liên quan</CardTitle>
           </CardHeader>
           <CardContent className="space-y-3 text-sm">
-            <p>
-              <span className="font-semibold">Kết quả mentee SEM:</span>{" "}
-              {menteeResultCount} mentee đã đạt học bổng này
-            </p>
+            {shouldShowMenteeResult ? (
+              <p>
+                <span className="font-semibold">Kết quả mentee SEM:</span>{" "}
+                {menteeResultCount} mentee đã đạt học bổng này
+              </p>
+            ) : null}
             {scholarship.menteeOutcomes?.comment ? (
               <p>
                 <span className="font-semibold">Ghi chú mentee:</span> {scholarship.menteeOutcomes.comment}

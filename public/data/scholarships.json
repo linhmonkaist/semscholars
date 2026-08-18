@@ -863,5 +863,109 @@
       "eligibility": "Ứng viên quốc tế. Tiếng Anh: IELTS/TOEFL/TOEIC/TEPS hoặc thư MOI. Hồ sơ STEM cần nền tảng Toán và Khoa học mạnh.",
       "coverage": "Miễn 100% học phí | Trợ cấp sinh hoạt hằng tháng | Hỗ trợ vé máy bay và các khoản phụ cấp khác (nếu đủ điều kiện)"
     }
+  },
+  {
+    "id": "gist-scholarship",
+    "slug": "gist-scholarship",
+    "title": "Học bổng GIST",
+    "provider": "Gwangju Institute of Science and Technology (GIST)",
+    "country": "Hàn Quốc",
+    "universities": [
+      "GIST"
+    ],
+    "levels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
+    "fields": [
+      "Khoa học kỹ thuật (STEM)",
+      "Khoa học máy tính",
+      "Kỹ thuật điện",
+      "Hóa học",
+      "Vật lý"
+    ],
+    "coverage": [
+      "Miễn 100% học phí",
+      "Trợ cấp sinh hoạt hằng tháng",
+      "Hỗ trợ vé máy bay, bảo hiểm y tế và các khoản phụ cấp khác (nếu đủ điều kiện)"
+    ],
+    "eligibility": [
+      "Ứng viên quốc tế (đại học: cả cha/mẹ không mang quốc tịch Hàn Quốc, hoặc người gốc Hàn đã học toàn bộ phổ thông ở nước ngoài)",
+      "Tiếng Anh: IELTS/TOEFL/TOEIC/TEPS; đại học cần thêm ít nhất một kỳ thi chuẩn hóa (SAT, ACT, IB, AP, A-Level, v.v.)",
+      "Hồ sơ STEM cần nền tảng học thuật mạnh"
+    ],
+    "intakes": [
+      "Bậc đại học, kỳ thu: hạn nộp hồ sơ tháng 1. Ví dụ mốc gần nhất: 29/01/2027 (mở đơn 01/12/2026).",
+      "Bậc sau đại học, kỳ xuân: hạn nộp hồ sơ tháng 10. Ví dụ mốc gần nhất: 07/10/2026, 17:00 KST (mở đơn 07/09/2026, 10:00 KST)."
+    ],
+    "application": {
+      "requiredDocuments": [
+        "Đơn đăng ký (Application Form)",
+        "Thư giới thiệu (đại học: 1 thư; sau đại học: 2 thư, người giới thiệu gửi trực tiếp qua hệ thống)",
+        "Chứng chỉ tiếng Anh",
+        "Bảng điểm và bằng tốt nghiệp hoặc giấy chứng nhận dự kiến tốt nghiệp",
+        "Chứng minh quốc tịch của ứng viên và cha/mẹ",
+        "Đại học: ít nhất một báo cáo điểm thi chuẩn hóa (SAT/ACT/IB/AP/A-Level hoặc tương đương)"
+      ],
+      "officialGuideLinks": [
+        "https://www.gist.ac.kr/iuadm/"
+      ],
+      "track": [
+        "Đại học: nộp online trên cổng International Undergraduate Admissions; xét học bổng tự động; phỏng vấn chỉ với một số ứng viên được chọn",
+        "Sau đại học: nộp online, thanh toán lệ phí, rồi tải hồ sơ và thư giới thiệu trước deadline"
+      ]
+    },
+    "menteeOutcomes": {
+      "matchingScholarshipKeywords": [
+        "gist scholarship",
+        "gist"
+      ],
+      "matchingUniversities": [
+        "gist"
+      ],
+      "matchingMode": "matchingUniversitiesOnly"
+    },
+    "relatedInformation": {
+      "comment": "GIST là một trong bốn viện khoa học công nghệ (IST) hàng đầu Hàn Quốc. Mọi sinh viên trúng tuyển đều nhận học bổng toàn phần, không cần nộp đơn học bổng riêng. Chỉ tiêu đại học Fall 2027 dự kiến khoảng 15 suất. Mức hỗ trợ sau đại học theo chính sách từng kỳ và có thể thay đổi."
+    },
+    "mentoringRecommendation": {
+      "packetName": "Gói Focus khối IST và Gói Combo",
+      "bestRegistrationTime": "Trước hạn nộp hồ sơ 5-7 tháng",
+      "comment": "Nên bắt đầu sớm để chuẩn bị thư giới thiệu, chứng chỉ tiếng Anh và Apostille. Bậc sau đại học chỉ mở đơn khoảng một tháng."
+    },
+    "tags": [
+      "university",
+      "korea",
+      "stem",
+      "ist"
+    ],
+    "updatedAt": "2026-08-18",
+    "filtering": {
+      "deadlineMonths": [
+        1,
+        10
+      ],
+      "coverageTypes": [
+        "full-ride"
+      ],
+      "countries": [
+        "Hàn Quốc"
+      ],
+      "continents": [
+        "Châu Á"
+      ],
+      "fields": [
+        "Khoa học kỹ thuật (STEM)",
+        "Khoa học máy tính",
+        "Kỹ thuật điện",
+        "Hóa học",
+        "Vật lý"
+      ]
+    },
+    "content": {
+      "eligibility": "Ứng viên quốc tế. Tiếng Anh: IELTS/TOEFL/TOEIC/TEPS. Đại học cần thêm kỳ thi chuẩn hóa. Hồ sơ STEM cần nền tảng học thuật mạnh.",
+      "coverage": "Miễn 100% học phí | Trợ cấp sinh hoạt hằng tháng | Hỗ trợ vé máy bay, bảo hiểm y tế và các khoản phụ cấp khác (nếu đủ điều kiện)"
+    }
   }
 ]
