@@ -967,5 +967,112 @@
       "eligibility": "Ứng viên quốc tế. Tiếng Anh: IELTS/TOEFL/TOEIC/TEPS. Đại học cần thêm kỳ thi chuẩn hóa. Hồ sơ STEM cần nền tảng học thuật mạnh.",
       "coverage": "Miễn 100% học phí | Trợ cấp sinh hoạt hằng tháng | Hỗ trợ vé máy bay, bảo hiểm y tế và các khoản phụ cấp khác (nếu đủ điều kiện)"
     }
+  },
+  {
+    "id": "ntu-taiwan-scholarship",
+    "slug": "ntu-taiwan-scholarship",
+    "title": "Học bổng Đại học Quốc gia Đài Loan (NTU)",
+    "provider": "National Taiwan University (NTU)",
+    "country": "Đài Loan",
+    "universities": [
+      "National Taiwan University (NTU)"
+    ],
+    "levels": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
+    "fields": [
+      "Đa ngành"
+    ],
+    "coverage": [
+      "Hỗ trợ học phí",
+      "Trợ cấp sinh hoạt hằng tháng",
+      "Hỗ trợ phí hành chính và các khoản phụ cấp khác (nếu đủ điều kiện)"
+    ],
+    "eligibility": [
+      "Ứng viên international degree student nộp ngành có trong Available Degree Programs của đúng kỳ tuyển sinh",
+      "Cử nhân: tốt nghiệp THPT hoặc tương đương; thạc sĩ: bằng cử nhân; tiến sĩ: bằng thạc sĩ (người đang năm tốt nghiệp có thể nộp giấy dự kiến tốt nghiệp)",
+      "Chương trình dạy bằng tiếng Trung: tiếng Trung tương đương CEFR A2 trở lên; chương trình dạy bằng tiếng Anh: tiếng Anh tương đương CEFR B2 trở lên. Từng khoa có thể yêu cầu cao hơn",
+      "Cử nhân cần duy trì GPA từ 3,38 trở lên mỗi năm học để gia hạn học bổng",
+      "Outstanding International Graduate Student Scholarship không áp dụng cho Graduate School of Advanced Technology và School of Political Science and Economics"
+    ],
+    "intakes": [
+      "Bậc đại học, kỳ thu: hạn nộp hồ sơ tháng 1 và tháng 11. Ví dụ mốc gần nhất: 05/11/2026, 16:00 TST (mở đơn 29/09/2026, 11:00 TST) hoặc 19/01/2027, 16:00 TST (mở đơn 01/12/2026, 11:00 TST).",
+      "Bậc sau đại học, kỳ xuân: hạn nộp hồ sơ tháng 9. Ví dụ mốc gần nhất: 17/09/2026, 16:00 TST (mở đơn 03/08/2026, 11:00 TST).",
+      "Bậc sau đại học, kỳ thu: hạn nộp hồ sơ tháng 1 và tháng 11. Ví dụ mốc gần nhất: 05/11/2026, 16:00 TST (mở đơn 29/09/2026, 11:00 TST) hoặc 19/01/2027, 16:00 TST (mở đơn 01/12/2026, 11:00 TST)."
+    ],
+    "application": {
+      "requiredDocuments": [
+        "Hộ chiếu hoặc giấy tờ chứng minh quốc tịch",
+        "Bằng tốt nghiệp hoặc giấy dự kiến tốt nghiệp; bảng điểm đầy đủ kèm giải thích hệ thống chấm điểm (tiếng Trung hoặc tiếng Anh)",
+        "Chứng chỉ tiếng Trung hoặc tiếng Anh theo ngôn ngữ giảng dạy; giấy miễn nếu đủ điều kiện",
+        "Chứng minh học bổng hoặc sao kê ngân hàng trong 3 tháng gần nhất, số dư tối thiểu tương đương 200.000 TWD nếu tự túc",
+        "CV, study plan/research proposal, portfolio và thư giới thiệu theo yêu cầu từng khoa (0-2 thư; tiếng Anh hoặc tiếng Trung)"
+      ],
+      "officialGuideLinks": [
+        "https://admissions.ntu.edu.tw/apply/degree-students/international-students/"
+      ],
+      "track": [
+        "Nộp hồ sơ online trên hệ thống của NTU, chọn tối đa 5 ngành",
+        "không cần bộ hồ sơ học bổng riêng. Kết quả học bổng công bố cùng kết quả nhập học"
+      ]
+    },
+    "menteeOutcomes": {
+      "matchingScholarshipKeywords": [
+        "ntu taiwan",
+        "national taiwan university",
+        "ntu international undergraduate",
+        "outstanding international graduate"
+      ],
+      "matchingUniversities": [
+        "National Taiwan University"
+      ],
+      "matchingMode": "matchingUniversitiesOnly",
+      "displayMenteeCount": 1
+    },
+    "relatedInformation": {
+      "comment": "NTU là đại học hàng đầu Đài Loan. Học bổng được xét cùng hồ sơ tuyển sinh; ứng viên sau đại học nên trao đổi sớm với potential supervisor về khả năng được hỗ trợ. Người đã nhận Taiwan Scholarship không được nộp đồng thời học bổng NTU."
+    },
+    "mentoringRecommendation": {
+      "packetName": "Gói Focus General hoặc Gói Combo",
+      "bestRegistrationTime": "Trước hạn nộp hồ sơ 3-5 tháng",
+      "comment": "Nên bắt đầu sớm để hoàn thiện bảng điểm, chứng chỉ ngôn ngữ, bài luận và thư giới thiệu."
+    },
+    "tags": [
+      "university",
+      "taiwan",
+      "undergraduate",
+      "graduate"
+    ],
+    "updatedAt": "2026-09-04",
+    "filtering": {
+      "deadlineMonths": [
+        1,
+        9,
+        11
+      ],
+      "coverageTypes": [
+        "partial-tuition"
+      ],
+      "countries": [
+        "Đài Loan"
+      ],
+      "continents": [
+        "Châu Á"
+      ],
+      "fields": [
+        "Đa ngành"
+      ]
+    },
+    "content": {
+      "eligibility": "Ứng viên international degree student. Cử nhân: tốt nghiệp THPT; thạc sĩ: bằng cử nhân; tiến sĩ: bằng thạc sĩ. Tiếng Trung CEFR A2+ hoặc tiếng Anh CEFR B2+ tùy ngôn ngữ giảng dạy. Cử nhân cần GPA 3,38 để gia hạn. Người nhận Taiwan Scholarship không được nộp đồng thời học bổng NTU.",
+      "coverage": "Hỗ trợ học phí tối đa 100.000 TWD/học kỳ | Trợ cấp sinh hoạt 8.000–15.000+ TWD/tháng tùy bậc và khối ngành | NSTC Fellowship cho tiến sĩ kỳ thu: 40.000 TWD/tháng",
+      "intakes": [
+        "Bậc đại học, kỳ thu: hạn nộp hồ sơ tháng 1 và tháng 11. Ví dụ mốc gần nhất: 05/11/2026, 16:00 TST (mở đơn 29/09/2026, 11:00 TST) hoặc 19/01/2027, 16:00 TST (mở đơn 01/12/2026, 11:00 TST).",
+        "Bậc sau đại học, kỳ xuân: hạn nộp hồ sơ tháng 9. Ví dụ mốc gần nhất: 17/09/2026, 16:00 TST (mở đơn 03/08/2026, 11:00 TST).",
+        "Bậc sau đại học, kỳ thu: hạn nộp hồ sơ tháng 1 và tháng 11. Ví dụ mốc gần nhất: 05/11/2026, 16:00 TST (mở đơn 29/09/2026, 11:00 TST) hoặc 19/01/2027, 16:00 TST (mở đơn 01/12/2026, 11:00 TST)."
+      ]
+    }
   }
 ]
