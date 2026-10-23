@@ -66,14 +66,14 @@ export const groupBenefits: Record<PacketGroupKey, string[]> = {
     "Hỗ trợ dịch thuật công chứng và xin dấu hợp pháp hoá (tem vàng) cho hồ sơ",
     "Hỗ trợ điền application form cùng với các mentor dày dặn kinh nghiệm (nếu mentee đăng ký thêm)",
     "Hỗ trợ thanh toán quốc tế phí apply (nếu mentee đăng ký thêm)",
-    "Ưu đãi hỗ trợ điền form CIEC cho các bạn muốn xin hợp pháp hoá lãnh sự tại đại sứ quán Hàn Quốc",
+    "Hỗ trợ thu thập giấy tờ và gửi hồ sơ sang trường (nếu mentee đăng ký thêm)",
   ],
 }
 
 export const groupRoadmaps: Record<PacketGroupKey, string[]> = {
   single: [
     "Bước 1: Thanh toán phí và hoàn thành form đăng ký",
-    "Bước 2: Team xác nhận đăng ký và kết nối mentor",
+    "Bước 2: Team xác nhận đăng ký và liên lạc với mentor về các thời gian có thể meeting",
     "Bước 3: Gửi tài liệu liên quan cho gói mentor đã chọn",
     "Bước 4: Xác nhận lịch hẹn với mentor",
     "Bước 5: Tham gia buổi mentor qua Google Meet",
@@ -81,7 +81,7 @@ export const groupRoadmaps: Record<PacketGroupKey, string[]> = {
   ],
   focus: [
     "Bước 1: Thanh toán phí và hoàn thành form đăng ký",
-    "Bước 2: Team xác nhận đăng ký và kết nối mentor",
+    "Bước 2: Team xác nhận đăng ký và liên lạc với mentor về các thời gian có thể bắt đầu buổi kick-off",
     "Bước 3: Xác nhận lịch hẹn cho buổi kick-off",
     "Bước 4: Tham gia kick-off và chính thức bắt đầu chương trình",
     "Bước 5: Mentor và mentee triển khai kế hoạch theo timeline",
@@ -89,7 +89,7 @@ export const groupRoadmaps: Record<PacketGroupKey, string[]> = {
   ],
   combo: [
     "Bước 1: Thanh toán phí và hoàn thành form đăng ký",
-    "Bước 2: Team xác nhận đăng ký và kết nối mentor",
+    "Bước 2: Team xác nhận đăng ký và liên lạc với mentor về các thời gian có thể bắt đầu buổi kick-off",
     "Bước 3: Xác nhận lịch hẹn cho buổi kick-off",
     "Bước 4: Tham gia kick-off để chốt chiến lược đa mục tiêu",
     "Bước 5: Mentor và mentee triển khai hồ sơ theo từng nhóm trường",
@@ -97,8 +97,8 @@ export const groupRoadmaps: Record<PacketGroupKey, string[]> = {
   ],
   shortterm: [
     "Bước 1: Hoàn thành form đăng ký và xác nhận mục tiêu chương trình",
-    "Bước 2: Team liên hệ mentor và chốt lịch khởi động",
-    "Bước 3: Mentor cùng mentee xây dựng timeline apply rút gọn",
+    "Bước 2: Team liên hệ mentor và chốt lịch kick-off",
+    "Bước 3: Mentor cùng mentee xây dựng timeline apply cho chương trình mentee đã chọn",
     "Bước 4: Triển khai viết/sửa hồ sơ theo deadline từng kỳ",
     "Bước 5: Mock interview khi có yêu cầu từ chương trình",
     "Bước 6: Tổng kết kết quả và cập nhật phản hồi sau apply",
@@ -109,7 +109,7 @@ export const groupRoadmaps: Record<PacketGroupKey, string[]> = {
     "Bước 3: Mentee gửi hồ sơ bản cứng và bản mềm theo hướng dẫn",
     "Bước 4: Team xử lý dịch thuật, công chứng, hợp pháp hóa lãnh sự",
     "Bước 5: Team gửi lại bộ hồ sơ hoàn thiện cho mentee",
-    "Bước 6: Hỗ trợ điền application form và thanh toán quốc tế (nếu mentee đăng ký)",
+    "Bước 6: Hỗ trợ điền application form, thanh toán quốc tế và gửi hồ sơ sang trường (nếu mentee đăng ký)",
   ],
 }
 
@@ -117,17 +117,17 @@ export const packetGroups: PacketGroup[] = [
   {
     key: "single",
     title: "Gói mentor lẻ",
-    description: "Các buổi hỗ trợ theo nhu cầu cụ thể: tư vấn apply, mock interview, review hồ sơ.",
+    description: "Các buổi hỗ trợ theo nhu cầu cụ thể: tư vấn apply, mock interview, feedback CV & cover letter review.",
   },
   {
     key: "focus",
     title: "Gói Focus",
-    description: "Đồng hành chuyên sâu cho một học bổng hoặc một nhóm trường mục tiêu cụ thể. Tập trung vào lên chiến lược apply, chuẩn bị bài viết cá nhân và luyện phỏng vấn.",
+    description: "Đồng hành chuyên sâu cho một học bổng hoặc một nhóm trường mục tiêu cụ thể. Tập trung vào chuẩn bị bài viết cá nhân, chiến lược apply và luyện phỏng vấn.",
   },
   {
     key: "combo",
     title: "Gói Combo",
-    description: "Chiến lược apply nhiều trường/học bổng cùng lúc với lộ trình đồng bộ.",
+    description: "Đồng hành chuyên sâu cho nhiều trường/học bổng cùng lúc với lộ trình đồng bộ. Tập trung vào chuẩn bị bài viết cá nhân cho từng mục tiêu, chiến lược apply và luyện phỏng vấn.",
   },
   {
     key: "shortterm",
@@ -137,7 +137,7 @@ export const packetGroups: PacketGroup[] = [
   {
     key: "yellow-stamp",
     title: "Dịch vụ giấy tờ và apply",
-    description: "Hỗ trợ thủ tục hồ sơ, dịch thuật và hợp pháp hóa lãnh sự.",
+    description: "Hỗ trợ thủ tục hồ sơ bao gồm dịch thuật và hợp pháp hóa lãnh sự. Đồng thời hỗ trợ các bước điền hồ sơ online, thanh toán phí quốc tế và gửi giấy tờ sang trường đại học.",
   },
 ]
 
@@ -168,7 +168,7 @@ export const mentoringPackets: MentoringPacket[] = [
     shortDescription: "Luyện phỏng vấn dựa theo hồ sơ và học bổng cụ thể với phản hồi chi tiết từ mentor.",
     longDescription:
       "Gói mock interview tập trung mô phỏng sát phỏng vấn thực tế. Mentee được phản hồi về nội dung trả lời, cách kể câu chuyện và kỹ năng trình bày để tăng độ thuyết phục với hội đồng tuyển sinh.",
-    price: "800.000 VNĐ / 1 tiếng",
+    price: "900.000 VNĐ / 1 tiếng",
     length: "60 phút / buổi",
     format: "Online",
     payment: "Thanh toán 1 lần",
@@ -184,10 +184,10 @@ export const mentoringPackets: MentoringPacket[] = [
     group: "single",
     slug: "cv-cover-letter-review",
     title: "CV & Cover Letter Review",
-    shortDescription: "Chỉnh sửa CV và cover letter theo chuẩn quốc tế và mục tiêu học bổng.",
+    shortDescription: "Feedback CV và cover letter theo chuẩn quốc tế và mục tiêu học bổng.",
     longDescription:
-      "Gói review hồ sơ giúp mentee cải thiện độ rõ ràng, logic và khả năng thể hiện dấu ấn cá nhân trong CV và cover letter. Mentor sẽ chỉ ra điểm mạnh nên nhấn và điểm yếu cần tối ưu trước khi nộp.",
-    price: "1.100.000 VNĐ / 90 phút",
+      "Gói feedback CV & cover letter giúp hồ sơ của mentee cải thiện độ rõ ràng, logic và khả năng thể hiện dấu ấn cá nhân trong CV và cover letter.",
+    price: "1.200.000 VNĐ / 90 phút",
     length: "90 phút / buổi",
     format: "Online",
     payment: "Thanh toán 1 lần",
@@ -212,7 +212,7 @@ export const mentoringPackets: MentoringPacket[] = [
     paymentDetails: [
       "Mentee thanh toán toàn bộ chi phí ngay tại thời điểm đăng ký để bắt đầu chương trình.",
       "Team SEM xác nhận lịch kick-off sau khi hoàn tất thanh toán.",
-      "Early bird: 8,500,000 VND - Áp dụng cho đơn đăng ký từ tháng 12 đến tháng 2 đối với GKS-U; từ tháng 4 đến hết tháng 7 đối với GKS-G",
+      "Early bird: 8,500,000 VND - Áp dụng cho đơn đăng ký từ tháng 12 đến tháng 2 đối với GKS-U; từ tháng 4 đến hết tháng 6 đối với GKS-G",
       "Thông thường: 9,500,000 VND - Áp dụng cho đơn đăng ký trong tháng bình thường",
       "Urgent: 12,000,000 VND - Áp dụng cho đơn đăng ký trước deadline 1,5 tháng. Cụ thể: đơn đăng ký sau ngày 15/8 đối với GKS-U; đơn đăng ký sau ngày 15/1 đối với GKS-G",
     ],
@@ -229,7 +229,7 @@ export const mentoringPackets: MentoringPacket[] = [
     title: "Focus khối IST",
     shortDescription: "Cho các trường kỹ thuật top như KAIST, UNIST, DGIST, GIST, POSTECH, NTU, HKUST, NUS, v.v.",
     longDescription:
-      "Gói tập trung cho mentee apply vào nhóm trường khoa học kỹ thuật có yêu cầu hồ sơ cao. Mentor hỗ trợ định vị thế mạnh học thuật, kinh nghiệm nghiên cứu và xây dựng hồ sơ có chiều sâu chuyên môn.",
+      "Gói tập trung cho mentee apply vào nhóm trường khoa học kỹ thuật có yêu cầu hồ sơ cao. Mentor hỗ trợ định vị thế mạnh học thuật, kinh nghiệm nghiên cứu và các điểm mạnh ở hồ sơ để nâng cao chiều sâu chuyên môn.",
     price: "Từ 20.000.000 - 25.000.000 VNĐ",
     length: "Tối đa 1 năm",
     format: "Online",

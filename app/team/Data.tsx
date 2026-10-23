@@ -88,10 +88,25 @@ export const teamMembers: TeamMember[]= [
       hashtag: "Hỗ trợ apply các ngành Technology & Science trên toàn thế giới.",
       details: {
         profile: ["PhD, Biochemistry, Molecular, Cellular and Developmental Biology, University of California, Davis, Mỹ", "Cựu sinh viên ngành Bio and Brain Engineering tại KAIST, Hàn Quốc."],
-        achievements: ["Nhận học bổng Dean's Distinguished Graduate Fellowship", "Học bổng 100% của KAIST cho bậc đại học và thạc sĩ", "Huyndai Motor Chung Mong-Koo Global Scholarship", "50% Scholarship for Bachelor Program at NUS"],
+        achievements: [
+          "UC Davis Comprehensive Cancer Center - Affiliate Scholar Award of Excellence (2025)",
+          "UC Davis Comprehensive Cancer Center - Travel Award (2025)",
+          "Tara K. Telford Fellowship (2024-2025)",
+          "UC Davis Graduate Research Award (2024)",
+          "Dean's Distinguished Graduate Fellowship (2022-2023)",
+          "Huyndai Motor Chung Mong-Koo Global Scholarship (2021)",
+          "CHARMVIT Scholarship (2019)",
+          "Harvard-MIT Summer Institute - Recipient of the Yao Su Student Research Prize - Best Poster Presentation (2019)",
+          "Winter/Spring Undergraduate Research Participation at KAIST - Excellent Award (2018)",
+          "KAIST Full Scholarship (2016-2020)",
+          "50% Scholarship for Bachelor Program at NUS"
+        ],
         statement: "",
         philosophy: "",
-        records: ["Từng hướng dẫn thành công mentee đậu hệ đại học, thạc sĩ và PhD ở Mỹ và master ở Hà Lan, Mỹ, Hàn Quốc."],
+        records: [
+          "Từng hướng dẫn thành công mentee đậu hệ đại học, thạc sĩ và PhD ở Mỹ và master ở Hà Lan, Mỹ, Hàn Quốc.",
+          "Hướng dẫn thành công mentee đậu học bổng MEXT tại Nhật Bản."
+        ],
         highlight_record: [],
         support: "",
         tags: ["Toàn thế giới","Châu Mỹ", "Châu Á", "Châu Âu", "Châu Úc", "Khoa học kỹ thuật"]
